@@ -1,0 +1,2185 @@
+event_id,event_timestamp,activity,actor_type,actor_id,business_object_type,business_object_id
+1,2026-02-02 09:31:00,Review Requirement,Resource,RR-1,Requirement,R-1
+1,2026-02-02 09:31:00,Review Requirement,Resource,RR-1,Asset,Asset-1
+2,2026-02-11 09:31:00,Obtain Quotations,Resource,PO-2,Requirement,R-1
+2,2026-02-11 09:31:00,Obtain Quotations,Resource,PO-2,Asset,Asset-1
+2,2026-02-11 09:31:00,Obtain Quotations,Supplier,S4,Requirement,R-1
+2,2026-02-11 09:31:00,Obtain Quotations,Supplier,S4,Asset,Asset-1
+2,2026-02-11 09:31:00,Obtain Quotations,Supplier,S2,Requirement,R-1
+2,2026-02-11 09:31:00,Obtain Quotations,Supplier,S2,Asset,Asset-1
+2,2026-02-11 09:31:00,Obtain Quotations,Supplier,S1,Requirement,R-1
+2,2026-02-11 09:31:00,Obtain Quotations,Supplier,S1,Asset,Asset-1
+3,2026-02-11 13:31:00,Evaluate And Select Quotation,Resource,PO-2,Requirement,R-1
+3,2026-02-11 13:31:00,Evaluate And Select Quotation,Resource,PO-2,Asset,Asset-1
+3,2026-02-11 13:31:00,Evaluate And Select Quotation,Supplier,S2,Requirement,R-1
+3,2026-02-11 13:31:00,Evaluate And Select Quotation,Supplier,S2,Asset,Asset-1
+4,2026-02-11 13:32:00,Check Contract Need,Supplier,S2,Requirement,R-1
+4,2026-02-11 13:32:00,Check Contract Need,Supplier,S2,Asset,Asset-1
+5,2026-02-12 09:32:00,Review Contract,Resource,CR-1,Requirement,R-1
+5,2026-02-12 09:32:00,Review Contract,Resource,CR-1,Asset,Asset-1
+5,2026-02-12 09:32:00,Review Contract,Supplier,S2,Requirement,R-1
+5,2026-02-12 09:32:00,Review Contract,Supplier,S2,Asset,Asset-1
+6,2026-02-12 09:34:00,Create Purchase Order,Resource,PO-1,Requirement,R-1
+6,2026-02-12 09:34:00,Create Purchase Order,Resource,PO-1,Asset,Asset-1
+6,2026-02-12 09:34:00,Create Purchase Order,Resource,PO-1,Order,O-1
+6,2026-02-12 09:34:00,Create Purchase Order,Supplier,S2,Requirement,R-1
+6,2026-02-12 09:34:00,Create Purchase Order,Supplier,S2,Asset,Asset-1
+6,2026-02-12 09:34:00,Create Purchase Order,Supplier,S2,Order,O-1
+7,2026-02-12 11:34:00,Receive Invoice,Supplier,S2,Order,O-1
+7,2026-02-12 11:34:00,Receive Invoice,Supplier,S2,Invoice,INV-O-1
+8,2026-02-19 09:34:00,Receive Contract Deliverable,Resource,PO-1,Requirement,R-1
+8,2026-02-19 09:34:00,Receive Contract Deliverable,Resource,PO-1,Asset,Asset-1
+8,2026-02-19 09:34:00,Receive Contract Deliverable,Resource,PO-1,Order,O-1
+8,2026-02-19 09:34:00,Receive Contract Deliverable,Supplier,S2,Requirement,R-1
+8,2026-02-19 09:34:00,Receive Contract Deliverable,Supplier,S2,Asset,Asset-1
+8,2026-02-19 09:34:00,Receive Contract Deliverable,Supplier,S2,Order,O-1
+9,2026-02-19 11:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-1
+9,2026-02-19 11:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-1
+9,2026-02-19 11:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-1
+9,2026-02-19 11:34:00,Perform Business And Technical Acceptance,Resource,AT-1,AcceptanceRecord,AR-O-1
+9,2026-02-19 11:34:00,Perform Business And Technical Acceptance,Supplier,S2,Requirement,R-1
+9,2026-02-19 11:34:00,Perform Business And Technical Acceptance,Supplier,S2,Asset,Asset-1
+9,2026-02-19 11:34:00,Perform Business And Technical Acceptance,Supplier,S2,Order,O-1
+9,2026-02-19 11:34:00,Perform Business And Technical Acceptance,Supplier,S2,AcceptanceRecord,AR-O-1
+12,2026-02-19 11:39:00,Verify Accounting Prerequisites,Resource,AA-1,Requirement,R-1
+12,2026-02-19 11:39:00,Verify Accounting Prerequisites,Resource,AA-1,Asset,Asset-1
+12,2026-02-19 11:39:00,Verify Accounting Prerequisites,Resource,AA-1,Order,O-1
+12,2026-02-19 11:39:00,Verify Accounting Prerequisites,Resource,AA-1,Invoice,INV-O-1
+12,2026-02-19 11:39:00,Verify Accounting Prerequisites,Resource,AA-1,AcceptanceRecord,AR-O-1
+12,2026-02-19 11:39:00,Verify Accounting Prerequisites,Supplier,S2,Requirement,R-1
+12,2026-02-19 11:39:00,Verify Accounting Prerequisites,Supplier,S2,Asset,Asset-1
+12,2026-02-19 11:39:00,Verify Accounting Prerequisites,Supplier,S2,Order,O-1
+12,2026-02-19 11:39:00,Verify Accounting Prerequisites,Supplier,S2,Invoice,INV-O-1
+12,2026-02-19 11:39:00,Verify Accounting Prerequisites,Supplier,S2,AcceptanceRecord,AR-O-1
+13,2026-02-19 11:40:00,Confirm Accounting Date,Resource,AA-1,Asset,Asset-1
+14,2026-02-19 11:42:00,Create Or Update Intangible Asset Record,Resource,AA-1,Asset,Asset-1
+15,2026-02-19 11:44:00,Create Accounting Voucher,Resource,AA-1,Requirement,R-1
+15,2026-02-19 11:44:00,Create Accounting Voucher,Resource,AA-1,Asset,Asset-1
+15,2026-02-19 11:44:00,Create Accounting Voucher,Resource,AA-1,Order,O-1
+15,2026-02-19 11:44:00,Create Accounting Voucher,Resource,AA-1,Invoice,INV-O-1
+15,2026-02-19 11:44:00,Create Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-1
+15,2026-02-19 11:44:00,Create Accounting Voucher,Resource,AA-1,Voucher,V-O-1
+15,2026-02-19 11:44:00,Create Accounting Voucher,Supplier,S2,Requirement,R-1
+15,2026-02-19 11:44:00,Create Accounting Voucher,Supplier,S2,Asset,Asset-1
+15,2026-02-19 11:44:00,Create Accounting Voucher,Supplier,S2,Order,O-1
+15,2026-02-19 11:44:00,Create Accounting Voucher,Supplier,S2,Invoice,INV-O-1
+15,2026-02-19 11:44:00,Create Accounting Voucher,Supplier,S2,AcceptanceRecord,AR-O-1
+15,2026-02-19 11:44:00,Create Accounting Voucher,Supplier,S2,Voucher,V-O-1
+16,2026-02-19 12:04:00,Review Accounting Voucher,Resource,VR-1,Asset,Asset-1
+16,2026-02-19 12:04:00,Review Accounting Voucher,Resource,VR-1,Order,O-1
+16,2026-02-19 12:04:00,Review Accounting Voucher,Resource,VR-1,Invoice,INV-O-1
+16,2026-02-19 12:04:00,Review Accounting Voucher,Resource,VR-1,Voucher,V-O-1
+17,2026-02-19 12:06:00,Post Accounting Voucher,Resource,AA-1,Requirement,R-1
+17,2026-02-19 12:06:00,Post Accounting Voucher,Resource,AA-1,Asset,Asset-1
+17,2026-02-19 12:06:00,Post Accounting Voucher,Resource,AA-1,Order,O-1
+17,2026-02-19 12:06:00,Post Accounting Voucher,Resource,AA-1,Invoice,INV-O-1
+17,2026-02-19 12:06:00,Post Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-1
+17,2026-02-19 12:06:00,Post Accounting Voucher,Resource,AA-1,Voucher,V-O-1
+17,2026-02-19 12:06:00,Post Accounting Voucher,Supplier,S2,Requirement,R-1
+17,2026-02-19 12:06:00,Post Accounting Voucher,Supplier,S2,Asset,Asset-1
+17,2026-02-19 12:06:00,Post Accounting Voucher,Supplier,S2,Order,O-1
+17,2026-02-19 12:06:00,Post Accounting Voucher,Supplier,S2,Invoice,INV-O-1
+17,2026-02-19 12:06:00,Post Accounting Voucher,Supplier,S2,AcceptanceRecord,AR-O-1
+17,2026-02-19 12:06:00,Post Accounting Voucher,Supplier,S2,Voucher,V-O-1
+19,2026-02-26 09:31:00,Review Requirement,Resource,RR-1,Requirement,R-2
+19,2026-02-26 09:31:00,Review Requirement,Resource,RR-1,Asset,Asset-2
+22,2026-03-12 09:31:00,Review Requirement,Resource,RR-1,Requirement,R-3
+22,2026-03-12 09:31:00,Review Requirement,Resource,RR-1,Asset,Asset-3
+23,2026-03-23 09:31:00,Obtain Quotations,Resource,PO-2,Requirement,R-3
+23,2026-03-23 09:31:00,Obtain Quotations,Resource,PO-2,Asset,Asset-3
+23,2026-03-23 09:31:00,Obtain Quotations,Supplier,S4,Requirement,R-3
+23,2026-03-23 09:31:00,Obtain Quotations,Supplier,S4,Asset,Asset-3
+23,2026-03-23 09:31:00,Obtain Quotations,Supplier,S2,Requirement,R-3
+23,2026-03-23 09:31:00,Obtain Quotations,Supplier,S2,Asset,Asset-3
+24,2026-03-23 13:31:00,Evaluate And Select Quotation,Resource,PO-1,Requirement,R-3
+24,2026-03-23 13:31:00,Evaluate And Select Quotation,Resource,PO-1,Asset,Asset-3
+24,2026-03-23 13:31:00,Evaluate And Select Quotation,Supplier,S4,Requirement,R-3
+24,2026-03-23 13:31:00,Evaluate And Select Quotation,Supplier,S4,Asset,Asset-3
+25,2026-03-23 13:32:00,Check Contract Need,Supplier,S4,Requirement,R-3
+25,2026-03-23 13:32:00,Check Contract Need,Supplier,S4,Asset,Asset-3
+26,2026-03-24 09:32:00,Review Contract,Resource,CR-1,Requirement,R-3
+26,2026-03-24 09:32:00,Review Contract,Resource,CR-1,Asset,Asset-3
+26,2026-03-24 09:32:00,Review Contract,Supplier,S4,Requirement,R-3
+26,2026-03-24 09:32:00,Review Contract,Supplier,S4,Asset,Asset-3
+27,2026-03-24 09:34:00,Create Purchase Order,Resource,PO-2,Requirement,R-3
+27,2026-03-24 09:34:00,Create Purchase Order,Resource,PO-2,Asset,Asset-3
+27,2026-03-24 09:34:00,Create Purchase Order,Resource,PO-2,Order,O-2
+27,2026-03-24 09:34:00,Create Purchase Order,Supplier,S4,Requirement,R-3
+27,2026-03-24 09:34:00,Create Purchase Order,Supplier,S4,Asset,Asset-3
+27,2026-03-24 09:34:00,Create Purchase Order,Supplier,S4,Order,O-2
+28,2026-03-24 11:34:00,Receive Invoice,Supplier,S4,Order,O-2
+28,2026-03-24 11:34:00,Receive Invoice,Supplier,S4,Invoice,INV-O-2
+29,2026-03-31 09:34:00,Receive Contract Deliverable,Resource,PO-2,Requirement,R-3
+29,2026-03-31 09:34:00,Receive Contract Deliverable,Resource,PO-2,Asset,Asset-3
+29,2026-03-31 09:34:00,Receive Contract Deliverable,Resource,PO-2,Order,O-2
+29,2026-03-31 09:34:00,Receive Contract Deliverable,Supplier,S4,Requirement,R-3
+29,2026-03-31 09:34:00,Receive Contract Deliverable,Supplier,S4,Asset,Asset-3
+29,2026-03-31 09:34:00,Receive Contract Deliverable,Supplier,S4,Order,O-2
+30,2026-03-31 11:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-3
+30,2026-03-31 11:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-3
+30,2026-03-31 11:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-2
+30,2026-03-31 11:34:00,Perform Business And Technical Acceptance,Resource,AT-1,AcceptanceRecord,AR-O-2
+30,2026-03-31 11:34:00,Perform Business And Technical Acceptance,Supplier,S4,Requirement,R-3
+30,2026-03-31 11:34:00,Perform Business And Technical Acceptance,Supplier,S4,Asset,Asset-3
+30,2026-03-31 11:34:00,Perform Business And Technical Acceptance,Supplier,S4,Order,O-2
+30,2026-03-31 11:34:00,Perform Business And Technical Acceptance,Supplier,S4,AcceptanceRecord,AR-O-2
+33,2026-03-31 11:39:00,Verify Accounting Prerequisites,Resource,AA-1,Requirement,R-3
+33,2026-03-31 11:39:00,Verify Accounting Prerequisites,Resource,AA-1,Asset,Asset-3
+33,2026-03-31 11:39:00,Verify Accounting Prerequisites,Resource,AA-1,Order,O-2
+33,2026-03-31 11:39:00,Verify Accounting Prerequisites,Resource,AA-1,Invoice,INV-O-2
+33,2026-03-31 11:39:00,Verify Accounting Prerequisites,Resource,AA-1,AcceptanceRecord,AR-O-2
+33,2026-03-31 11:39:00,Verify Accounting Prerequisites,Supplier,S4,Requirement,R-3
+33,2026-03-31 11:39:00,Verify Accounting Prerequisites,Supplier,S4,Asset,Asset-3
+33,2026-03-31 11:39:00,Verify Accounting Prerequisites,Supplier,S4,Order,O-2
+33,2026-03-31 11:39:00,Verify Accounting Prerequisites,Supplier,S4,Invoice,INV-O-2
+33,2026-03-31 11:39:00,Verify Accounting Prerequisites,Supplier,S4,AcceptanceRecord,AR-O-2
+34,2026-03-31 11:40:00,Confirm Accounting Date,Resource,AA-1,Asset,Asset-3
+35,2026-03-31 11:42:00,Create Or Update Intangible Asset Record,Resource,AA-1,Asset,Asset-3
+36,2026-03-31 11:44:00,Create Accounting Voucher,Resource,AA-1,Requirement,R-3
+36,2026-03-31 11:44:00,Create Accounting Voucher,Resource,AA-1,Asset,Asset-3
+36,2026-03-31 11:44:00,Create Accounting Voucher,Resource,AA-1,Order,O-2
+36,2026-03-31 11:44:00,Create Accounting Voucher,Resource,AA-1,Invoice,INV-O-2
+36,2026-03-31 11:44:00,Create Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-2
+36,2026-03-31 11:44:00,Create Accounting Voucher,Resource,AA-1,Voucher,V-O-2
+36,2026-03-31 11:44:00,Create Accounting Voucher,Supplier,S4,Requirement,R-3
+36,2026-03-31 11:44:00,Create Accounting Voucher,Supplier,S4,Asset,Asset-3
+36,2026-03-31 11:44:00,Create Accounting Voucher,Supplier,S4,Order,O-2
+36,2026-03-31 11:44:00,Create Accounting Voucher,Supplier,S4,Invoice,INV-O-2
+36,2026-03-31 11:44:00,Create Accounting Voucher,Supplier,S4,AcceptanceRecord,AR-O-2
+36,2026-03-31 11:44:00,Create Accounting Voucher,Supplier,S4,Voucher,V-O-2
+37,2026-03-31 12:04:00,Review Accounting Voucher,Resource,VR-1,Asset,Asset-3
+37,2026-03-31 12:04:00,Review Accounting Voucher,Resource,VR-1,Order,O-2
+37,2026-03-31 12:04:00,Review Accounting Voucher,Resource,VR-1,Invoice,INV-O-2
+37,2026-03-31 12:04:00,Review Accounting Voucher,Resource,VR-1,Voucher,V-O-2
+38,2026-03-31 12:06:00,Post Accounting Voucher,Resource,AA-1,Requirement,R-3
+38,2026-03-31 12:06:00,Post Accounting Voucher,Resource,AA-1,Asset,Asset-3
+38,2026-03-31 12:06:00,Post Accounting Voucher,Resource,AA-1,Order,O-2
+38,2026-03-31 12:06:00,Post Accounting Voucher,Resource,AA-1,Invoice,INV-O-2
+38,2026-03-31 12:06:00,Post Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-2
+38,2026-03-31 12:06:00,Post Accounting Voucher,Resource,AA-1,Voucher,V-O-2
+38,2026-03-31 12:06:00,Post Accounting Voucher,Supplier,S4,Requirement,R-3
+38,2026-03-31 12:06:00,Post Accounting Voucher,Supplier,S4,Asset,Asset-3
+38,2026-03-31 12:06:00,Post Accounting Voucher,Supplier,S4,Order,O-2
+38,2026-03-31 12:06:00,Post Accounting Voucher,Supplier,S4,Invoice,INV-O-2
+38,2026-03-31 12:06:00,Post Accounting Voucher,Supplier,S4,AcceptanceRecord,AR-O-2
+38,2026-03-31 12:06:00,Post Accounting Voucher,Supplier,S4,Voucher,V-O-2
+40,2026-04-07 09:31:00,Review Requirement,Resource,RR-1,Requirement,R-4
+40,2026-04-07 09:31:00,Review Requirement,Resource,RR-1,Asset,Asset-4
+44,2026-04-09 09:31:00,Review Requirement,Resource,RR-1,Requirement,R-5
+44,2026-04-09 09:31:00,Review Requirement,Resource,RR-1,Asset,Asset-5
+45,2026-04-09 10:01:00,Review Requirement,Resource,RR-1,Requirement,R-6
+45,2026-04-09 10:01:00,Review Requirement,Resource,RR-1,Asset,Asset-6
+46,2026-04-09 10:31:00,Review Requirement,Resource,RR-1,Requirement,R-7
+46,2026-04-09 10:31:00,Review Requirement,Resource,RR-1,Asset,Asset-7
+50,2026-04-10 09:31:00,Review Requirement,Resource,RR-1,Requirement,R-8
+50,2026-04-10 09:31:00,Review Requirement,Resource,RR-1,Asset,Asset-8
+51,2026-04-10 10:01:00,Review Requirement,Resource,RR-1,Requirement,R-9
+51,2026-04-10 10:01:00,Review Requirement,Resource,RR-1,Asset,Asset-9
+52,2026-04-10 10:31:00,Review Requirement,Resource,RR-1,Requirement,R-10
+52,2026-04-10 10:31:00,Review Requirement,Resource,RR-1,Asset,Asset-10
+53,2026-04-16 09:31:00,Obtain Quotations,Resource,PO-1,Requirement,R-4
+53,2026-04-16 09:31:00,Obtain Quotations,Resource,PO-1,Asset,Asset-4
+53,2026-04-16 09:31:00,Obtain Quotations,Supplier,S5,Requirement,R-4
+53,2026-04-16 09:31:00,Obtain Quotations,Supplier,S5,Asset,Asset-4
+53,2026-04-16 09:31:00,Obtain Quotations,Supplier,S3,Requirement,R-4
+53,2026-04-16 09:31:00,Obtain Quotations,Supplier,S3,Asset,Asset-4
+54,2026-04-16 13:31:00,Evaluate And Select Quotation,Resource,PO-2,Requirement,R-4
+54,2026-04-16 13:31:00,Evaluate And Select Quotation,Resource,PO-2,Asset,Asset-4
+54,2026-04-16 13:31:00,Evaluate And Select Quotation,Supplier,S3,Requirement,R-4
+54,2026-04-16 13:31:00,Evaluate And Select Quotation,Supplier,S3,Asset,Asset-4
+55,2026-04-16 13:32:00,Check Contract Need,Supplier,S3,Requirement,R-4
+55,2026-04-16 13:32:00,Check Contract Need,Supplier,S3,Asset,Asset-4
+56,2026-04-17 09:32:00,Review Contract,Resource,CR-1,Requirement,R-4
+56,2026-04-17 09:32:00,Review Contract,Resource,CR-1,Asset,Asset-4
+56,2026-04-17 09:32:00,Review Contract,Supplier,S3,Requirement,R-4
+56,2026-04-17 09:32:00,Review Contract,Supplier,S3,Asset,Asset-4
+57,2026-04-17 09:34:00,Create Purchase Order,Resource,PO-2,Requirement,R-4
+57,2026-04-17 09:34:00,Create Purchase Order,Resource,PO-2,Asset,Asset-4
+57,2026-04-17 09:34:00,Create Purchase Order,Resource,PO-2,Order,O-3
+57,2026-04-17 09:34:00,Create Purchase Order,Supplier,S3,Requirement,R-4
+57,2026-04-17 09:34:00,Create Purchase Order,Supplier,S3,Asset,Asset-4
+57,2026-04-17 09:34:00,Create Purchase Order,Supplier,S3,Order,O-3
+58,2026-04-17 11:34:00,Receive Invoice,Supplier,S3,Order,O-3
+58,2026-04-17 11:34:00,Receive Invoice,Supplier,S3,Invoice,INV-O-3
+59,2026-04-20 09:31:00,Obtain Quotations,Resource,PO-1,Requirement,R-5
+59,2026-04-20 09:31:00,Obtain Quotations,Resource,PO-1,Asset,Asset-5
+59,2026-04-20 09:31:00,Obtain Quotations,Supplier,S6,Requirement,R-5
+59,2026-04-20 09:31:00,Obtain Quotations,Supplier,S6,Asset,Asset-5
+59,2026-04-20 09:31:00,Obtain Quotations,Supplier,S5,Requirement,R-5
+59,2026-04-20 09:31:00,Obtain Quotations,Supplier,S5,Asset,Asset-5
+60,2026-04-20 10:01:00,Obtain Quotations,Resource,PO-2,Requirement,R-6
+60,2026-04-20 10:01:00,Obtain Quotations,Resource,PO-2,Asset,Asset-6
+60,2026-04-20 10:01:00,Obtain Quotations,Supplier,S4,Requirement,R-6
+60,2026-04-20 10:01:00,Obtain Quotations,Supplier,S4,Asset,Asset-6
+60,2026-04-20 10:01:00,Obtain Quotations,Supplier,S2,Requirement,R-6
+60,2026-04-20 10:01:00,Obtain Quotations,Supplier,S2,Asset,Asset-6
+60,2026-04-20 10:01:00,Obtain Quotations,Supplier,S1,Requirement,R-6
+60,2026-04-20 10:01:00,Obtain Quotations,Supplier,S1,Asset,Asset-6
+61,2026-04-20 10:31:00,Obtain Quotations,Resource,PO-1,Requirement,R-7
+61,2026-04-20 10:31:00,Obtain Quotations,Resource,PO-1,Asset,Asset-7
+61,2026-04-20 10:31:00,Obtain Quotations,Supplier,S4,Requirement,R-7
+61,2026-04-20 10:31:00,Obtain Quotations,Supplier,S4,Asset,Asset-7
+61,2026-04-20 10:31:00,Obtain Quotations,Supplier,S3,Requirement,R-7
+61,2026-04-20 10:31:00,Obtain Quotations,Supplier,S3,Asset,Asset-7
+61,2026-04-20 10:31:00,Obtain Quotations,Supplier,S1,Requirement,R-7
+61,2026-04-20 10:31:00,Obtain Quotations,Supplier,S1,Asset,Asset-7
+62,2026-04-20 13:31:00,Evaluate And Select Quotation,Resource,PO-2,Requirement,R-5
+62,2026-04-20 13:31:00,Evaluate And Select Quotation,Resource,PO-2,Asset,Asset-5
+62,2026-04-20 13:31:00,Evaluate And Select Quotation,Supplier,S5,Requirement,R-5
+62,2026-04-20 13:31:00,Evaluate And Select Quotation,Supplier,S5,Asset,Asset-5
+63,2026-04-20 13:32:00,Check Contract Need,Supplier,S5,Requirement,R-5
+63,2026-04-20 13:32:00,Check Contract Need,Supplier,S5,Asset,Asset-5
+64,2026-04-20 14:01:00,Evaluate And Select Quotation,Resource,PO-1,Requirement,R-6
+64,2026-04-20 14:01:00,Evaluate And Select Quotation,Resource,PO-1,Asset,Asset-6
+64,2026-04-20 14:01:00,Evaluate And Select Quotation,Supplier,S1,Requirement,R-6
+64,2026-04-20 14:01:00,Evaluate And Select Quotation,Supplier,S1,Asset,Asset-6
+65,2026-04-21 09:31:00,Evaluate And Select Quotation,Resource,PO-2,Requirement,R-7
+65,2026-04-21 09:31:00,Evaluate And Select Quotation,Resource,PO-2,Asset,Asset-7
+65,2026-04-21 09:31:00,Evaluate And Select Quotation,Supplier,S1,Requirement,R-7
+65,2026-04-21 09:31:00,Evaluate And Select Quotation,Supplier,S1,Asset,Asset-7
+66,2026-04-21 09:31:00,Obtain Quotations,Resource,PO-2,Requirement,R-8
+66,2026-04-21 09:31:00,Obtain Quotations,Resource,PO-2,Asset,Asset-8
+66,2026-04-21 09:31:00,Obtain Quotations,Supplier,S4,Requirement,R-8
+66,2026-04-21 09:31:00,Obtain Quotations,Supplier,S4,Asset,Asset-8
+66,2026-04-21 09:31:00,Obtain Quotations,Supplier,S2,Requirement,R-8
+66,2026-04-21 09:31:00,Obtain Quotations,Supplier,S2,Asset,Asset-8
+67,2026-04-21 09:32:00,Review Contract,Resource,CR-1,Requirement,R-5
+67,2026-04-21 09:32:00,Review Contract,Resource,CR-1,Asset,Asset-5
+67,2026-04-21 09:32:00,Review Contract,Supplier,S5,Requirement,R-5
+67,2026-04-21 09:32:00,Review Contract,Supplier,S5,Asset,Asset-5
+68,2026-04-21 09:33:00,Check Contract Need,Supplier,S1,Requirement,R-7
+68,2026-04-21 09:33:00,Check Contract Need,Supplier,S1,Asset,Asset-7
+69,2026-04-21 09:34:00,Create Purchase Order,Resource,PO-2,Requirement,R-5
+69,2026-04-21 09:34:00,Create Purchase Order,Resource,PO-2,Asset,Asset-5
+69,2026-04-21 09:34:00,Create Purchase Order,Resource,PO-2,Order,O-4
+69,2026-04-21 09:34:00,Create Purchase Order,Supplier,S5,Requirement,R-5
+69,2026-04-21 09:34:00,Create Purchase Order,Supplier,S5,Asset,Asset-5
+69,2026-04-21 09:34:00,Create Purchase Order,Supplier,S5,Order,O-4
+70,2026-04-21 10:01:00,Obtain Quotations,Resource,PO-1,Requirement,R-9
+70,2026-04-21 10:01:00,Obtain Quotations,Resource,PO-1,Asset,Asset-9
+70,2026-04-21 10:01:00,Obtain Quotations,Supplier,S5,Requirement,R-9
+70,2026-04-21 10:01:00,Obtain Quotations,Supplier,S5,Asset,Asset-9
+70,2026-04-21 10:01:00,Obtain Quotations,Supplier,S3,Requirement,R-9
+70,2026-04-21 10:01:00,Obtain Quotations,Supplier,S3,Asset,Asset-9
+71,2026-04-21 10:31:00,Obtain Quotations,Resource,PO-2,Requirement,R-10
+71,2026-04-21 10:31:00,Obtain Quotations,Resource,PO-2,Asset,Asset-10
+71,2026-04-21 10:31:00,Obtain Quotations,Supplier,S6,Requirement,R-10
+71,2026-04-21 10:31:00,Obtain Quotations,Supplier,S6,Asset,Asset-10
+71,2026-04-21 10:31:00,Obtain Quotations,Supplier,S5,Requirement,R-10
+71,2026-04-21 10:31:00,Obtain Quotations,Supplier,S5,Asset,Asset-10
+72,2026-04-21 11:34:00,Receive Invoice,Supplier,S5,Order,O-4
+72,2026-04-21 11:34:00,Receive Invoice,Supplier,S5,Invoice,INV-O-4
+73,2026-04-21 13:31:00,Evaluate And Select Quotation,Resource,PO-1,Requirement,R-8
+73,2026-04-21 13:31:00,Evaluate And Select Quotation,Resource,PO-1,Asset,Asset-8
+73,2026-04-21 13:31:00,Evaluate And Select Quotation,Supplier,S4,Requirement,R-8
+73,2026-04-21 13:31:00,Evaluate And Select Quotation,Supplier,S4,Asset,Asset-8
+74,2026-04-21 13:33:00,Review Contract,Resource,CR-1,Requirement,R-7
+74,2026-04-21 13:33:00,Review Contract,Resource,CR-1,Asset,Asset-7
+74,2026-04-21 13:33:00,Review Contract,Supplier,S1,Requirement,R-7
+74,2026-04-21 13:33:00,Review Contract,Supplier,S1,Asset,Asset-7
+75,2026-04-21 13:34:00,Terminate After Contract Rejection,Supplier,S1,Requirement,R-7
+75,2026-04-21 13:34:00,Terminate After Contract Rejection,Supplier,S1,Asset,Asset-7
+76,2026-04-21 13:34:00,Check Contract Need,Supplier,S1,Requirement,R-6
+76,2026-04-21 13:34:00,Check Contract Need,Supplier,S1,Asset,Asset-6
+77,2026-04-21 14:04:00,Evaluate And Select Quotation,Resource,PO-2,Requirement,R-9
+77,2026-04-21 14:04:00,Evaluate And Select Quotation,Resource,PO-2,Asset,Asset-9
+77,2026-04-21 14:04:00,Evaluate And Select Quotation,Supplier,S3,Requirement,R-9
+77,2026-04-21 14:04:00,Evaluate And Select Quotation,Supplier,S3,Asset,Asset-9
+78,2026-04-22 09:31:00,Evaluate And Select Quotation,Resource,PO-1,Requirement,R-10
+78,2026-04-22 09:31:00,Evaluate And Select Quotation,Resource,PO-1,Asset,Asset-10
+78,2026-04-22 09:31:00,Evaluate And Select Quotation,Supplier,S6,Requirement,R-10
+78,2026-04-22 09:31:00,Evaluate And Select Quotation,Supplier,S6,Asset,Asset-10
+79,2026-04-22 09:34:00,Review Contract,Resource,CR-1,Requirement,R-6
+79,2026-04-22 09:34:00,Review Contract,Resource,CR-1,Asset,Asset-6
+79,2026-04-22 09:34:00,Review Contract,Supplier,S1,Requirement,R-6
+79,2026-04-22 09:34:00,Review Contract,Supplier,S1,Asset,Asset-6
+80,2026-04-22 09:35:00,Check Contract Need,Supplier,S3,Requirement,R-9
+80,2026-04-22 09:35:00,Check Contract Need,Supplier,S3,Asset,Asset-9
+81,2026-04-22 09:36:00,Create Purchase Order,Resource,PO-2,Requirement,R-6
+81,2026-04-22 09:36:00,Create Purchase Order,Resource,PO-2,Asset,Asset-6
+81,2026-04-22 09:36:00,Create Purchase Order,Resource,PO-2,Order,O-5
+81,2026-04-22 09:36:00,Create Purchase Order,Supplier,S1,Requirement,R-6
+81,2026-04-22 09:36:00,Create Purchase Order,Supplier,S1,Asset,Asset-6
+81,2026-04-22 09:36:00,Create Purchase Order,Supplier,S1,Order,O-5
+82,2026-04-22 09:36:00,Check Contract Need,Supplier,S4,Requirement,R-8
+82,2026-04-22 09:36:00,Check Contract Need,Supplier,S4,Asset,Asset-8
+83,2026-04-22 09:37:00,Check Contract Need,Supplier,S6,Requirement,R-10
+83,2026-04-22 09:37:00,Check Contract Need,Supplier,S6,Asset,Asset-10
+84,2026-04-22 09:38:00,Create Purchase Order,Resource,PO-2,Requirement,R-9
+84,2026-04-22 09:38:00,Create Purchase Order,Resource,PO-2,Asset,Asset-9
+84,2026-04-22 09:38:00,Create Purchase Order,Resource,PO-2,Order,O-6
+84,2026-04-22 09:38:00,Create Purchase Order,Supplier,S3,Requirement,R-9
+84,2026-04-22 09:38:00,Create Purchase Order,Supplier,S3,Asset,Asset-9
+84,2026-04-22 09:38:00,Create Purchase Order,Supplier,S3,Order,O-6
+85,2026-04-22 10:08:00,Create Purchase Order,Resource,PO-1,Requirement,R-8
+85,2026-04-22 10:08:00,Create Purchase Order,Resource,PO-1,Asset,Asset-8
+85,2026-04-22 10:08:00,Create Purchase Order,Resource,PO-1,Order,O-7
+85,2026-04-22 10:08:00,Create Purchase Order,Supplier,S4,Requirement,R-8
+85,2026-04-22 10:08:00,Create Purchase Order,Supplier,S4,Asset,Asset-8
+85,2026-04-22 10:08:00,Create Purchase Order,Supplier,S4,Order,O-7
+86,2026-04-22 11:36:00,Receive Invoice,Supplier,S1,Order,O-5
+86,2026-04-22 11:36:00,Receive Invoice,Supplier,S1,Invoice,INV-O-5
+87,2026-04-22 11:38:00,Receive Invoice,Supplier,S3,Order,O-6
+87,2026-04-22 11:38:00,Receive Invoice,Supplier,S3,Invoice,INV-O-6
+88,2026-04-22 12:08:00,Receive Invoice,Supplier,S4,Order,O-7
+88,2026-04-22 12:08:00,Receive Invoice,Supplier,S4,Invoice,INV-O-7
+89,2026-04-22 13:37:00,Review Contract,Resource,CR-1,Requirement,R-10
+89,2026-04-22 13:37:00,Review Contract,Resource,CR-1,Asset,Asset-10
+89,2026-04-22 13:37:00,Review Contract,Supplier,S6,Requirement,R-10
+89,2026-04-22 13:37:00,Review Contract,Supplier,S6,Asset,Asset-10
+90,2026-04-22 13:39:00,Create Purchase Order,Resource,PO-1,Requirement,R-10
+90,2026-04-22 13:39:00,Create Purchase Order,Resource,PO-1,Asset,Asset-10
+90,2026-04-22 13:39:00,Create Purchase Order,Resource,PO-1,Order,O-8
+90,2026-04-22 13:39:00,Create Purchase Order,Supplier,S6,Requirement,R-10
+90,2026-04-22 13:39:00,Create Purchase Order,Supplier,S6,Asset,Asset-10
+90,2026-04-22 13:39:00,Create Purchase Order,Supplier,S6,Order,O-8
+91,2026-04-22 15:39:00,Receive Invoice,Supplier,S6,Order,O-8
+91,2026-04-22 15:39:00,Receive Invoice,Supplier,S6,Invoice,INV-O-8
+93,2026-04-23 09:31:00,Review Requirement,Resource,RR-1,Requirement,R-11
+93,2026-04-23 09:31:00,Review Requirement,Resource,RR-1,Asset,Asset-11
+95,2026-04-23 11:01:00,Review Requirement,Resource,RR-1,Requirement,R-11
+95,2026-04-23 11:01:00,Review Requirement,Resource,RR-1,Asset,Asset-11
+96,2026-04-24 09:34:00,Receive Contract Deliverable,Resource,PO-1,Requirement,R-4
+96,2026-04-24 09:34:00,Receive Contract Deliverable,Resource,PO-1,Asset,Asset-4
+96,2026-04-24 09:34:00,Receive Contract Deliverable,Resource,PO-1,Order,O-3
+96,2026-04-24 09:34:00,Receive Contract Deliverable,Supplier,S3,Requirement,R-4
+96,2026-04-24 09:34:00,Receive Contract Deliverable,Supplier,S3,Asset,Asset-4
+96,2026-04-24 09:34:00,Receive Contract Deliverable,Supplier,S3,Order,O-3
+97,2026-04-24 11:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-4
+97,2026-04-24 11:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-4
+97,2026-04-24 11:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-3
+97,2026-04-24 11:34:00,Perform Business And Technical Acceptance,Supplier,S3,Requirement,R-4
+97,2026-04-24 11:34:00,Perform Business And Technical Acceptance,Supplier,S3,Asset,Asset-4
+97,2026-04-24 11:34:00,Perform Business And Technical Acceptance,Supplier,S3,Order,O-3
+98,2026-04-28 09:34:00,Receive Contract Deliverable,Resource,PO-2,Requirement,R-5
+98,2026-04-28 09:34:00,Receive Contract Deliverable,Resource,PO-2,Asset,Asset-5
+98,2026-04-28 09:34:00,Receive Contract Deliverable,Resource,PO-2,Order,O-4
+98,2026-04-28 09:34:00,Receive Contract Deliverable,Supplier,S5,Requirement,R-5
+98,2026-04-28 09:34:00,Receive Contract Deliverable,Supplier,S5,Asset,Asset-5
+98,2026-04-28 09:34:00,Receive Contract Deliverable,Supplier,S5,Order,O-4
+99,2026-04-28 11:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-5
+99,2026-04-28 11:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-5
+99,2026-04-28 11:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-4
+99,2026-04-28 11:34:00,Perform Business And Technical Acceptance,Supplier,S5,Requirement,R-5
+99,2026-04-28 11:34:00,Perform Business And Technical Acceptance,Supplier,S5,Asset,Asset-5
+99,2026-04-28 11:34:00,Perform Business And Technical Acceptance,Supplier,S5,Order,O-4
+100,2026-04-29 09:36:00,Receive Contract Deliverable,Resource,PO-1,Requirement,R-6
+100,2026-04-29 09:36:00,Receive Contract Deliverable,Resource,PO-1,Asset,Asset-6
+100,2026-04-29 09:36:00,Receive Contract Deliverable,Resource,PO-1,Order,O-5
+100,2026-04-29 09:36:00,Receive Contract Deliverable,Supplier,S1,Requirement,R-6
+100,2026-04-29 09:36:00,Receive Contract Deliverable,Supplier,S1,Asset,Asset-6
+100,2026-04-29 09:36:00,Receive Contract Deliverable,Supplier,S1,Order,O-5
+101,2026-04-29 09:38:00,Receive Contract Deliverable,Resource,PO-2,Requirement,R-9
+101,2026-04-29 09:38:00,Receive Contract Deliverable,Resource,PO-2,Asset,Asset-9
+101,2026-04-29 09:38:00,Receive Contract Deliverable,Resource,PO-2,Order,O-6
+101,2026-04-29 09:38:00,Receive Contract Deliverable,Supplier,S3,Requirement,R-9
+101,2026-04-29 09:38:00,Receive Contract Deliverable,Supplier,S3,Asset,Asset-9
+101,2026-04-29 09:38:00,Receive Contract Deliverable,Supplier,S3,Order,O-6
+102,2026-04-29 10:08:00,Receive Contract Deliverable,Resource,PO-2,Requirement,R-8
+102,2026-04-29 10:08:00,Receive Contract Deliverable,Resource,PO-2,Asset,Asset-8
+102,2026-04-29 10:08:00,Receive Contract Deliverable,Resource,PO-2,Order,O-7
+102,2026-04-29 10:08:00,Receive Contract Deliverable,Supplier,S4,Requirement,R-8
+102,2026-04-29 10:08:00,Receive Contract Deliverable,Supplier,S4,Asset,Asset-8
+102,2026-04-29 10:08:00,Receive Contract Deliverable,Supplier,S4,Order,O-7
+103,2026-04-29 11:36:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-6
+103,2026-04-29 11:36:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-6
+103,2026-04-29 11:36:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-5
+103,2026-04-29 11:36:00,Perform Business And Technical Acceptance,Resource,AT-1,AcceptanceRecord,AR-O-5
+103,2026-04-29 11:36:00,Perform Business And Technical Acceptance,Supplier,S1,Requirement,R-6
+103,2026-04-29 11:36:00,Perform Business And Technical Acceptance,Supplier,S1,Asset,Asset-6
+103,2026-04-29 11:36:00,Perform Business And Technical Acceptance,Supplier,S1,Order,O-5
+103,2026-04-29 11:36:00,Perform Business And Technical Acceptance,Supplier,S1,AcceptanceRecord,AR-O-5
+106,2026-04-29 11:41:00,Verify Accounting Prerequisites,Resource,AA-1,Requirement,R-6
+106,2026-04-29 11:41:00,Verify Accounting Prerequisites,Resource,AA-1,Asset,Asset-6
+106,2026-04-29 11:41:00,Verify Accounting Prerequisites,Resource,AA-1,Order,O-5
+106,2026-04-29 11:41:00,Verify Accounting Prerequisites,Resource,AA-1,Invoice,INV-O-5
+106,2026-04-29 11:41:00,Verify Accounting Prerequisites,Resource,AA-1,AcceptanceRecord,AR-O-5
+106,2026-04-29 11:41:00,Verify Accounting Prerequisites,Supplier,S1,Requirement,R-6
+106,2026-04-29 11:41:00,Verify Accounting Prerequisites,Supplier,S1,Asset,Asset-6
+106,2026-04-29 11:41:00,Verify Accounting Prerequisites,Supplier,S1,Order,O-5
+106,2026-04-29 11:41:00,Verify Accounting Prerequisites,Supplier,S1,Invoice,INV-O-5
+106,2026-04-29 11:41:00,Verify Accounting Prerequisites,Supplier,S1,AcceptanceRecord,AR-O-5
+107,2026-04-29 11:42:00,Confirm Accounting Date,Resource,AA-1,Asset,Asset-6
+108,2026-04-29 11:44:00,Create Or Update Intangible Asset Record,Resource,AA-1,Asset,Asset-6
+109,2026-04-29 11:46:00,Create Accounting Voucher,Resource,AA-1,Requirement,R-6
+109,2026-04-29 11:46:00,Create Accounting Voucher,Resource,AA-1,Asset,Asset-6
+109,2026-04-29 11:46:00,Create Accounting Voucher,Resource,AA-1,Order,O-5
+109,2026-04-29 11:46:00,Create Accounting Voucher,Resource,AA-1,Invoice,INV-O-5
+109,2026-04-29 11:46:00,Create Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-5
+109,2026-04-29 11:46:00,Create Accounting Voucher,Resource,AA-1,Voucher,V-O-5
+109,2026-04-29 11:46:00,Create Accounting Voucher,Supplier,S1,Requirement,R-6
+109,2026-04-29 11:46:00,Create Accounting Voucher,Supplier,S1,Asset,Asset-6
+109,2026-04-29 11:46:00,Create Accounting Voucher,Supplier,S1,Order,O-5
+109,2026-04-29 11:46:00,Create Accounting Voucher,Supplier,S1,Invoice,INV-O-5
+109,2026-04-29 11:46:00,Create Accounting Voucher,Supplier,S1,AcceptanceRecord,AR-O-5
+109,2026-04-29 11:46:00,Create Accounting Voucher,Supplier,S1,Voucher,V-O-5
+110,2026-04-29 12:06:00,Review Accounting Voucher,Resource,VR-1,Asset,Asset-6
+110,2026-04-29 12:06:00,Review Accounting Voucher,Resource,VR-1,Order,O-5
+110,2026-04-29 12:06:00,Review Accounting Voucher,Resource,VR-1,Invoice,INV-O-5
+110,2026-04-29 12:06:00,Review Accounting Voucher,Resource,VR-1,Voucher,V-O-5
+111,2026-04-29 12:08:00,Post Accounting Voucher,Resource,AA-1,Requirement,R-6
+111,2026-04-29 12:08:00,Post Accounting Voucher,Resource,AA-1,Asset,Asset-6
+111,2026-04-29 12:08:00,Post Accounting Voucher,Resource,AA-1,Order,O-5
+111,2026-04-29 12:08:00,Post Accounting Voucher,Resource,AA-1,Invoice,INV-O-5
+111,2026-04-29 12:08:00,Post Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-5
+111,2026-04-29 12:08:00,Post Accounting Voucher,Resource,AA-1,Voucher,V-O-5
+111,2026-04-29 12:08:00,Post Accounting Voucher,Supplier,S1,Requirement,R-6
+111,2026-04-29 12:08:00,Post Accounting Voucher,Supplier,S1,Asset,Asset-6
+111,2026-04-29 12:08:00,Post Accounting Voucher,Supplier,S1,Order,O-5
+111,2026-04-29 12:08:00,Post Accounting Voucher,Supplier,S1,Invoice,INV-O-5
+111,2026-04-29 12:08:00,Post Accounting Voucher,Supplier,S1,AcceptanceRecord,AR-O-5
+111,2026-04-29 12:08:00,Post Accounting Voucher,Supplier,S1,Voucher,V-O-5
+112,2026-04-29 13:36:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-8
+112,2026-04-29 13:36:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-8
+112,2026-04-29 13:36:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-7
+112,2026-04-29 13:36:00,Perform Business And Technical Acceptance,Resource,AT-1,AcceptanceRecord,AR-O-7
+112,2026-04-29 13:36:00,Perform Business And Technical Acceptance,Supplier,S4,Requirement,R-8
+112,2026-04-29 13:36:00,Perform Business And Technical Acceptance,Supplier,S4,Asset,Asset-8
+112,2026-04-29 13:36:00,Perform Business And Technical Acceptance,Supplier,S4,Order,O-7
+112,2026-04-29 13:36:00,Perform Business And Technical Acceptance,Supplier,S4,AcceptanceRecord,AR-O-7
+115,2026-04-29 13:39:00,Receive Contract Deliverable,Resource,PO-2,Requirement,R-10
+115,2026-04-29 13:39:00,Receive Contract Deliverable,Resource,PO-2,Asset,Asset-10
+115,2026-04-29 13:39:00,Receive Contract Deliverable,Resource,PO-2,Order,O-8
+115,2026-04-29 13:39:00,Receive Contract Deliverable,Supplier,S6,Requirement,R-10
+115,2026-04-29 13:39:00,Receive Contract Deliverable,Supplier,S6,Asset,Asset-10
+115,2026-04-29 13:39:00,Receive Contract Deliverable,Supplier,S6,Order,O-8
+116,2026-04-29 13:41:00,Verify Accounting Prerequisites,Resource,AA-1,Requirement,R-8
+116,2026-04-29 13:41:00,Verify Accounting Prerequisites,Resource,AA-1,Asset,Asset-8
+116,2026-04-29 13:41:00,Verify Accounting Prerequisites,Resource,AA-1,Order,O-7
+116,2026-04-29 13:41:00,Verify Accounting Prerequisites,Resource,AA-1,Invoice,INV-O-7
+116,2026-04-29 13:41:00,Verify Accounting Prerequisites,Resource,AA-1,AcceptanceRecord,AR-O-7
+116,2026-04-29 13:41:00,Verify Accounting Prerequisites,Supplier,S4,Requirement,R-8
+116,2026-04-29 13:41:00,Verify Accounting Prerequisites,Supplier,S4,Asset,Asset-8
+116,2026-04-29 13:41:00,Verify Accounting Prerequisites,Supplier,S4,Order,O-7
+116,2026-04-29 13:41:00,Verify Accounting Prerequisites,Supplier,S4,Invoice,INV-O-7
+116,2026-04-29 13:41:00,Verify Accounting Prerequisites,Supplier,S4,AcceptanceRecord,AR-O-7
+117,2026-04-29 13:42:00,Confirm Accounting Date,Resource,AA-1,Asset,Asset-8
+118,2026-04-29 13:44:00,Create Or Update Intangible Asset Record,Resource,AA-1,Asset,Asset-8
+119,2026-04-29 13:46:00,Create Accounting Voucher,Resource,AA-1,Requirement,R-8
+119,2026-04-29 13:46:00,Create Accounting Voucher,Resource,AA-1,Asset,Asset-8
+119,2026-04-29 13:46:00,Create Accounting Voucher,Resource,AA-1,Order,O-7
+119,2026-04-29 13:46:00,Create Accounting Voucher,Resource,AA-1,Invoice,INV-O-7
+119,2026-04-29 13:46:00,Create Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-7
+119,2026-04-29 13:46:00,Create Accounting Voucher,Resource,AA-1,Voucher,V-O-7
+119,2026-04-29 13:46:00,Create Accounting Voucher,Supplier,S4,Requirement,R-8
+119,2026-04-29 13:46:00,Create Accounting Voucher,Supplier,S4,Asset,Asset-8
+119,2026-04-29 13:46:00,Create Accounting Voucher,Supplier,S4,Order,O-7
+119,2026-04-29 13:46:00,Create Accounting Voucher,Supplier,S4,Invoice,INV-O-7
+119,2026-04-29 13:46:00,Create Accounting Voucher,Supplier,S4,AcceptanceRecord,AR-O-7
+119,2026-04-29 13:46:00,Create Accounting Voucher,Supplier,S4,Voucher,V-O-7
+120,2026-04-29 14:06:00,Review Accounting Voucher,Resource,VR-1,Asset,Asset-8
+120,2026-04-29 14:06:00,Review Accounting Voucher,Resource,VR-1,Order,O-7
+120,2026-04-29 14:06:00,Review Accounting Voucher,Resource,VR-1,Invoice,INV-O-7
+120,2026-04-29 14:06:00,Review Accounting Voucher,Resource,VR-1,Voucher,V-O-7
+121,2026-04-29 14:08:00,Post Accounting Voucher,Resource,AA-1,Requirement,R-8
+121,2026-04-29 14:08:00,Post Accounting Voucher,Resource,AA-1,Asset,Asset-8
+121,2026-04-29 14:08:00,Post Accounting Voucher,Resource,AA-1,Order,O-7
+121,2026-04-29 14:08:00,Post Accounting Voucher,Resource,AA-1,Invoice,INV-O-7
+121,2026-04-29 14:08:00,Post Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-7
+121,2026-04-29 14:08:00,Post Accounting Voucher,Resource,AA-1,Voucher,V-O-7
+121,2026-04-29 14:08:00,Post Accounting Voucher,Supplier,S4,Requirement,R-8
+121,2026-04-29 14:08:00,Post Accounting Voucher,Supplier,S4,Asset,Asset-8
+121,2026-04-29 14:08:00,Post Accounting Voucher,Supplier,S4,Order,O-7
+121,2026-04-29 14:08:00,Post Accounting Voucher,Supplier,S4,Invoice,INV-O-7
+121,2026-04-29 14:08:00,Post Accounting Voucher,Supplier,S4,AcceptanceRecord,AR-O-7
+121,2026-04-29 14:08:00,Post Accounting Voucher,Supplier,S4,Voucher,V-O-7
+122,2026-04-29 15:36:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-9
+122,2026-04-29 15:36:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-9
+122,2026-04-29 15:36:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-6
+122,2026-04-29 15:36:00,Perform Business And Technical Acceptance,Resource,AT-1,AcceptanceRecord,AR-O-6
+122,2026-04-29 15:36:00,Perform Business And Technical Acceptance,Supplier,S3,Requirement,R-9
+122,2026-04-29 15:36:00,Perform Business And Technical Acceptance,Supplier,S3,Asset,Asset-9
+122,2026-04-29 15:36:00,Perform Business And Technical Acceptance,Supplier,S3,Order,O-6
+122,2026-04-29 15:36:00,Perform Business And Technical Acceptance,Supplier,S3,AcceptanceRecord,AR-O-6
+125,2026-04-29 15:41:00,Verify Accounting Prerequisites,Resource,AA-1,Requirement,R-9
+125,2026-04-29 15:41:00,Verify Accounting Prerequisites,Resource,AA-1,Asset,Asset-9
+125,2026-04-29 15:41:00,Verify Accounting Prerequisites,Resource,AA-1,Order,O-6
+125,2026-04-29 15:41:00,Verify Accounting Prerequisites,Resource,AA-1,Invoice,INV-O-6
+125,2026-04-29 15:41:00,Verify Accounting Prerequisites,Resource,AA-1,AcceptanceRecord,AR-O-6
+125,2026-04-29 15:41:00,Verify Accounting Prerequisites,Supplier,S3,Requirement,R-9
+125,2026-04-29 15:41:00,Verify Accounting Prerequisites,Supplier,S3,Asset,Asset-9
+125,2026-04-29 15:41:00,Verify Accounting Prerequisites,Supplier,S3,Order,O-6
+125,2026-04-29 15:41:00,Verify Accounting Prerequisites,Supplier,S3,Invoice,INV-O-6
+125,2026-04-29 15:41:00,Verify Accounting Prerequisites,Supplier,S3,AcceptanceRecord,AR-O-6
+126,2026-04-29 15:42:00,Confirm Accounting Date,Resource,AA-1,Asset,Asset-9
+127,2026-04-29 15:44:00,Create Or Update Intangible Asset Record,Resource,AA-1,Asset,Asset-9
+128,2026-04-29 15:46:00,Create Accounting Voucher,Resource,AA-1,Requirement,R-9
+128,2026-04-29 15:46:00,Create Accounting Voucher,Resource,AA-1,Asset,Asset-9
+128,2026-04-29 15:46:00,Create Accounting Voucher,Resource,AA-1,Order,O-6
+128,2026-04-29 15:46:00,Create Accounting Voucher,Resource,AA-1,Invoice,INV-O-6
+128,2026-04-29 15:46:00,Create Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-6
+128,2026-04-29 15:46:00,Create Accounting Voucher,Resource,AA-1,Voucher,V-O-6
+128,2026-04-29 15:46:00,Create Accounting Voucher,Supplier,S3,Requirement,R-9
+128,2026-04-29 15:46:00,Create Accounting Voucher,Supplier,S3,Asset,Asset-9
+128,2026-04-29 15:46:00,Create Accounting Voucher,Supplier,S3,Order,O-6
+128,2026-04-29 15:46:00,Create Accounting Voucher,Supplier,S3,Invoice,INV-O-6
+128,2026-04-29 15:46:00,Create Accounting Voucher,Supplier,S3,AcceptanceRecord,AR-O-6
+128,2026-04-29 15:46:00,Create Accounting Voucher,Supplier,S3,Voucher,V-O-6
+129,2026-04-29 16:06:00,Review Accounting Voucher,Resource,VR-1,Asset,Asset-9
+129,2026-04-29 16:06:00,Review Accounting Voucher,Resource,VR-1,Order,O-6
+129,2026-04-29 16:06:00,Review Accounting Voucher,Resource,VR-1,Invoice,INV-O-6
+129,2026-04-29 16:06:00,Review Accounting Voucher,Resource,VR-1,Voucher,V-O-6
+130,2026-04-29 16:08:00,Post Accounting Voucher,Resource,AA-1,Requirement,R-9
+130,2026-04-29 16:08:00,Post Accounting Voucher,Resource,AA-1,Asset,Asset-9
+130,2026-04-29 16:08:00,Post Accounting Voucher,Resource,AA-1,Order,O-6
+130,2026-04-29 16:08:00,Post Accounting Voucher,Resource,AA-1,Invoice,INV-O-6
+130,2026-04-29 16:08:00,Post Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-6
+130,2026-04-29 16:08:00,Post Accounting Voucher,Resource,AA-1,Voucher,V-O-6
+130,2026-04-29 16:08:00,Post Accounting Voucher,Supplier,S3,Requirement,R-9
+130,2026-04-29 16:08:00,Post Accounting Voucher,Supplier,S3,Asset,Asset-9
+130,2026-04-29 16:08:00,Post Accounting Voucher,Supplier,S3,Order,O-6
+130,2026-04-29 16:08:00,Post Accounting Voucher,Supplier,S3,Invoice,INV-O-6
+130,2026-04-29 16:08:00,Post Accounting Voucher,Supplier,S3,AcceptanceRecord,AR-O-6
+130,2026-04-29 16:08:00,Post Accounting Voucher,Supplier,S3,Voucher,V-O-6
+131,2026-04-30 09:36:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-10
+131,2026-04-30 09:36:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-10
+131,2026-04-30 09:36:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-8
+131,2026-04-30 09:36:00,Perform Business And Technical Acceptance,Resource,AT-1,AcceptanceRecord,AR-O-8
+131,2026-04-30 09:36:00,Perform Business And Technical Acceptance,Supplier,S6,Requirement,R-10
+131,2026-04-30 09:36:00,Perform Business And Technical Acceptance,Supplier,S6,Asset,Asset-10
+131,2026-04-30 09:36:00,Perform Business And Technical Acceptance,Supplier,S6,Order,O-8
+131,2026-04-30 09:36:00,Perform Business And Technical Acceptance,Supplier,S6,AcceptanceRecord,AR-O-8
+134,2026-04-30 09:41:00,Verify Accounting Prerequisites,Resource,AA-1,Requirement,R-10
+134,2026-04-30 09:41:00,Verify Accounting Prerequisites,Resource,AA-1,Asset,Asset-10
+134,2026-04-30 09:41:00,Verify Accounting Prerequisites,Resource,AA-1,Order,O-8
+134,2026-04-30 09:41:00,Verify Accounting Prerequisites,Resource,AA-1,Invoice,INV-O-8
+134,2026-04-30 09:41:00,Verify Accounting Prerequisites,Resource,AA-1,AcceptanceRecord,AR-O-8
+134,2026-04-30 09:41:00,Verify Accounting Prerequisites,Supplier,S6,Requirement,R-10
+134,2026-04-30 09:41:00,Verify Accounting Prerequisites,Supplier,S6,Asset,Asset-10
+134,2026-04-30 09:41:00,Verify Accounting Prerequisites,Supplier,S6,Order,O-8
+134,2026-04-30 09:41:00,Verify Accounting Prerequisites,Supplier,S6,Invoice,INV-O-8
+134,2026-04-30 09:41:00,Verify Accounting Prerequisites,Supplier,S6,AcceptanceRecord,AR-O-8
+135,2026-04-30 09:42:00,Confirm Accounting Date,Resource,AA-1,Asset,Asset-10
+136,2026-04-30 09:44:00,Create Or Update Intangible Asset Record,Resource,AA-1,Asset,Asset-10
+137,2026-04-30 09:46:00,Create Accounting Voucher,Resource,AA-1,Requirement,R-10
+137,2026-04-30 09:46:00,Create Accounting Voucher,Resource,AA-1,Asset,Asset-10
+137,2026-04-30 09:46:00,Create Accounting Voucher,Resource,AA-1,Order,O-8
+137,2026-04-30 09:46:00,Create Accounting Voucher,Resource,AA-1,Invoice,INV-O-8
+137,2026-04-30 09:46:00,Create Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-8
+137,2026-04-30 09:46:00,Create Accounting Voucher,Resource,AA-1,Voucher,V-O-8
+137,2026-04-30 09:46:00,Create Accounting Voucher,Supplier,S6,Requirement,R-10
+137,2026-04-30 09:46:00,Create Accounting Voucher,Supplier,S6,Asset,Asset-10
+137,2026-04-30 09:46:00,Create Accounting Voucher,Supplier,S6,Order,O-8
+137,2026-04-30 09:46:00,Create Accounting Voucher,Supplier,S6,Invoice,INV-O-8
+137,2026-04-30 09:46:00,Create Accounting Voucher,Supplier,S6,AcceptanceRecord,AR-O-8
+137,2026-04-30 09:46:00,Create Accounting Voucher,Supplier,S6,Voucher,V-O-8
+138,2026-04-30 10:06:00,Review Accounting Voucher,Resource,VR-1,Asset,Asset-10
+138,2026-04-30 10:06:00,Review Accounting Voucher,Resource,VR-1,Order,O-8
+138,2026-04-30 10:06:00,Review Accounting Voucher,Resource,VR-1,Invoice,INV-O-8
+138,2026-04-30 10:06:00,Review Accounting Voucher,Resource,VR-1,Voucher,V-O-8
+139,2026-04-30 10:08:00,Post Accounting Voucher,Resource,AA-1,Requirement,R-10
+139,2026-04-30 10:08:00,Post Accounting Voucher,Resource,AA-1,Asset,Asset-10
+139,2026-04-30 10:08:00,Post Accounting Voucher,Resource,AA-1,Order,O-8
+139,2026-04-30 10:08:00,Post Accounting Voucher,Resource,AA-1,Invoice,INV-O-8
+139,2026-04-30 10:08:00,Post Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-8
+139,2026-04-30 10:08:00,Post Accounting Voucher,Resource,AA-1,Voucher,V-O-8
+139,2026-04-30 10:08:00,Post Accounting Voucher,Supplier,S6,Requirement,R-10
+139,2026-04-30 10:08:00,Post Accounting Voucher,Supplier,S6,Asset,Asset-10
+139,2026-04-30 10:08:00,Post Accounting Voucher,Supplier,S6,Order,O-8
+139,2026-04-30 10:08:00,Post Accounting Voucher,Supplier,S6,Invoice,INV-O-8
+139,2026-04-30 10:08:00,Post Accounting Voucher,Supplier,S6,AcceptanceRecord,AR-O-8
+139,2026-04-30 10:08:00,Post Accounting Voucher,Supplier,S6,Voucher,V-O-8
+140,2026-05-04 11:01:00,Obtain Quotations,Resource,PO-1,Requirement,R-11
+140,2026-05-04 11:01:00,Obtain Quotations,Resource,PO-1,Asset,Asset-11
+140,2026-05-04 11:01:00,Obtain Quotations,Supplier,S4,Requirement,R-11
+140,2026-05-04 11:01:00,Obtain Quotations,Supplier,S4,Asset,Asset-11
+140,2026-05-04 11:01:00,Obtain Quotations,Supplier,S2,Requirement,R-11
+140,2026-05-04 11:01:00,Obtain Quotations,Supplier,S2,Asset,Asset-11
+140,2026-05-04 11:01:00,Obtain Quotations,Supplier,S1,Requirement,R-11
+140,2026-05-04 11:01:00,Obtain Quotations,Supplier,S1,Asset,Asset-11
+141,2026-05-04 15:01:00,Evaluate And Select Quotation,Resource,PO-2,Requirement,R-11
+141,2026-05-04 15:01:00,Evaluate And Select Quotation,Resource,PO-2,Asset,Asset-11
+141,2026-05-04 15:01:00,Evaluate And Select Quotation,Supplier,S4,Requirement,R-11
+141,2026-05-04 15:01:00,Evaluate And Select Quotation,Supplier,S4,Asset,Asset-11
+142,2026-05-04 15:02:00,Check Contract Need,Supplier,S4,Requirement,R-11
+142,2026-05-04 15:02:00,Check Contract Need,Supplier,S4,Asset,Asset-11
+143,2026-05-04 15:04:00,Create Purchase Order,Resource,PO-1,Requirement,R-11
+143,2026-05-04 15:04:00,Create Purchase Order,Resource,PO-1,Asset,Asset-11
+143,2026-05-04 15:04:00,Create Purchase Order,Resource,PO-1,Order,O-9
+143,2026-05-04 15:04:00,Create Purchase Order,Supplier,S4,Requirement,R-11
+143,2026-05-04 15:04:00,Create Purchase Order,Supplier,S4,Asset,Asset-11
+143,2026-05-04 15:04:00,Create Purchase Order,Supplier,S4,Order,O-9
+144,2026-05-05 09:04:00,Receive Invoice,Supplier,S4,Order,O-9
+144,2026-05-05 09:04:00,Receive Invoice,Supplier,S4,Invoice,INV-O-9
+146,2026-05-05 13:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-5
+146,2026-05-05 13:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-5
+146,2026-05-05 13:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-4
+146,2026-05-05 13:34:00,Perform Business And Technical Acceptance,Resource,AT-1,AcceptanceRecord,AR-O-4
+146,2026-05-05 13:34:00,Perform Business And Technical Acceptance,Supplier,S5,Requirement,R-5
+146,2026-05-05 13:34:00,Perform Business And Technical Acceptance,Supplier,S5,Asset,Asset-5
+146,2026-05-05 13:34:00,Perform Business And Technical Acceptance,Supplier,S5,Order,O-4
+146,2026-05-05 13:34:00,Perform Business And Technical Acceptance,Supplier,S5,AcceptanceRecord,AR-O-4
+149,2026-05-05 13:39:00,Verify Accounting Prerequisites,Resource,AA-1,Requirement,R-5
+149,2026-05-05 13:39:00,Verify Accounting Prerequisites,Resource,AA-1,Asset,Asset-5
+149,2026-05-05 13:39:00,Verify Accounting Prerequisites,Resource,AA-1,Order,O-4
+149,2026-05-05 13:39:00,Verify Accounting Prerequisites,Resource,AA-1,Invoice,INV-O-4
+149,2026-05-05 13:39:00,Verify Accounting Prerequisites,Resource,AA-1,AcceptanceRecord,AR-O-4
+149,2026-05-05 13:39:00,Verify Accounting Prerequisites,Supplier,S5,Requirement,R-5
+149,2026-05-05 13:39:00,Verify Accounting Prerequisites,Supplier,S5,Asset,Asset-5
+149,2026-05-05 13:39:00,Verify Accounting Prerequisites,Supplier,S5,Order,O-4
+149,2026-05-05 13:39:00,Verify Accounting Prerequisites,Supplier,S5,Invoice,INV-O-4
+149,2026-05-05 13:39:00,Verify Accounting Prerequisites,Supplier,S5,AcceptanceRecord,AR-O-4
+150,2026-05-05 13:40:00,Confirm Accounting Date,Resource,AA-1,Asset,Asset-5
+151,2026-05-05 13:42:00,Create Or Update Intangible Asset Record,Resource,AA-1,Asset,Asset-5
+152,2026-05-05 13:44:00,Create Accounting Voucher,Resource,AA-1,Requirement,R-5
+152,2026-05-05 13:44:00,Create Accounting Voucher,Resource,AA-1,Asset,Asset-5
+152,2026-05-05 13:44:00,Create Accounting Voucher,Resource,AA-1,Order,O-4
+152,2026-05-05 13:44:00,Create Accounting Voucher,Resource,AA-1,Invoice,INV-O-4
+152,2026-05-05 13:44:00,Create Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-4
+152,2026-05-05 13:44:00,Create Accounting Voucher,Resource,AA-1,Voucher,V-O-4
+152,2026-05-05 13:44:00,Create Accounting Voucher,Supplier,S5,Requirement,R-5
+152,2026-05-05 13:44:00,Create Accounting Voucher,Supplier,S5,Asset,Asset-5
+152,2026-05-05 13:44:00,Create Accounting Voucher,Supplier,S5,Order,O-4
+152,2026-05-05 13:44:00,Create Accounting Voucher,Supplier,S5,Invoice,INV-O-4
+152,2026-05-05 13:44:00,Create Accounting Voucher,Supplier,S5,AcceptanceRecord,AR-O-4
+152,2026-05-05 13:44:00,Create Accounting Voucher,Supplier,S5,Voucher,V-O-4
+153,2026-05-05 14:04:00,Review Accounting Voucher,Resource,VR-1,Asset,Asset-5
+153,2026-05-05 14:04:00,Review Accounting Voucher,Resource,VR-1,Order,O-4
+153,2026-05-05 14:04:00,Review Accounting Voucher,Resource,VR-1,Invoice,INV-O-4
+153,2026-05-05 14:04:00,Review Accounting Voucher,Resource,VR-1,Voucher,V-O-4
+154,2026-05-05 14:06:00,Post Accounting Voucher,Resource,AA-1,Requirement,R-5
+154,2026-05-05 14:06:00,Post Accounting Voucher,Resource,AA-1,Asset,Asset-5
+154,2026-05-05 14:06:00,Post Accounting Voucher,Resource,AA-1,Order,O-4
+154,2026-05-05 14:06:00,Post Accounting Voucher,Resource,AA-1,Invoice,INV-O-4
+154,2026-05-05 14:06:00,Post Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-4
+154,2026-05-05 14:06:00,Post Accounting Voucher,Resource,AA-1,Voucher,V-O-4
+154,2026-05-05 14:06:00,Post Accounting Voucher,Supplier,S5,Requirement,R-5
+154,2026-05-05 14:06:00,Post Accounting Voucher,Supplier,S5,Asset,Asset-5
+154,2026-05-05 14:06:00,Post Accounting Voucher,Supplier,S5,Order,O-4
+154,2026-05-05 14:06:00,Post Accounting Voucher,Supplier,S5,Invoice,INV-O-4
+154,2026-05-05 14:06:00,Post Accounting Voucher,Supplier,S5,AcceptanceRecord,AR-O-4
+154,2026-05-05 14:06:00,Post Accounting Voucher,Supplier,S5,Voucher,V-O-4
+155,2026-05-11 15:04:00,Receive Contract Deliverable,Resource,PO-1,Requirement,R-11
+155,2026-05-11 15:04:00,Receive Contract Deliverable,Resource,PO-1,Asset,Asset-11
+155,2026-05-11 15:04:00,Receive Contract Deliverable,Resource,PO-1,Order,O-9
+155,2026-05-11 15:04:00,Receive Contract Deliverable,Supplier,S4,Requirement,R-11
+155,2026-05-11 15:04:00,Receive Contract Deliverable,Supplier,S4,Asset,Asset-11
+155,2026-05-11 15:04:00,Receive Contract Deliverable,Supplier,S4,Order,O-9
+156,2026-05-12 09:04:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-11
+156,2026-05-12 09:04:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-11
+156,2026-05-12 09:04:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-9
+156,2026-05-12 09:04:00,Perform Business And Technical Acceptance,Resource,AT-1,AcceptanceRecord,AR-O-9
+156,2026-05-12 09:04:00,Perform Business And Technical Acceptance,Supplier,S4,Requirement,R-11
+156,2026-05-12 09:04:00,Perform Business And Technical Acceptance,Supplier,S4,Asset,Asset-11
+156,2026-05-12 09:04:00,Perform Business And Technical Acceptance,Supplier,S4,Order,O-9
+156,2026-05-12 09:04:00,Perform Business And Technical Acceptance,Supplier,S4,AcceptanceRecord,AR-O-9
+159,2026-05-12 09:09:00,Verify Accounting Prerequisites,Resource,AA-1,Requirement,R-11
+159,2026-05-12 09:09:00,Verify Accounting Prerequisites,Resource,AA-1,Asset,Asset-11
+159,2026-05-12 09:09:00,Verify Accounting Prerequisites,Resource,AA-1,Order,O-9
+159,2026-05-12 09:09:00,Verify Accounting Prerequisites,Resource,AA-1,Invoice,INV-O-9
+159,2026-05-12 09:09:00,Verify Accounting Prerequisites,Resource,AA-1,AcceptanceRecord,AR-O-9
+159,2026-05-12 09:09:00,Verify Accounting Prerequisites,Supplier,S4,Requirement,R-11
+159,2026-05-12 09:09:00,Verify Accounting Prerequisites,Supplier,S4,Asset,Asset-11
+159,2026-05-12 09:09:00,Verify Accounting Prerequisites,Supplier,S4,Order,O-9
+159,2026-05-12 09:09:00,Verify Accounting Prerequisites,Supplier,S4,Invoice,INV-O-9
+159,2026-05-12 09:09:00,Verify Accounting Prerequisites,Supplier,S4,AcceptanceRecord,AR-O-9
+160,2026-05-12 09:10:00,Confirm Accounting Date,Resource,AA-1,Asset,Asset-11
+161,2026-05-12 09:12:00,Create Or Update Intangible Asset Record,Resource,AA-1,Asset,Asset-11
+162,2026-05-12 09:14:00,Create Accounting Voucher,Resource,AA-1,Requirement,R-11
+162,2026-05-12 09:14:00,Create Accounting Voucher,Resource,AA-1,Asset,Asset-11
+162,2026-05-12 09:14:00,Create Accounting Voucher,Resource,AA-1,Order,O-9
+162,2026-05-12 09:14:00,Create Accounting Voucher,Resource,AA-1,Invoice,INV-O-9
+162,2026-05-12 09:14:00,Create Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-9
+162,2026-05-12 09:14:00,Create Accounting Voucher,Resource,AA-1,Voucher,V-O-9
+162,2026-05-12 09:14:00,Create Accounting Voucher,Supplier,S4,Requirement,R-11
+162,2026-05-12 09:14:00,Create Accounting Voucher,Supplier,S4,Asset,Asset-11
+162,2026-05-12 09:14:00,Create Accounting Voucher,Supplier,S4,Order,O-9
+162,2026-05-12 09:14:00,Create Accounting Voucher,Supplier,S4,Invoice,INV-O-9
+162,2026-05-12 09:14:00,Create Accounting Voucher,Supplier,S4,AcceptanceRecord,AR-O-9
+162,2026-05-12 09:14:00,Create Accounting Voucher,Supplier,S4,Voucher,V-O-9
+163,2026-05-12 09:34:00,Review Accounting Voucher,Resource,VR-1,Asset,Asset-11
+163,2026-05-12 09:34:00,Review Accounting Voucher,Resource,VR-1,Order,O-9
+163,2026-05-12 09:34:00,Review Accounting Voucher,Resource,VR-1,Invoice,INV-O-9
+163,2026-05-12 09:34:00,Review Accounting Voucher,Resource,VR-1,Voucher,V-O-9
+164,2026-05-12 09:36:00,Post Accounting Voucher,Resource,AA-1,Requirement,R-11
+164,2026-05-12 09:36:00,Post Accounting Voucher,Resource,AA-1,Asset,Asset-11
+164,2026-05-12 09:36:00,Post Accounting Voucher,Resource,AA-1,Order,O-9
+164,2026-05-12 09:36:00,Post Accounting Voucher,Resource,AA-1,Invoice,INV-O-9
+164,2026-05-12 09:36:00,Post Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-9
+164,2026-05-12 09:36:00,Post Accounting Voucher,Resource,AA-1,Voucher,V-O-9
+164,2026-05-12 09:36:00,Post Accounting Voucher,Supplier,S4,Requirement,R-11
+164,2026-05-12 09:36:00,Post Accounting Voucher,Supplier,S4,Asset,Asset-11
+164,2026-05-12 09:36:00,Post Accounting Voucher,Supplier,S4,Order,O-9
+164,2026-05-12 09:36:00,Post Accounting Voucher,Supplier,S4,Invoice,INV-O-9
+164,2026-05-12 09:36:00,Post Accounting Voucher,Supplier,S4,AcceptanceRecord,AR-O-9
+164,2026-05-12 09:36:00,Post Accounting Voucher,Supplier,S4,Voucher,V-O-9
+166,2026-05-18 09:31:00,Review Requirement,Resource,RR-1,Requirement,R-12
+166,2026-05-18 09:31:00,Review Requirement,Resource,RR-1,Asset,Asset-12
+167,2026-05-27 09:31:00,Obtain Quotations,Resource,PO-2,Requirement,R-12
+167,2026-05-27 09:31:00,Obtain Quotations,Resource,PO-2,Asset,Asset-12
+167,2026-05-27 09:31:00,Obtain Quotations,Supplier,S4,Requirement,R-12
+167,2026-05-27 09:31:00,Obtain Quotations,Supplier,S4,Asset,Asset-12
+167,2026-05-27 09:31:00,Obtain Quotations,Supplier,S3,Requirement,R-12
+167,2026-05-27 09:31:00,Obtain Quotations,Supplier,S3,Asset,Asset-12
+167,2026-05-27 09:31:00,Obtain Quotations,Supplier,S1,Requirement,R-12
+167,2026-05-27 09:31:00,Obtain Quotations,Supplier,S1,Asset,Asset-12
+168,2026-05-27 13:31:00,Evaluate And Select Quotation,Resource,PO-2,Requirement,R-12
+168,2026-05-27 13:31:00,Evaluate And Select Quotation,Resource,PO-2,Asset,Asset-12
+168,2026-05-27 13:31:00,Evaluate And Select Quotation,Supplier,S3,Requirement,R-12
+168,2026-05-27 13:31:00,Evaluate And Select Quotation,Supplier,S3,Asset,Asset-12
+169,2026-05-27 13:32:00,Check Contract Need,Supplier,S3,Requirement,R-12
+169,2026-05-27 13:32:00,Check Contract Need,Supplier,S3,Asset,Asset-12
+170,2026-05-27 13:34:00,Create Purchase Order,Resource,PO-1,Requirement,R-12
+170,2026-05-27 13:34:00,Create Purchase Order,Resource,PO-1,Asset,Asset-12
+170,2026-05-27 13:34:00,Create Purchase Order,Resource,PO-1,Order,O-10
+170,2026-05-27 13:34:00,Create Purchase Order,Supplier,S3,Requirement,R-12
+170,2026-05-27 13:34:00,Create Purchase Order,Supplier,S3,Asset,Asset-12
+170,2026-05-27 13:34:00,Create Purchase Order,Supplier,S3,Order,O-10
+171,2026-05-27 15:34:00,Receive Invoice,Supplier,S3,Order,O-10
+171,2026-05-27 15:34:00,Receive Invoice,Supplier,S3,Invoice,INV-O-10
+173,2026-06-03 09:31:00,Review Requirement,Resource,RR-1,Requirement,R-13
+173,2026-06-03 09:31:00,Review Requirement,Resource,RR-1,Asset,Asset-13
+174,2026-06-03 13:34:00,Receive Contract Deliverable,Resource,PO-2,Requirement,R-12
+174,2026-06-03 13:34:00,Receive Contract Deliverable,Resource,PO-2,Asset,Asset-12
+174,2026-06-03 13:34:00,Receive Contract Deliverable,Resource,PO-2,Order,O-10
+174,2026-06-03 13:34:00,Receive Contract Deliverable,Supplier,S3,Requirement,R-12
+174,2026-06-03 13:34:00,Receive Contract Deliverable,Supplier,S3,Asset,Asset-12
+174,2026-06-03 13:34:00,Receive Contract Deliverable,Supplier,S3,Order,O-10
+175,2026-06-03 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-12
+175,2026-06-03 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-12
+175,2026-06-03 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-10
+175,2026-06-03 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,AcceptanceRecord,AR-O-10
+175,2026-06-03 15:34:00,Perform Business And Technical Acceptance,Supplier,S3,Requirement,R-12
+175,2026-06-03 15:34:00,Perform Business And Technical Acceptance,Supplier,S3,Asset,Asset-12
+175,2026-06-03 15:34:00,Perform Business And Technical Acceptance,Supplier,S3,Order,O-10
+175,2026-06-03 15:34:00,Perform Business And Technical Acceptance,Supplier,S3,AcceptanceRecord,AR-O-10
+178,2026-06-03 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Requirement,R-12
+178,2026-06-03 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Asset,Asset-12
+178,2026-06-03 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Order,O-10
+178,2026-06-03 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Invoice,INV-O-10
+178,2026-06-03 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,AcceptanceRecord,AR-O-10
+178,2026-06-03 15:39:00,Verify Accounting Prerequisites,Supplier,S3,Requirement,R-12
+178,2026-06-03 15:39:00,Verify Accounting Prerequisites,Supplier,S3,Asset,Asset-12
+178,2026-06-03 15:39:00,Verify Accounting Prerequisites,Supplier,S3,Order,O-10
+178,2026-06-03 15:39:00,Verify Accounting Prerequisites,Supplier,S3,Invoice,INV-O-10
+178,2026-06-03 15:39:00,Verify Accounting Prerequisites,Supplier,S3,AcceptanceRecord,AR-O-10
+179,2026-06-03 15:40:00,Confirm Accounting Date,Resource,AA-1,Asset,Asset-12
+180,2026-06-03 15:42:00,Create Or Update Intangible Asset Record,Resource,AA-1,Asset,Asset-12
+181,2026-06-03 15:44:00,Create Accounting Voucher,Resource,AA-1,Requirement,R-12
+181,2026-06-03 15:44:00,Create Accounting Voucher,Resource,AA-1,Asset,Asset-12
+181,2026-06-03 15:44:00,Create Accounting Voucher,Resource,AA-1,Order,O-10
+181,2026-06-03 15:44:00,Create Accounting Voucher,Resource,AA-1,Invoice,INV-O-10
+181,2026-06-03 15:44:00,Create Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-10
+181,2026-06-03 15:44:00,Create Accounting Voucher,Resource,AA-1,Voucher,V-O-10
+181,2026-06-03 15:44:00,Create Accounting Voucher,Supplier,S3,Requirement,R-12
+181,2026-06-03 15:44:00,Create Accounting Voucher,Supplier,S3,Asset,Asset-12
+181,2026-06-03 15:44:00,Create Accounting Voucher,Supplier,S3,Order,O-10
+181,2026-06-03 15:44:00,Create Accounting Voucher,Supplier,S3,Invoice,INV-O-10
+181,2026-06-03 15:44:00,Create Accounting Voucher,Supplier,S3,AcceptanceRecord,AR-O-10
+181,2026-06-03 15:44:00,Create Accounting Voucher,Supplier,S3,Voucher,V-O-10
+182,2026-06-03 16:04:00,Review Accounting Voucher,Resource,VR-1,Asset,Asset-12
+182,2026-06-03 16:04:00,Review Accounting Voucher,Resource,VR-1,Order,O-10
+182,2026-06-03 16:04:00,Review Accounting Voucher,Resource,VR-1,Invoice,INV-O-10
+182,2026-06-03 16:04:00,Review Accounting Voucher,Resource,VR-1,Voucher,V-O-10
+183,2026-06-03 16:06:00,Post Accounting Voucher,Resource,AA-1,Requirement,R-12
+183,2026-06-03 16:06:00,Post Accounting Voucher,Resource,AA-1,Asset,Asset-12
+183,2026-06-03 16:06:00,Post Accounting Voucher,Resource,AA-1,Order,O-10
+183,2026-06-03 16:06:00,Post Accounting Voucher,Resource,AA-1,Invoice,INV-O-10
+183,2026-06-03 16:06:00,Post Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-10
+183,2026-06-03 16:06:00,Post Accounting Voucher,Resource,AA-1,Voucher,V-O-10
+183,2026-06-03 16:06:00,Post Accounting Voucher,Supplier,S3,Requirement,R-12
+183,2026-06-03 16:06:00,Post Accounting Voucher,Supplier,S3,Asset,Asset-12
+183,2026-06-03 16:06:00,Post Accounting Voucher,Supplier,S3,Order,O-10
+183,2026-06-03 16:06:00,Post Accounting Voucher,Supplier,S3,Invoice,INV-O-10
+183,2026-06-03 16:06:00,Post Accounting Voucher,Supplier,S3,AcceptanceRecord,AR-O-10
+183,2026-06-03 16:06:00,Post Accounting Voucher,Supplier,S3,Voucher,V-O-10
+185,2026-06-05 09:31:00,Review Requirement,Resource,RR-1,Requirement,R-14
+185,2026-06-05 09:31:00,Review Requirement,Resource,RR-1,Asset,Asset-14
+188,2026-06-09 09:31:00,Review Requirement,Resource,RR-1,Requirement,R-15
+188,2026-06-09 09:31:00,Review Requirement,Resource,RR-1,Asset,Asset-15
+189,2026-06-09 10:01:00,Review Requirement,Resource,RR-1,Requirement,R-16
+189,2026-06-09 10:01:00,Review Requirement,Resource,RR-1,Asset,Asset-16
+190,2026-06-12 09:31:00,Obtain Quotations,Resource,PO-2,Requirement,R-13
+190,2026-06-12 09:31:00,Obtain Quotations,Resource,PO-2,Asset,Asset-13
+190,2026-06-12 09:31:00,Obtain Quotations,Supplier,S4,Requirement,R-13
+190,2026-06-12 09:31:00,Obtain Quotations,Supplier,S4,Asset,Asset-13
+190,2026-06-12 09:31:00,Obtain Quotations,Supplier,S2,Requirement,R-13
+190,2026-06-12 09:31:00,Obtain Quotations,Supplier,S2,Asset,Asset-13
+191,2026-06-12 13:31:00,Evaluate And Select Quotation,Resource,PO-2,Requirement,R-13
+191,2026-06-12 13:31:00,Evaluate And Select Quotation,Resource,PO-2,Asset,Asset-13
+191,2026-06-12 13:31:00,Evaluate And Select Quotation,Supplier,S4,Requirement,R-13
+191,2026-06-12 13:31:00,Evaluate And Select Quotation,Supplier,S4,Asset,Asset-13
+192,2026-06-12 13:32:00,Check Contract Need,Supplier,S4,Requirement,R-13
+192,2026-06-12 13:32:00,Check Contract Need,Supplier,S4,Asset,Asset-13
+193,2026-06-12 13:34:00,Create Purchase Order,Resource,PO-2,Requirement,R-13
+193,2026-06-12 13:34:00,Create Purchase Order,Resource,PO-2,Asset,Asset-13
+193,2026-06-12 13:34:00,Create Purchase Order,Resource,PO-2,Order,O-11
+193,2026-06-12 13:34:00,Create Purchase Order,Supplier,S4,Requirement,R-13
+193,2026-06-12 13:34:00,Create Purchase Order,Supplier,S4,Asset,Asset-13
+193,2026-06-12 13:34:00,Create Purchase Order,Supplier,S4,Order,O-11
+194,2026-06-12 15:34:00,Receive Invoice,Supplier,S4,Order,O-11
+194,2026-06-12 15:34:00,Receive Invoice,Supplier,S4,Invoice,INV-O-11
+195,2026-06-16 09:31:00,Obtain Quotations,Resource,PO-2,Requirement,R-14
+195,2026-06-16 09:31:00,Obtain Quotations,Resource,PO-2,Asset,Asset-14
+195,2026-06-16 09:31:00,Obtain Quotations,Supplier,S5,Requirement,R-14
+195,2026-06-16 09:31:00,Obtain Quotations,Supplier,S5,Asset,Asset-14
+195,2026-06-16 09:31:00,Obtain Quotations,Supplier,S3,Requirement,R-14
+195,2026-06-16 09:31:00,Obtain Quotations,Supplier,S3,Asset,Asset-14
+196,2026-06-16 13:31:00,Evaluate And Select Quotation,Resource,PO-1,Requirement,R-14
+196,2026-06-16 13:31:00,Evaluate And Select Quotation,Resource,PO-1,Asset,Asset-14
+196,2026-06-16 13:31:00,Evaluate And Select Quotation,Supplier,S5,Requirement,R-14
+196,2026-06-16 13:31:00,Evaluate And Select Quotation,Supplier,S5,Asset,Asset-14
+197,2026-06-16 13:32:00,Check Contract Need,Supplier,S5,Requirement,R-14
+197,2026-06-16 13:32:00,Check Contract Need,Supplier,S5,Asset,Asset-14
+198,2026-06-16 13:34:00,Create Purchase Order,Resource,PO-2,Requirement,R-14
+198,2026-06-16 13:34:00,Create Purchase Order,Resource,PO-2,Asset,Asset-14
+198,2026-06-16 13:34:00,Create Purchase Order,Resource,PO-2,Order,O-12
+198,2026-06-16 13:34:00,Create Purchase Order,Supplier,S5,Requirement,R-14
+198,2026-06-16 13:34:00,Create Purchase Order,Supplier,S5,Asset,Asset-14
+198,2026-06-16 13:34:00,Create Purchase Order,Supplier,S5,Order,O-12
+199,2026-06-16 15:34:00,Receive Invoice,Supplier,S5,Order,O-12
+199,2026-06-16 15:34:00,Receive Invoice,Supplier,S5,Invoice,INV-O-12
+200,2026-06-18 09:31:00,Obtain Quotations,Resource,PO-2,Requirement,R-15
+200,2026-06-18 09:31:00,Obtain Quotations,Resource,PO-2,Asset,Asset-15
+200,2026-06-18 09:31:00,Obtain Quotations,Supplier,S6,Requirement,R-15
+200,2026-06-18 09:31:00,Obtain Quotations,Supplier,S6,Asset,Asset-15
+200,2026-06-18 09:31:00,Obtain Quotations,Supplier,S5,Requirement,R-15
+200,2026-06-18 09:31:00,Obtain Quotations,Supplier,S5,Asset,Asset-15
+201,2026-06-18 10:01:00,Obtain Quotations,Resource,PO-1,Requirement,R-16
+201,2026-06-18 10:01:00,Obtain Quotations,Resource,PO-1,Asset,Asset-16
+201,2026-06-18 10:01:00,Obtain Quotations,Supplier,S4,Requirement,R-16
+201,2026-06-18 10:01:00,Obtain Quotations,Supplier,S4,Asset,Asset-16
+201,2026-06-18 10:01:00,Obtain Quotations,Supplier,S2,Requirement,R-16
+201,2026-06-18 10:01:00,Obtain Quotations,Supplier,S2,Asset,Asset-16
+201,2026-06-18 10:01:00,Obtain Quotations,Supplier,S1,Requirement,R-16
+201,2026-06-18 10:01:00,Obtain Quotations,Supplier,S1,Asset,Asset-16
+202,2026-06-18 13:31:00,Evaluate And Select Quotation,Resource,PO-1,Requirement,R-15
+202,2026-06-18 13:31:00,Evaluate And Select Quotation,Resource,PO-1,Asset,Asset-15
+202,2026-06-18 13:31:00,Evaluate And Select Quotation,Supplier,S5,Requirement,R-15
+202,2026-06-18 13:31:00,Evaluate And Select Quotation,Supplier,S5,Asset,Asset-15
+203,2026-06-18 13:32:00,Check Contract Need,Supplier,S5,Requirement,R-15
+203,2026-06-18 13:32:00,Check Contract Need,Supplier,S5,Asset,Asset-15
+204,2026-06-18 13:34:00,Create Purchase Order,Resource,PO-1,Requirement,R-15
+204,2026-06-18 13:34:00,Create Purchase Order,Resource,PO-1,Asset,Asset-15
+204,2026-06-18 13:34:00,Create Purchase Order,Resource,PO-1,Order,O-13
+204,2026-06-18 13:34:00,Create Purchase Order,Supplier,S5,Requirement,R-15
+204,2026-06-18 13:34:00,Create Purchase Order,Supplier,S5,Asset,Asset-15
+204,2026-06-18 13:34:00,Create Purchase Order,Supplier,S5,Order,O-13
+205,2026-06-18 14:01:00,Evaluate And Select Quotation,Resource,PO-2,Requirement,R-16
+205,2026-06-18 14:01:00,Evaluate And Select Quotation,Resource,PO-2,Asset,Asset-16
+205,2026-06-18 14:01:00,Evaluate And Select Quotation,Supplier,S1,Requirement,R-16
+205,2026-06-18 14:01:00,Evaluate And Select Quotation,Supplier,S1,Asset,Asset-16
+206,2026-06-18 14:02:00,Check Contract Need,Supplier,S1,Requirement,R-16
+206,2026-06-18 14:02:00,Check Contract Need,Supplier,S1,Asset,Asset-16
+207,2026-06-18 14:04:00,Create Purchase Order,Resource,PO-2,Requirement,R-16
+207,2026-06-18 14:04:00,Create Purchase Order,Resource,PO-2,Asset,Asset-16
+207,2026-06-18 14:04:00,Create Purchase Order,Resource,PO-2,Order,O-14
+207,2026-06-18 14:04:00,Create Purchase Order,Supplier,S1,Requirement,R-16
+207,2026-06-18 14:04:00,Create Purchase Order,Supplier,S1,Asset,Asset-16
+207,2026-06-18 14:04:00,Create Purchase Order,Supplier,S1,Order,O-14
+208,2026-06-18 15:34:00,Receive Invoice,Supplier,S5,Order,O-13
+208,2026-06-18 15:34:00,Receive Invoice,Supplier,S5,Invoice,INV-O-13
+209,2026-06-18 16:04:00,Receive Invoice,Supplier,S1,Order,O-14
+209,2026-06-18 16:04:00,Receive Invoice,Supplier,S1,Invoice,INV-O-14
+210,2026-06-19 13:34:00,Receive Contract Deliverable,Resource,PO-2,Requirement,R-13
+210,2026-06-19 13:34:00,Receive Contract Deliverable,Resource,PO-2,Asset,Asset-13
+210,2026-06-19 13:34:00,Receive Contract Deliverable,Resource,PO-2,Order,O-11
+210,2026-06-19 13:34:00,Receive Contract Deliverable,Supplier,S4,Requirement,R-13
+210,2026-06-19 13:34:00,Receive Contract Deliverable,Supplier,S4,Asset,Asset-13
+210,2026-06-19 13:34:00,Receive Contract Deliverable,Supplier,S4,Order,O-11
+211,2026-06-19 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-13
+211,2026-06-19 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-13
+211,2026-06-19 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-11
+211,2026-06-19 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,AcceptanceRecord,AR-O-11
+211,2026-06-19 15:34:00,Perform Business And Technical Acceptance,Supplier,S4,Requirement,R-13
+211,2026-06-19 15:34:00,Perform Business And Technical Acceptance,Supplier,S4,Asset,Asset-13
+211,2026-06-19 15:34:00,Perform Business And Technical Acceptance,Supplier,S4,Order,O-11
+211,2026-06-19 15:34:00,Perform Business And Technical Acceptance,Supplier,S4,AcceptanceRecord,AR-O-11
+214,2026-06-19 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Requirement,R-13
+214,2026-06-19 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Asset,Asset-13
+214,2026-06-19 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Order,O-11
+214,2026-06-19 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Invoice,INV-O-11
+214,2026-06-19 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,AcceptanceRecord,AR-O-11
+214,2026-06-19 15:39:00,Verify Accounting Prerequisites,Supplier,S4,Requirement,R-13
+214,2026-06-19 15:39:00,Verify Accounting Prerequisites,Supplier,S4,Asset,Asset-13
+214,2026-06-19 15:39:00,Verify Accounting Prerequisites,Supplier,S4,Order,O-11
+214,2026-06-19 15:39:00,Verify Accounting Prerequisites,Supplier,S4,Invoice,INV-O-11
+214,2026-06-19 15:39:00,Verify Accounting Prerequisites,Supplier,S4,AcceptanceRecord,AR-O-11
+215,2026-06-19 15:40:00,Confirm Accounting Date,Resource,AA-1,Asset,Asset-13
+216,2026-06-19 15:42:00,Create Or Update Intangible Asset Record,Resource,AA-1,Asset,Asset-13
+217,2026-06-19 15:44:00,Create Accounting Voucher,Resource,AA-1,Requirement,R-13
+217,2026-06-19 15:44:00,Create Accounting Voucher,Resource,AA-1,Asset,Asset-13
+217,2026-06-19 15:44:00,Create Accounting Voucher,Resource,AA-1,Order,O-11
+217,2026-06-19 15:44:00,Create Accounting Voucher,Resource,AA-1,Invoice,INV-O-11
+217,2026-06-19 15:44:00,Create Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-11
+217,2026-06-19 15:44:00,Create Accounting Voucher,Resource,AA-1,Voucher,V-O-11
+217,2026-06-19 15:44:00,Create Accounting Voucher,Supplier,S4,Requirement,R-13
+217,2026-06-19 15:44:00,Create Accounting Voucher,Supplier,S4,Asset,Asset-13
+217,2026-06-19 15:44:00,Create Accounting Voucher,Supplier,S4,Order,O-11
+217,2026-06-19 15:44:00,Create Accounting Voucher,Supplier,S4,Invoice,INV-O-11
+217,2026-06-19 15:44:00,Create Accounting Voucher,Supplier,S4,AcceptanceRecord,AR-O-11
+217,2026-06-19 15:44:00,Create Accounting Voucher,Supplier,S4,Voucher,V-O-11
+218,2026-06-19 16:04:00,Review Accounting Voucher,Resource,VR-1,Asset,Asset-13
+218,2026-06-19 16:04:00,Review Accounting Voucher,Resource,VR-1,Order,O-11
+218,2026-06-19 16:04:00,Review Accounting Voucher,Resource,VR-1,Invoice,INV-O-11
+218,2026-06-19 16:04:00,Review Accounting Voucher,Resource,VR-1,Voucher,V-O-11
+219,2026-06-19 16:06:00,Post Accounting Voucher,Resource,AA-1,Requirement,R-13
+219,2026-06-19 16:06:00,Post Accounting Voucher,Resource,AA-1,Asset,Asset-13
+219,2026-06-19 16:06:00,Post Accounting Voucher,Resource,AA-1,Order,O-11
+219,2026-06-19 16:06:00,Post Accounting Voucher,Resource,AA-1,Invoice,INV-O-11
+219,2026-06-19 16:06:00,Post Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-11
+219,2026-06-19 16:06:00,Post Accounting Voucher,Resource,AA-1,Voucher,V-O-11
+219,2026-06-19 16:06:00,Post Accounting Voucher,Supplier,S4,Requirement,R-13
+219,2026-06-19 16:06:00,Post Accounting Voucher,Supplier,S4,Asset,Asset-13
+219,2026-06-19 16:06:00,Post Accounting Voucher,Supplier,S4,Order,O-11
+219,2026-06-19 16:06:00,Post Accounting Voucher,Supplier,S4,Invoice,INV-O-11
+219,2026-06-19 16:06:00,Post Accounting Voucher,Supplier,S4,AcceptanceRecord,AR-O-11
+219,2026-06-19 16:06:00,Post Accounting Voucher,Supplier,S4,Voucher,V-O-11
+220,2026-06-23 13:34:00,Receive Contract Deliverable,Resource,PO-2,Requirement,R-14
+220,2026-06-23 13:34:00,Receive Contract Deliverable,Resource,PO-2,Asset,Asset-14
+220,2026-06-23 13:34:00,Receive Contract Deliverable,Resource,PO-2,Order,O-12
+220,2026-06-23 13:34:00,Receive Contract Deliverable,Supplier,S5,Requirement,R-14
+220,2026-06-23 13:34:00,Receive Contract Deliverable,Supplier,S5,Asset,Asset-14
+220,2026-06-23 13:34:00,Receive Contract Deliverable,Supplier,S5,Order,O-12
+221,2026-06-23 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-14
+221,2026-06-23 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-14
+221,2026-06-23 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-12
+221,2026-06-23 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,AcceptanceRecord,AR-O-12
+221,2026-06-23 15:34:00,Perform Business And Technical Acceptance,Supplier,S5,Requirement,R-14
+221,2026-06-23 15:34:00,Perform Business And Technical Acceptance,Supplier,S5,Asset,Asset-14
+221,2026-06-23 15:34:00,Perform Business And Technical Acceptance,Supplier,S5,Order,O-12
+221,2026-06-23 15:34:00,Perform Business And Technical Acceptance,Supplier,S5,AcceptanceRecord,AR-O-12
+224,2026-06-23 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Requirement,R-14
+224,2026-06-23 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Asset,Asset-14
+224,2026-06-23 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Order,O-12
+224,2026-06-23 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Invoice,INV-O-12
+224,2026-06-23 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,AcceptanceRecord,AR-O-12
+224,2026-06-23 15:39:00,Verify Accounting Prerequisites,Supplier,S5,Requirement,R-14
+224,2026-06-23 15:39:00,Verify Accounting Prerequisites,Supplier,S5,Asset,Asset-14
+224,2026-06-23 15:39:00,Verify Accounting Prerequisites,Supplier,S5,Order,O-12
+224,2026-06-23 15:39:00,Verify Accounting Prerequisites,Supplier,S5,Invoice,INV-O-12
+224,2026-06-23 15:39:00,Verify Accounting Prerequisites,Supplier,S5,AcceptanceRecord,AR-O-12
+225,2026-06-23 15:40:00,Confirm Accounting Date,Resource,AA-1,Asset,Asset-14
+226,2026-06-23 15:42:00,Create Or Update Intangible Asset Record,Resource,AA-1,Asset,Asset-14
+227,2026-06-23 15:44:00,Create Accounting Voucher,Resource,AA-1,Requirement,R-14
+227,2026-06-23 15:44:00,Create Accounting Voucher,Resource,AA-1,Asset,Asset-14
+227,2026-06-23 15:44:00,Create Accounting Voucher,Resource,AA-1,Order,O-12
+227,2026-06-23 15:44:00,Create Accounting Voucher,Resource,AA-1,Invoice,INV-O-12
+227,2026-06-23 15:44:00,Create Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-12
+227,2026-06-23 15:44:00,Create Accounting Voucher,Resource,AA-1,Voucher,V-O-12
+227,2026-06-23 15:44:00,Create Accounting Voucher,Supplier,S5,Requirement,R-14
+227,2026-06-23 15:44:00,Create Accounting Voucher,Supplier,S5,Asset,Asset-14
+227,2026-06-23 15:44:00,Create Accounting Voucher,Supplier,S5,Order,O-12
+227,2026-06-23 15:44:00,Create Accounting Voucher,Supplier,S5,Invoice,INV-O-12
+227,2026-06-23 15:44:00,Create Accounting Voucher,Supplier,S5,AcceptanceRecord,AR-O-12
+227,2026-06-23 15:44:00,Create Accounting Voucher,Supplier,S5,Voucher,V-O-12
+228,2026-06-23 16:04:00,Review Accounting Voucher,Resource,VR-1,Asset,Asset-14
+228,2026-06-23 16:04:00,Review Accounting Voucher,Resource,VR-1,Order,O-12
+228,2026-06-23 16:04:00,Review Accounting Voucher,Resource,VR-1,Invoice,INV-O-12
+228,2026-06-23 16:04:00,Review Accounting Voucher,Resource,VR-1,Voucher,V-O-12
+229,2026-06-23 16:06:00,Post Accounting Voucher,Resource,AA-1,Requirement,R-14
+229,2026-06-23 16:06:00,Post Accounting Voucher,Resource,AA-1,Asset,Asset-14
+229,2026-06-23 16:06:00,Post Accounting Voucher,Resource,AA-1,Order,O-12
+229,2026-06-23 16:06:00,Post Accounting Voucher,Resource,AA-1,Invoice,INV-O-12
+229,2026-06-23 16:06:00,Post Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-12
+229,2026-06-23 16:06:00,Post Accounting Voucher,Resource,AA-1,Voucher,V-O-12
+229,2026-06-23 16:06:00,Post Accounting Voucher,Supplier,S5,Requirement,R-14
+229,2026-06-23 16:06:00,Post Accounting Voucher,Supplier,S5,Asset,Asset-14
+229,2026-06-23 16:06:00,Post Accounting Voucher,Supplier,S5,Order,O-12
+229,2026-06-23 16:06:00,Post Accounting Voucher,Supplier,S5,Invoice,INV-O-12
+229,2026-06-23 16:06:00,Post Accounting Voucher,Supplier,S5,AcceptanceRecord,AR-O-12
+229,2026-06-23 16:06:00,Post Accounting Voucher,Supplier,S5,Voucher,V-O-12
+230,2026-06-25 13:34:00,Receive Contract Deliverable,Resource,PO-1,Requirement,R-15
+230,2026-06-25 13:34:00,Receive Contract Deliverable,Resource,PO-1,Asset,Asset-15
+230,2026-06-25 13:34:00,Receive Contract Deliverable,Resource,PO-1,Order,O-13
+230,2026-06-25 13:34:00,Receive Contract Deliverable,Supplier,S5,Requirement,R-15
+230,2026-06-25 13:34:00,Receive Contract Deliverable,Supplier,S5,Asset,Asset-15
+230,2026-06-25 13:34:00,Receive Contract Deliverable,Supplier,S5,Order,O-13
+231,2026-06-25 14:04:00,Receive Contract Deliverable,Resource,PO-1,Requirement,R-16
+231,2026-06-25 14:04:00,Receive Contract Deliverable,Resource,PO-1,Asset,Asset-16
+231,2026-06-25 14:04:00,Receive Contract Deliverable,Resource,PO-1,Order,O-14
+231,2026-06-25 14:04:00,Receive Contract Deliverable,Supplier,S1,Requirement,R-16
+231,2026-06-25 14:04:00,Receive Contract Deliverable,Supplier,S1,Asset,Asset-16
+231,2026-06-25 14:04:00,Receive Contract Deliverable,Supplier,S1,Order,O-14
+232,2026-06-25 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-15
+232,2026-06-25 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-15
+232,2026-06-25 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-13
+232,2026-06-25 15:34:00,Perform Business And Technical Acceptance,Supplier,S5,Requirement,R-15
+232,2026-06-25 15:34:00,Perform Business And Technical Acceptance,Supplier,S5,Asset,Asset-15
+232,2026-06-25 15:34:00,Perform Business And Technical Acceptance,Supplier,S5,Order,O-13
+233,2026-06-26 09:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-16
+233,2026-06-26 09:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-16
+233,2026-06-26 09:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-14
+233,2026-06-26 09:34:00,Perform Business And Technical Acceptance,Resource,AT-1,AcceptanceRecord,AR-O-14
+233,2026-06-26 09:34:00,Perform Business And Technical Acceptance,Supplier,S1,Requirement,R-16
+233,2026-06-26 09:34:00,Perform Business And Technical Acceptance,Supplier,S1,Asset,Asset-16
+233,2026-06-26 09:34:00,Perform Business And Technical Acceptance,Supplier,S1,Order,O-14
+233,2026-06-26 09:34:00,Perform Business And Technical Acceptance,Supplier,S1,AcceptanceRecord,AR-O-14
+236,2026-06-26 09:39:00,Verify Accounting Prerequisites,Resource,AA-1,Requirement,R-16
+236,2026-06-26 09:39:00,Verify Accounting Prerequisites,Resource,AA-1,Asset,Asset-16
+236,2026-06-26 09:39:00,Verify Accounting Prerequisites,Resource,AA-1,Order,O-14
+236,2026-06-26 09:39:00,Verify Accounting Prerequisites,Resource,AA-1,Invoice,INV-O-14
+236,2026-06-26 09:39:00,Verify Accounting Prerequisites,Resource,AA-1,AcceptanceRecord,AR-O-14
+236,2026-06-26 09:39:00,Verify Accounting Prerequisites,Supplier,S1,Requirement,R-16
+236,2026-06-26 09:39:00,Verify Accounting Prerequisites,Supplier,S1,Asset,Asset-16
+236,2026-06-26 09:39:00,Verify Accounting Prerequisites,Supplier,S1,Order,O-14
+236,2026-06-26 09:39:00,Verify Accounting Prerequisites,Supplier,S1,Invoice,INV-O-14
+236,2026-06-26 09:39:00,Verify Accounting Prerequisites,Supplier,S1,AcceptanceRecord,AR-O-14
+237,2026-06-26 09:40:00,Confirm Accounting Date,Resource,AA-1,Asset,Asset-16
+238,2026-06-26 09:42:00,Create Or Update Intangible Asset Record,Resource,AA-1,Asset,Asset-16
+239,2026-06-26 09:44:00,Create Accounting Voucher,Resource,AA-1,Requirement,R-16
+239,2026-06-26 09:44:00,Create Accounting Voucher,Resource,AA-1,Asset,Asset-16
+239,2026-06-26 09:44:00,Create Accounting Voucher,Resource,AA-1,Order,O-14
+239,2026-06-26 09:44:00,Create Accounting Voucher,Resource,AA-1,Invoice,INV-O-14
+239,2026-06-26 09:44:00,Create Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-14
+239,2026-06-26 09:44:00,Create Accounting Voucher,Resource,AA-1,Voucher,V-O-14
+239,2026-06-26 09:44:00,Create Accounting Voucher,Supplier,S1,Requirement,R-16
+239,2026-06-26 09:44:00,Create Accounting Voucher,Supplier,S1,Asset,Asset-16
+239,2026-06-26 09:44:00,Create Accounting Voucher,Supplier,S1,Order,O-14
+239,2026-06-26 09:44:00,Create Accounting Voucher,Supplier,S1,Invoice,INV-O-14
+239,2026-06-26 09:44:00,Create Accounting Voucher,Supplier,S1,AcceptanceRecord,AR-O-14
+239,2026-06-26 09:44:00,Create Accounting Voucher,Supplier,S1,Voucher,V-O-14
+240,2026-06-26 10:04:00,Review Accounting Voucher,Resource,VR-1,Asset,Asset-16
+240,2026-06-26 10:04:00,Review Accounting Voucher,Resource,VR-1,Order,O-14
+240,2026-06-26 10:04:00,Review Accounting Voucher,Resource,VR-1,Invoice,INV-O-14
+240,2026-06-26 10:04:00,Review Accounting Voucher,Resource,VR-1,Voucher,V-O-14
+241,2026-06-26 10:34:00,Modify Accounting Voucher,Resource,AA-1,Asset,Asset-16
+241,2026-06-26 10:34:00,Modify Accounting Voucher,Resource,AA-1,Order,O-14
+241,2026-06-26 10:34:00,Modify Accounting Voucher,Resource,AA-1,Invoice,INV-O-14
+241,2026-06-26 10:34:00,Modify Accounting Voucher,Resource,AA-1,Voucher,V-O-14
+242,2026-06-26 10:54:00,Review Accounting Voucher,Resource,VR-1,Asset,Asset-16
+242,2026-06-26 10:54:00,Review Accounting Voucher,Resource,VR-1,Order,O-14
+242,2026-06-26 10:54:00,Review Accounting Voucher,Resource,VR-1,Invoice,INV-O-14
+242,2026-06-26 10:54:00,Review Accounting Voucher,Resource,VR-1,Voucher,V-O-14
+243,2026-06-26 10:56:00,Post Accounting Voucher,Resource,AA-1,Requirement,R-16
+243,2026-06-26 10:56:00,Post Accounting Voucher,Resource,AA-1,Asset,Asset-16
+243,2026-06-26 10:56:00,Post Accounting Voucher,Resource,AA-1,Order,O-14
+243,2026-06-26 10:56:00,Post Accounting Voucher,Resource,AA-1,Invoice,INV-O-14
+243,2026-06-26 10:56:00,Post Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-14
+243,2026-06-26 10:56:00,Post Accounting Voucher,Resource,AA-1,Voucher,V-O-14
+243,2026-06-26 10:56:00,Post Accounting Voucher,Supplier,S1,Requirement,R-16
+243,2026-06-26 10:56:00,Post Accounting Voucher,Supplier,S1,Asset,Asset-16
+243,2026-06-26 10:56:00,Post Accounting Voucher,Supplier,S1,Order,O-14
+243,2026-06-26 10:56:00,Post Accounting Voucher,Supplier,S1,Invoice,INV-O-14
+243,2026-06-26 10:56:00,Post Accounting Voucher,Supplier,S1,AcceptanceRecord,AR-O-14
+243,2026-06-26 10:56:00,Post Accounting Voucher,Supplier,S1,Voucher,V-O-14
+245,2026-06-29 09:31:00,Review Requirement,Resource,RR-1,Requirement,R-17
+245,2026-06-29 09:31:00,Review Requirement,Resource,RR-1,Asset,Asset-17
+248,2026-06-30 09:31:00,Review Requirement,Resource,RR-1,Requirement,R-18
+248,2026-06-30 09:31:00,Review Requirement,Resource,RR-1,Asset,Asset-18
+249,2026-06-30 10:01:00,Review Requirement,Resource,RR-1,Requirement,R-19
+249,2026-06-30 10:01:00,Review Requirement,Resource,RR-1,Asset,Asset-19
+250,2026-07-08 09:31:00,Obtain Quotations,Resource,PO-2,Requirement,R-17
+250,2026-07-08 09:31:00,Obtain Quotations,Resource,PO-2,Asset,Asset-17
+250,2026-07-08 09:31:00,Obtain Quotations,Supplier,S4,Requirement,R-17
+250,2026-07-08 09:31:00,Obtain Quotations,Supplier,S4,Asset,Asset-17
+250,2026-07-08 09:31:00,Obtain Quotations,Supplier,S3,Requirement,R-17
+250,2026-07-08 09:31:00,Obtain Quotations,Supplier,S3,Asset,Asset-17
+250,2026-07-08 09:31:00,Obtain Quotations,Supplier,S1,Requirement,R-17
+250,2026-07-08 09:31:00,Obtain Quotations,Supplier,S1,Asset,Asset-17
+251,2026-07-08 13:31:00,Evaluate And Select Quotation,Resource,PO-2,Requirement,R-17
+251,2026-07-08 13:31:00,Evaluate And Select Quotation,Resource,PO-2,Asset,Asset-17
+251,2026-07-08 13:31:00,Evaluate And Select Quotation,Supplier,S3,Requirement,R-17
+251,2026-07-08 13:31:00,Evaluate And Select Quotation,Supplier,S3,Asset,Asset-17
+252,2026-07-08 13:32:00,Check Contract Need,Supplier,S3,Requirement,R-17
+252,2026-07-08 13:32:00,Check Contract Need,Supplier,S3,Asset,Asset-17
+253,2026-07-08 13:34:00,Create Purchase Order,Resource,PO-1,Requirement,R-17
+253,2026-07-08 13:34:00,Create Purchase Order,Resource,PO-1,Asset,Asset-17
+253,2026-07-08 13:34:00,Create Purchase Order,Resource,PO-1,Order,O-15
+253,2026-07-08 13:34:00,Create Purchase Order,Supplier,S3,Requirement,R-17
+253,2026-07-08 13:34:00,Create Purchase Order,Supplier,S3,Asset,Asset-17
+253,2026-07-08 13:34:00,Create Purchase Order,Supplier,S3,Order,O-15
+254,2026-07-08 15:34:00,Receive Invoice,Supplier,S3,Order,O-15
+254,2026-07-08 15:34:00,Receive Invoice,Supplier,S3,Invoice,INV-O-15
+255,2026-07-09 09:31:00,Obtain Quotations,Resource,PO-1,Requirement,R-18
+255,2026-07-09 09:31:00,Obtain Quotations,Resource,PO-1,Asset,Asset-18
+255,2026-07-09 09:31:00,Obtain Quotations,Supplier,S4,Requirement,R-18
+255,2026-07-09 09:31:00,Obtain Quotations,Supplier,S4,Asset,Asset-18
+255,2026-07-09 09:31:00,Obtain Quotations,Supplier,S2,Requirement,R-18
+255,2026-07-09 09:31:00,Obtain Quotations,Supplier,S2,Asset,Asset-18
+256,2026-07-09 10:01:00,Obtain Quotations,Resource,PO-2,Requirement,R-19
+256,2026-07-09 10:01:00,Obtain Quotations,Resource,PO-2,Asset,Asset-19
+256,2026-07-09 10:01:00,Obtain Quotations,Supplier,S5,Requirement,R-19
+256,2026-07-09 10:01:00,Obtain Quotations,Supplier,S5,Asset,Asset-19
+256,2026-07-09 10:01:00,Obtain Quotations,Supplier,S3,Requirement,R-19
+256,2026-07-09 10:01:00,Obtain Quotations,Supplier,S3,Asset,Asset-19
+257,2026-07-09 13:31:00,Evaluate And Select Quotation,Resource,PO-2,Requirement,R-18
+257,2026-07-09 13:31:00,Evaluate And Select Quotation,Resource,PO-2,Asset,Asset-18
+257,2026-07-09 13:31:00,Evaluate And Select Quotation,Supplier,S2,Requirement,R-18
+257,2026-07-09 13:31:00,Evaluate And Select Quotation,Supplier,S2,Asset,Asset-18
+258,2026-07-09 13:32:00,Check Contract Need,Supplier,S2,Requirement,R-18
+258,2026-07-09 13:32:00,Check Contract Need,Supplier,S2,Asset,Asset-18
+259,2026-07-09 13:34:00,Create Purchase Order,Resource,PO-2,Requirement,R-18
+259,2026-07-09 13:34:00,Create Purchase Order,Resource,PO-2,Asset,Asset-18
+259,2026-07-09 13:34:00,Create Purchase Order,Resource,PO-2,Order,O-16
+259,2026-07-09 13:34:00,Create Purchase Order,Supplier,S2,Requirement,R-18
+259,2026-07-09 13:34:00,Create Purchase Order,Supplier,S2,Asset,Asset-18
+259,2026-07-09 13:34:00,Create Purchase Order,Supplier,S2,Order,O-16
+260,2026-07-09 14:01:00,Evaluate And Select Quotation,Resource,PO-1,Requirement,R-19
+260,2026-07-09 14:01:00,Evaluate And Select Quotation,Resource,PO-1,Asset,Asset-19
+260,2026-07-09 14:01:00,Evaluate And Select Quotation,Supplier,S5,Requirement,R-19
+260,2026-07-09 14:01:00,Evaluate And Select Quotation,Supplier,S5,Asset,Asset-19
+261,2026-07-09 14:02:00,Check Contract Need,Supplier,S5,Requirement,R-19
+261,2026-07-09 14:02:00,Check Contract Need,Supplier,S5,Asset,Asset-19
+262,2026-07-09 14:04:00,Create Purchase Order,Resource,PO-1,Requirement,R-19
+262,2026-07-09 14:04:00,Create Purchase Order,Resource,PO-1,Asset,Asset-19
+262,2026-07-09 14:04:00,Create Purchase Order,Resource,PO-1,Order,O-17
+262,2026-07-09 14:04:00,Create Purchase Order,Supplier,S5,Requirement,R-19
+262,2026-07-09 14:04:00,Create Purchase Order,Supplier,S5,Asset,Asset-19
+262,2026-07-09 14:04:00,Create Purchase Order,Supplier,S5,Order,O-17
+263,2026-07-09 15:34:00,Receive Invoice,Supplier,S2,Order,O-16
+263,2026-07-09 15:34:00,Receive Invoice,Supplier,S2,Invoice,INV-O-16
+264,2026-07-09 16:04:00,Receive Invoice,Supplier,S5,Order,O-17
+264,2026-07-09 16:04:00,Receive Invoice,Supplier,S5,Invoice,INV-O-17
+266,2026-07-15 09:31:00,Review Requirement,Resource,RR-1,Requirement,R-20
+266,2026-07-15 09:31:00,Review Requirement,Resource,RR-1,Asset,Asset-20
+267,2026-07-15 13:34:00,Receive Contract Deliverable,Resource,PO-1,Requirement,R-17
+267,2026-07-15 13:34:00,Receive Contract Deliverable,Resource,PO-1,Asset,Asset-17
+267,2026-07-15 13:34:00,Receive Contract Deliverable,Resource,PO-1,Order,O-15
+267,2026-07-15 13:34:00,Receive Contract Deliverable,Supplier,S3,Requirement,R-17
+267,2026-07-15 13:34:00,Receive Contract Deliverable,Supplier,S3,Asset,Asset-17
+267,2026-07-15 13:34:00,Receive Contract Deliverable,Supplier,S3,Order,O-15
+268,2026-07-15 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-17
+268,2026-07-15 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-17
+268,2026-07-15 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-15
+268,2026-07-15 15:34:00,Perform Business And Technical Acceptance,Supplier,S3,Requirement,R-17
+268,2026-07-15 15:34:00,Perform Business And Technical Acceptance,Supplier,S3,Asset,Asset-17
+268,2026-07-15 15:34:00,Perform Business And Technical Acceptance,Supplier,S3,Order,O-15
+269,2026-07-16 13:34:00,Receive Contract Deliverable,Resource,PO-2,Requirement,R-18
+269,2026-07-16 13:34:00,Receive Contract Deliverable,Resource,PO-2,Asset,Asset-18
+269,2026-07-16 13:34:00,Receive Contract Deliverable,Resource,PO-2,Order,O-16
+269,2026-07-16 13:34:00,Receive Contract Deliverable,Supplier,S2,Requirement,R-18
+269,2026-07-16 13:34:00,Receive Contract Deliverable,Supplier,S2,Asset,Asset-18
+269,2026-07-16 13:34:00,Receive Contract Deliverable,Supplier,S2,Order,O-16
+270,2026-07-16 14:04:00,Receive Contract Deliverable,Resource,PO-2,Requirement,R-19
+270,2026-07-16 14:04:00,Receive Contract Deliverable,Resource,PO-2,Asset,Asset-19
+270,2026-07-16 14:04:00,Receive Contract Deliverable,Resource,PO-2,Order,O-17
+270,2026-07-16 14:04:00,Receive Contract Deliverable,Supplier,S5,Requirement,R-19
+270,2026-07-16 14:04:00,Receive Contract Deliverable,Supplier,S5,Asset,Asset-19
+270,2026-07-16 14:04:00,Receive Contract Deliverable,Supplier,S5,Order,O-17
+271,2026-07-16 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-18
+271,2026-07-16 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-18
+271,2026-07-16 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-16
+271,2026-07-16 15:34:00,Perform Business And Technical Acceptance,Supplier,S2,Requirement,R-18
+271,2026-07-16 15:34:00,Perform Business And Technical Acceptance,Supplier,S2,Asset,Asset-18
+271,2026-07-16 15:34:00,Perform Business And Technical Acceptance,Supplier,S2,Order,O-16
+272,2026-07-17 09:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-19
+272,2026-07-17 09:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-19
+272,2026-07-17 09:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-17
+272,2026-07-17 09:34:00,Perform Business And Technical Acceptance,Resource,AT-1,AcceptanceRecord,AR-O-17
+272,2026-07-17 09:34:00,Perform Business And Technical Acceptance,Supplier,S5,Requirement,R-19
+272,2026-07-17 09:34:00,Perform Business And Technical Acceptance,Supplier,S5,Asset,Asset-19
+272,2026-07-17 09:34:00,Perform Business And Technical Acceptance,Supplier,S5,Order,O-17
+272,2026-07-17 09:34:00,Perform Business And Technical Acceptance,Supplier,S5,AcceptanceRecord,AR-O-17
+275,2026-07-17 09:39:00,Verify Accounting Prerequisites,Resource,AA-1,Requirement,R-19
+275,2026-07-17 09:39:00,Verify Accounting Prerequisites,Resource,AA-1,Asset,Asset-19
+275,2026-07-17 09:39:00,Verify Accounting Prerequisites,Resource,AA-1,Order,O-17
+275,2026-07-17 09:39:00,Verify Accounting Prerequisites,Resource,AA-1,Invoice,INV-O-17
+275,2026-07-17 09:39:00,Verify Accounting Prerequisites,Resource,AA-1,AcceptanceRecord,AR-O-17
+275,2026-07-17 09:39:00,Verify Accounting Prerequisites,Supplier,S5,Requirement,R-19
+275,2026-07-17 09:39:00,Verify Accounting Prerequisites,Supplier,S5,Asset,Asset-19
+275,2026-07-17 09:39:00,Verify Accounting Prerequisites,Supplier,S5,Order,O-17
+275,2026-07-17 09:39:00,Verify Accounting Prerequisites,Supplier,S5,Invoice,INV-O-17
+275,2026-07-17 09:39:00,Verify Accounting Prerequisites,Supplier,S5,AcceptanceRecord,AR-O-17
+276,2026-07-17 09:40:00,Confirm Accounting Date,Resource,AA-1,Asset,Asset-19
+277,2026-07-17 09:42:00,Create Or Update Intangible Asset Record,Resource,AA-1,Asset,Asset-19
+278,2026-07-17 09:44:00,Create Accounting Voucher,Resource,AA-1,Requirement,R-19
+278,2026-07-17 09:44:00,Create Accounting Voucher,Resource,AA-1,Asset,Asset-19
+278,2026-07-17 09:44:00,Create Accounting Voucher,Resource,AA-1,Order,O-17
+278,2026-07-17 09:44:00,Create Accounting Voucher,Resource,AA-1,Invoice,INV-O-17
+278,2026-07-17 09:44:00,Create Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-17
+278,2026-07-17 09:44:00,Create Accounting Voucher,Resource,AA-1,Voucher,V-O-17
+278,2026-07-17 09:44:00,Create Accounting Voucher,Supplier,S5,Requirement,R-19
+278,2026-07-17 09:44:00,Create Accounting Voucher,Supplier,S5,Asset,Asset-19
+278,2026-07-17 09:44:00,Create Accounting Voucher,Supplier,S5,Order,O-17
+278,2026-07-17 09:44:00,Create Accounting Voucher,Supplier,S5,Invoice,INV-O-17
+278,2026-07-17 09:44:00,Create Accounting Voucher,Supplier,S5,AcceptanceRecord,AR-O-17
+278,2026-07-17 09:44:00,Create Accounting Voucher,Supplier,S5,Voucher,V-O-17
+279,2026-07-17 10:04:00,Review Accounting Voucher,Resource,VR-1,Asset,Asset-19
+279,2026-07-17 10:04:00,Review Accounting Voucher,Resource,VR-1,Order,O-17
+279,2026-07-17 10:04:00,Review Accounting Voucher,Resource,VR-1,Invoice,INV-O-17
+279,2026-07-17 10:04:00,Review Accounting Voucher,Resource,VR-1,Voucher,V-O-17
+280,2026-07-17 10:06:00,Post Accounting Voucher,Resource,AA-1,Requirement,R-19
+280,2026-07-17 10:06:00,Post Accounting Voucher,Resource,AA-1,Asset,Asset-19
+280,2026-07-17 10:06:00,Post Accounting Voucher,Resource,AA-1,Order,O-17
+280,2026-07-17 10:06:00,Post Accounting Voucher,Resource,AA-1,Invoice,INV-O-17
+280,2026-07-17 10:06:00,Post Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-17
+280,2026-07-17 10:06:00,Post Accounting Voucher,Resource,AA-1,Voucher,V-O-17
+280,2026-07-17 10:06:00,Post Accounting Voucher,Supplier,S5,Requirement,R-19
+280,2026-07-17 10:06:00,Post Accounting Voucher,Supplier,S5,Asset,Asset-19
+280,2026-07-17 10:06:00,Post Accounting Voucher,Supplier,S5,Order,O-17
+280,2026-07-17 10:06:00,Post Accounting Voucher,Supplier,S5,Invoice,INV-O-17
+280,2026-07-17 10:06:00,Post Accounting Voucher,Supplier,S5,AcceptanceRecord,AR-O-17
+280,2026-07-17 10:06:00,Post Accounting Voucher,Supplier,S5,Voucher,V-O-17
+282,2026-07-24 09:31:00,Obtain Quotations,Resource,PO-2,Requirement,R-20
+282,2026-07-24 09:31:00,Obtain Quotations,Resource,PO-2,Asset,Asset-20
+282,2026-07-24 09:31:00,Obtain Quotations,Supplier,S6,Requirement,R-20
+282,2026-07-24 09:31:00,Obtain Quotations,Supplier,S6,Asset,Asset-20
+282,2026-07-24 09:31:00,Obtain Quotations,Supplier,S5,Requirement,R-20
+282,2026-07-24 09:31:00,Obtain Quotations,Supplier,S5,Asset,Asset-20
+283,2026-07-24 09:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-18
+283,2026-07-24 09:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-18
+283,2026-07-24 09:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-16
+283,2026-07-24 09:34:00,Perform Business And Technical Acceptance,Supplier,S2,Requirement,R-18
+283,2026-07-24 09:34:00,Perform Business And Technical Acceptance,Supplier,S2,Asset,Asset-18
+283,2026-07-24 09:34:00,Perform Business And Technical Acceptance,Supplier,S2,Order,O-16
+284,2026-07-24 13:31:00,Evaluate And Select Quotation,Resource,PO-1,Requirement,R-20
+284,2026-07-24 13:31:00,Evaluate And Select Quotation,Resource,PO-1,Asset,Asset-20
+284,2026-07-24 13:31:00,Evaluate And Select Quotation,Supplier,S5,Requirement,R-20
+284,2026-07-24 13:31:00,Evaluate And Select Quotation,Supplier,S5,Asset,Asset-20
+285,2026-07-24 13:32:00,Check Contract Need,Supplier,S5,Requirement,R-20
+285,2026-07-24 13:32:00,Check Contract Need,Supplier,S5,Asset,Asset-20
+286,2026-07-24 13:34:00,Create Purchase Order,Resource,PO-1,Requirement,R-20
+286,2026-07-24 13:34:00,Create Purchase Order,Resource,PO-1,Asset,Asset-20
+286,2026-07-24 13:34:00,Create Purchase Order,Resource,PO-1,Order,O-18
+286,2026-07-24 13:34:00,Create Purchase Order,Supplier,S5,Requirement,R-20
+286,2026-07-24 13:34:00,Create Purchase Order,Supplier,S5,Asset,Asset-20
+286,2026-07-24 13:34:00,Create Purchase Order,Supplier,S5,Order,O-18
+287,2026-07-24 15:34:00,Receive Invoice,Supplier,S5,Order,O-18
+287,2026-07-24 15:34:00,Receive Invoice,Supplier,S5,Invoice,INV-O-18
+288,2026-07-31 13:34:00,Receive Contract Deliverable,Resource,PO-1,Requirement,R-20
+288,2026-07-31 13:34:00,Receive Contract Deliverable,Resource,PO-1,Asset,Asset-20
+288,2026-07-31 13:34:00,Receive Contract Deliverable,Resource,PO-1,Order,O-18
+288,2026-07-31 13:34:00,Receive Contract Deliverable,Supplier,S5,Requirement,R-20
+288,2026-07-31 13:34:00,Receive Contract Deliverable,Supplier,S5,Asset,Asset-20
+288,2026-07-31 13:34:00,Receive Contract Deliverable,Supplier,S5,Order,O-18
+289,2026-07-31 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-20
+289,2026-07-31 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-20
+289,2026-07-31 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-18
+289,2026-07-31 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,AcceptanceRecord,AR-O-18
+289,2026-07-31 15:34:00,Perform Business And Technical Acceptance,Supplier,S5,Requirement,R-20
+289,2026-07-31 15:34:00,Perform Business And Technical Acceptance,Supplier,S5,Asset,Asset-20
+289,2026-07-31 15:34:00,Perform Business And Technical Acceptance,Supplier,S5,Order,O-18
+289,2026-07-31 15:34:00,Perform Business And Technical Acceptance,Supplier,S5,AcceptanceRecord,AR-O-18
+292,2026-07-31 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Requirement,R-20
+292,2026-07-31 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Asset,Asset-20
+292,2026-07-31 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Order,O-18
+292,2026-07-31 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Invoice,INV-O-18
+292,2026-07-31 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,AcceptanceRecord,AR-O-18
+292,2026-07-31 15:39:00,Verify Accounting Prerequisites,Supplier,S5,Requirement,R-20
+292,2026-07-31 15:39:00,Verify Accounting Prerequisites,Supplier,S5,Asset,Asset-20
+292,2026-07-31 15:39:00,Verify Accounting Prerequisites,Supplier,S5,Order,O-18
+292,2026-07-31 15:39:00,Verify Accounting Prerequisites,Supplier,S5,Invoice,INV-O-18
+292,2026-07-31 15:39:00,Verify Accounting Prerequisites,Supplier,S5,AcceptanceRecord,AR-O-18
+293,2026-07-31 15:40:00,Confirm Accounting Date,Resource,AA-1,Asset,Asset-20
+294,2026-07-31 15:42:00,Create Or Update Intangible Asset Record,Resource,AA-1,Asset,Asset-20
+295,2026-07-31 15:44:00,Create Accounting Voucher,Resource,AA-1,Requirement,R-20
+295,2026-07-31 15:44:00,Create Accounting Voucher,Resource,AA-1,Asset,Asset-20
+295,2026-07-31 15:44:00,Create Accounting Voucher,Resource,AA-1,Order,O-18
+295,2026-07-31 15:44:00,Create Accounting Voucher,Resource,AA-1,Invoice,INV-O-18
+295,2026-07-31 15:44:00,Create Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-18
+295,2026-07-31 15:44:00,Create Accounting Voucher,Resource,AA-1,Voucher,V-O-18
+295,2026-07-31 15:44:00,Create Accounting Voucher,Supplier,S5,Requirement,R-20
+295,2026-07-31 15:44:00,Create Accounting Voucher,Supplier,S5,Asset,Asset-20
+295,2026-07-31 15:44:00,Create Accounting Voucher,Supplier,S5,Order,O-18
+295,2026-07-31 15:44:00,Create Accounting Voucher,Supplier,S5,Invoice,INV-O-18
+295,2026-07-31 15:44:00,Create Accounting Voucher,Supplier,S5,AcceptanceRecord,AR-O-18
+295,2026-07-31 15:44:00,Create Accounting Voucher,Supplier,S5,Voucher,V-O-18
+296,2026-07-31 16:04:00,Review Accounting Voucher,Resource,VR-1,Asset,Asset-20
+296,2026-07-31 16:04:00,Review Accounting Voucher,Resource,VR-1,Order,O-18
+296,2026-07-31 16:04:00,Review Accounting Voucher,Resource,VR-1,Invoice,INV-O-18
+296,2026-07-31 16:04:00,Review Accounting Voucher,Resource,VR-1,Voucher,V-O-18
+297,2026-07-31 16:06:00,Post Accounting Voucher,Resource,AA-1,Requirement,R-20
+297,2026-07-31 16:06:00,Post Accounting Voucher,Resource,AA-1,Asset,Asset-20
+297,2026-07-31 16:06:00,Post Accounting Voucher,Resource,AA-1,Order,O-18
+297,2026-07-31 16:06:00,Post Accounting Voucher,Resource,AA-1,Invoice,INV-O-18
+297,2026-07-31 16:06:00,Post Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-18
+297,2026-07-31 16:06:00,Post Accounting Voucher,Resource,AA-1,Voucher,V-O-18
+297,2026-07-31 16:06:00,Post Accounting Voucher,Supplier,S5,Requirement,R-20
+297,2026-07-31 16:06:00,Post Accounting Voucher,Supplier,S5,Asset,Asset-20
+297,2026-07-31 16:06:00,Post Accounting Voucher,Supplier,S5,Order,O-18
+297,2026-07-31 16:06:00,Post Accounting Voucher,Supplier,S5,Invoice,INV-O-18
+297,2026-07-31 16:06:00,Post Accounting Voucher,Supplier,S5,AcceptanceRecord,AR-O-18
+297,2026-07-31 16:06:00,Post Accounting Voucher,Supplier,S5,Voucher,V-O-18
+299,2026-08-06 09:31:00,Review Requirement,Resource,RR-1,Requirement,R-21
+299,2026-08-06 09:31:00,Review Requirement,Resource,RR-1,Asset,Asset-21
+302,2026-08-20 09:31:00,Review Requirement,Resource,RR-1,Requirement,R-22
+302,2026-08-20 09:31:00,Review Requirement,Resource,RR-1,Asset,Asset-22
+303,2026-08-31 09:31:00,Obtain Quotations,Resource,PO-2,Requirement,R-22
+303,2026-08-31 09:31:00,Obtain Quotations,Resource,PO-2,Asset,Asset-22
+303,2026-08-31 09:31:00,Obtain Quotations,Supplier,S4,Requirement,R-22
+303,2026-08-31 09:31:00,Obtain Quotations,Supplier,S4,Asset,Asset-22
+303,2026-08-31 09:31:00,Obtain Quotations,Supplier,S3,Requirement,R-22
+303,2026-08-31 09:31:00,Obtain Quotations,Supplier,S3,Asset,Asset-22
+303,2026-08-31 09:31:00,Obtain Quotations,Supplier,S1,Requirement,R-22
+303,2026-08-31 09:31:00,Obtain Quotations,Supplier,S1,Asset,Asset-22
+304,2026-08-31 13:31:00,Evaluate And Select Quotation,Resource,PO-1,Requirement,R-22
+304,2026-08-31 13:31:00,Evaluate And Select Quotation,Resource,PO-1,Asset,Asset-22
+304,2026-08-31 13:31:00,Evaluate And Select Quotation,Supplier,S3,Requirement,R-22
+304,2026-08-31 13:31:00,Evaluate And Select Quotation,Supplier,S3,Asset,Asset-22
+305,2026-08-31 13:32:00,Check Contract Need,Supplier,S3,Requirement,R-22
+305,2026-08-31 13:32:00,Check Contract Need,Supplier,S3,Asset,Asset-22
+306,2026-08-31 13:34:00,Create Purchase Order,Resource,PO-1,Requirement,R-22
+306,2026-08-31 13:34:00,Create Purchase Order,Resource,PO-1,Asset,Asset-22
+306,2026-08-31 13:34:00,Create Purchase Order,Resource,PO-1,Order,O-19
+306,2026-08-31 13:34:00,Create Purchase Order,Supplier,S3,Requirement,R-22
+306,2026-08-31 13:34:00,Create Purchase Order,Supplier,S3,Asset,Asset-22
+306,2026-08-31 13:34:00,Create Purchase Order,Supplier,S3,Order,O-19
+307,2026-08-31 15:34:00,Receive Invoice,Supplier,S3,Order,O-19
+307,2026-08-31 15:34:00,Receive Invoice,Supplier,S3,Invoice,INV-O-19
+308,2026-09-07 13:34:00,Receive Contract Deliverable,Resource,PO-2,Requirement,R-22
+308,2026-09-07 13:34:00,Receive Contract Deliverable,Resource,PO-2,Asset,Asset-22
+308,2026-09-07 13:34:00,Receive Contract Deliverable,Resource,PO-2,Order,O-19
+308,2026-09-07 13:34:00,Receive Contract Deliverable,Supplier,S3,Requirement,R-22
+308,2026-09-07 13:34:00,Receive Contract Deliverable,Supplier,S3,Asset,Asset-22
+308,2026-09-07 13:34:00,Receive Contract Deliverable,Supplier,S3,Order,O-19
+309,2026-09-07 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-22
+309,2026-09-07 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-22
+309,2026-09-07 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-19
+309,2026-09-07 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,AcceptanceRecord,AR-O-19
+309,2026-09-07 15:34:00,Perform Business And Technical Acceptance,Supplier,S3,Requirement,R-22
+309,2026-09-07 15:34:00,Perform Business And Technical Acceptance,Supplier,S3,Asset,Asset-22
+309,2026-09-07 15:34:00,Perform Business And Technical Acceptance,Supplier,S3,Order,O-19
+309,2026-09-07 15:34:00,Perform Business And Technical Acceptance,Supplier,S3,AcceptanceRecord,AR-O-19
+312,2026-09-07 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Requirement,R-22
+312,2026-09-07 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Asset,Asset-22
+312,2026-09-07 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Order,O-19
+312,2026-09-07 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Invoice,INV-O-19
+312,2026-09-07 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,AcceptanceRecord,AR-O-19
+312,2026-09-07 15:39:00,Verify Accounting Prerequisites,Supplier,S3,Requirement,R-22
+312,2026-09-07 15:39:00,Verify Accounting Prerequisites,Supplier,S3,Asset,Asset-22
+312,2026-09-07 15:39:00,Verify Accounting Prerequisites,Supplier,S3,Order,O-19
+312,2026-09-07 15:39:00,Verify Accounting Prerequisites,Supplier,S3,Invoice,INV-O-19
+312,2026-09-07 15:39:00,Verify Accounting Prerequisites,Supplier,S3,AcceptanceRecord,AR-O-19
+313,2026-09-07 15:40:00,Confirm Accounting Date,Resource,AA-1,Asset,Asset-22
+314,2026-09-07 15:42:00,Create Or Update Intangible Asset Record,Resource,AA-1,Asset,Asset-22
+315,2026-09-07 15:44:00,Create Accounting Voucher,Resource,AA-1,Requirement,R-22
+315,2026-09-07 15:44:00,Create Accounting Voucher,Resource,AA-1,Asset,Asset-22
+315,2026-09-07 15:44:00,Create Accounting Voucher,Resource,AA-1,Order,O-19
+315,2026-09-07 15:44:00,Create Accounting Voucher,Resource,AA-1,Invoice,INV-O-19
+315,2026-09-07 15:44:00,Create Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-19
+315,2026-09-07 15:44:00,Create Accounting Voucher,Resource,AA-1,Voucher,V-O-19
+315,2026-09-07 15:44:00,Create Accounting Voucher,Supplier,S3,Requirement,R-22
+315,2026-09-07 15:44:00,Create Accounting Voucher,Supplier,S3,Asset,Asset-22
+315,2026-09-07 15:44:00,Create Accounting Voucher,Supplier,S3,Order,O-19
+315,2026-09-07 15:44:00,Create Accounting Voucher,Supplier,S3,Invoice,INV-O-19
+315,2026-09-07 15:44:00,Create Accounting Voucher,Supplier,S3,AcceptanceRecord,AR-O-19
+315,2026-09-07 15:44:00,Create Accounting Voucher,Supplier,S3,Voucher,V-O-19
+316,2026-09-07 16:04:00,Review Accounting Voucher,Resource,VR-1,Asset,Asset-22
+316,2026-09-07 16:04:00,Review Accounting Voucher,Resource,VR-1,Order,O-19
+316,2026-09-07 16:04:00,Review Accounting Voucher,Resource,VR-1,Invoice,INV-O-19
+316,2026-09-07 16:04:00,Review Accounting Voucher,Resource,VR-1,Voucher,V-O-19
+317,2026-09-07 16:06:00,Post Accounting Voucher,Resource,AA-1,Requirement,R-22
+317,2026-09-07 16:06:00,Post Accounting Voucher,Resource,AA-1,Asset,Asset-22
+317,2026-09-07 16:06:00,Post Accounting Voucher,Resource,AA-1,Order,O-19
+317,2026-09-07 16:06:00,Post Accounting Voucher,Resource,AA-1,Invoice,INV-O-19
+317,2026-09-07 16:06:00,Post Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-19
+317,2026-09-07 16:06:00,Post Accounting Voucher,Resource,AA-1,Voucher,V-O-19
+317,2026-09-07 16:06:00,Post Accounting Voucher,Supplier,S3,Requirement,R-22
+317,2026-09-07 16:06:00,Post Accounting Voucher,Supplier,S3,Asset,Asset-22
+317,2026-09-07 16:06:00,Post Accounting Voucher,Supplier,S3,Order,O-19
+317,2026-09-07 16:06:00,Post Accounting Voucher,Supplier,S3,Invoice,INV-O-19
+317,2026-09-07 16:06:00,Post Accounting Voucher,Supplier,S3,AcceptanceRecord,AR-O-19
+317,2026-09-07 16:06:00,Post Accounting Voucher,Supplier,S3,Voucher,V-O-19
+319,2026-09-17 09:31:00,Review Requirement,Resource,RR-1,Requirement,R-23
+319,2026-09-17 09:31:00,Review Requirement,Resource,RR-1,Asset,Asset-23
+321,2026-09-18 09:31:00,Review Requirement,Resource,RR-1,Requirement,R-24
+321,2026-09-18 09:31:00,Review Requirement,Resource,RR-1,Asset,Asset-24
+322,2026-09-28 09:31:00,Obtain Quotations,Resource,PO-1,Requirement,R-23
+322,2026-09-28 09:31:00,Obtain Quotations,Resource,PO-1,Asset,Asset-23
+322,2026-09-28 09:31:00,Obtain Quotations,Supplier,S4,Requirement,R-23
+322,2026-09-28 09:31:00,Obtain Quotations,Supplier,S4,Asset,Asset-23
+322,2026-09-28 09:31:00,Obtain Quotations,Supplier,S2,Requirement,R-23
+322,2026-09-28 09:31:00,Obtain Quotations,Supplier,S2,Asset,Asset-23
+323,2026-09-28 13:31:00,Evaluate And Select Quotation,Resource,PO-1,Requirement,R-23
+323,2026-09-28 13:31:00,Evaluate And Select Quotation,Resource,PO-1,Asset,Asset-23
+323,2026-09-28 13:31:00,Evaluate And Select Quotation,Supplier,S2,Requirement,R-23
+323,2026-09-28 13:31:00,Evaluate And Select Quotation,Supplier,S2,Asset,Asset-23
+324,2026-09-28 13:32:00,Check Contract Need,Supplier,S2,Requirement,R-23
+324,2026-09-28 13:32:00,Check Contract Need,Supplier,S2,Asset,Asset-23
+325,2026-09-28 13:34:00,Create Purchase Order,Resource,PO-2,Requirement,R-23
+325,2026-09-28 13:34:00,Create Purchase Order,Resource,PO-2,Asset,Asset-23
+325,2026-09-28 13:34:00,Create Purchase Order,Resource,PO-2,Order,O-20
+325,2026-09-28 13:34:00,Create Purchase Order,Supplier,S2,Requirement,R-23
+325,2026-09-28 13:34:00,Create Purchase Order,Supplier,S2,Asset,Asset-23
+325,2026-09-28 13:34:00,Create Purchase Order,Supplier,S2,Order,O-20
+326,2026-09-28 15:34:00,Receive Invoice,Supplier,S2,Order,O-20
+326,2026-09-28 15:34:00,Receive Invoice,Supplier,S2,Invoice,INV-O-20
+327,2026-09-29 09:31:00,Obtain Quotations,Resource,PO-1,Requirement,R-24
+327,2026-09-29 09:31:00,Obtain Quotations,Resource,PO-1,Asset,Asset-24
+327,2026-09-29 09:31:00,Obtain Quotations,Supplier,S5,Requirement,R-24
+327,2026-09-29 09:31:00,Obtain Quotations,Supplier,S5,Asset,Asset-24
+327,2026-09-29 09:31:00,Obtain Quotations,Supplier,S3,Requirement,R-24
+327,2026-09-29 09:31:00,Obtain Quotations,Supplier,S3,Asset,Asset-24
+328,2026-09-29 13:31:00,Evaluate And Select Quotation,Resource,PO-2,Requirement,R-24
+328,2026-09-29 13:31:00,Evaluate And Select Quotation,Resource,PO-2,Asset,Asset-24
+328,2026-09-29 13:31:00,Evaluate And Select Quotation,Supplier,S3,Requirement,R-24
+328,2026-09-29 13:31:00,Evaluate And Select Quotation,Supplier,S3,Asset,Asset-24
+329,2026-09-29 13:32:00,Check Contract Need,Supplier,S3,Requirement,R-24
+329,2026-09-29 13:32:00,Check Contract Need,Supplier,S3,Asset,Asset-24
+330,2026-09-29 13:34:00,Create Purchase Order,Resource,PO-1,Requirement,R-24
+330,2026-09-29 13:34:00,Create Purchase Order,Resource,PO-1,Asset,Asset-24
+330,2026-09-29 13:34:00,Create Purchase Order,Resource,PO-1,Order,O-21
+330,2026-09-29 13:34:00,Create Purchase Order,Supplier,S3,Requirement,R-24
+330,2026-09-29 13:34:00,Create Purchase Order,Supplier,S3,Asset,Asset-24
+330,2026-09-29 13:34:00,Create Purchase Order,Supplier,S3,Order,O-21
+331,2026-09-29 15:34:00,Receive Invoice,Supplier,S3,Order,O-21
+331,2026-09-29 15:34:00,Receive Invoice,Supplier,S3,Invoice,INV-O-21
+332,2026-10-05 13:34:00,Receive Contract Deliverable,Resource,PO-1,Requirement,R-23
+332,2026-10-05 13:34:00,Receive Contract Deliverable,Resource,PO-1,Asset,Asset-23
+332,2026-10-05 13:34:00,Receive Contract Deliverable,Resource,PO-1,Order,O-20
+332,2026-10-05 13:34:00,Receive Contract Deliverable,Supplier,S2,Requirement,R-23
+332,2026-10-05 13:34:00,Receive Contract Deliverable,Supplier,S2,Asset,Asset-23
+332,2026-10-05 13:34:00,Receive Contract Deliverable,Supplier,S2,Order,O-20
+333,2026-10-05 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-23
+333,2026-10-05 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-23
+333,2026-10-05 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-20
+333,2026-10-05 15:34:00,Perform Business And Technical Acceptance,Supplier,S2,Requirement,R-23
+333,2026-10-05 15:34:00,Perform Business And Technical Acceptance,Supplier,S2,Asset,Asset-23
+333,2026-10-05 15:34:00,Perform Business And Technical Acceptance,Supplier,S2,Order,O-20
+334,2026-10-06 13:34:00,Receive Contract Deliverable,Resource,PO-2,Requirement,R-24
+334,2026-10-06 13:34:00,Receive Contract Deliverable,Resource,PO-2,Asset,Asset-24
+334,2026-10-06 13:34:00,Receive Contract Deliverable,Resource,PO-2,Order,O-21
+334,2026-10-06 13:34:00,Receive Contract Deliverable,Supplier,S3,Requirement,R-24
+334,2026-10-06 13:34:00,Receive Contract Deliverable,Supplier,S3,Asset,Asset-24
+334,2026-10-06 13:34:00,Receive Contract Deliverable,Supplier,S3,Order,O-21
+335,2026-10-06 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-24
+335,2026-10-06 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-24
+335,2026-10-06 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-21
+335,2026-10-06 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,AcceptanceRecord,AR-O-21
+335,2026-10-06 15:34:00,Perform Business And Technical Acceptance,Supplier,S3,Requirement,R-24
+335,2026-10-06 15:34:00,Perform Business And Technical Acceptance,Supplier,S3,Asset,Asset-24
+335,2026-10-06 15:34:00,Perform Business And Technical Acceptance,Supplier,S3,Order,O-21
+335,2026-10-06 15:34:00,Perform Business And Technical Acceptance,Supplier,S3,AcceptanceRecord,AR-O-21
+338,2026-10-06 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Requirement,R-24
+338,2026-10-06 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Asset,Asset-24
+338,2026-10-06 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Order,O-21
+338,2026-10-06 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Invoice,INV-O-21
+338,2026-10-06 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,AcceptanceRecord,AR-O-21
+338,2026-10-06 15:39:00,Verify Accounting Prerequisites,Supplier,S3,Requirement,R-24
+338,2026-10-06 15:39:00,Verify Accounting Prerequisites,Supplier,S3,Asset,Asset-24
+338,2026-10-06 15:39:00,Verify Accounting Prerequisites,Supplier,S3,Order,O-21
+338,2026-10-06 15:39:00,Verify Accounting Prerequisites,Supplier,S3,Invoice,INV-O-21
+338,2026-10-06 15:39:00,Verify Accounting Prerequisites,Supplier,S3,AcceptanceRecord,AR-O-21
+339,2026-10-06 15:40:00,Confirm Accounting Date,Resource,AA-1,Asset,Asset-24
+340,2026-10-06 15:42:00,Create Or Update Intangible Asset Record,Resource,AA-1,Asset,Asset-24
+341,2026-10-06 15:44:00,Create Accounting Voucher,Resource,AA-1,Requirement,R-24
+341,2026-10-06 15:44:00,Create Accounting Voucher,Resource,AA-1,Asset,Asset-24
+341,2026-10-06 15:44:00,Create Accounting Voucher,Resource,AA-1,Order,O-21
+341,2026-10-06 15:44:00,Create Accounting Voucher,Resource,AA-1,Invoice,INV-O-21
+341,2026-10-06 15:44:00,Create Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-21
+341,2026-10-06 15:44:00,Create Accounting Voucher,Resource,AA-1,Voucher,V-O-21
+341,2026-10-06 15:44:00,Create Accounting Voucher,Supplier,S3,Requirement,R-24
+341,2026-10-06 15:44:00,Create Accounting Voucher,Supplier,S3,Asset,Asset-24
+341,2026-10-06 15:44:00,Create Accounting Voucher,Supplier,S3,Order,O-21
+341,2026-10-06 15:44:00,Create Accounting Voucher,Supplier,S3,Invoice,INV-O-21
+341,2026-10-06 15:44:00,Create Accounting Voucher,Supplier,S3,AcceptanceRecord,AR-O-21
+341,2026-10-06 15:44:00,Create Accounting Voucher,Supplier,S3,Voucher,V-O-21
+342,2026-10-06 16:04:00,Review Accounting Voucher,Resource,VR-1,Asset,Asset-24
+342,2026-10-06 16:04:00,Review Accounting Voucher,Resource,VR-1,Order,O-21
+342,2026-10-06 16:04:00,Review Accounting Voucher,Resource,VR-1,Invoice,INV-O-21
+342,2026-10-06 16:04:00,Review Accounting Voucher,Resource,VR-1,Voucher,V-O-21
+343,2026-10-06 16:34:00,Modify Accounting Voucher,Resource,AA-1,Asset,Asset-24
+343,2026-10-06 16:34:00,Modify Accounting Voucher,Resource,AA-1,Order,O-21
+343,2026-10-06 16:34:00,Modify Accounting Voucher,Resource,AA-1,Invoice,INV-O-21
+343,2026-10-06 16:34:00,Modify Accounting Voucher,Resource,AA-1,Voucher,V-O-21
+344,2026-10-06 16:54:00,Review Accounting Voucher,Resource,VR-1,Asset,Asset-24
+344,2026-10-06 16:54:00,Review Accounting Voucher,Resource,VR-1,Order,O-21
+344,2026-10-06 16:54:00,Review Accounting Voucher,Resource,VR-1,Invoice,INV-O-21
+344,2026-10-06 16:54:00,Review Accounting Voucher,Resource,VR-1,Voucher,V-O-21
+345,2026-10-06 16:56:00,Post Accounting Voucher,Resource,AA-1,Requirement,R-24
+345,2026-10-06 16:56:00,Post Accounting Voucher,Resource,AA-1,Asset,Asset-24
+345,2026-10-06 16:56:00,Post Accounting Voucher,Resource,AA-1,Order,O-21
+345,2026-10-06 16:56:00,Post Accounting Voucher,Resource,AA-1,Invoice,INV-O-21
+345,2026-10-06 16:56:00,Post Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-21
+345,2026-10-06 16:56:00,Post Accounting Voucher,Resource,AA-1,Voucher,V-O-21
+345,2026-10-06 16:56:00,Post Accounting Voucher,Supplier,S3,Requirement,R-24
+345,2026-10-06 16:56:00,Post Accounting Voucher,Supplier,S3,Asset,Asset-24
+345,2026-10-06 16:56:00,Post Accounting Voucher,Supplier,S3,Order,O-21
+345,2026-10-06 16:56:00,Post Accounting Voucher,Supplier,S3,Invoice,INV-O-21
+345,2026-10-06 16:56:00,Post Accounting Voucher,Supplier,S3,AcceptanceRecord,AR-O-21
+345,2026-10-06 16:56:00,Post Accounting Voucher,Supplier,S3,Voucher,V-O-21
+347,2026-10-12 09:31:00,Review Requirement,Resource,RR-1,Requirement,R-25
+347,2026-10-12 09:31:00,Review Requirement,Resource,RR-1,Asset,Asset-25
+349,2026-10-12 11:01:00,Review Requirement,Resource,RR-1,Requirement,R-25
+349,2026-10-12 11:01:00,Review Requirement,Resource,RR-1,Asset,Asset-25
+351,2026-10-13 09:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-23
+351,2026-10-13 09:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-23
+351,2026-10-13 09:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-20
+351,2026-10-13 09:34:00,Perform Business And Technical Acceptance,Supplier,S2,Requirement,R-23
+351,2026-10-13 09:34:00,Perform Business And Technical Acceptance,Supplier,S2,Asset,Asset-23
+351,2026-10-13 09:34:00,Perform Business And Technical Acceptance,Supplier,S2,Order,O-20
+353,2026-10-20 11:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-23
+353,2026-10-20 11:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-23
+353,2026-10-20 11:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-20
+353,2026-10-20 11:34:00,Perform Business And Technical Acceptance,Resource,AT-1,AcceptanceRecord,AR-O-20
+353,2026-10-20 11:34:00,Perform Business And Technical Acceptance,Supplier,S2,Requirement,R-23
+353,2026-10-20 11:34:00,Perform Business And Technical Acceptance,Supplier,S2,Asset,Asset-23
+353,2026-10-20 11:34:00,Perform Business And Technical Acceptance,Supplier,S2,Order,O-20
+353,2026-10-20 11:34:00,Perform Business And Technical Acceptance,Supplier,S2,AcceptanceRecord,AR-O-20
+356,2026-10-20 11:39:00,Verify Accounting Prerequisites,Resource,AA-1,Requirement,R-23
+356,2026-10-20 11:39:00,Verify Accounting Prerequisites,Resource,AA-1,Asset,Asset-23
+356,2026-10-20 11:39:00,Verify Accounting Prerequisites,Resource,AA-1,Order,O-20
+356,2026-10-20 11:39:00,Verify Accounting Prerequisites,Resource,AA-1,Invoice,INV-O-20
+356,2026-10-20 11:39:00,Verify Accounting Prerequisites,Resource,AA-1,AcceptanceRecord,AR-O-20
+356,2026-10-20 11:39:00,Verify Accounting Prerequisites,Supplier,S2,Requirement,R-23
+356,2026-10-20 11:39:00,Verify Accounting Prerequisites,Supplier,S2,Asset,Asset-23
+356,2026-10-20 11:39:00,Verify Accounting Prerequisites,Supplier,S2,Order,O-20
+356,2026-10-20 11:39:00,Verify Accounting Prerequisites,Supplier,S2,Invoice,INV-O-20
+356,2026-10-20 11:39:00,Verify Accounting Prerequisites,Supplier,S2,AcceptanceRecord,AR-O-20
+357,2026-10-20 11:40:00,Confirm Accounting Date,Resource,AA-1,Asset,Asset-23
+358,2026-10-20 11:42:00,Create Or Update Intangible Asset Record,Resource,AA-1,Asset,Asset-23
+359,2026-10-20 11:44:00,Create Accounting Voucher,Resource,AA-1,Requirement,R-23
+359,2026-10-20 11:44:00,Create Accounting Voucher,Resource,AA-1,Asset,Asset-23
+359,2026-10-20 11:44:00,Create Accounting Voucher,Resource,AA-1,Order,O-20
+359,2026-10-20 11:44:00,Create Accounting Voucher,Resource,AA-1,Invoice,INV-O-20
+359,2026-10-20 11:44:00,Create Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-20
+359,2026-10-20 11:44:00,Create Accounting Voucher,Resource,AA-1,Voucher,V-O-20
+359,2026-10-20 11:44:00,Create Accounting Voucher,Supplier,S2,Requirement,R-23
+359,2026-10-20 11:44:00,Create Accounting Voucher,Supplier,S2,Asset,Asset-23
+359,2026-10-20 11:44:00,Create Accounting Voucher,Supplier,S2,Order,O-20
+359,2026-10-20 11:44:00,Create Accounting Voucher,Supplier,S2,Invoice,INV-O-20
+359,2026-10-20 11:44:00,Create Accounting Voucher,Supplier,S2,AcceptanceRecord,AR-O-20
+359,2026-10-20 11:44:00,Create Accounting Voucher,Supplier,S2,Voucher,V-O-20
+360,2026-10-20 12:04:00,Review Accounting Voucher,Resource,VR-1,Asset,Asset-23
+360,2026-10-20 12:04:00,Review Accounting Voucher,Resource,VR-1,Order,O-20
+360,2026-10-20 12:04:00,Review Accounting Voucher,Resource,VR-1,Invoice,INV-O-20
+360,2026-10-20 12:04:00,Review Accounting Voucher,Resource,VR-1,Voucher,V-O-20
+361,2026-10-20 12:06:00,Post Accounting Voucher,Resource,AA-1,Requirement,R-23
+361,2026-10-20 12:06:00,Post Accounting Voucher,Resource,AA-1,Asset,Asset-23
+361,2026-10-20 12:06:00,Post Accounting Voucher,Resource,AA-1,Order,O-20
+361,2026-10-20 12:06:00,Post Accounting Voucher,Resource,AA-1,Invoice,INV-O-20
+361,2026-10-20 12:06:00,Post Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-20
+361,2026-10-20 12:06:00,Post Accounting Voucher,Resource,AA-1,Voucher,V-O-20
+361,2026-10-20 12:06:00,Post Accounting Voucher,Supplier,S2,Requirement,R-23
+361,2026-10-20 12:06:00,Post Accounting Voucher,Supplier,S2,Asset,Asset-23
+361,2026-10-20 12:06:00,Post Accounting Voucher,Supplier,S2,Order,O-20
+361,2026-10-20 12:06:00,Post Accounting Voucher,Supplier,S2,Invoice,INV-O-20
+361,2026-10-20 12:06:00,Post Accounting Voucher,Supplier,S2,AcceptanceRecord,AR-O-20
+361,2026-10-20 12:06:00,Post Accounting Voucher,Supplier,S2,Voucher,V-O-20
+362,2026-10-21 11:01:00,Obtain Quotations,Resource,PO-2,Requirement,R-25
+362,2026-10-21 11:01:00,Obtain Quotations,Resource,PO-2,Asset,Asset-25
+362,2026-10-21 11:01:00,Obtain Quotations,Supplier,S6,Requirement,R-25
+362,2026-10-21 11:01:00,Obtain Quotations,Supplier,S6,Asset,Asset-25
+362,2026-10-21 11:01:00,Obtain Quotations,Supplier,S5,Requirement,R-25
+362,2026-10-21 11:01:00,Obtain Quotations,Supplier,S5,Asset,Asset-25
+363,2026-10-21 15:01:00,Evaluate And Select Quotation,Resource,PO-2,Requirement,R-25
+363,2026-10-21 15:01:00,Evaluate And Select Quotation,Resource,PO-2,Asset,Asset-25
+363,2026-10-21 15:01:00,Evaluate And Select Quotation,Supplier,S6,Requirement,R-25
+363,2026-10-21 15:01:00,Evaluate And Select Quotation,Supplier,S6,Asset,Asset-25
+364,2026-10-21 15:02:00,Check Contract Need,Supplier,S6,Requirement,R-25
+364,2026-10-21 15:02:00,Check Contract Need,Supplier,S6,Asset,Asset-25
+365,2026-10-21 15:04:00,Create Purchase Order,Resource,PO-1,Requirement,R-25
+365,2026-10-21 15:04:00,Create Purchase Order,Resource,PO-1,Asset,Asset-25
+365,2026-10-21 15:04:00,Create Purchase Order,Resource,PO-1,Order,O-22
+365,2026-10-21 15:04:00,Create Purchase Order,Supplier,S6,Requirement,R-25
+365,2026-10-21 15:04:00,Create Purchase Order,Supplier,S6,Asset,Asset-25
+365,2026-10-21 15:04:00,Create Purchase Order,Supplier,S6,Order,O-22
+366,2026-10-22 09:04:00,Receive Invoice,Supplier,S6,Order,O-22
+366,2026-10-22 09:04:00,Receive Invoice,Supplier,S6,Invoice,INV-O-22
+367,2026-10-28 15:04:00,Receive Contract Deliverable,Resource,PO-2,Requirement,R-25
+367,2026-10-28 15:04:00,Receive Contract Deliverable,Resource,PO-2,Asset,Asset-25
+367,2026-10-28 15:04:00,Receive Contract Deliverable,Resource,PO-2,Order,O-22
+367,2026-10-28 15:04:00,Receive Contract Deliverable,Supplier,S6,Requirement,R-25
+367,2026-10-28 15:04:00,Receive Contract Deliverable,Supplier,S6,Asset,Asset-25
+367,2026-10-28 15:04:00,Receive Contract Deliverable,Supplier,S6,Order,O-22
+368,2026-10-29 09:04:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-25
+368,2026-10-29 09:04:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-25
+368,2026-10-29 09:04:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-22
+368,2026-10-29 09:04:00,Perform Business And Technical Acceptance,Supplier,S6,Requirement,R-25
+368,2026-10-29 09:04:00,Perform Business And Technical Acceptance,Supplier,S6,Asset,Asset-25
+368,2026-10-29 09:04:00,Perform Business And Technical Acceptance,Supplier,S6,Order,O-22
+370,2026-10-30 09:31:00,Review Requirement,Resource,RR-1,Requirement,R-26
+370,2026-10-30 09:31:00,Review Requirement,Resource,RR-1,Asset,Asset-26
+372,2026-11-05 11:04:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-25
+372,2026-11-05 11:04:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-25
+372,2026-11-05 11:04:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-22
+372,2026-11-05 11:04:00,Perform Business And Technical Acceptance,Supplier,S6,Requirement,R-25
+372,2026-11-05 11:04:00,Perform Business And Technical Acceptance,Supplier,S6,Asset,Asset-25
+372,2026-11-05 11:04:00,Perform Business And Technical Acceptance,Supplier,S6,Order,O-22
+373,2026-11-10 09:31:00,Obtain Quotations,Resource,PO-1,Requirement,R-26
+373,2026-11-10 09:31:00,Obtain Quotations,Resource,PO-1,Asset,Asset-26
+373,2026-11-10 09:31:00,Obtain Quotations,Supplier,S4,Requirement,R-26
+373,2026-11-10 09:31:00,Obtain Quotations,Supplier,S4,Asset,Asset-26
+373,2026-11-10 09:31:00,Obtain Quotations,Supplier,S2,Requirement,R-26
+373,2026-11-10 09:31:00,Obtain Quotations,Supplier,S2,Asset,Asset-26
+373,2026-11-10 09:31:00,Obtain Quotations,Supplier,S1,Requirement,R-26
+373,2026-11-10 09:31:00,Obtain Quotations,Supplier,S1,Asset,Asset-26
+374,2026-11-10 13:31:00,Evaluate And Select Quotation,Resource,PO-2,Requirement,R-26
+374,2026-11-10 13:31:00,Evaluate And Select Quotation,Resource,PO-2,Asset,Asset-26
+374,2026-11-10 13:31:00,Evaluate And Select Quotation,Supplier,S4,Requirement,R-26
+374,2026-11-10 13:31:00,Evaluate And Select Quotation,Supplier,S4,Asset,Asset-26
+375,2026-11-10 13:32:00,Check Contract Need,Supplier,S4,Requirement,R-26
+375,2026-11-10 13:32:00,Check Contract Need,Supplier,S4,Asset,Asset-26
+376,2026-11-10 13:34:00,Create Purchase Order,Resource,PO-1,Requirement,R-26
+376,2026-11-10 13:34:00,Create Purchase Order,Resource,PO-1,Asset,Asset-26
+376,2026-11-10 13:34:00,Create Purchase Order,Resource,PO-1,Order,O-23
+376,2026-11-10 13:34:00,Create Purchase Order,Supplier,S4,Requirement,R-26
+376,2026-11-10 13:34:00,Create Purchase Order,Supplier,S4,Asset,Asset-26
+376,2026-11-10 13:34:00,Create Purchase Order,Supplier,S4,Order,O-23
+377,2026-11-10 15:34:00,Receive Invoice,Supplier,S4,Order,O-23
+377,2026-11-10 15:34:00,Receive Invoice,Supplier,S4,Invoice,INV-O-23
+379,2026-11-12 09:31:00,Review Requirement,Resource,RR-1,Requirement,R-27
+379,2026-11-12 09:31:00,Review Requirement,Resource,RR-1,Asset,Asset-27
+381,2026-11-12 13:04:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-25
+381,2026-11-12 13:04:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-25
+381,2026-11-12 13:04:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-22
+381,2026-11-12 13:04:00,Perform Business And Technical Acceptance,Supplier,S6,Requirement,R-25
+381,2026-11-12 13:04:00,Perform Business And Technical Acceptance,Supplier,S6,Asset,Asset-25
+381,2026-11-12 13:04:00,Perform Business And Technical Acceptance,Supplier,S6,Order,O-22
+382,2026-11-17 13:34:00,Receive Contract Deliverable,Resource,PO-2,Requirement,R-26
+382,2026-11-17 13:34:00,Receive Contract Deliverable,Resource,PO-2,Asset,Asset-26
+382,2026-11-17 13:34:00,Receive Contract Deliverable,Resource,PO-2,Order,O-23
+382,2026-11-17 13:34:00,Receive Contract Deliverable,Supplier,S4,Requirement,R-26
+382,2026-11-17 13:34:00,Receive Contract Deliverable,Supplier,S4,Asset,Asset-26
+382,2026-11-17 13:34:00,Receive Contract Deliverable,Supplier,S4,Order,O-23
+383,2026-11-17 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-26
+383,2026-11-17 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-26
+383,2026-11-17 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-23
+383,2026-11-17 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,AcceptanceRecord,AR-O-23
+383,2026-11-17 15:34:00,Perform Business And Technical Acceptance,Supplier,S4,Requirement,R-26
+383,2026-11-17 15:34:00,Perform Business And Technical Acceptance,Supplier,S4,Asset,Asset-26
+383,2026-11-17 15:34:00,Perform Business And Technical Acceptance,Supplier,S4,Order,O-23
+383,2026-11-17 15:34:00,Perform Business And Technical Acceptance,Supplier,S4,AcceptanceRecord,AR-O-23
+386,2026-11-17 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Requirement,R-26
+386,2026-11-17 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Asset,Asset-26
+386,2026-11-17 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Order,O-23
+386,2026-11-17 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Invoice,INV-O-23
+386,2026-11-17 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,AcceptanceRecord,AR-O-23
+386,2026-11-17 15:39:00,Verify Accounting Prerequisites,Supplier,S4,Requirement,R-26
+386,2026-11-17 15:39:00,Verify Accounting Prerequisites,Supplier,S4,Asset,Asset-26
+386,2026-11-17 15:39:00,Verify Accounting Prerequisites,Supplier,S4,Order,O-23
+386,2026-11-17 15:39:00,Verify Accounting Prerequisites,Supplier,S4,Invoice,INV-O-23
+386,2026-11-17 15:39:00,Verify Accounting Prerequisites,Supplier,S4,AcceptanceRecord,AR-O-23
+387,2026-11-17 15:40:00,Confirm Accounting Date,Resource,AA-1,Asset,Asset-26
+388,2026-11-17 15:42:00,Create Or Update Intangible Asset Record,Resource,AA-1,Asset,Asset-26
+389,2026-11-17 15:44:00,Create Accounting Voucher,Resource,AA-1,Requirement,R-26
+389,2026-11-17 15:44:00,Create Accounting Voucher,Resource,AA-1,Asset,Asset-26
+389,2026-11-17 15:44:00,Create Accounting Voucher,Resource,AA-1,Order,O-23
+389,2026-11-17 15:44:00,Create Accounting Voucher,Resource,AA-1,Invoice,INV-O-23
+389,2026-11-17 15:44:00,Create Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-23
+389,2026-11-17 15:44:00,Create Accounting Voucher,Resource,AA-1,Voucher,V-O-23
+389,2026-11-17 15:44:00,Create Accounting Voucher,Supplier,S4,Requirement,R-26
+389,2026-11-17 15:44:00,Create Accounting Voucher,Supplier,S4,Asset,Asset-26
+389,2026-11-17 15:44:00,Create Accounting Voucher,Supplier,S4,Order,O-23
+389,2026-11-17 15:44:00,Create Accounting Voucher,Supplier,S4,Invoice,INV-O-23
+389,2026-11-17 15:44:00,Create Accounting Voucher,Supplier,S4,AcceptanceRecord,AR-O-23
+389,2026-11-17 15:44:00,Create Accounting Voucher,Supplier,S4,Voucher,V-O-23
+390,2026-11-17 16:04:00,Review Accounting Voucher,Resource,VR-1,Asset,Asset-26
+390,2026-11-17 16:04:00,Review Accounting Voucher,Resource,VR-1,Order,O-23
+390,2026-11-17 16:04:00,Review Accounting Voucher,Resource,VR-1,Invoice,INV-O-23
+390,2026-11-17 16:04:00,Review Accounting Voucher,Resource,VR-1,Voucher,V-O-23
+391,2026-11-17 16:06:00,Post Accounting Voucher,Resource,AA-1,Requirement,R-26
+391,2026-11-17 16:06:00,Post Accounting Voucher,Resource,AA-1,Asset,Asset-26
+391,2026-11-17 16:06:00,Post Accounting Voucher,Resource,AA-1,Order,O-23
+391,2026-11-17 16:06:00,Post Accounting Voucher,Resource,AA-1,Invoice,INV-O-23
+391,2026-11-17 16:06:00,Post Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-23
+391,2026-11-17 16:06:00,Post Accounting Voucher,Resource,AA-1,Voucher,V-O-23
+391,2026-11-17 16:06:00,Post Accounting Voucher,Supplier,S4,Requirement,R-26
+391,2026-11-17 16:06:00,Post Accounting Voucher,Supplier,S4,Asset,Asset-26
+391,2026-11-17 16:06:00,Post Accounting Voucher,Supplier,S4,Order,O-23
+391,2026-11-17 16:06:00,Post Accounting Voucher,Supplier,S4,Invoice,INV-O-23
+391,2026-11-17 16:06:00,Post Accounting Voucher,Supplier,S4,AcceptanceRecord,AR-O-23
+391,2026-11-17 16:06:00,Post Accounting Voucher,Supplier,S4,Voucher,V-O-23
+393,2026-11-19 15:04:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-25
+393,2026-11-19 15:04:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-25
+393,2026-11-19 15:04:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-22
+393,2026-11-19 15:04:00,Perform Business And Technical Acceptance,Resource,AT-1,AcceptanceRecord,AR-O-22
+393,2026-11-19 15:04:00,Perform Business And Technical Acceptance,Supplier,S6,Requirement,R-25
+393,2026-11-19 15:04:00,Perform Business And Technical Acceptance,Supplier,S6,Asset,Asset-25
+393,2026-11-19 15:04:00,Perform Business And Technical Acceptance,Supplier,S6,Order,O-22
+393,2026-11-19 15:04:00,Perform Business And Technical Acceptance,Supplier,S6,AcceptanceRecord,AR-O-22
+396,2026-11-19 15:09:00,Verify Accounting Prerequisites,Resource,AA-1,Requirement,R-25
+396,2026-11-19 15:09:00,Verify Accounting Prerequisites,Resource,AA-1,Asset,Asset-25
+396,2026-11-19 15:09:00,Verify Accounting Prerequisites,Resource,AA-1,Order,O-22
+396,2026-11-19 15:09:00,Verify Accounting Prerequisites,Resource,AA-1,Invoice,INV-O-22
+396,2026-11-19 15:09:00,Verify Accounting Prerequisites,Resource,AA-1,AcceptanceRecord,AR-O-22
+396,2026-11-19 15:09:00,Verify Accounting Prerequisites,Supplier,S6,Requirement,R-25
+396,2026-11-19 15:09:00,Verify Accounting Prerequisites,Supplier,S6,Asset,Asset-25
+396,2026-11-19 15:09:00,Verify Accounting Prerequisites,Supplier,S6,Order,O-22
+396,2026-11-19 15:09:00,Verify Accounting Prerequisites,Supplier,S6,Invoice,INV-O-22
+396,2026-11-19 15:09:00,Verify Accounting Prerequisites,Supplier,S6,AcceptanceRecord,AR-O-22
+397,2026-11-19 15:10:00,Confirm Accounting Date,Resource,AA-1,Asset,Asset-25
+398,2026-11-19 15:12:00,Create Or Update Intangible Asset Record,Resource,AA-1,Asset,Asset-25
+399,2026-11-19 15:14:00,Create Accounting Voucher,Resource,AA-1,Requirement,R-25
+399,2026-11-19 15:14:00,Create Accounting Voucher,Resource,AA-1,Asset,Asset-25
+399,2026-11-19 15:14:00,Create Accounting Voucher,Resource,AA-1,Order,O-22
+399,2026-11-19 15:14:00,Create Accounting Voucher,Resource,AA-1,Invoice,INV-O-22
+399,2026-11-19 15:14:00,Create Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-22
+399,2026-11-19 15:14:00,Create Accounting Voucher,Resource,AA-1,Voucher,V-O-22
+399,2026-11-19 15:14:00,Create Accounting Voucher,Supplier,S6,Requirement,R-25
+399,2026-11-19 15:14:00,Create Accounting Voucher,Supplier,S6,Asset,Asset-25
+399,2026-11-19 15:14:00,Create Accounting Voucher,Supplier,S6,Order,O-22
+399,2026-11-19 15:14:00,Create Accounting Voucher,Supplier,S6,Invoice,INV-O-22
+399,2026-11-19 15:14:00,Create Accounting Voucher,Supplier,S6,AcceptanceRecord,AR-O-22
+399,2026-11-19 15:14:00,Create Accounting Voucher,Supplier,S6,Voucher,V-O-22
+400,2026-11-19 15:34:00,Review Accounting Voucher,Resource,VR-1,Asset,Asset-25
+400,2026-11-19 15:34:00,Review Accounting Voucher,Resource,VR-1,Order,O-22
+400,2026-11-19 15:34:00,Review Accounting Voucher,Resource,VR-1,Invoice,INV-O-22
+400,2026-11-19 15:34:00,Review Accounting Voucher,Resource,VR-1,Voucher,V-O-22
+401,2026-11-19 16:04:00,Modify Accounting Voucher,Resource,AA-1,Asset,Asset-25
+401,2026-11-19 16:04:00,Modify Accounting Voucher,Resource,AA-1,Order,O-22
+401,2026-11-19 16:04:00,Modify Accounting Voucher,Resource,AA-1,Invoice,INV-O-22
+401,2026-11-19 16:04:00,Modify Accounting Voucher,Resource,AA-1,Voucher,V-O-22
+402,2026-11-19 16:24:00,Review Accounting Voucher,Resource,VR-1,Asset,Asset-25
+402,2026-11-19 16:24:00,Review Accounting Voucher,Resource,VR-1,Order,O-22
+402,2026-11-19 16:24:00,Review Accounting Voucher,Resource,VR-1,Invoice,INV-O-22
+402,2026-11-19 16:24:00,Review Accounting Voucher,Resource,VR-1,Voucher,V-O-22
+403,2026-11-19 16:26:00,Post Accounting Voucher,Resource,AA-1,Requirement,R-25
+403,2026-11-19 16:26:00,Post Accounting Voucher,Resource,AA-1,Asset,Asset-25
+403,2026-11-19 16:26:00,Post Accounting Voucher,Resource,AA-1,Order,O-22
+403,2026-11-19 16:26:00,Post Accounting Voucher,Resource,AA-1,Invoice,INV-O-22
+403,2026-11-19 16:26:00,Post Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-22
+403,2026-11-19 16:26:00,Post Accounting Voucher,Resource,AA-1,Voucher,V-O-22
+403,2026-11-19 16:26:00,Post Accounting Voucher,Supplier,S6,Requirement,R-25
+403,2026-11-19 16:26:00,Post Accounting Voucher,Supplier,S6,Asset,Asset-25
+403,2026-11-19 16:26:00,Post Accounting Voucher,Supplier,S6,Order,O-22
+403,2026-11-19 16:26:00,Post Accounting Voucher,Supplier,S6,Invoice,INV-O-22
+403,2026-11-19 16:26:00,Post Accounting Voucher,Supplier,S6,AcceptanceRecord,AR-O-22
+403,2026-11-19 16:26:00,Post Accounting Voucher,Supplier,S6,Voucher,V-O-22
+404,2026-11-23 09:31:00,Obtain Quotations,Resource,PO-2,Requirement,R-27
+404,2026-11-23 09:31:00,Obtain Quotations,Resource,PO-2,Asset,Asset-27
+404,2026-11-23 09:31:00,Obtain Quotations,Supplier,S4,Requirement,R-27
+404,2026-11-23 09:31:00,Obtain Quotations,Supplier,S4,Asset,Asset-27
+404,2026-11-23 09:31:00,Obtain Quotations,Supplier,S3,Requirement,R-27
+404,2026-11-23 09:31:00,Obtain Quotations,Supplier,S3,Asset,Asset-27
+404,2026-11-23 09:31:00,Obtain Quotations,Supplier,S1,Requirement,R-27
+404,2026-11-23 09:31:00,Obtain Quotations,Supplier,S1,Asset,Asset-27
+405,2026-11-23 13:31:00,Evaluate And Select Quotation,Resource,PO-2,Requirement,R-27
+405,2026-11-23 13:31:00,Evaluate And Select Quotation,Resource,PO-2,Asset,Asset-27
+405,2026-11-23 13:31:00,Evaluate And Select Quotation,Supplier,S3,Requirement,R-27
+405,2026-11-23 13:31:00,Evaluate And Select Quotation,Supplier,S3,Asset,Asset-27
+406,2026-11-23 13:32:00,Check Contract Need,Supplier,S3,Requirement,R-27
+406,2026-11-23 13:32:00,Check Contract Need,Supplier,S3,Asset,Asset-27
+407,2026-11-23 13:34:00,Create Purchase Order,Resource,PO-2,Requirement,R-27
+407,2026-11-23 13:34:00,Create Purchase Order,Resource,PO-2,Asset,Asset-27
+407,2026-11-23 13:34:00,Create Purchase Order,Resource,PO-2,Order,O-24
+407,2026-11-23 13:34:00,Create Purchase Order,Supplier,S3,Requirement,R-27
+407,2026-11-23 13:34:00,Create Purchase Order,Supplier,S3,Asset,Asset-27
+407,2026-11-23 13:34:00,Create Purchase Order,Supplier,S3,Order,O-24
+408,2026-11-23 15:34:00,Receive Invoice,Supplier,S3,Order,O-24
+408,2026-11-23 15:34:00,Receive Invoice,Supplier,S3,Invoice,INV-O-24
+410,2026-11-25 09:31:00,Review Requirement,Resource,RR-1,Requirement,R-28
+410,2026-11-25 09:31:00,Review Requirement,Resource,RR-1,Asset,Asset-28
+411,2026-11-30 13:34:00,Receive Contract Deliverable,Resource,PO-2,Requirement,R-27
+411,2026-11-30 13:34:00,Receive Contract Deliverable,Resource,PO-2,Asset,Asset-27
+411,2026-11-30 13:34:00,Receive Contract Deliverable,Resource,PO-2,Order,O-24
+411,2026-11-30 13:34:00,Receive Contract Deliverable,Supplier,S3,Requirement,R-27
+411,2026-11-30 13:34:00,Receive Contract Deliverable,Supplier,S3,Asset,Asset-27
+411,2026-11-30 13:34:00,Receive Contract Deliverable,Supplier,S3,Order,O-24
+412,2026-11-30 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-27
+412,2026-11-30 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-27
+412,2026-11-30 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-24
+412,2026-11-30 15:34:00,Perform Business And Technical Acceptance,Supplier,S3,Requirement,R-27
+412,2026-11-30 15:34:00,Perform Business And Technical Acceptance,Supplier,S3,Asset,Asset-27
+412,2026-11-30 15:34:00,Perform Business And Technical Acceptance,Supplier,S3,Order,O-24
+413,2026-12-04 09:31:00,Obtain Quotations,Resource,PO-2,Requirement,R-28
+413,2026-12-04 09:31:00,Obtain Quotations,Resource,PO-2,Asset,Asset-28
+413,2026-12-04 09:31:00,Obtain Quotations,Supplier,S4,Requirement,R-28
+413,2026-12-04 09:31:00,Obtain Quotations,Supplier,S4,Asset,Asset-28
+413,2026-12-04 09:31:00,Obtain Quotations,Supplier,S2,Requirement,R-28
+413,2026-12-04 09:31:00,Obtain Quotations,Supplier,S2,Asset,Asset-28
+414,2026-12-04 13:31:00,Evaluate And Select Quotation,Resource,PO-2,Requirement,R-28
+414,2026-12-04 13:31:00,Evaluate And Select Quotation,Resource,PO-2,Asset,Asset-28
+414,2026-12-04 13:31:00,Evaluate And Select Quotation,Supplier,S2,Requirement,R-28
+414,2026-12-04 13:31:00,Evaluate And Select Quotation,Supplier,S2,Asset,Asset-28
+415,2026-12-04 13:32:00,Check Contract Need,Supplier,S2,Requirement,R-28
+415,2026-12-04 13:32:00,Check Contract Need,Supplier,S2,Asset,Asset-28
+416,2026-12-04 13:34:00,Create Purchase Order,Resource,PO-2,Requirement,R-28
+416,2026-12-04 13:34:00,Create Purchase Order,Resource,PO-2,Asset,Asset-28
+416,2026-12-04 13:34:00,Create Purchase Order,Resource,PO-2,Order,O-25
+416,2026-12-04 13:34:00,Create Purchase Order,Supplier,S2,Requirement,R-28
+416,2026-12-04 13:34:00,Create Purchase Order,Supplier,S2,Asset,Asset-28
+416,2026-12-04 13:34:00,Create Purchase Order,Supplier,S2,Order,O-25
+417,2026-12-04 15:34:00,Receive Invoice,Supplier,S2,Order,O-25
+417,2026-12-04 15:34:00,Receive Invoice,Supplier,S2,Invoice,INV-O-25
+419,2026-12-08 09:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-27
+419,2026-12-08 09:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-27
+419,2026-12-08 09:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-24
+419,2026-12-08 09:34:00,Perform Business And Technical Acceptance,Resource,AT-1,AcceptanceRecord,AR-O-24
+419,2026-12-08 09:34:00,Perform Business And Technical Acceptance,Supplier,S3,Requirement,R-27
+419,2026-12-08 09:34:00,Perform Business And Technical Acceptance,Supplier,S3,Asset,Asset-27
+419,2026-12-08 09:34:00,Perform Business And Technical Acceptance,Supplier,S3,Order,O-24
+419,2026-12-08 09:34:00,Perform Business And Technical Acceptance,Supplier,S3,AcceptanceRecord,AR-O-24
+422,2026-12-08 09:39:00,Verify Accounting Prerequisites,Resource,AA-1,Requirement,R-27
+422,2026-12-08 09:39:00,Verify Accounting Prerequisites,Resource,AA-1,Asset,Asset-27
+422,2026-12-08 09:39:00,Verify Accounting Prerequisites,Resource,AA-1,Order,O-24
+422,2026-12-08 09:39:00,Verify Accounting Prerequisites,Resource,AA-1,Invoice,INV-O-24
+422,2026-12-08 09:39:00,Verify Accounting Prerequisites,Resource,AA-1,AcceptanceRecord,AR-O-24
+422,2026-12-08 09:39:00,Verify Accounting Prerequisites,Supplier,S3,Requirement,R-27
+422,2026-12-08 09:39:00,Verify Accounting Prerequisites,Supplier,S3,Asset,Asset-27
+422,2026-12-08 09:39:00,Verify Accounting Prerequisites,Supplier,S3,Order,O-24
+422,2026-12-08 09:39:00,Verify Accounting Prerequisites,Supplier,S3,Invoice,INV-O-24
+422,2026-12-08 09:39:00,Verify Accounting Prerequisites,Supplier,S3,AcceptanceRecord,AR-O-24
+423,2026-12-08 09:40:00,Confirm Accounting Date,Resource,AA-1,Asset,Asset-27
+424,2026-12-08 09:42:00,Create Or Update Intangible Asset Record,Resource,AA-1,Asset,Asset-27
+425,2026-12-08 09:44:00,Create Accounting Voucher,Resource,AA-1,Requirement,R-27
+425,2026-12-08 09:44:00,Create Accounting Voucher,Resource,AA-1,Asset,Asset-27
+425,2026-12-08 09:44:00,Create Accounting Voucher,Resource,AA-1,Order,O-24
+425,2026-12-08 09:44:00,Create Accounting Voucher,Resource,AA-1,Invoice,INV-O-24
+425,2026-12-08 09:44:00,Create Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-24
+425,2026-12-08 09:44:00,Create Accounting Voucher,Resource,AA-1,Voucher,V-O-24
+425,2026-12-08 09:44:00,Create Accounting Voucher,Supplier,S3,Requirement,R-27
+425,2026-12-08 09:44:00,Create Accounting Voucher,Supplier,S3,Asset,Asset-27
+425,2026-12-08 09:44:00,Create Accounting Voucher,Supplier,S3,Order,O-24
+425,2026-12-08 09:44:00,Create Accounting Voucher,Supplier,S3,Invoice,INV-O-24
+425,2026-12-08 09:44:00,Create Accounting Voucher,Supplier,S3,AcceptanceRecord,AR-O-24
+425,2026-12-08 09:44:00,Create Accounting Voucher,Supplier,S3,Voucher,V-O-24
+426,2026-12-08 10:04:00,Review Accounting Voucher,Resource,VR-1,Asset,Asset-27
+426,2026-12-08 10:04:00,Review Accounting Voucher,Resource,VR-1,Order,O-24
+426,2026-12-08 10:04:00,Review Accounting Voucher,Resource,VR-1,Invoice,INV-O-24
+426,2026-12-08 10:04:00,Review Accounting Voucher,Resource,VR-1,Voucher,V-O-24
+427,2026-12-08 10:06:00,Post Accounting Voucher,Resource,AA-1,Requirement,R-27
+427,2026-12-08 10:06:00,Post Accounting Voucher,Resource,AA-1,Asset,Asset-27
+427,2026-12-08 10:06:00,Post Accounting Voucher,Resource,AA-1,Order,O-24
+427,2026-12-08 10:06:00,Post Accounting Voucher,Resource,AA-1,Invoice,INV-O-24
+427,2026-12-08 10:06:00,Post Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-24
+427,2026-12-08 10:06:00,Post Accounting Voucher,Resource,AA-1,Voucher,V-O-24
+427,2026-12-08 10:06:00,Post Accounting Voucher,Supplier,S3,Requirement,R-27
+427,2026-12-08 10:06:00,Post Accounting Voucher,Supplier,S3,Asset,Asset-27
+427,2026-12-08 10:06:00,Post Accounting Voucher,Supplier,S3,Order,O-24
+427,2026-12-08 10:06:00,Post Accounting Voucher,Supplier,S3,Invoice,INV-O-24
+427,2026-12-08 10:06:00,Post Accounting Voucher,Supplier,S3,AcceptanceRecord,AR-O-24
+427,2026-12-08 10:06:00,Post Accounting Voucher,Supplier,S3,Voucher,V-O-24
+428,2026-12-11 13:34:00,Receive Contract Deliverable,Resource,PO-1,Requirement,R-28
+428,2026-12-11 13:34:00,Receive Contract Deliverable,Resource,PO-1,Asset,Asset-28
+428,2026-12-11 13:34:00,Receive Contract Deliverable,Resource,PO-1,Order,O-25
+428,2026-12-11 13:34:00,Receive Contract Deliverable,Supplier,S2,Requirement,R-28
+428,2026-12-11 13:34:00,Receive Contract Deliverable,Supplier,S2,Asset,Asset-28
+428,2026-12-11 13:34:00,Receive Contract Deliverable,Supplier,S2,Order,O-25
+429,2026-12-11 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-28
+429,2026-12-11 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-28
+429,2026-12-11 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-25
+429,2026-12-11 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,AcceptanceRecord,AR-O-25
+429,2026-12-11 15:34:00,Perform Business And Technical Acceptance,Supplier,S2,Requirement,R-28
+429,2026-12-11 15:34:00,Perform Business And Technical Acceptance,Supplier,S2,Asset,Asset-28
+429,2026-12-11 15:34:00,Perform Business And Technical Acceptance,Supplier,S2,Order,O-25
+429,2026-12-11 15:34:00,Perform Business And Technical Acceptance,Supplier,S2,AcceptanceRecord,AR-O-25
+432,2026-12-11 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Requirement,R-28
+432,2026-12-11 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Asset,Asset-28
+432,2026-12-11 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Order,O-25
+432,2026-12-11 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Invoice,INV-O-25
+432,2026-12-11 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,AcceptanceRecord,AR-O-25
+432,2026-12-11 15:39:00,Verify Accounting Prerequisites,Supplier,S2,Requirement,R-28
+432,2026-12-11 15:39:00,Verify Accounting Prerequisites,Supplier,S2,Asset,Asset-28
+432,2026-12-11 15:39:00,Verify Accounting Prerequisites,Supplier,S2,Order,O-25
+432,2026-12-11 15:39:00,Verify Accounting Prerequisites,Supplier,S2,Invoice,INV-O-25
+432,2026-12-11 15:39:00,Verify Accounting Prerequisites,Supplier,S2,AcceptanceRecord,AR-O-25
+433,2026-12-11 15:40:00,Confirm Accounting Date,Resource,AA-1,Asset,Asset-28
+434,2026-12-11 15:42:00,Create Or Update Intangible Asset Record,Resource,AA-1,Asset,Asset-28
+435,2026-12-11 15:44:00,Create Accounting Voucher,Resource,AA-1,Requirement,R-28
+435,2026-12-11 15:44:00,Create Accounting Voucher,Resource,AA-1,Asset,Asset-28
+435,2026-12-11 15:44:00,Create Accounting Voucher,Resource,AA-1,Order,O-25
+435,2026-12-11 15:44:00,Create Accounting Voucher,Resource,AA-1,Invoice,INV-O-25
+435,2026-12-11 15:44:00,Create Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-25
+435,2026-12-11 15:44:00,Create Accounting Voucher,Resource,AA-1,Voucher,V-O-25
+435,2026-12-11 15:44:00,Create Accounting Voucher,Supplier,S2,Requirement,R-28
+435,2026-12-11 15:44:00,Create Accounting Voucher,Supplier,S2,Asset,Asset-28
+435,2026-12-11 15:44:00,Create Accounting Voucher,Supplier,S2,Order,O-25
+435,2026-12-11 15:44:00,Create Accounting Voucher,Supplier,S2,Invoice,INV-O-25
+435,2026-12-11 15:44:00,Create Accounting Voucher,Supplier,S2,AcceptanceRecord,AR-O-25
+435,2026-12-11 15:44:00,Create Accounting Voucher,Supplier,S2,Voucher,V-O-25
+436,2026-12-11 16:04:00,Review Accounting Voucher,Resource,VR-1,Asset,Asset-28
+436,2026-12-11 16:04:00,Review Accounting Voucher,Resource,VR-1,Order,O-25
+436,2026-12-11 16:04:00,Review Accounting Voucher,Resource,VR-1,Invoice,INV-O-25
+436,2026-12-11 16:04:00,Review Accounting Voucher,Resource,VR-1,Voucher,V-O-25
+437,2026-12-11 16:06:00,Post Accounting Voucher,Resource,AA-1,Requirement,R-28
+437,2026-12-11 16:06:00,Post Accounting Voucher,Resource,AA-1,Asset,Asset-28
+437,2026-12-11 16:06:00,Post Accounting Voucher,Resource,AA-1,Order,O-25
+437,2026-12-11 16:06:00,Post Accounting Voucher,Resource,AA-1,Invoice,INV-O-25
+437,2026-12-11 16:06:00,Post Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-25
+437,2026-12-11 16:06:00,Post Accounting Voucher,Resource,AA-1,Voucher,V-O-25
+437,2026-12-11 16:06:00,Post Accounting Voucher,Supplier,S2,Requirement,R-28
+437,2026-12-11 16:06:00,Post Accounting Voucher,Supplier,S2,Asset,Asset-28
+437,2026-12-11 16:06:00,Post Accounting Voucher,Supplier,S2,Order,O-25
+437,2026-12-11 16:06:00,Post Accounting Voucher,Supplier,S2,Invoice,INV-O-25
+437,2026-12-11 16:06:00,Post Accounting Voucher,Supplier,S2,AcceptanceRecord,AR-O-25
+437,2026-12-11 16:06:00,Post Accounting Voucher,Supplier,S2,Voucher,V-O-25
+439,2026-12-22 09:31:00,Review Requirement,Resource,RR-1,Requirement,R-29
+439,2026-12-22 09:31:00,Review Requirement,Resource,RR-1,Asset,Asset-29
+440,2026-12-31 09:31:00,Obtain Quotations,Resource,PO-1,Requirement,R-29
+440,2026-12-31 09:31:00,Obtain Quotations,Resource,PO-1,Asset,Asset-29
+440,2026-12-31 09:31:00,Obtain Quotations,Supplier,S5,Requirement,R-29
+440,2026-12-31 09:31:00,Obtain Quotations,Supplier,S5,Asset,Asset-29
+440,2026-12-31 09:31:00,Obtain Quotations,Supplier,S3,Requirement,R-29
+440,2026-12-31 09:31:00,Obtain Quotations,Supplier,S3,Asset,Asset-29
+441,2026-12-31 13:31:00,Evaluate And Select Quotation,Resource,PO-2,Requirement,R-29
+441,2026-12-31 13:31:00,Evaluate And Select Quotation,Resource,PO-2,Asset,Asset-29
+441,2026-12-31 13:31:00,Evaluate And Select Quotation,Supplier,S5,Requirement,R-29
+441,2026-12-31 13:31:00,Evaluate And Select Quotation,Supplier,S5,Asset,Asset-29
+442,2026-12-31 13:32:00,Check Contract Need,Supplier,S5,Requirement,R-29
+442,2026-12-31 13:32:00,Check Contract Need,Supplier,S5,Asset,Asset-29
+443,2026-12-31 13:34:00,Create Purchase Order,Resource,PO-1,Requirement,R-29
+443,2026-12-31 13:34:00,Create Purchase Order,Resource,PO-1,Asset,Asset-29
+443,2026-12-31 13:34:00,Create Purchase Order,Resource,PO-1,Order,O-26
+443,2026-12-31 13:34:00,Create Purchase Order,Supplier,S5,Requirement,R-29
+443,2026-12-31 13:34:00,Create Purchase Order,Supplier,S5,Asset,Asset-29
+443,2026-12-31 13:34:00,Create Purchase Order,Supplier,S5,Order,O-26
+444,2026-12-31 15:34:00,Receive Invoice,Supplier,S5,Order,O-26
+444,2026-12-31 15:34:00,Receive Invoice,Supplier,S5,Invoice,INV-O-26
+445,2027-01-07 13:34:00,Receive Contract Deliverable,Resource,PO-2,Requirement,R-29
+445,2027-01-07 13:34:00,Receive Contract Deliverable,Resource,PO-2,Asset,Asset-29
+445,2027-01-07 13:34:00,Receive Contract Deliverable,Resource,PO-2,Order,O-26
+445,2027-01-07 13:34:00,Receive Contract Deliverable,Supplier,S5,Requirement,R-29
+445,2027-01-07 13:34:00,Receive Contract Deliverable,Supplier,S5,Asset,Asset-29
+445,2027-01-07 13:34:00,Receive Contract Deliverable,Supplier,S5,Order,O-26
+446,2027-01-07 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-29
+446,2027-01-07 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-29
+446,2027-01-07 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-26
+446,2027-01-07 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,AcceptanceRecord,AR-O-26
+446,2027-01-07 15:34:00,Perform Business And Technical Acceptance,Supplier,S5,Requirement,R-29
+446,2027-01-07 15:34:00,Perform Business And Technical Acceptance,Supplier,S5,Asset,Asset-29
+446,2027-01-07 15:34:00,Perform Business And Technical Acceptance,Supplier,S5,Order,O-26
+446,2027-01-07 15:34:00,Perform Business And Technical Acceptance,Supplier,S5,AcceptanceRecord,AR-O-26
+449,2027-01-07 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Requirement,R-29
+449,2027-01-07 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Asset,Asset-29
+449,2027-01-07 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Order,O-26
+449,2027-01-07 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Invoice,INV-O-26
+449,2027-01-07 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,AcceptanceRecord,AR-O-26
+449,2027-01-07 15:39:00,Verify Accounting Prerequisites,Supplier,S5,Requirement,R-29
+449,2027-01-07 15:39:00,Verify Accounting Prerequisites,Supplier,S5,Asset,Asset-29
+449,2027-01-07 15:39:00,Verify Accounting Prerequisites,Supplier,S5,Order,O-26
+449,2027-01-07 15:39:00,Verify Accounting Prerequisites,Supplier,S5,Invoice,INV-O-26
+449,2027-01-07 15:39:00,Verify Accounting Prerequisites,Supplier,S5,AcceptanceRecord,AR-O-26
+450,2027-01-07 15:40:00,Confirm Accounting Date,Resource,AA-1,Asset,Asset-29
+451,2027-01-07 15:42:00,Create Or Update Intangible Asset Record,Resource,AA-1,Asset,Asset-29
+452,2027-01-07 15:44:00,Create Accounting Voucher,Resource,AA-1,Requirement,R-29
+452,2027-01-07 15:44:00,Create Accounting Voucher,Resource,AA-1,Asset,Asset-29
+452,2027-01-07 15:44:00,Create Accounting Voucher,Resource,AA-1,Order,O-26
+452,2027-01-07 15:44:00,Create Accounting Voucher,Resource,AA-1,Invoice,INV-O-26
+452,2027-01-07 15:44:00,Create Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-26
+452,2027-01-07 15:44:00,Create Accounting Voucher,Resource,AA-1,Voucher,V-O-26
+452,2027-01-07 15:44:00,Create Accounting Voucher,Supplier,S5,Requirement,R-29
+452,2027-01-07 15:44:00,Create Accounting Voucher,Supplier,S5,Asset,Asset-29
+452,2027-01-07 15:44:00,Create Accounting Voucher,Supplier,S5,Order,O-26
+452,2027-01-07 15:44:00,Create Accounting Voucher,Supplier,S5,Invoice,INV-O-26
+452,2027-01-07 15:44:00,Create Accounting Voucher,Supplier,S5,AcceptanceRecord,AR-O-26
+452,2027-01-07 15:44:00,Create Accounting Voucher,Supplier,S5,Voucher,V-O-26
+453,2027-01-07 16:04:00,Review Accounting Voucher,Resource,VR-1,Asset,Asset-29
+453,2027-01-07 16:04:00,Review Accounting Voucher,Resource,VR-1,Order,O-26
+453,2027-01-07 16:04:00,Review Accounting Voucher,Resource,VR-1,Invoice,INV-O-26
+453,2027-01-07 16:04:00,Review Accounting Voucher,Resource,VR-1,Voucher,V-O-26
+454,2027-01-07 16:06:00,Post Accounting Voucher,Resource,AA-1,Requirement,R-29
+454,2027-01-07 16:06:00,Post Accounting Voucher,Resource,AA-1,Asset,Asset-29
+454,2027-01-07 16:06:00,Post Accounting Voucher,Resource,AA-1,Order,O-26
+454,2027-01-07 16:06:00,Post Accounting Voucher,Resource,AA-1,Invoice,INV-O-26
+454,2027-01-07 16:06:00,Post Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-26
+454,2027-01-07 16:06:00,Post Accounting Voucher,Resource,AA-1,Voucher,V-O-26
+454,2027-01-07 16:06:00,Post Accounting Voucher,Supplier,S5,Requirement,R-29
+454,2027-01-07 16:06:00,Post Accounting Voucher,Supplier,S5,Asset,Asset-29
+454,2027-01-07 16:06:00,Post Accounting Voucher,Supplier,S5,Order,O-26
+454,2027-01-07 16:06:00,Post Accounting Voucher,Supplier,S5,Invoice,INV-O-26
+454,2027-01-07 16:06:00,Post Accounting Voucher,Supplier,S5,AcceptanceRecord,AR-O-26
+454,2027-01-07 16:06:00,Post Accounting Voucher,Supplier,S5,Voucher,V-O-26
+456,2027-01-19 09:31:00,Review Requirement,Resource,RR-1,Requirement,R-30
+456,2027-01-19 09:31:00,Review Requirement,Resource,RR-1,Asset,Asset-30
+457,2027-01-28 09:31:00,Obtain Quotations,Resource,PO-2,Requirement,R-30
+457,2027-01-28 09:31:00,Obtain Quotations,Resource,PO-2,Asset,Asset-30
+457,2027-01-28 09:31:00,Obtain Quotations,Supplier,S6,Requirement,R-30
+457,2027-01-28 09:31:00,Obtain Quotations,Supplier,S6,Asset,Asset-30
+457,2027-01-28 09:31:00,Obtain Quotations,Supplier,S5,Requirement,R-30
+457,2027-01-28 09:31:00,Obtain Quotations,Supplier,S5,Asset,Asset-30
+458,2027-01-28 13:31:00,Evaluate And Select Quotation,Resource,PO-1,Requirement,R-30
+458,2027-01-28 13:31:00,Evaluate And Select Quotation,Resource,PO-1,Asset,Asset-30
+458,2027-01-28 13:31:00,Evaluate And Select Quotation,Supplier,S6,Requirement,R-30
+458,2027-01-28 13:31:00,Evaluate And Select Quotation,Supplier,S6,Asset,Asset-30
+459,2027-01-28 13:32:00,Check Contract Need,Supplier,S6,Requirement,R-30
+459,2027-01-28 13:32:00,Check Contract Need,Supplier,S6,Asset,Asset-30
+460,2027-01-28 13:34:00,Create Purchase Order,Resource,PO-1,Requirement,R-30
+460,2027-01-28 13:34:00,Create Purchase Order,Resource,PO-1,Asset,Asset-30
+460,2027-01-28 13:34:00,Create Purchase Order,Resource,PO-1,Order,O-27
+460,2027-01-28 13:34:00,Create Purchase Order,Supplier,S6,Requirement,R-30
+460,2027-01-28 13:34:00,Create Purchase Order,Supplier,S6,Asset,Asset-30
+460,2027-01-28 13:34:00,Create Purchase Order,Supplier,S6,Order,O-27
+461,2027-01-28 15:34:00,Receive Invoice,Supplier,S6,Order,O-27
+461,2027-01-28 15:34:00,Receive Invoice,Supplier,S6,Invoice,INV-O-27
+463,2027-02-04 09:31:00,Review Requirement,Resource,RR-1,Requirement,R-31
+463,2027-02-04 09:31:00,Review Requirement,Resource,RR-1,Asset,Asset-31
+464,2027-02-04 13:34:00,Receive Contract Deliverable,Resource,PO-2,Requirement,R-30
+464,2027-02-04 13:34:00,Receive Contract Deliverable,Resource,PO-2,Asset,Asset-30
+464,2027-02-04 13:34:00,Receive Contract Deliverable,Resource,PO-2,Order,O-27
+464,2027-02-04 13:34:00,Receive Contract Deliverable,Supplier,S6,Requirement,R-30
+464,2027-02-04 13:34:00,Receive Contract Deliverable,Supplier,S6,Asset,Asset-30
+464,2027-02-04 13:34:00,Receive Contract Deliverable,Supplier,S6,Order,O-27
+465,2027-02-04 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-30
+465,2027-02-04 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-30
+465,2027-02-04 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-27
+465,2027-02-04 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,AcceptanceRecord,AR-O-27
+465,2027-02-04 15:34:00,Perform Business And Technical Acceptance,Supplier,S6,Requirement,R-30
+465,2027-02-04 15:34:00,Perform Business And Technical Acceptance,Supplier,S6,Asset,Asset-30
+465,2027-02-04 15:34:00,Perform Business And Technical Acceptance,Supplier,S6,Order,O-27
+465,2027-02-04 15:34:00,Perform Business And Technical Acceptance,Supplier,S6,AcceptanceRecord,AR-O-27
+468,2027-02-04 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Requirement,R-30
+468,2027-02-04 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Asset,Asset-30
+468,2027-02-04 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Order,O-27
+468,2027-02-04 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Invoice,INV-O-27
+468,2027-02-04 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,AcceptanceRecord,AR-O-27
+468,2027-02-04 15:39:00,Verify Accounting Prerequisites,Supplier,S6,Requirement,R-30
+468,2027-02-04 15:39:00,Verify Accounting Prerequisites,Supplier,S6,Asset,Asset-30
+468,2027-02-04 15:39:00,Verify Accounting Prerequisites,Supplier,S6,Order,O-27
+468,2027-02-04 15:39:00,Verify Accounting Prerequisites,Supplier,S6,Invoice,INV-O-27
+468,2027-02-04 15:39:00,Verify Accounting Prerequisites,Supplier,S6,AcceptanceRecord,AR-O-27
+469,2027-02-04 15:40:00,Confirm Accounting Date,Resource,AA-1,Asset,Asset-30
+470,2027-02-04 15:42:00,Create Or Update Intangible Asset Record,Resource,AA-1,Asset,Asset-30
+471,2027-02-04 15:44:00,Create Accounting Voucher,Resource,AA-1,Requirement,R-30
+471,2027-02-04 15:44:00,Create Accounting Voucher,Resource,AA-1,Asset,Asset-30
+471,2027-02-04 15:44:00,Create Accounting Voucher,Resource,AA-1,Order,O-27
+471,2027-02-04 15:44:00,Create Accounting Voucher,Resource,AA-1,Invoice,INV-O-27
+471,2027-02-04 15:44:00,Create Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-27
+471,2027-02-04 15:44:00,Create Accounting Voucher,Resource,AA-1,Voucher,V-O-27
+471,2027-02-04 15:44:00,Create Accounting Voucher,Supplier,S6,Requirement,R-30
+471,2027-02-04 15:44:00,Create Accounting Voucher,Supplier,S6,Asset,Asset-30
+471,2027-02-04 15:44:00,Create Accounting Voucher,Supplier,S6,Order,O-27
+471,2027-02-04 15:44:00,Create Accounting Voucher,Supplier,S6,Invoice,INV-O-27
+471,2027-02-04 15:44:00,Create Accounting Voucher,Supplier,S6,AcceptanceRecord,AR-O-27
+471,2027-02-04 15:44:00,Create Accounting Voucher,Supplier,S6,Voucher,V-O-27
+472,2027-02-04 16:04:00,Review Accounting Voucher,Resource,VR-1,Asset,Asset-30
+472,2027-02-04 16:04:00,Review Accounting Voucher,Resource,VR-1,Order,O-27
+472,2027-02-04 16:04:00,Review Accounting Voucher,Resource,VR-1,Invoice,INV-O-27
+472,2027-02-04 16:04:00,Review Accounting Voucher,Resource,VR-1,Voucher,V-O-27
+473,2027-02-04 16:06:00,Post Accounting Voucher,Resource,AA-1,Requirement,R-30
+473,2027-02-04 16:06:00,Post Accounting Voucher,Resource,AA-1,Asset,Asset-30
+473,2027-02-04 16:06:00,Post Accounting Voucher,Resource,AA-1,Order,O-27
+473,2027-02-04 16:06:00,Post Accounting Voucher,Resource,AA-1,Invoice,INV-O-27
+473,2027-02-04 16:06:00,Post Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-27
+473,2027-02-04 16:06:00,Post Accounting Voucher,Resource,AA-1,Voucher,V-O-27
+473,2027-02-04 16:06:00,Post Accounting Voucher,Supplier,S6,Requirement,R-30
+473,2027-02-04 16:06:00,Post Accounting Voucher,Supplier,S6,Asset,Asset-30
+473,2027-02-04 16:06:00,Post Accounting Voucher,Supplier,S6,Order,O-27
+473,2027-02-04 16:06:00,Post Accounting Voucher,Supplier,S6,Invoice,INV-O-27
+473,2027-02-04 16:06:00,Post Accounting Voucher,Supplier,S6,AcceptanceRecord,AR-O-27
+473,2027-02-04 16:06:00,Post Accounting Voucher,Supplier,S6,Voucher,V-O-27
+474,2027-02-15 09:31:00,Obtain Quotations,Resource,PO-1,Requirement,R-31
+474,2027-02-15 09:31:00,Obtain Quotations,Resource,PO-1,Asset,Asset-31
+474,2027-02-15 09:31:00,Obtain Quotations,Supplier,S4,Requirement,R-31
+474,2027-02-15 09:31:00,Obtain Quotations,Supplier,S4,Asset,Asset-31
+474,2027-02-15 09:31:00,Obtain Quotations,Supplier,S2,Requirement,R-31
+474,2027-02-15 09:31:00,Obtain Quotations,Supplier,S2,Asset,Asset-31
+474,2027-02-15 09:31:00,Obtain Quotations,Supplier,S1,Requirement,R-31
+474,2027-02-15 09:31:00,Obtain Quotations,Supplier,S1,Asset,Asset-31
+475,2027-02-15 13:31:00,Evaluate And Select Quotation,Resource,PO-1,Requirement,R-31
+475,2027-02-15 13:31:00,Evaluate And Select Quotation,Resource,PO-1,Asset,Asset-31
+475,2027-02-15 13:31:00,Evaluate And Select Quotation,Supplier,S2,Requirement,R-31
+475,2027-02-15 13:31:00,Evaluate And Select Quotation,Supplier,S2,Asset,Asset-31
+476,2027-02-15 13:32:00,Check Contract Need,Supplier,S2,Requirement,R-31
+476,2027-02-15 13:32:00,Check Contract Need,Supplier,S2,Asset,Asset-31
+477,2027-02-15 13:34:00,Create Purchase Order,Resource,PO-2,Requirement,R-31
+477,2027-02-15 13:34:00,Create Purchase Order,Resource,PO-2,Asset,Asset-31
+477,2027-02-15 13:34:00,Create Purchase Order,Resource,PO-2,Order,O-28
+477,2027-02-15 13:34:00,Create Purchase Order,Supplier,S2,Requirement,R-31
+477,2027-02-15 13:34:00,Create Purchase Order,Supplier,S2,Asset,Asset-31
+477,2027-02-15 13:34:00,Create Purchase Order,Supplier,S2,Order,O-28
+478,2027-02-15 15:34:00,Receive Invoice,Supplier,S2,Order,O-28
+478,2027-02-15 15:34:00,Receive Invoice,Supplier,S2,Invoice,INV-O-28
+479,2027-02-22 13:34:00,Receive Contract Deliverable,Resource,PO-2,Requirement,R-31
+479,2027-02-22 13:34:00,Receive Contract Deliverable,Resource,PO-2,Asset,Asset-31
+479,2027-02-22 13:34:00,Receive Contract Deliverable,Resource,PO-2,Order,O-28
+479,2027-02-22 13:34:00,Receive Contract Deliverable,Supplier,S2,Requirement,R-31
+479,2027-02-22 13:34:00,Receive Contract Deliverable,Supplier,S2,Asset,Asset-31
+479,2027-02-22 13:34:00,Receive Contract Deliverable,Supplier,S2,Order,O-28
+480,2027-02-22 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-31
+480,2027-02-22 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-31
+480,2027-02-22 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-28
+480,2027-02-22 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,AcceptanceRecord,AR-O-28
+480,2027-02-22 15:34:00,Perform Business And Technical Acceptance,Supplier,S2,Requirement,R-31
+480,2027-02-22 15:34:00,Perform Business And Technical Acceptance,Supplier,S2,Asset,Asset-31
+480,2027-02-22 15:34:00,Perform Business And Technical Acceptance,Supplier,S2,Order,O-28
+480,2027-02-22 15:34:00,Perform Business And Technical Acceptance,Supplier,S2,AcceptanceRecord,AR-O-28
+483,2027-02-22 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Requirement,R-31
+483,2027-02-22 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Asset,Asset-31
+483,2027-02-22 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Order,O-28
+483,2027-02-22 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Invoice,INV-O-28
+483,2027-02-22 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,AcceptanceRecord,AR-O-28
+483,2027-02-22 15:39:00,Verify Accounting Prerequisites,Supplier,S2,Requirement,R-31
+483,2027-02-22 15:39:00,Verify Accounting Prerequisites,Supplier,S2,Asset,Asset-31
+483,2027-02-22 15:39:00,Verify Accounting Prerequisites,Supplier,S2,Order,O-28
+483,2027-02-22 15:39:00,Verify Accounting Prerequisites,Supplier,S2,Invoice,INV-O-28
+483,2027-02-22 15:39:00,Verify Accounting Prerequisites,Supplier,S2,AcceptanceRecord,AR-O-28
+484,2027-02-22 15:40:00,Confirm Accounting Date,Resource,AA-1,Asset,Asset-31
+485,2027-02-22 15:42:00,Create Or Update Intangible Asset Record,Resource,AA-1,Asset,Asset-31
+486,2027-02-22 15:44:00,Create Accounting Voucher,Resource,AA-1,Requirement,R-31
+486,2027-02-22 15:44:00,Create Accounting Voucher,Resource,AA-1,Asset,Asset-31
+486,2027-02-22 15:44:00,Create Accounting Voucher,Resource,AA-1,Order,O-28
+486,2027-02-22 15:44:00,Create Accounting Voucher,Resource,AA-1,Invoice,INV-O-28
+486,2027-02-22 15:44:00,Create Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-28
+486,2027-02-22 15:44:00,Create Accounting Voucher,Resource,AA-1,Voucher,V-O-28
+486,2027-02-22 15:44:00,Create Accounting Voucher,Supplier,S2,Requirement,R-31
+486,2027-02-22 15:44:00,Create Accounting Voucher,Supplier,S2,Asset,Asset-31
+486,2027-02-22 15:44:00,Create Accounting Voucher,Supplier,S2,Order,O-28
+486,2027-02-22 15:44:00,Create Accounting Voucher,Supplier,S2,Invoice,INV-O-28
+486,2027-02-22 15:44:00,Create Accounting Voucher,Supplier,S2,AcceptanceRecord,AR-O-28
+486,2027-02-22 15:44:00,Create Accounting Voucher,Supplier,S2,Voucher,V-O-28
+487,2027-02-22 16:04:00,Review Accounting Voucher,Resource,VR-1,Asset,Asset-31
+487,2027-02-22 16:04:00,Review Accounting Voucher,Resource,VR-1,Order,O-28
+487,2027-02-22 16:04:00,Review Accounting Voucher,Resource,VR-1,Invoice,INV-O-28
+487,2027-02-22 16:04:00,Review Accounting Voucher,Resource,VR-1,Voucher,V-O-28
+488,2027-02-22 16:06:00,Post Accounting Voucher,Resource,AA-1,Requirement,R-31
+488,2027-02-22 16:06:00,Post Accounting Voucher,Resource,AA-1,Asset,Asset-31
+488,2027-02-22 16:06:00,Post Accounting Voucher,Resource,AA-1,Order,O-28
+488,2027-02-22 16:06:00,Post Accounting Voucher,Resource,AA-1,Invoice,INV-O-28
+488,2027-02-22 16:06:00,Post Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-28
+488,2027-02-22 16:06:00,Post Accounting Voucher,Resource,AA-1,Voucher,V-O-28
+488,2027-02-22 16:06:00,Post Accounting Voucher,Supplier,S2,Requirement,R-31
+488,2027-02-22 16:06:00,Post Accounting Voucher,Supplier,S2,Asset,Asset-31
+488,2027-02-22 16:06:00,Post Accounting Voucher,Supplier,S2,Order,O-28
+488,2027-02-22 16:06:00,Post Accounting Voucher,Supplier,S2,Invoice,INV-O-28
+488,2027-02-22 16:06:00,Post Accounting Voucher,Supplier,S2,AcceptanceRecord,AR-O-28
+488,2027-02-22 16:06:00,Post Accounting Voucher,Supplier,S2,Voucher,V-O-28
+490,2027-02-26 09:31:00,Review Requirement,Resource,RR-1,Requirement,R-32
+490,2027-02-26 09:31:00,Review Requirement,Resource,RR-1,Asset,Asset-32
+491,2027-03-09 09:31:00,Obtain Quotations,Resource,PO-2,Requirement,R-32
+491,2027-03-09 09:31:00,Obtain Quotations,Resource,PO-2,Asset,Asset-32
+491,2027-03-09 09:31:00,Obtain Quotations,Supplier,S4,Requirement,R-32
+491,2027-03-09 09:31:00,Obtain Quotations,Supplier,S4,Asset,Asset-32
+491,2027-03-09 09:31:00,Obtain Quotations,Supplier,S3,Requirement,R-32
+491,2027-03-09 09:31:00,Obtain Quotations,Supplier,S3,Asset,Asset-32
+491,2027-03-09 09:31:00,Obtain Quotations,Supplier,S1,Requirement,R-32
+491,2027-03-09 09:31:00,Obtain Quotations,Supplier,S1,Asset,Asset-32
+492,2027-03-09 13:31:00,Evaluate And Select Quotation,Resource,PO-1,Requirement,R-32
+492,2027-03-09 13:31:00,Evaluate And Select Quotation,Resource,PO-1,Asset,Asset-32
+492,2027-03-09 13:31:00,Evaluate And Select Quotation,Supplier,S1,Requirement,R-32
+492,2027-03-09 13:31:00,Evaluate And Select Quotation,Supplier,S1,Asset,Asset-32
+493,2027-03-09 13:32:00,Check Contract Need,Supplier,S1,Requirement,R-32
+493,2027-03-09 13:32:00,Check Contract Need,Supplier,S1,Asset,Asset-32
+494,2027-03-09 13:34:00,Create Purchase Order,Resource,PO-2,Requirement,R-32
+494,2027-03-09 13:34:00,Create Purchase Order,Resource,PO-2,Asset,Asset-32
+494,2027-03-09 13:34:00,Create Purchase Order,Resource,PO-2,Order,O-29
+494,2027-03-09 13:34:00,Create Purchase Order,Supplier,S1,Requirement,R-32
+494,2027-03-09 13:34:00,Create Purchase Order,Supplier,S1,Asset,Asset-32
+494,2027-03-09 13:34:00,Create Purchase Order,Supplier,S1,Order,O-29
+495,2027-03-09 15:34:00,Receive Invoice,Supplier,S1,Order,O-29
+495,2027-03-09 15:34:00,Receive Invoice,Supplier,S1,Invoice,INV-O-29
+496,2027-03-16 13:34:00,Receive Contract Deliverable,Resource,PO-1,Requirement,R-32
+496,2027-03-16 13:34:00,Receive Contract Deliverable,Resource,PO-1,Asset,Asset-32
+496,2027-03-16 13:34:00,Receive Contract Deliverable,Resource,PO-1,Order,O-29
+496,2027-03-16 13:34:00,Receive Contract Deliverable,Supplier,S1,Requirement,R-32
+496,2027-03-16 13:34:00,Receive Contract Deliverable,Supplier,S1,Asset,Asset-32
+496,2027-03-16 13:34:00,Receive Contract Deliverable,Supplier,S1,Order,O-29
+497,2027-03-16 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Requirement,R-32
+497,2027-03-16 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Asset,Asset-32
+497,2027-03-16 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,Order,O-29
+497,2027-03-16 15:34:00,Perform Business And Technical Acceptance,Resource,AT-1,AcceptanceRecord,AR-O-29
+497,2027-03-16 15:34:00,Perform Business And Technical Acceptance,Supplier,S1,Requirement,R-32
+497,2027-03-16 15:34:00,Perform Business And Technical Acceptance,Supplier,S1,Asset,Asset-32
+497,2027-03-16 15:34:00,Perform Business And Technical Acceptance,Supplier,S1,Order,O-29
+497,2027-03-16 15:34:00,Perform Business And Technical Acceptance,Supplier,S1,AcceptanceRecord,AR-O-29
+500,2027-03-16 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Requirement,R-32
+500,2027-03-16 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Asset,Asset-32
+500,2027-03-16 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Order,O-29
+500,2027-03-16 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,Invoice,INV-O-29
+500,2027-03-16 15:39:00,Verify Accounting Prerequisites,Resource,AA-1,AcceptanceRecord,AR-O-29
+500,2027-03-16 15:39:00,Verify Accounting Prerequisites,Supplier,S1,Requirement,R-32
+500,2027-03-16 15:39:00,Verify Accounting Prerequisites,Supplier,S1,Asset,Asset-32
+500,2027-03-16 15:39:00,Verify Accounting Prerequisites,Supplier,S1,Order,O-29
+500,2027-03-16 15:39:00,Verify Accounting Prerequisites,Supplier,S1,Invoice,INV-O-29
+500,2027-03-16 15:39:00,Verify Accounting Prerequisites,Supplier,S1,AcceptanceRecord,AR-O-29
+501,2027-03-16 15:40:00,Confirm Accounting Date,Resource,AA-1,Asset,Asset-32
+502,2027-03-16 15:42:00,Create Or Update Intangible Asset Record,Resource,AA-1,Asset,Asset-32
+503,2027-03-16 15:44:00,Create Accounting Voucher,Resource,AA-1,Requirement,R-32
+503,2027-03-16 15:44:00,Create Accounting Voucher,Resource,AA-1,Asset,Asset-32
+503,2027-03-16 15:44:00,Create Accounting Voucher,Resource,AA-1,Order,O-29
+503,2027-03-16 15:44:00,Create Accounting Voucher,Resource,AA-1,Invoice,INV-O-29
+503,2027-03-16 15:44:00,Create Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-29
+503,2027-03-16 15:44:00,Create Accounting Voucher,Resource,AA-1,Voucher,V-O-29
+503,2027-03-16 15:44:00,Create Accounting Voucher,Supplier,S1,Requirement,R-32
+503,2027-03-16 15:44:00,Create Accounting Voucher,Supplier,S1,Asset,Asset-32
+503,2027-03-16 15:44:00,Create Accounting Voucher,Supplier,S1,Order,O-29
+503,2027-03-16 15:44:00,Create Accounting Voucher,Supplier,S1,Invoice,INV-O-29
+503,2027-03-16 15:44:00,Create Accounting Voucher,Supplier,S1,AcceptanceRecord,AR-O-29
+503,2027-03-16 15:44:00,Create Accounting Voucher,Supplier,S1,Voucher,V-O-29
+504,2027-03-16 16:04:00,Review Accounting Voucher,Resource,VR-1,Asset,Asset-32
+504,2027-03-16 16:04:00,Review Accounting Voucher,Resource,VR-1,Order,O-29
+504,2027-03-16 16:04:00,Review Accounting Voucher,Resource,VR-1,Invoice,INV-O-29
+504,2027-03-16 16:04:00,Review Accounting Voucher,Resource,VR-1,Voucher,V-O-29
+505,2027-03-16 16:06:00,Post Accounting Voucher,Resource,AA-1,Requirement,R-32
+505,2027-03-16 16:06:00,Post Accounting Voucher,Resource,AA-1,Asset,Asset-32
+505,2027-03-16 16:06:00,Post Accounting Voucher,Resource,AA-1,Order,O-29
+505,2027-03-16 16:06:00,Post Accounting Voucher,Resource,AA-1,Invoice,INV-O-29
+505,2027-03-16 16:06:00,Post Accounting Voucher,Resource,AA-1,AcceptanceRecord,AR-O-29
+505,2027-03-16 16:06:00,Post Accounting Voucher,Resource,AA-1,Voucher,V-O-29
+505,2027-03-16 16:06:00,Post Accounting Voucher,Supplier,S1,Requirement,R-32
+505,2027-03-16 16:06:00,Post Accounting Voucher,Supplier,S1,Asset,Asset-32
+505,2027-03-16 16:06:00,Post Accounting Voucher,Supplier,S1,Order,O-29
+505,2027-03-16 16:06:00,Post Accounting Voucher,Supplier,S1,Invoice,INV-O-29
+505,2027-03-16 16:06:00,Post Accounting Voucher,Supplier,S1,AcceptanceRecord,AR-O-29
+505,2027-03-16 16:06:00,Post Accounting Voucher,Supplier,S1,Voucher,V-O-29

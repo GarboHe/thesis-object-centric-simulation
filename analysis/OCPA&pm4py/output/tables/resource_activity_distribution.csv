@@ -1,0 +1,19 @@
+resource,activity,event_count,within_resource_share
+AA-1,Confirm Accounting Date,25,0.1953125
+AA-1,Create Accounting Voucher,25,0.1953125
+AA-1,Create Or Update Intangible Asset Record,25,0.1953125
+AA-1,Post Accounting Voucher,25,0.1953125
+AA-1,Verify Accounting Prerequisites,25,0.1953125
+AA-1,Modify Accounting Voucher,3,0.0234375
+AT-1,Perform Business And Technical Acceptance,37,1.0
+CR-1,Review Contract,7,1.0
+PO-1,Create Purchase Order,15,0.29411764705882354
+PO-1,Evaluate And Select Quotation,13,0.2549019607843137
+PO-1,Obtain Quotations,12,0.23529411764705882
+PO-1,Receive Contract Deliverable,11,0.21568627450980393
+PO-2,Obtain Quotations,18,0.26865671641791045
+PO-2,Receive Contract Deliverable,18,0.26865671641791045
+PO-2,Evaluate And Select Quotation,17,0.2537313432835821
+PO-2,Create Purchase Order,14,0.208955223880597
+RR-1,Review Requirement,34,1.0
+VR-1,Review Accounting Voucher,28,1.0

@@ -1,0 +1,84 @@
+actor_type,actor_id,activity,interaction_events,mean_object_type_breadth,max_object_type_breadth,mean_object_count,max_object_count
+Resource,AT-1,Perform Business And Technical Acceptance,37,3.675675675675676,4,3.675675675675676,4
+Resource,RR-1,Review Requirement,34,2.0,2,2.0,2
+Resource,VR-1,Review Accounting Voucher,28,4.0,4,4.0,4
+Resource,AA-1,Create Accounting Voucher,25,6.0,6,6.0,6
+Resource,AA-1,Post Accounting Voucher,25,6.0,6,6.0,6
+Resource,AA-1,Verify Accounting Prerequisites,25,5.0,5,5.0,5
+Resource,PO-2,Receive Contract Deliverable,18,3.0,3,3.0,3
+Resource,PO-2,Obtain Quotations,18,2.0,2,2.0,2
+Supplier,S4,Obtain Quotations,18,2.0,2,2.0,2
+Resource,PO-2,Evaluate And Select Quotation,17,2.0,2,2.0,2
+Resource,PO-1,Create Purchase Order,15,3.0,3,3.0,3
+Resource,PO-2,Create Purchase Order,14,3.0,3,3.0,3
+Resource,PO-1,Evaluate And Select Quotation,13,2.0,2,2.0,2
+Resource,PO-1,Obtain Quotations,12,2.0,2,2.0,2
+Supplier,S1,Obtain Quotations,12,2.0,2,2.0,2
+Supplier,S2,Obtain Quotations,12,2.0,2,2.0,2
+Supplier,S3,Obtain Quotations,12,2.0,2,2.0,2
+Supplier,S5,Obtain Quotations,12,2.0,2,2.0,2
+Resource,PO-1,Receive Contract Deliverable,11,3.0,3,3.0,3
+Supplier,S3,Perform Business And Technical Acceptance,8,3.625,4,3.625,4
+Supplier,S2,Perform Business And Technical Acceptance,8,3.5,4,3.5,4
+Supplier,S5,Perform Business And Technical Acceptance,7,3.7142857142857144,4,3.7142857142857144,4
+Supplier,S3,Create Purchase Order,7,3.0,3,3.0,3
+Supplier,S3,Receive Contract Deliverable,7,3.0,3,3.0,3
+Resource,CR-1,Review Contract,7,2.0,2,2.0,2
+Supplier,S3,Check Contract Need,7,2.0,2,2.0,2
+Supplier,S3,Evaluate And Select Quotation,7,2.0,2,2.0,2
+Supplier,S3,Receive Invoice,7,2.0,2,2.0,2
+Supplier,S6,Perform Business And Technical Acceptance,6,3.5,4,3.5,4
+Supplier,S5,Create Purchase Order,6,3.0,3,3.0,3
+Supplier,S5,Receive Contract Deliverable,6,3.0,3,3.0,3
+Supplier,S5,Check Contract Need,6,2.0,2,2.0,2
+Supplier,S5,Evaluate And Select Quotation,6,2.0,2,2.0,2
+Supplier,S5,Receive Invoice,6,2.0,2,2.0,2
+Supplier,S6,Obtain Quotations,6,2.0,2,2.0,2
+Supplier,S3,Create Accounting Voucher,5,6.0,6,6.0,6
+Supplier,S3,Post Accounting Voucher,5,6.0,6,6.0,6
+Supplier,S4,Create Accounting Voucher,5,6.0,6,6.0,6
+Supplier,S4,Post Accounting Voucher,5,6.0,6,6.0,6
+Supplier,S5,Create Accounting Voucher,5,6.0,6,6.0,6
+Supplier,S5,Post Accounting Voucher,5,6.0,6,6.0,6
+Supplier,S3,Verify Accounting Prerequisites,5,5.0,5,5.0,5
+Supplier,S4,Verify Accounting Prerequisites,5,5.0,5,5.0,5
+Supplier,S5,Verify Accounting Prerequisites,5,5.0,5,5.0,5
+Supplier,S4,Perform Business And Technical Acceptance,5,4.0,4,4.0,4
+Supplier,S2,Create Purchase Order,5,3.0,3,3.0,3
+Supplier,S2,Receive Contract Deliverable,5,3.0,3,3.0,3
+Supplier,S4,Create Purchase Order,5,3.0,3,3.0,3
+Supplier,S4,Receive Contract Deliverable,5,3.0,3,3.0,3
+Supplier,S2,Check Contract Need,5,2.0,2,2.0,2
+Supplier,S2,Evaluate And Select Quotation,5,2.0,2,2.0,2
+Supplier,S2,Receive Invoice,5,2.0,2,2.0,2
+Supplier,S4,Check Contract Need,5,2.0,2,2.0,2
+Supplier,S4,Evaluate And Select Quotation,5,2.0,2,2.0,2
+Supplier,S4,Receive Invoice,5,2.0,2,2.0,2
+Supplier,S2,Create Accounting Voucher,4,6.0,6,6.0,6
+Supplier,S2,Post Accounting Voucher,4,6.0,6,6.0,6
+Supplier,S2,Verify Accounting Prerequisites,4,5.0,5,5.0,5
+Supplier,S1,Check Contract Need,4,2.0,2,2.0,2
+Supplier,S1,Evaluate And Select Quotation,4,2.0,2,2.0,2
+Supplier,S1,Create Accounting Voucher,3,6.0,6,6.0,6
+Supplier,S1,Post Accounting Voucher,3,6.0,6,6.0,6
+Supplier,S6,Create Accounting Voucher,3,6.0,6,6.0,6
+Supplier,S6,Post Accounting Voucher,3,6.0,6,6.0,6
+Supplier,S1,Verify Accounting Prerequisites,3,5.0,5,5.0,5
+Supplier,S6,Verify Accounting Prerequisites,3,5.0,5,5.0,5
+Resource,AA-1,Modify Accounting Voucher,3,4.0,4,4.0,4
+Supplier,S1,Perform Business And Technical Acceptance,3,4.0,4,4.0,4
+Supplier,S1,Create Purchase Order,3,3.0,3,3.0,3
+Supplier,S1,Receive Contract Deliverable,3,3.0,3,3.0,3
+Supplier,S6,Create Purchase Order,3,3.0,3,3.0,3
+Supplier,S6,Receive Contract Deliverable,3,3.0,3,3.0,3
+Supplier,S1,Receive Invoice,3,2.0,2,2.0,2
+Supplier,S6,Check Contract Need,3,2.0,2,2.0,2
+Supplier,S6,Evaluate And Select Quotation,3,2.0,2,2.0,2
+Supplier,S6,Receive Invoice,3,2.0,2,2.0,2
+Supplier,S1,Review Contract,2,2.0,2,2.0,2
+Supplier,S1,Terminate After Contract Rejection,1,2.0,2,2.0,2
+Supplier,S2,Review Contract,1,2.0,2,2.0,2
+Supplier,S3,Review Contract,1,2.0,2,2.0,2
+Supplier,S4,Review Contract,1,2.0,2,2.0,2
+Supplier,S5,Review Contract,1,2.0,2,2.0,2
+Supplier,S6,Review Contract,1,2.0,2,2.0,2

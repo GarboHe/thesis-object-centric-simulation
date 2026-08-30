@@ -1,0 +1,24 @@
+event_activity,AcceptanceRecord,Asset,Invoice,Order,Project,Requirement,Resource,Supplier,Voucher
+Assign Asset To Project,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+Check Contract Need,0.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0
+Confirm Accounting Date,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+Create Accounting Voucher,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Create Or Update Intangible Asset Record,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+Create Purchase Order,0.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0
+Evaluate And Select Quotation,0.0,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0
+Modify Accounting Voucher,0.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,1.0
+Modify Requirement,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+Obtain Quotations,0.0,1.0,0.0,0.0,1.0,1.0,1.0,2.4,0.0
+Perform Business And Technical Acceptance,0.68,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0
+Post Accounting Voucher,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Put Asset Into Use,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+Receive Contract Deliverable,0.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0
+Receive Invoice,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,0.0
+Rectify And Redeliver,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Review Accounting Voucher,0.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,1.0
+Review Contract,0.0,1.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0
+Review Requirement,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0
+Submit Requirement,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+Terminate After Contract Rejection,0.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,0.0
+Terminate After Requirement Rejection,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
+Verify Accounting Prerequisites,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0

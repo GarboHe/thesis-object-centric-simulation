@@ -1,0 +1,16 @@
+activity,multi_object_events,actor_count,mean_object_type_breadth,max_object_type_breadth,mean_business_object_count
+Perform Business And Technical Acceptance,37,7,3.675675675675676,4,3.675675675675676
+Review Requirement,34,1,2.0,2,2.0
+Check Contract Need,30,6,2.0,2,2.0
+Evaluate And Select Quotation,30,8,2.0,2,2.0
+Obtain Quotations,30,8,2.0,2,2.0
+Create Purchase Order,29,8,3.0,3,3.0
+Receive Contract Deliverable,29,8,3.0,3,3.0
+Receive Invoice,29,6,2.0,2,2.0
+Review Accounting Voucher,28,1,4.0,4,4.0
+Create Accounting Voucher,25,7,6.0,6,6.0
+Post Accounting Voucher,25,7,6.0,6,6.0
+Verify Accounting Prerequisites,25,7,5.0,5,5.0
+Review Contract,7,7,2.0,2,2.0
+Modify Accounting Voucher,3,1,4.0,4,4.0
+Terminate After Contract Rejection,1,1,2.0,2,2.0
