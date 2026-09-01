@@ -1,0 +1,439 @@
+ocel_source_id;ocel_target_id;ocel_qualifier
+Proj-A;R-1;raises requirement
+R-1;Asset-1;requests asset
+Proj-A;O-1;contains order
+R-1;O-1;results in order
+O-1;Asset-1;orders asset
+O-1;S2;placed with supplier
+INV-O-1;O-1;invoices order
+INV-O-1;S2;issued by supplier
+AR-O-1;O-1;accepts order
+AR-O-1;Asset-1;accepts asset
+AR-O-1;Proj-A;accepted by project
+Proj-A;Asset-1;receives asset
+V-O-1;O-1;created for order
+V-O-1;Asset-1;capitalizes asset
+V-O-1;INV-O-1;based on invoice
+V-O-1;AR-O-1;based on acceptance record
+Proj-A;R-2;raises requirement
+R-2;Asset-2;requests asset
+Proj-A;R-3;raises requirement
+R-3;Asset-3;requests asset
+Proj-A;O-2;contains order
+R-3;O-2;results in order
+O-2;Asset-3;orders asset
+O-2;S4;placed with supplier
+INV-O-2;O-2;invoices order
+INV-O-2;S4;issued by supplier
+AR-O-2;O-2;accepts order
+AR-O-2;Asset-3;accepts asset
+AR-O-2;Proj-A;accepted by project
+Proj-A;Asset-3;receives asset
+V-O-2;O-2;created for order
+V-O-2;Asset-3;capitalizes asset
+V-O-2;INV-O-2;based on invoice
+V-O-2;AR-O-2;based on acceptance record
+Proj-A;R-4;raises requirement
+R-4;Asset-4;requests asset
+Proj-A;R-5;raises requirement
+R-5;Asset-5;requests asset
+Proj-A;R-6;raises requirement
+R-6;Asset-6;requests asset
+Proj-A;R-7;raises requirement
+R-7;Asset-7;requests asset
+Proj-A;R-8;raises requirement
+R-8;Asset-8;requests asset
+Proj-A;R-9;raises requirement
+R-9;Asset-9;requests asset
+Proj-A;R-10;raises requirement
+R-10;Asset-10;requests asset
+Proj-A;O-3;contains order
+R-4;O-3;results in order
+O-3;Asset-4;orders asset
+O-3;S3;placed with supplier
+INV-O-3;O-3;invoices order
+INV-O-3;S3;issued by supplier
+Proj-A;O-4;contains order
+R-5;O-4;results in order
+O-4;Asset-5;orders asset
+O-4;S5;placed with supplier
+INV-O-4;O-4;invoices order
+INV-O-4;S5;issued by supplier
+Proj-A;O-5;contains order
+R-6;O-5;results in order
+O-5;Asset-6;orders asset
+O-5;S1;placed with supplier
+INV-O-5;O-5;invoices order
+INV-O-5;S1;issued by supplier
+Proj-A;O-6;contains order
+R-9;O-6;results in order
+O-6;Asset-9;orders asset
+O-6;S3;placed with supplier
+INV-O-6;O-6;invoices order
+INV-O-6;S3;issued by supplier
+Proj-A;O-7;contains order
+R-8;O-7;results in order
+O-7;Asset-8;orders asset
+O-7;S4;placed with supplier
+INV-O-7;O-7;invoices order
+INV-O-7;S4;issued by supplier
+Proj-A;O-8;contains order
+R-10;O-8;results in order
+O-8;Asset-10;orders asset
+O-8;S6;placed with supplier
+INV-O-8;O-8;invoices order
+INV-O-8;S6;issued by supplier
+Proj-A;R-11;raises requirement
+R-11;Asset-11;requests asset
+AR-O-5;O-5;accepts order
+AR-O-5;Asset-6;accepts asset
+AR-O-5;Proj-A;accepted by project
+AR-O-7;O-7;accepts order
+AR-O-7;Asset-8;accepts asset
+AR-O-7;Proj-A;accepted by project
+Proj-A;Asset-6;receives asset
+V-O-5;O-5;created for order
+V-O-5;Asset-6;capitalizes asset
+V-O-5;INV-O-5;based on invoice
+V-O-5;AR-O-5;based on acceptance record
+AR-O-6;O-6;accepts order
+AR-O-6;Asset-9;accepts asset
+AR-O-6;Proj-A;accepted by project
+Proj-A;Asset-8;receives asset
+V-O-7;O-7;created for order
+V-O-7;Asset-8;capitalizes asset
+V-O-7;INV-O-7;based on invoice
+V-O-7;AR-O-7;based on acceptance record
+AR-O-8;O-8;accepts order
+AR-O-8;Asset-10;accepts asset
+AR-O-8;Proj-A;accepted by project
+Proj-A;Asset-9;receives asset
+V-O-6;O-6;created for order
+V-O-6;Asset-9;capitalizes asset
+V-O-6;INV-O-6;based on invoice
+V-O-6;AR-O-6;based on acceptance record
+Proj-A;Asset-10;receives asset
+V-O-8;O-8;created for order
+V-O-8;Asset-10;capitalizes asset
+V-O-8;INV-O-8;based on invoice
+V-O-8;AR-O-8;based on acceptance record
+Proj-A;O-9;contains order
+R-11;O-9;results in order
+O-9;Asset-11;orders asset
+O-9;S4;placed with supplier
+INV-O-9;O-9;invoices order
+INV-O-9;S4;issued by supplier
+AR-O-4;O-4;accepts order
+AR-O-4;Asset-5;accepts asset
+AR-O-4;Proj-A;accepted by project
+Proj-A;Asset-5;receives asset
+V-O-4;O-4;created for order
+V-O-4;Asset-5;capitalizes asset
+V-O-4;INV-O-4;based on invoice
+V-O-4;AR-O-4;based on acceptance record
+AR-O-9;O-9;accepts order
+AR-O-9;Asset-11;accepts asset
+AR-O-9;Proj-A;accepted by project
+Proj-A;Asset-11;receives asset
+V-O-9;O-9;created for order
+V-O-9;Asset-11;capitalizes asset
+V-O-9;INV-O-9;based on invoice
+V-O-9;AR-O-9;based on acceptance record
+Proj-A;R-12;raises requirement
+R-12;Asset-12;requests asset
+Proj-A;O-10;contains order
+R-12;O-10;results in order
+O-10;Asset-12;orders asset
+O-10;S3;placed with supplier
+INV-O-10;O-10;invoices order
+INV-O-10;S3;issued by supplier
+Proj-A;R-13;raises requirement
+R-13;Asset-13;requests asset
+AR-O-10;O-10;accepts order
+AR-O-10;Asset-12;accepts asset
+AR-O-10;Proj-A;accepted by project
+Proj-A;Asset-12;receives asset
+V-O-10;O-10;created for order
+V-O-10;Asset-12;capitalizes asset
+V-O-10;INV-O-10;based on invoice
+V-O-10;AR-O-10;based on acceptance record
+Proj-A;R-14;raises requirement
+R-14;Asset-14;requests asset
+Proj-A;R-15;raises requirement
+R-15;Asset-15;requests asset
+Proj-A;R-16;raises requirement
+R-16;Asset-16;requests asset
+Proj-A;O-11;contains order
+R-13;O-11;results in order
+O-11;Asset-13;orders asset
+O-11;S4;placed with supplier
+INV-O-11;O-11;invoices order
+INV-O-11;S4;issued by supplier
+Proj-A;O-12;contains order
+R-14;O-12;results in order
+O-12;Asset-14;orders asset
+O-12;S5;placed with supplier
+INV-O-12;O-12;invoices order
+INV-O-12;S5;issued by supplier
+Proj-A;O-13;contains order
+R-15;O-13;results in order
+O-13;Asset-15;orders asset
+O-13;S5;placed with supplier
+INV-O-13;O-13;invoices order
+INV-O-13;S5;issued by supplier
+Proj-A;O-14;contains order
+R-16;O-14;results in order
+O-14;Asset-16;orders asset
+O-14;S1;placed with supplier
+INV-O-14;O-14;invoices order
+INV-O-14;S1;issued by supplier
+AR-O-11;O-11;accepts order
+AR-O-11;Asset-13;accepts asset
+AR-O-11;Proj-A;accepted by project
+Proj-A;Asset-13;receives asset
+V-O-11;O-11;created for order
+V-O-11;Asset-13;capitalizes asset
+V-O-11;INV-O-11;based on invoice
+V-O-11;AR-O-11;based on acceptance record
+AR-O-12;O-12;accepts order
+AR-O-12;Asset-14;accepts asset
+AR-O-12;Proj-A;accepted by project
+Proj-A;Asset-14;receives asset
+V-O-12;O-12;created for order
+V-O-12;Asset-14;capitalizes asset
+V-O-12;INV-O-12;based on invoice
+V-O-12;AR-O-12;based on acceptance record
+AR-O-14;O-14;accepts order
+AR-O-14;Asset-16;accepts asset
+AR-O-14;Proj-A;accepted by project
+Proj-A;Asset-16;receives asset
+V-O-14;O-14;created for order
+V-O-14;Asset-16;capitalizes asset
+V-O-14;INV-O-14;based on invoice
+V-O-14;AR-O-14;based on acceptance record
+Proj-A;R-17;raises requirement
+R-17;Asset-17;requests asset
+Proj-A;R-18;raises requirement
+R-18;Asset-18;requests asset
+Proj-A;R-19;raises requirement
+R-19;Asset-19;requests asset
+Proj-A;O-15;contains order
+R-17;O-15;results in order
+O-15;Asset-17;orders asset
+O-15;S3;placed with supplier
+INV-O-15;O-15;invoices order
+INV-O-15;S3;issued by supplier
+Proj-A;O-16;contains order
+R-18;O-16;results in order
+O-16;Asset-18;orders asset
+O-16;S2;placed with supplier
+INV-O-16;O-16;invoices order
+INV-O-16;S2;issued by supplier
+Proj-A;O-17;contains order
+R-19;O-17;results in order
+O-17;Asset-19;orders asset
+O-17;S5;placed with supplier
+INV-O-17;O-17;invoices order
+INV-O-17;S5;issued by supplier
+Proj-A;R-20;raises requirement
+R-20;Asset-20;requests asset
+AR-O-17;O-17;accepts order
+AR-O-17;Asset-19;accepts asset
+AR-O-17;Proj-A;accepted by project
+Proj-A;Asset-19;receives asset
+V-O-17;O-17;created for order
+V-O-17;Asset-19;capitalizes asset
+V-O-17;INV-O-17;based on invoice
+V-O-17;AR-O-17;based on acceptance record
+Proj-A;O-18;contains order
+R-20;O-18;results in order
+O-18;Asset-20;orders asset
+O-18;S5;placed with supplier
+INV-O-18;O-18;invoices order
+INV-O-18;S5;issued by supplier
+AR-O-18;O-18;accepts order
+AR-O-18;Asset-20;accepts asset
+AR-O-18;Proj-A;accepted by project
+Proj-A;Asset-20;receives asset
+V-O-18;O-18;created for order
+V-O-18;Asset-20;capitalizes asset
+V-O-18;INV-O-18;based on invoice
+V-O-18;AR-O-18;based on acceptance record
+Proj-A;R-21;raises requirement
+R-21;Asset-21;requests asset
+Proj-A;R-22;raises requirement
+R-22;Asset-22;requests asset
+Proj-A;O-19;contains order
+R-22;O-19;results in order
+O-19;Asset-22;orders asset
+O-19;S3;placed with supplier
+INV-O-19;O-19;invoices order
+INV-O-19;S3;issued by supplier
+AR-O-19;O-19;accepts order
+AR-O-19;Asset-22;accepts asset
+AR-O-19;Proj-A;accepted by project
+Proj-A;Asset-22;receives asset
+V-O-19;O-19;created for order
+V-O-19;Asset-22;capitalizes asset
+V-O-19;INV-O-19;based on invoice
+V-O-19;AR-O-19;based on acceptance record
+Proj-A;R-23;raises requirement
+R-23;Asset-23;requests asset
+Proj-A;R-24;raises requirement
+R-24;Asset-24;requests asset
+Proj-A;O-20;contains order
+R-23;O-20;results in order
+O-20;Asset-23;orders asset
+O-20;S2;placed with supplier
+INV-O-20;O-20;invoices order
+INV-O-20;S2;issued by supplier
+Proj-A;O-21;contains order
+R-24;O-21;results in order
+O-21;Asset-24;orders asset
+O-21;S3;placed with supplier
+INV-O-21;O-21;invoices order
+INV-O-21;S3;issued by supplier
+AR-O-21;O-21;accepts order
+AR-O-21;Asset-24;accepts asset
+AR-O-21;Proj-A;accepted by project
+Proj-A;Asset-24;receives asset
+V-O-21;O-21;created for order
+V-O-21;Asset-24;capitalizes asset
+V-O-21;INV-O-21;based on invoice
+V-O-21;AR-O-21;based on acceptance record
+Proj-A;R-25;raises requirement
+R-25;Asset-25;requests asset
+AR-O-20;O-20;accepts order
+AR-O-20;Asset-23;accepts asset
+AR-O-20;Proj-A;accepted by project
+Proj-A;Asset-23;receives asset
+V-O-20;O-20;created for order
+V-O-20;Asset-23;capitalizes asset
+V-O-20;INV-O-20;based on invoice
+V-O-20;AR-O-20;based on acceptance record
+Proj-A;O-22;contains order
+R-25;O-22;results in order
+O-22;Asset-25;orders asset
+O-22;S6;placed with supplier
+INV-O-22;O-22;invoices order
+INV-O-22;S6;issued by supplier
+Proj-A;R-26;raises requirement
+R-26;Asset-26;requests asset
+Proj-A;O-23;contains order
+R-26;O-23;results in order
+O-23;Asset-26;orders asset
+O-23;S4;placed with supplier
+INV-O-23;O-23;invoices order
+INV-O-23;S4;issued by supplier
+Proj-A;R-27;raises requirement
+R-27;Asset-27;requests asset
+AR-O-23;O-23;accepts order
+AR-O-23;Asset-26;accepts asset
+AR-O-23;Proj-A;accepted by project
+Proj-A;Asset-26;receives asset
+V-O-23;O-23;created for order
+V-O-23;Asset-26;capitalizes asset
+V-O-23;INV-O-23;based on invoice
+V-O-23;AR-O-23;based on acceptance record
+AR-O-22;O-22;accepts order
+AR-O-22;Asset-25;accepts asset
+AR-O-22;Proj-A;accepted by project
+Proj-A;Asset-25;receives asset
+V-O-22;O-22;created for order
+V-O-22;Asset-25;capitalizes asset
+V-O-22;INV-O-22;based on invoice
+V-O-22;AR-O-22;based on acceptance record
+Proj-A;O-24;contains order
+R-27;O-24;results in order
+O-24;Asset-27;orders asset
+O-24;S3;placed with supplier
+INV-O-24;O-24;invoices order
+INV-O-24;S3;issued by supplier
+Proj-A;R-28;raises requirement
+R-28;Asset-28;requests asset
+Proj-A;O-25;contains order
+R-28;O-25;results in order
+O-25;Asset-28;orders asset
+O-25;S2;placed with supplier
+INV-O-25;O-25;invoices order
+INV-O-25;S2;issued by supplier
+AR-O-24;O-24;accepts order
+AR-O-24;Asset-27;accepts asset
+AR-O-24;Proj-A;accepted by project
+Proj-A;Asset-27;receives asset
+V-O-24;O-24;created for order
+V-O-24;Asset-27;capitalizes asset
+V-O-24;INV-O-24;based on invoice
+V-O-24;AR-O-24;based on acceptance record
+AR-O-25;O-25;accepts order
+AR-O-25;Asset-28;accepts asset
+AR-O-25;Proj-A;accepted by project
+Proj-A;Asset-28;receives asset
+V-O-25;O-25;created for order
+V-O-25;Asset-28;capitalizes asset
+V-O-25;INV-O-25;based on invoice
+V-O-25;AR-O-25;based on acceptance record
+Proj-A;R-29;raises requirement
+R-29;Asset-29;requests asset
+Proj-A;O-26;contains order
+R-29;O-26;results in order
+O-26;Asset-29;orders asset
+O-26;S5;placed with supplier
+INV-O-26;O-26;invoices order
+INV-O-26;S5;issued by supplier
+AR-O-26;O-26;accepts order
+AR-O-26;Asset-29;accepts asset
+AR-O-26;Proj-A;accepted by project
+Proj-A;Asset-29;receives asset
+V-O-26;O-26;created for order
+V-O-26;Asset-29;capitalizes asset
+V-O-26;INV-O-26;based on invoice
+V-O-26;AR-O-26;based on acceptance record
+Proj-A;R-30;raises requirement
+R-30;Asset-30;requests asset
+Proj-A;O-27;contains order
+R-30;O-27;results in order
+O-27;Asset-30;orders asset
+O-27;S6;placed with supplier
+INV-O-27;O-27;invoices order
+INV-O-27;S6;issued by supplier
+Proj-A;R-31;raises requirement
+R-31;Asset-31;requests asset
+AR-O-27;O-27;accepts order
+AR-O-27;Asset-30;accepts asset
+AR-O-27;Proj-A;accepted by project
+Proj-A;Asset-30;receives asset
+V-O-27;O-27;created for order
+V-O-27;Asset-30;capitalizes asset
+V-O-27;INV-O-27;based on invoice
+V-O-27;AR-O-27;based on acceptance record
+Proj-A;O-28;contains order
+R-31;O-28;results in order
+O-28;Asset-31;orders asset
+O-28;S2;placed with supplier
+INV-O-28;O-28;invoices order
+INV-O-28;S2;issued by supplier
+AR-O-28;O-28;accepts order
+AR-O-28;Asset-31;accepts asset
+AR-O-28;Proj-A;accepted by project
+Proj-A;Asset-31;receives asset
+V-O-28;O-28;created for order
+V-O-28;Asset-31;capitalizes asset
+V-O-28;INV-O-28;based on invoice
+V-O-28;AR-O-28;based on acceptance record
+Proj-A;R-32;raises requirement
+R-32;Asset-32;requests asset
+Proj-A;O-29;contains order
+R-32;O-29;results in order
+O-29;Asset-32;orders asset
+O-29;S1;placed with supplier
+INV-O-29;O-29;invoices order
+INV-O-29;S1;issued by supplier
+AR-O-29;O-29;accepts order
+AR-O-29;Asset-32;accepts asset
+AR-O-29;Proj-A;accepted by project
+Proj-A;Asset-32;receives asset
+V-O-29;O-29;created for order
+V-O-29;Asset-32;capitalizes asset
+V-O-29;INV-O-29;based on invoice
+V-O-29;AR-O-29;based on acceptance record

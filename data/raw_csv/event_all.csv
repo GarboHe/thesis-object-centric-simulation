@@ -1,0 +1,507 @@
+ocel_id;ocel_type;ocel_time;ocel_sequence
+e-1;Submit Requirement;2026-02-02T09:01:00Z;1
+e-2;Review Requirement;2026-02-02T09:31:00Z;2
+e-3;Obtain Quotations;2026-02-11T09:31:00Z;3
+e-4;Evaluate And Select Quotation;2026-02-11T13:31:00Z;4
+e-5;Check Contract Need;2026-02-11T13:32:00Z;5
+e-6;Review Contract;2026-02-12T09:32:00Z;6
+e-7;Create Purchase Order;2026-02-12T09:34:00Z;7
+e-8;Receive Invoice;2026-02-12T11:34:00Z;8
+e-9;Receive Contract Deliverable;2026-02-19T09:34:00Z;9
+e-10;Perform Business And Technical Acceptance;2026-02-19T11:34:00Z;10
+e-11;Assign Asset To Project;2026-02-19T11:35:00Z;11
+e-12;Put Asset Into Use;2026-02-19T11:37:00Z;12
+e-13;Verify Accounting Prerequisites;2026-02-19T11:39:00Z;13
+e-14;Confirm Accounting Date;2026-02-19T11:40:00Z;14
+e-15;Create Or Update Intangible Asset Record;2026-02-19T11:42:00Z;15
+e-16;Create Accounting Voucher;2026-02-19T11:44:00Z;16
+e-17;Review Accounting Voucher;2026-02-19T12:04:00Z;17
+e-18;Post Accounting Voucher;2026-02-19T12:06:00Z;18
+e-19;Submit Requirement;2026-02-26T09:01:00Z;19
+e-20;Review Requirement;2026-02-26T09:31:00Z;20
+e-21;Terminate After Requirement Rejection;2026-02-26T09:32:00Z;21
+e-22;Submit Requirement;2026-03-12T09:01:00Z;22
+e-23;Review Requirement;2026-03-12T09:31:00Z;23
+e-24;Obtain Quotations;2026-03-23T09:31:00Z;24
+e-25;Evaluate And Select Quotation;2026-03-23T13:31:00Z;25
+e-26;Check Contract Need;2026-03-23T13:32:00Z;26
+e-27;Review Contract;2026-03-24T09:32:00Z;27
+e-28;Create Purchase Order;2026-03-24T09:34:00Z;28
+e-29;Receive Invoice;2026-03-24T11:34:00Z;29
+e-30;Receive Contract Deliverable;2026-03-31T09:34:00Z;30
+e-31;Perform Business And Technical Acceptance;2026-03-31T11:34:00Z;31
+e-32;Assign Asset To Project;2026-03-31T11:35:00Z;32
+e-33;Put Asset Into Use;2026-03-31T11:37:00Z;33
+e-34;Verify Accounting Prerequisites;2026-03-31T11:39:00Z;34
+e-35;Confirm Accounting Date;2026-03-31T11:40:00Z;35
+e-36;Create Or Update Intangible Asset Record;2026-03-31T11:42:00Z;36
+e-37;Create Accounting Voucher;2026-03-31T11:44:00Z;37
+e-38;Review Accounting Voucher;2026-03-31T12:04:00Z;38
+e-39;Post Accounting Voucher;2026-03-31T12:06:00Z;39
+e-40;Submit Requirement;2026-04-07T09:01:00Z;40
+e-41;Review Requirement;2026-04-07T09:31:00Z;41
+e-42;Obtain Quotations;2026-04-16T09:31:00Z;42
+e-43;Submit Requirement;2026-04-09T09:01:00Z;43
+e-44;Submit Requirement;2026-04-09T09:01:00Z;44
+e-45;Submit Requirement;2026-04-09T09:01:00Z;45
+e-46;Review Requirement;2026-04-09T09:31:00Z;46
+e-47;Obtain Quotations;2026-04-20T09:31:00Z;47
+e-48;Review Requirement;2026-04-09T10:01:00Z;48
+e-49;Review Requirement;2026-04-09T10:31:00Z;49
+e-50;Obtain Quotations;2026-04-20T10:01:00Z;50
+e-51;Obtain Quotations;2026-04-20T10:31:00Z;51
+e-52;Submit Requirement;2026-04-10T09:01:00Z;52
+e-53;Submit Requirement;2026-04-10T09:01:00Z;53
+e-54;Submit Requirement;2026-04-10T09:01:00Z;54
+e-55;Review Requirement;2026-04-10T09:31:00Z;55
+e-56;Obtain Quotations;2026-04-21T09:31:00Z;56
+e-57;Review Requirement;2026-04-10T10:01:00Z;57
+e-58;Review Requirement;2026-04-10T10:31:00Z;58
+e-59;Obtain Quotations;2026-04-21T10:01:00Z;59
+e-60;Obtain Quotations;2026-04-21T10:31:00Z;60
+e-61;Evaluate And Select Quotation;2026-04-16T13:31:00Z;61
+e-62;Check Contract Need;2026-04-16T13:32:00Z;62
+e-63;Review Contract;2026-04-17T09:32:00Z;63
+e-64;Create Purchase Order;2026-04-17T09:34:00Z;64
+e-65;Receive Invoice;2026-04-17T11:34:00Z;65
+e-66;Receive Contract Deliverable;2026-04-24T09:34:00Z;66
+e-67;Evaluate And Select Quotation;2026-04-20T13:31:00Z;67
+e-68;Evaluate And Select Quotation;2026-04-20T14:01:00Z;68
+e-69;Evaluate And Select Quotation;2026-04-21T09:31:00Z;69
+e-70;Check Contract Need;2026-04-20T13:32:00Z;70
+e-71;Review Contract;2026-04-21T09:32:00Z;71
+e-72;Evaluate And Select Quotation;2026-04-21T13:31:00Z;72
+e-73;Create Purchase Order;2026-04-21T09:34:00Z;73
+e-74;Check Contract Need;2026-04-21T09:33:00Z;74
+e-75;Review Contract;2026-04-21T13:33:00Z;75
+e-76;Receive Invoice;2026-04-21T11:34:00Z;76
+e-77;Receive Contract Deliverable;2026-04-28T09:34:00Z;77
+e-78;Evaluate And Select Quotation;2026-04-21T14:04:00Z;78
+e-79;Evaluate And Select Quotation;2026-04-22T09:31:00Z;79
+e-80;Terminate After Contract Rejection;2026-04-21T13:34:00Z;80
+e-81;Check Contract Need;2026-04-21T13:34:00Z;81
+e-82;Review Contract;2026-04-22T09:34:00Z;82
+e-83;Create Purchase Order;2026-04-22T09:36:00Z;83
+e-84;Check Contract Need;2026-04-22T09:35:00Z;84
+e-85;Check Contract Need;2026-04-22T09:36:00Z;85
+e-86;Receive Invoice;2026-04-22T11:36:00Z;86
+e-87;Check Contract Need;2026-04-22T09:37:00Z;87
+e-88;Receive Contract Deliverable;2026-04-29T09:36:00Z;88
+e-89;Create Purchase Order;2026-04-22T09:38:00Z;89
+e-90;Review Contract;2026-04-22T13:37:00Z;90
+e-91;Receive Contract Deliverable;2026-04-29T09:38:00Z;91
+e-92;Receive Invoice;2026-04-22T11:38:00Z;92
+e-93;Create Purchase Order;2026-04-22T10:08:00Z;93
+e-94;Receive Invoice;2026-04-22T12:08:00Z;94
+e-95;Receive Contract Deliverable;2026-04-29T10:08:00Z;95
+e-96;Create Purchase Order;2026-04-22T13:39:00Z;96
+e-97;Receive Invoice;2026-04-22T15:39:00Z;97
+e-98;Receive Contract Deliverable;2026-04-29T13:39:00Z;98
+e-99;Submit Requirement;2026-04-23T09:01:00Z;99
+e-100;Review Requirement;2026-04-23T09:31:00Z;100
+e-101;Modify Requirement;2026-04-23T10:31:00Z;101
+e-102;Review Requirement;2026-04-23T11:01:00Z;102
+e-103;Obtain Quotations;2026-05-04T11:01:00Z;103
+e-104;Perform Business And Technical Acceptance;2026-04-24T11:34:00Z;104
+e-105;Perform Business And Technical Acceptance;2026-04-28T11:34:00Z;105
+e-106;Rectify And Redeliver;2026-05-05T11:34:00Z;106
+e-107;Perform Business And Technical Acceptance;2026-04-29T11:36:00Z;107
+e-108;Perform Business And Technical Acceptance;2026-04-29T13:36:00Z;108
+e-109;Assign Asset To Project;2026-04-29T11:37:00Z;109
+e-110;Put Asset Into Use;2026-04-29T11:39:00Z;110
+e-111;Verify Accounting Prerequisites;2026-04-29T11:41:00Z;111
+e-112;Confirm Accounting Date;2026-04-29T11:42:00Z;112
+e-113;Create Or Update Intangible Asset Record;2026-04-29T11:44:00Z;113
+e-114;Create Accounting Voucher;2026-04-29T11:46:00Z;114
+e-115;Review Accounting Voucher;2026-04-29T12:06:00Z;115
+e-116;Post Accounting Voucher;2026-04-29T12:08:00Z;116
+e-117;Perform Business And Technical Acceptance;2026-04-29T15:36:00Z;117
+e-118;Assign Asset To Project;2026-04-29T13:37:00Z;118
+e-119;Put Asset Into Use;2026-04-29T13:39:00Z;119
+e-120;Verify Accounting Prerequisites;2026-04-29T13:41:00Z;120
+e-121;Confirm Accounting Date;2026-04-29T13:42:00Z;121
+e-122;Create Or Update Intangible Asset Record;2026-04-29T13:44:00Z;122
+e-123;Create Accounting Voucher;2026-04-29T13:46:00Z;123
+e-124;Review Accounting Voucher;2026-04-29T14:06:00Z;124
+e-125;Post Accounting Voucher;2026-04-29T14:08:00Z;125
+e-126;Perform Business And Technical Acceptance;2026-04-30T09:36:00Z;126
+e-127;Assign Asset To Project;2026-04-29T15:37:00Z;127
+e-128;Put Asset Into Use;2026-04-29T15:39:00Z;128
+e-129;Verify Accounting Prerequisites;2026-04-29T15:41:00Z;129
+e-130;Confirm Accounting Date;2026-04-29T15:42:00Z;130
+e-131;Create Or Update Intangible Asset Record;2026-04-29T15:44:00Z;131
+e-132;Create Accounting Voucher;2026-04-29T15:46:00Z;132
+e-133;Review Accounting Voucher;2026-04-29T16:06:00Z;133
+e-134;Post Accounting Voucher;2026-04-29T16:08:00Z;134
+e-135;Assign Asset To Project;2026-04-30T09:37:00Z;135
+e-136;Put Asset Into Use;2026-04-30T09:39:00Z;136
+e-137;Verify Accounting Prerequisites;2026-04-30T09:41:00Z;137
+e-138;Confirm Accounting Date;2026-04-30T09:42:00Z;138
+e-139;Create Or Update Intangible Asset Record;2026-04-30T09:44:00Z;139
+e-140;Create Accounting Voucher;2026-04-30T09:46:00Z;140
+e-141;Review Accounting Voucher;2026-04-30T10:06:00Z;141
+e-142;Post Accounting Voucher;2026-04-30T10:08:00Z;142
+e-143;Evaluate And Select Quotation;2026-05-04T15:01:00Z;143
+e-144;Check Contract Need;2026-05-04T15:02:00Z;144
+e-145;Create Purchase Order;2026-05-04T15:04:00Z;145
+e-146;Receive Invoice;2026-05-05T09:04:00Z;146
+e-147;Receive Contract Deliverable;2026-05-11T15:04:00Z;147
+e-148;Perform Business And Technical Acceptance;2026-05-05T13:34:00Z;148
+e-149;Assign Asset To Project;2026-05-05T13:35:00Z;149
+e-150;Put Asset Into Use;2026-05-05T13:37:00Z;150
+e-151;Verify Accounting Prerequisites;2026-05-05T13:39:00Z;151
+e-152;Confirm Accounting Date;2026-05-05T13:40:00Z;152
+e-153;Create Or Update Intangible Asset Record;2026-05-05T13:42:00Z;153
+e-154;Create Accounting Voucher;2026-05-05T13:44:00Z;154
+e-155;Review Accounting Voucher;2026-05-05T14:04:00Z;155
+e-156;Post Accounting Voucher;2026-05-05T14:06:00Z;156
+e-157;Perform Business And Technical Acceptance;2026-05-12T09:04:00Z;157
+e-158;Assign Asset To Project;2026-05-12T09:05:00Z;158
+e-159;Put Asset Into Use;2026-05-12T09:07:00Z;159
+e-160;Verify Accounting Prerequisites;2026-05-12T09:09:00Z;160
+e-161;Confirm Accounting Date;2026-05-12T09:10:00Z;161
+e-162;Create Or Update Intangible Asset Record;2026-05-12T09:12:00Z;162
+e-163;Create Accounting Voucher;2026-05-12T09:14:00Z;163
+e-164;Review Accounting Voucher;2026-05-12T09:34:00Z;164
+e-165;Post Accounting Voucher;2026-05-12T09:36:00Z;165
+e-166;Submit Requirement;2026-05-18T09:01:00Z;166
+e-167;Review Requirement;2026-05-18T09:31:00Z;167
+e-168;Obtain Quotations;2026-05-27T09:31:00Z;168
+e-169;Evaluate And Select Quotation;2026-05-27T13:31:00Z;169
+e-170;Check Contract Need;2026-05-27T13:32:00Z;170
+e-171;Create Purchase Order;2026-05-27T13:34:00Z;171
+e-172;Receive Contract Deliverable;2026-06-03T13:34:00Z;172
+e-173;Receive Invoice;2026-05-27T15:34:00Z;173
+e-174;Submit Requirement;2026-06-03T09:01:00Z;174
+e-175;Review Requirement;2026-06-03T09:31:00Z;175
+e-176;Obtain Quotations;2026-06-12T09:31:00Z;176
+e-177;Perform Business And Technical Acceptance;2026-06-03T15:34:00Z;177
+e-178;Assign Asset To Project;2026-06-03T15:35:00Z;178
+e-179;Put Asset Into Use;2026-06-03T15:37:00Z;179
+e-180;Verify Accounting Prerequisites;2026-06-03T15:39:00Z;180
+e-181;Confirm Accounting Date;2026-06-03T15:40:00Z;181
+e-182;Create Or Update Intangible Asset Record;2026-06-03T15:42:00Z;182
+e-183;Create Accounting Voucher;2026-06-03T15:44:00Z;183
+e-184;Review Accounting Voucher;2026-06-03T16:04:00Z;184
+e-185;Post Accounting Voucher;2026-06-03T16:06:00Z;185
+e-186;Submit Requirement;2026-06-05T09:01:00Z;186
+e-187;Review Requirement;2026-06-05T09:31:00Z;187
+e-188;Obtain Quotations;2026-06-16T09:31:00Z;188
+e-189;Submit Requirement;2026-06-09T09:01:00Z;189
+e-190;Submit Requirement;2026-06-09T09:01:00Z;190
+e-191;Review Requirement;2026-06-09T09:31:00Z;191
+e-192;Obtain Quotations;2026-06-18T09:31:00Z;192
+e-193;Review Requirement;2026-06-09T10:01:00Z;193
+e-194;Obtain Quotations;2026-06-18T10:01:00Z;194
+e-195;Evaluate And Select Quotation;2026-06-12T13:31:00Z;195
+e-196;Check Contract Need;2026-06-12T13:32:00Z;196
+e-197;Create Purchase Order;2026-06-12T13:34:00Z;197
+e-198;Receive Invoice;2026-06-12T15:34:00Z;198
+e-199;Receive Contract Deliverable;2026-06-19T13:34:00Z;199
+e-200;Evaluate And Select Quotation;2026-06-16T13:31:00Z;200
+e-201;Check Contract Need;2026-06-16T13:32:00Z;201
+e-202;Create Purchase Order;2026-06-16T13:34:00Z;202
+e-203;Receive Contract Deliverable;2026-06-23T13:34:00Z;203
+e-204;Receive Invoice;2026-06-16T15:34:00Z;204
+e-205;Evaluate And Select Quotation;2026-06-18T13:31:00Z;205
+e-206;Evaluate And Select Quotation;2026-06-18T14:01:00Z;206
+e-207;Check Contract Need;2026-06-18T13:32:00Z;207
+e-208;Create Purchase Order;2026-06-18T13:34:00Z;208
+e-209;Receive Invoice;2026-06-18T15:34:00Z;209
+e-210;Receive Contract Deliverable;2026-06-25T13:34:00Z;210
+e-211;Check Contract Need;2026-06-18T14:02:00Z;211
+e-212;Create Purchase Order;2026-06-18T14:04:00Z;212
+e-213;Receive Invoice;2026-06-18T16:04:00Z;213
+e-214;Receive Contract Deliverable;2026-06-25T14:04:00Z;214
+e-215;Perform Business And Technical Acceptance;2026-06-19T15:34:00Z;215
+e-216;Assign Asset To Project;2026-06-19T15:35:00Z;216
+e-217;Put Asset Into Use;2026-06-19T15:37:00Z;217
+e-218;Verify Accounting Prerequisites;2026-06-19T15:39:00Z;218
+e-219;Confirm Accounting Date;2026-06-19T15:40:00Z;219
+e-220;Create Or Update Intangible Asset Record;2026-06-19T15:42:00Z;220
+e-221;Create Accounting Voucher;2026-06-19T15:44:00Z;221
+e-222;Review Accounting Voucher;2026-06-19T16:04:00Z;222
+e-223;Post Accounting Voucher;2026-06-19T16:06:00Z;223
+e-224;Perform Business And Technical Acceptance;2026-06-23T15:34:00Z;224
+e-225;Assign Asset To Project;2026-06-23T15:35:00Z;225
+e-226;Put Asset Into Use;2026-06-23T15:37:00Z;226
+e-227;Verify Accounting Prerequisites;2026-06-23T15:39:00Z;227
+e-228;Confirm Accounting Date;2026-06-23T15:40:00Z;228
+e-229;Create Or Update Intangible Asset Record;2026-06-23T15:42:00Z;229
+e-230;Create Accounting Voucher;2026-06-23T15:44:00Z;230
+e-231;Review Accounting Voucher;2026-06-23T16:04:00Z;231
+e-232;Post Accounting Voucher;2026-06-23T16:06:00Z;232
+e-233;Perform Business And Technical Acceptance;2026-06-25T15:34:00Z;233
+e-234;Perform Business And Technical Acceptance;2026-06-26T09:34:00Z;234
+e-235;Assign Asset To Project;2026-06-26T09:35:00Z;235
+e-236;Put Asset Into Use;2026-06-26T09:37:00Z;236
+e-237;Verify Accounting Prerequisites;2026-06-26T09:39:00Z;237
+e-238;Confirm Accounting Date;2026-06-26T09:40:00Z;238
+e-239;Create Or Update Intangible Asset Record;2026-06-26T09:42:00Z;239
+e-240;Create Accounting Voucher;2026-06-26T09:44:00Z;240
+e-241;Review Accounting Voucher;2026-06-26T10:04:00Z;241
+e-242;Modify Accounting Voucher;2026-06-26T10:34:00Z;242
+e-243;Review Accounting Voucher;2026-06-26T10:54:00Z;243
+e-244;Post Accounting Voucher;2026-06-26T10:56:00Z;244
+e-245;Submit Requirement;2026-06-29T09:01:00Z;245
+e-246;Review Requirement;2026-06-29T09:31:00Z;246
+e-247;Obtain Quotations;2026-07-08T09:31:00Z;247
+e-248;Submit Requirement;2026-06-30T09:01:00Z;248
+e-249;Submit Requirement;2026-06-30T09:01:00Z;249
+e-250;Review Requirement;2026-06-30T09:31:00Z;250
+e-251;Review Requirement;2026-06-30T10:01:00Z;251
+e-252;Obtain Quotations;2026-07-09T09:31:00Z;252
+e-253;Obtain Quotations;2026-07-09T10:01:00Z;253
+e-254;Evaluate And Select Quotation;2026-07-08T13:31:00Z;254
+e-255;Check Contract Need;2026-07-08T13:32:00Z;255
+e-256;Create Purchase Order;2026-07-08T13:34:00Z;256
+e-257;Receive Invoice;2026-07-08T15:34:00Z;257
+e-258;Receive Contract Deliverable;2026-07-15T13:34:00Z;258
+e-259;Evaluate And Select Quotation;2026-07-09T13:31:00Z;259
+e-260;Evaluate And Select Quotation;2026-07-09T14:01:00Z;260
+e-261;Check Contract Need;2026-07-09T13:32:00Z;261
+e-262;Create Purchase Order;2026-07-09T13:34:00Z;262
+e-263;Receive Contract Deliverable;2026-07-16T13:34:00Z;263
+e-264;Receive Invoice;2026-07-09T15:34:00Z;264
+e-265;Check Contract Need;2026-07-09T14:02:00Z;265
+e-266;Create Purchase Order;2026-07-09T14:04:00Z;266
+e-267;Receive Invoice;2026-07-09T16:04:00Z;267
+e-268;Receive Contract Deliverable;2026-07-16T14:04:00Z;268
+e-269;Submit Requirement;2026-07-15T09:01:00Z;269
+e-270;Review Requirement;2026-07-15T09:31:00Z;270
+e-271;Obtain Quotations;2026-07-24T09:31:00Z;271
+e-272;Perform Business And Technical Acceptance;2026-07-15T15:34:00Z;272
+e-273;Perform Business And Technical Acceptance;2026-07-16T15:34:00Z;273
+e-274;Rectify And Redeliver;2026-07-23T15:34:00Z;274
+e-275;Perform Business And Technical Acceptance;2026-07-17T09:34:00Z;275
+e-276;Assign Asset To Project;2026-07-17T09:35:00Z;276
+e-277;Put Asset Into Use;2026-07-17T09:37:00Z;277
+e-278;Verify Accounting Prerequisites;2026-07-17T09:39:00Z;278
+e-279;Confirm Accounting Date;2026-07-17T09:40:00Z;279
+e-280;Create Or Update Intangible Asset Record;2026-07-17T09:42:00Z;280
+e-281;Create Accounting Voucher;2026-07-17T09:44:00Z;281
+e-282;Review Accounting Voucher;2026-07-17T10:04:00Z;282
+e-283;Post Accounting Voucher;2026-07-17T10:06:00Z;283
+e-284;Perform Business And Technical Acceptance;2026-07-24T09:34:00Z;284
+e-285;Evaluate And Select Quotation;2026-07-24T13:31:00Z;285
+e-286;Check Contract Need;2026-07-24T13:32:00Z;286
+e-287;Create Purchase Order;2026-07-24T13:34:00Z;287
+e-288;Receive Invoice;2026-07-24T15:34:00Z;288
+e-289;Receive Contract Deliverable;2026-07-31T13:34:00Z;289
+e-290;Perform Business And Technical Acceptance;2026-07-31T15:34:00Z;290
+e-291;Assign Asset To Project;2026-07-31T15:35:00Z;291
+e-292;Put Asset Into Use;2026-07-31T15:37:00Z;292
+e-293;Verify Accounting Prerequisites;2026-07-31T15:39:00Z;293
+e-294;Confirm Accounting Date;2026-07-31T15:40:00Z;294
+e-295;Create Or Update Intangible Asset Record;2026-07-31T15:42:00Z;295
+e-296;Create Accounting Voucher;2026-07-31T15:44:00Z;296
+e-297;Review Accounting Voucher;2026-07-31T16:04:00Z;297
+e-298;Post Accounting Voucher;2026-07-31T16:06:00Z;298
+e-299;Submit Requirement;2026-08-06T09:01:00Z;299
+e-300;Review Requirement;2026-08-06T09:31:00Z;300
+e-301;Terminate After Requirement Rejection;2026-08-06T09:32:00Z;301
+e-302;Submit Requirement;2026-08-20T09:01:00Z;302
+e-303;Review Requirement;2026-08-20T09:31:00Z;303
+e-304;Obtain Quotations;2026-08-31T09:31:00Z;304
+e-305;Evaluate And Select Quotation;2026-08-31T13:31:00Z;305
+e-306;Check Contract Need;2026-08-31T13:32:00Z;306
+e-307;Create Purchase Order;2026-08-31T13:34:00Z;307
+e-308;Receive Invoice;2026-08-31T15:34:00Z;308
+e-309;Receive Contract Deliverable;2026-09-07T13:34:00Z;309
+e-310;Perform Business And Technical Acceptance;2026-09-07T15:34:00Z;310
+e-311;Assign Asset To Project;2026-09-07T15:35:00Z;311
+e-312;Put Asset Into Use;2026-09-07T15:37:00Z;312
+e-313;Verify Accounting Prerequisites;2026-09-07T15:39:00Z;313
+e-314;Confirm Accounting Date;2026-09-07T15:40:00Z;314
+e-315;Create Or Update Intangible Asset Record;2026-09-07T15:42:00Z;315
+e-316;Create Accounting Voucher;2026-09-07T15:44:00Z;316
+e-317;Review Accounting Voucher;2026-09-07T16:04:00Z;317
+e-318;Post Accounting Voucher;2026-09-07T16:06:00Z;318
+e-319;Submit Requirement;2026-09-17T09:01:00Z;319
+e-320;Review Requirement;2026-09-17T09:31:00Z;320
+e-321;Obtain Quotations;2026-09-28T09:31:00Z;321
+e-322;Submit Requirement;2026-09-18T09:01:00Z;322
+e-323;Review Requirement;2026-09-18T09:31:00Z;323
+e-324;Obtain Quotations;2026-09-29T09:31:00Z;324
+e-325;Evaluate And Select Quotation;2026-09-28T13:31:00Z;325
+e-326;Check Contract Need;2026-09-28T13:32:00Z;326
+e-327;Create Purchase Order;2026-09-28T13:34:00Z;327
+e-328;Receive Contract Deliverable;2026-10-05T13:34:00Z;328
+e-329;Receive Invoice;2026-09-28T15:34:00Z;329
+e-330;Evaluate And Select Quotation;2026-09-29T13:31:00Z;330
+e-331;Check Contract Need;2026-09-29T13:32:00Z;331
+e-332;Create Purchase Order;2026-09-29T13:34:00Z;332
+e-333;Receive Invoice;2026-09-29T15:34:00Z;333
+e-334;Receive Contract Deliverable;2026-10-06T13:34:00Z;334
+e-335;Perform Business And Technical Acceptance;2026-10-05T15:34:00Z;335
+e-336;Rectify And Redeliver;2026-10-12T15:34:00Z;336
+e-337;Perform Business And Technical Acceptance;2026-10-06T15:34:00Z;337
+e-338;Assign Asset To Project;2026-10-06T15:35:00Z;338
+e-339;Put Asset Into Use;2026-10-06T15:37:00Z;339
+e-340;Verify Accounting Prerequisites;2026-10-06T15:39:00Z;340
+e-341;Confirm Accounting Date;2026-10-06T15:40:00Z;341
+e-342;Create Or Update Intangible Asset Record;2026-10-06T15:42:00Z;342
+e-343;Create Accounting Voucher;2026-10-06T15:44:00Z;343
+e-344;Review Accounting Voucher;2026-10-06T16:04:00Z;344
+e-345;Modify Accounting Voucher;2026-10-06T16:34:00Z;345
+e-346;Review Accounting Voucher;2026-10-06T16:54:00Z;346
+e-347;Post Accounting Voucher;2026-10-06T16:56:00Z;347
+e-348;Submit Requirement;2026-10-12T09:01:00Z;348
+e-349;Review Requirement;2026-10-12T09:31:00Z;349
+e-350;Modify Requirement;2026-10-12T10:31:00Z;350
+e-351;Review Requirement;2026-10-12T11:01:00Z;351
+e-352;Obtain Quotations;2026-10-21T11:01:00Z;352
+e-353;Perform Business And Technical Acceptance;2026-10-13T09:34:00Z;353
+e-354;Rectify And Redeliver;2026-10-20T09:34:00Z;354
+e-355;Perform Business And Technical Acceptance;2026-10-20T11:34:00Z;355
+e-356;Assign Asset To Project;2026-10-20T11:35:00Z;356
+e-357;Put Asset Into Use;2026-10-20T11:37:00Z;357
+e-358;Verify Accounting Prerequisites;2026-10-20T11:39:00Z;358
+e-359;Confirm Accounting Date;2026-10-20T11:40:00Z;359
+e-360;Create Or Update Intangible Asset Record;2026-10-20T11:42:00Z;360
+e-361;Create Accounting Voucher;2026-10-20T11:44:00Z;361
+e-362;Review Accounting Voucher;2026-10-20T12:04:00Z;362
+e-363;Post Accounting Voucher;2026-10-20T12:06:00Z;363
+e-364;Evaluate And Select Quotation;2026-10-21T15:01:00Z;364
+e-365;Check Contract Need;2026-10-21T15:02:00Z;365
+e-366;Create Purchase Order;2026-10-21T15:04:00Z;366
+e-367;Receive Contract Deliverable;2026-10-28T15:04:00Z;367
+e-368;Receive Invoice;2026-10-22T09:04:00Z;368
+e-369;Perform Business And Technical Acceptance;2026-10-29T09:04:00Z;369
+e-370;Rectify And Redeliver;2026-11-05T09:04:00Z;370
+e-371;Submit Requirement;2026-10-30T09:01:00Z;371
+e-372;Review Requirement;2026-10-30T09:31:00Z;372
+e-373;Obtain Quotations;2026-11-10T09:31:00Z;373
+e-374;Perform Business And Technical Acceptance;2026-11-05T11:04:00Z;374
+e-375;Rectify And Redeliver;2026-11-12T11:04:00Z;375
+e-376;Evaluate And Select Quotation;2026-11-10T13:31:00Z;376
+e-377;Check Contract Need;2026-11-10T13:32:00Z;377
+e-378;Create Purchase Order;2026-11-10T13:34:00Z;378
+e-379;Receive Contract Deliverable;2026-11-17T13:34:00Z;379
+e-380;Receive Invoice;2026-11-10T15:34:00Z;380
+e-381;Submit Requirement;2026-11-12T09:01:00Z;381
+e-382;Review Requirement;2026-11-12T09:31:00Z;382
+e-383;Obtain Quotations;2026-11-23T09:31:00Z;383
+e-384;Perform Business And Technical Acceptance;2026-11-12T13:04:00Z;384
+e-385;Rectify And Redeliver;2026-11-19T13:04:00Z;385
+e-386;Perform Business And Technical Acceptance;2026-11-17T15:34:00Z;386
+e-387;Assign Asset To Project;2026-11-17T15:35:00Z;387
+e-388;Put Asset Into Use;2026-11-17T15:37:00Z;388
+e-389;Verify Accounting Prerequisites;2026-11-17T15:39:00Z;389
+e-390;Confirm Accounting Date;2026-11-17T15:40:00Z;390
+e-391;Create Or Update Intangible Asset Record;2026-11-17T15:42:00Z;391
+e-392;Create Accounting Voucher;2026-11-17T15:44:00Z;392
+e-393;Review Accounting Voucher;2026-11-17T16:04:00Z;393
+e-394;Post Accounting Voucher;2026-11-17T16:06:00Z;394
+e-395;Perform Business And Technical Acceptance;2026-11-19T15:04:00Z;395
+e-396;Assign Asset To Project;2026-11-19T15:05:00Z;396
+e-397;Put Asset Into Use;2026-11-19T15:07:00Z;397
+e-398;Verify Accounting Prerequisites;2026-11-19T15:09:00Z;398
+e-399;Confirm Accounting Date;2026-11-19T15:10:00Z;399
+e-400;Create Or Update Intangible Asset Record;2026-11-19T15:12:00Z;400
+e-401;Create Accounting Voucher;2026-11-19T15:14:00Z;401
+e-402;Review Accounting Voucher;2026-11-19T15:34:00Z;402
+e-403;Modify Accounting Voucher;2026-11-19T16:04:00Z;403
+e-404;Review Accounting Voucher;2026-11-19T16:24:00Z;404
+e-405;Post Accounting Voucher;2026-11-19T16:26:00Z;405
+e-406;Evaluate And Select Quotation;2026-11-23T13:31:00Z;406
+e-407;Check Contract Need;2026-11-23T13:32:00Z;407
+e-408;Create Purchase Order;2026-11-23T13:34:00Z;408
+e-409;Receive Contract Deliverable;2026-11-30T13:34:00Z;409
+e-410;Receive Invoice;2026-11-23T15:34:00Z;410
+e-411;Submit Requirement;2026-11-25T09:01:00Z;411
+e-412;Review Requirement;2026-11-25T09:31:00Z;412
+e-413;Obtain Quotations;2026-12-04T09:31:00Z;413
+e-414;Perform Business And Technical Acceptance;2026-11-30T15:34:00Z;414
+e-415;Rectify And Redeliver;2026-12-07T15:34:00Z;415
+e-416;Evaluate And Select Quotation;2026-12-04T13:31:00Z;416
+e-417;Check Contract Need;2026-12-04T13:32:00Z;417
+e-418;Create Purchase Order;2026-12-04T13:34:00Z;418
+e-419;Receive Invoice;2026-12-04T15:34:00Z;419
+e-420;Receive Contract Deliverable;2026-12-11T13:34:00Z;420
+e-421;Perform Business And Technical Acceptance;2026-12-08T09:34:00Z;421
+e-422;Assign Asset To Project;2026-12-08T09:35:00Z;422
+e-423;Put Asset Into Use;2026-12-08T09:37:00Z;423
+e-424;Verify Accounting Prerequisites;2026-12-08T09:39:00Z;424
+e-425;Confirm Accounting Date;2026-12-08T09:40:00Z;425
+e-426;Create Or Update Intangible Asset Record;2026-12-08T09:42:00Z;426
+e-427;Create Accounting Voucher;2026-12-08T09:44:00Z;427
+e-428;Review Accounting Voucher;2026-12-08T10:04:00Z;428
+e-429;Post Accounting Voucher;2026-12-08T10:06:00Z;429
+e-430;Perform Business And Technical Acceptance;2026-12-11T15:34:00Z;430
+e-431;Assign Asset To Project;2026-12-11T15:35:00Z;431
+e-432;Put Asset Into Use;2026-12-11T15:37:00Z;432
+e-433;Verify Accounting Prerequisites;2026-12-11T15:39:00Z;433
+e-434;Confirm Accounting Date;2026-12-11T15:40:00Z;434
+e-435;Create Or Update Intangible Asset Record;2026-12-11T15:42:00Z;435
+e-436;Create Accounting Voucher;2026-12-11T15:44:00Z;436
+e-437;Review Accounting Voucher;2026-12-11T16:04:00Z;437
+e-438;Post Accounting Voucher;2026-12-11T16:06:00Z;438
+e-439;Submit Requirement;2026-12-22T09:01:00Z;439
+e-440;Review Requirement;2026-12-22T09:31:00Z;440
+e-441;Obtain Quotations;2026-12-31T09:31:00Z;441
+e-442;Evaluate And Select Quotation;2026-12-31T13:31:00Z;442
+e-443;Check Contract Need;2026-12-31T13:32:00Z;443
+e-444;Create Purchase Order;2026-12-31T13:34:00Z;444
+e-445;Receive Invoice;2026-12-31T15:34:00Z;445
+e-446;Receive Contract Deliverable;2027-01-07T13:34:00Z;446
+e-447;Perform Business And Technical Acceptance;2027-01-07T15:34:00Z;447
+e-448;Assign Asset To Project;2027-01-07T15:35:00Z;448
+e-449;Put Asset Into Use;2027-01-07T15:37:00Z;449
+e-450;Verify Accounting Prerequisites;2027-01-07T15:39:00Z;450
+e-451;Confirm Accounting Date;2027-01-07T15:40:00Z;451
+e-452;Create Or Update Intangible Asset Record;2027-01-07T15:42:00Z;452
+e-453;Create Accounting Voucher;2027-01-07T15:44:00Z;453
+e-454;Review Accounting Voucher;2027-01-07T16:04:00Z;454
+e-455;Post Accounting Voucher;2027-01-07T16:06:00Z;455
+e-456;Submit Requirement;2027-01-19T09:01:00Z;456
+e-457;Review Requirement;2027-01-19T09:31:00Z;457
+e-458;Obtain Quotations;2027-01-28T09:31:00Z;458
+e-459;Evaluate And Select Quotation;2027-01-28T13:31:00Z;459
+e-460;Check Contract Need;2027-01-28T13:32:00Z;460
+e-461;Create Purchase Order;2027-01-28T13:34:00Z;461
+e-462;Receive Contract Deliverable;2027-02-04T13:34:00Z;462
+e-463;Receive Invoice;2027-01-28T15:34:00Z;463
+e-464;Submit Requirement;2027-02-04T09:01:00Z;464
+e-465;Review Requirement;2027-02-04T09:31:00Z;465
+e-466;Obtain Quotations;2027-02-15T09:31:00Z;466
+e-467;Perform Business And Technical Acceptance;2027-02-04T15:34:00Z;467
+e-468;Assign Asset To Project;2027-02-04T15:35:00Z;468
+e-469;Put Asset Into Use;2027-02-04T15:37:00Z;469
+e-470;Verify Accounting Prerequisites;2027-02-04T15:39:00Z;470
+e-471;Confirm Accounting Date;2027-02-04T15:40:00Z;471
+e-472;Create Or Update Intangible Asset Record;2027-02-04T15:42:00Z;472
+e-473;Create Accounting Voucher;2027-02-04T15:44:00Z;473
+e-474;Review Accounting Voucher;2027-02-04T16:04:00Z;474
+e-475;Post Accounting Voucher;2027-02-04T16:06:00Z;475
+e-476;Evaluate And Select Quotation;2027-02-15T13:31:00Z;476
+e-477;Check Contract Need;2027-02-15T13:32:00Z;477
+e-478;Create Purchase Order;2027-02-15T13:34:00Z;478
+e-479;Receive Contract Deliverable;2027-02-22T13:34:00Z;479
+e-480;Receive Invoice;2027-02-15T15:34:00Z;480
+e-481;Perform Business And Technical Acceptance;2027-02-22T15:34:00Z;481
+e-482;Assign Asset To Project;2027-02-22T15:35:00Z;482
+e-483;Put Asset Into Use;2027-02-22T15:37:00Z;483
+e-484;Verify Accounting Prerequisites;2027-02-22T15:39:00Z;484
+e-485;Confirm Accounting Date;2027-02-22T15:40:00Z;485
+e-486;Create Or Update Intangible Asset Record;2027-02-22T15:42:00Z;486
+e-487;Create Accounting Voucher;2027-02-22T15:44:00Z;487
+e-488;Review Accounting Voucher;2027-02-22T16:04:00Z;488
+e-489;Post Accounting Voucher;2027-02-22T16:06:00Z;489
+e-490;Submit Requirement;2027-02-26T09:01:00Z;490
+e-491;Review Requirement;2027-02-26T09:31:00Z;491
+e-492;Obtain Quotations;2027-03-09T09:31:00Z;492
+e-493;Evaluate And Select Quotation;2027-03-09T13:31:00Z;493
+e-494;Check Contract Need;2027-03-09T13:32:00Z;494
+e-495;Create Purchase Order;2027-03-09T13:34:00Z;495
+e-496;Receive Contract Deliverable;2027-03-16T13:34:00Z;496
+e-497;Receive Invoice;2027-03-09T15:34:00Z;497
+e-498;Perform Business And Technical Acceptance;2027-03-16T15:34:00Z;498
+e-499;Assign Asset To Project;2027-03-16T15:35:00Z;499
+e-500;Put Asset Into Use;2027-03-16T15:37:00Z;500
+e-501;Verify Accounting Prerequisites;2027-03-16T15:39:00Z;501
+e-502;Confirm Accounting Date;2027-03-16T15:40:00Z;502
+e-503;Create Or Update Intangible Asset Record;2027-03-16T15:42:00Z;503
+e-504;Create Accounting Voucher;2027-03-16T15:44:00Z;504
+e-505;Review Accounting Voucher;2027-03-16T16:04:00Z;505
+e-506;Post Accounting Voucher;2027-03-16T16:06:00Z;506

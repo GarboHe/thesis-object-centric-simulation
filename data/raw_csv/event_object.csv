@@ -1,0 +1,2404 @@
+ocel_event_id;ocel_object_id;ocel_qualifier
+e-1;R-1;submitted requirement
+e-1;Proj-A;project context
+e-1;Asset-1;requested asset
+e-2;R-1;reviewed requirement
+e-2;Proj-A;project context
+e-2;Asset-1;requested asset
+e-2;RR-1;performed by
+e-3;R-1;requirement
+e-3;Proj-A;project context
+e-3;Asset-1;asset under procurement
+e-3;PO-2;performed by
+e-3;S1;queried supplier
+e-3;S2;queried supplier
+e-3;S4;queried supplier
+e-4;R-1;evaluated requirement
+e-4;Proj-A;project context
+e-4;Asset-1;evaluated asset
+e-4;S2;selected supplier
+e-4;PO-2;performed by
+e-5;R-1;requirement
+e-5;Asset-1;asset under procurement
+e-5;S2;selected supplier
+e-6;R-1;requirement
+e-6;Asset-1;asset under procurement
+e-6;S2;supplier
+e-6;CR-1;performed by
+e-7;O-1;created order
+e-7;R-1;source requirement
+e-7;Proj-A;project context
+e-7;Asset-1;ordered asset
+e-7;S2;selected supplier
+e-7;PO-1;performed by
+e-8;INV-O-1;received invoice
+e-8;O-1;invoiced order
+e-8;S2;invoice supplier
+e-9;O-1;related order
+e-9;R-1;source requirement
+e-9;Proj-A;project context
+e-9;Asset-1;received asset
+e-9;S2;delivering supplier
+e-9;PO-1;performed by
+e-10;O-1;accepted order
+e-10;R-1;source requirement
+e-10;Proj-A;accepting project
+e-10;Asset-1;asset under acceptance
+e-10;S2;supplying supplier
+e-10;AT-1;performed by
+e-10;AR-O-1;created acceptance record
+e-11;Asset-1;assigned asset
+e-11;Proj-A;receiving project
+e-12;Asset-1;asset put into use
+e-12;Proj-A;using project
+e-13;O-1;verified order
+e-13;INV-O-1;verified invoice
+e-13;AR-O-1;verified acceptance record
+e-13;Asset-1;verified asset
+e-13;R-1;source requirement
+e-13;Proj-A;project context
+e-13;S2;supplier
+e-13;AA-1;performed by
+e-14;Asset-1;accounting date confirmed asset
+e-14;AA-1;performed by
+e-15;Asset-1;registered intangible asset
+e-15;AA-1;performed by
+e-16;V-O-1;created voucher
+e-16;O-1;related order
+e-16;R-1;source requirement
+e-16;Proj-A;project context
+e-16;Asset-1;capitalized asset
+e-16;S2;supplier
+e-16;INV-O-1;related invoice
+e-16;AR-O-1;related acceptance record
+e-16;AA-1;performed by
+e-17;V-O-1;reviewed voucher
+e-17;O-1;related order
+e-17;Asset-1;related asset
+e-17;INV-O-1;related invoice
+e-17;VR-1;performed by
+e-18;O-1;posted order
+e-18;R-1;source requirement
+e-18;Proj-A;project context
+e-18;Asset-1;capitalized asset
+e-18;S2;supplier
+e-18;V-O-1;posted voucher
+e-18;INV-O-1;posted invoice
+e-18;AR-O-1;archived acceptance record
+e-18;AA-1;performed by
+e-19;R-2;submitted requirement
+e-19;Proj-A;project context
+e-19;Asset-2;requested asset
+e-20;R-2;reviewed requirement
+e-20;Proj-A;project context
+e-20;Asset-2;requested asset
+e-20;RR-1;performed by
+e-21;R-2;terminated requirement
+e-21;Proj-A;project context
+e-21;Asset-2;cancelled asset
+e-22;R-3;submitted requirement
+e-22;Proj-A;project context
+e-22;Asset-3;requested asset
+e-23;R-3;reviewed requirement
+e-23;Proj-A;project context
+e-23;Asset-3;requested asset
+e-23;RR-1;performed by
+e-24;R-3;requirement
+e-24;Proj-A;project context
+e-24;Asset-3;asset under procurement
+e-24;PO-2;performed by
+e-24;S2;queried supplier
+e-24;S4;queried supplier
+e-25;R-3;evaluated requirement
+e-25;Proj-A;project context
+e-25;Asset-3;evaluated asset
+e-25;S4;selected supplier
+e-25;PO-1;performed by
+e-26;R-3;requirement
+e-26;Asset-3;asset under procurement
+e-26;S4;selected supplier
+e-27;R-3;requirement
+e-27;Asset-3;asset under procurement
+e-27;S4;supplier
+e-27;CR-1;performed by
+e-28;O-2;created order
+e-28;R-3;source requirement
+e-28;Proj-A;project context
+e-28;Asset-3;ordered asset
+e-28;S4;selected supplier
+e-28;PO-2;performed by
+e-29;INV-O-2;received invoice
+e-29;O-2;invoiced order
+e-29;S4;invoice supplier
+e-30;O-2;related order
+e-30;R-3;source requirement
+e-30;Proj-A;project context
+e-30;Asset-3;received asset
+e-30;S4;delivering supplier
+e-30;PO-2;performed by
+e-31;O-2;accepted order
+e-31;R-3;source requirement
+e-31;Proj-A;accepting project
+e-31;Asset-3;asset under acceptance
+e-31;S4;supplying supplier
+e-31;AT-1;performed by
+e-31;AR-O-2;created acceptance record
+e-32;Asset-3;assigned asset
+e-32;Proj-A;receiving project
+e-33;Asset-3;asset put into use
+e-33;Proj-A;using project
+e-34;O-2;verified order
+e-34;INV-O-2;verified invoice
+e-34;AR-O-2;verified acceptance record
+e-34;Asset-3;verified asset
+e-34;R-3;source requirement
+e-34;Proj-A;project context
+e-34;S4;supplier
+e-34;AA-1;performed by
+e-35;Asset-3;accounting date confirmed asset
+e-35;AA-1;performed by
+e-36;Asset-3;registered intangible asset
+e-36;AA-1;performed by
+e-37;V-O-2;created voucher
+e-37;O-2;related order
+e-37;R-3;source requirement
+e-37;Proj-A;project context
+e-37;Asset-3;capitalized asset
+e-37;S4;supplier
+e-37;INV-O-2;related invoice
+e-37;AR-O-2;related acceptance record
+e-37;AA-1;performed by
+e-38;V-O-2;reviewed voucher
+e-38;O-2;related order
+e-38;Asset-3;related asset
+e-38;INV-O-2;related invoice
+e-38;VR-1;performed by
+e-39;O-2;posted order
+e-39;R-3;source requirement
+e-39;Proj-A;project context
+e-39;Asset-3;capitalized asset
+e-39;S4;supplier
+e-39;V-O-2;posted voucher
+e-39;INV-O-2;posted invoice
+e-39;AR-O-2;archived acceptance record
+e-39;AA-1;performed by
+e-40;R-4;submitted requirement
+e-40;Proj-A;project context
+e-40;Asset-4;requested asset
+e-41;R-4;reviewed requirement
+e-41;Proj-A;project context
+e-41;Asset-4;requested asset
+e-41;RR-1;performed by
+e-42;R-4;requirement
+e-42;Proj-A;project context
+e-42;Asset-4;asset under procurement
+e-42;PO-1;performed by
+e-42;S3;queried supplier
+e-42;S5;queried supplier
+e-43;R-5;submitted requirement
+e-43;Proj-A;project context
+e-43;Asset-5;requested asset
+e-44;R-6;submitted requirement
+e-44;Proj-A;project context
+e-44;Asset-6;requested asset
+e-45;R-7;submitted requirement
+e-45;Proj-A;project context
+e-45;Asset-7;requested asset
+e-46;R-5;reviewed requirement
+e-46;Proj-A;project context
+e-46;Asset-5;requested asset
+e-46;RR-1;performed by
+e-47;R-5;requirement
+e-47;Proj-A;project context
+e-47;Asset-5;asset under procurement
+e-47;PO-1;performed by
+e-47;S5;queried supplier
+e-47;S6;queried supplier
+e-48;R-6;reviewed requirement
+e-48;Proj-A;project context
+e-48;Asset-6;requested asset
+e-48;RR-1;performed by
+e-49;R-7;reviewed requirement
+e-49;Proj-A;project context
+e-49;Asset-7;requested asset
+e-49;RR-1;performed by
+e-50;R-6;requirement
+e-50;Proj-A;project context
+e-50;Asset-6;asset under procurement
+e-50;PO-2;performed by
+e-50;S1;queried supplier
+e-50;S2;queried supplier
+e-50;S4;queried supplier
+e-51;R-7;requirement
+e-51;Proj-A;project context
+e-51;Asset-7;asset under procurement
+e-51;PO-1;performed by
+e-51;S1;queried supplier
+e-51;S3;queried supplier
+e-51;S4;queried supplier
+e-52;R-8;submitted requirement
+e-52;Proj-A;project context
+e-52;Asset-8;requested asset
+e-53;R-9;submitted requirement
+e-53;Proj-A;project context
+e-53;Asset-9;requested asset
+e-54;R-10;submitted requirement
+e-54;Proj-A;project context
+e-54;Asset-10;requested asset
+e-55;R-8;reviewed requirement
+e-55;Proj-A;project context
+e-55;Asset-8;requested asset
+e-55;RR-1;performed by
+e-56;R-8;requirement
+e-56;Proj-A;project context
+e-56;Asset-8;asset under procurement
+e-56;PO-2;performed by
+e-56;S2;queried supplier
+e-56;S4;queried supplier
+e-57;R-9;reviewed requirement
+e-57;Proj-A;project context
+e-57;Asset-9;requested asset
+e-57;RR-1;performed by
+e-58;R-10;reviewed requirement
+e-58;Proj-A;project context
+e-58;Asset-10;requested asset
+e-58;RR-1;performed by
+e-59;R-9;requirement
+e-59;Proj-A;project context
+e-59;Asset-9;asset under procurement
+e-59;PO-1;performed by
+e-59;S3;queried supplier
+e-59;S5;queried supplier
+e-60;R-10;requirement
+e-60;Proj-A;project context
+e-60;Asset-10;asset under procurement
+e-60;PO-2;performed by
+e-60;S5;queried supplier
+e-60;S6;queried supplier
+e-61;R-4;evaluated requirement
+e-61;Proj-A;project context
+e-61;Asset-4;evaluated asset
+e-61;S3;selected supplier
+e-61;PO-2;performed by
+e-62;R-4;requirement
+e-62;Asset-4;asset under procurement
+e-62;S3;selected supplier
+e-63;R-4;requirement
+e-63;Asset-4;asset under procurement
+e-63;S3;supplier
+e-63;CR-1;performed by
+e-64;O-3;created order
+e-64;R-4;source requirement
+e-64;Proj-A;project context
+e-64;Asset-4;ordered asset
+e-64;S3;selected supplier
+e-64;PO-2;performed by
+e-65;INV-O-3;received invoice
+e-65;O-3;invoiced order
+e-65;S3;invoice supplier
+e-66;O-3;related order
+e-66;R-4;source requirement
+e-66;Proj-A;project context
+e-66;Asset-4;received asset
+e-66;S3;delivering supplier
+e-66;PO-1;performed by
+e-67;R-5;evaluated requirement
+e-67;Proj-A;project context
+e-67;Asset-5;evaluated asset
+e-67;S5;selected supplier
+e-67;PO-2;performed by
+e-68;R-6;evaluated requirement
+e-68;Proj-A;project context
+e-68;Asset-6;evaluated asset
+e-68;S1;selected supplier
+e-68;PO-1;performed by
+e-69;R-7;evaluated requirement
+e-69;Proj-A;project context
+e-69;Asset-7;evaluated asset
+e-69;S1;selected supplier
+e-69;PO-2;performed by
+e-70;R-5;requirement
+e-70;Asset-5;asset under procurement
+e-70;S5;selected supplier
+e-71;R-5;requirement
+e-71;Asset-5;asset under procurement
+e-71;S5;supplier
+e-71;CR-1;performed by
+e-72;R-8;evaluated requirement
+e-72;Proj-A;project context
+e-72;Asset-8;evaluated asset
+e-72;S4;selected supplier
+e-72;PO-1;performed by
+e-73;O-4;created order
+e-73;R-5;source requirement
+e-73;Proj-A;project context
+e-73;Asset-5;ordered asset
+e-73;S5;selected supplier
+e-73;PO-2;performed by
+e-74;R-7;requirement
+e-74;Asset-7;asset under procurement
+e-74;S1;selected supplier
+e-75;R-7;requirement
+e-75;Asset-7;asset under procurement
+e-75;S1;supplier
+e-75;CR-1;performed by
+e-76;INV-O-4;received invoice
+e-76;O-4;invoiced order
+e-76;S5;invoice supplier
+e-77;O-4;related order
+e-77;R-5;source requirement
+e-77;Proj-A;project context
+e-77;Asset-5;received asset
+e-77;S5;delivering supplier
+e-77;PO-2;performed by
+e-78;R-9;evaluated requirement
+e-78;Proj-A;project context
+e-78;Asset-9;evaluated asset
+e-78;S3;selected supplier
+e-78;PO-2;performed by
+e-79;R-10;evaluated requirement
+e-79;Proj-A;project context
+e-79;Asset-10;evaluated asset
+e-79;S6;selected supplier
+e-79;PO-1;performed by
+e-80;R-7;terminated requirement
+e-80;Proj-A;project context
+e-80;Asset-7;cancelled asset
+e-80;S1;rejected supplier
+e-81;R-6;requirement
+e-81;Asset-6;asset under procurement
+e-81;S1;selected supplier
+e-82;R-6;requirement
+e-82;Asset-6;asset under procurement
+e-82;S1;supplier
+e-82;CR-1;performed by
+e-83;O-5;created order
+e-83;R-6;source requirement
+e-83;Proj-A;project context
+e-83;Asset-6;ordered asset
+e-83;S1;selected supplier
+e-83;PO-2;performed by
+e-84;R-9;requirement
+e-84;Asset-9;asset under procurement
+e-84;S3;selected supplier
+e-85;R-8;requirement
+e-85;Asset-8;asset under procurement
+e-85;S4;selected supplier
+e-86;INV-O-5;received invoice
+e-86;O-5;invoiced order
+e-86;S1;invoice supplier
+e-87;R-10;requirement
+e-87;Asset-10;asset under procurement
+e-87;S6;selected supplier
+e-88;O-5;related order
+e-88;R-6;source requirement
+e-88;Proj-A;project context
+e-88;Asset-6;received asset
+e-88;S1;delivering supplier
+e-88;PO-1;performed by
+e-89;O-6;created order
+e-89;R-9;source requirement
+e-89;Proj-A;project context
+e-89;Asset-9;ordered asset
+e-89;S3;selected supplier
+e-89;PO-2;performed by
+e-90;R-10;requirement
+e-90;Asset-10;asset under procurement
+e-90;S6;supplier
+e-90;CR-1;performed by
+e-91;O-6;related order
+e-91;R-9;source requirement
+e-91;Proj-A;project context
+e-91;Asset-9;received asset
+e-91;S3;delivering supplier
+e-91;PO-2;performed by
+e-92;INV-O-6;received invoice
+e-92;O-6;invoiced order
+e-92;S3;invoice supplier
+e-93;O-7;created order
+e-93;R-8;source requirement
+e-93;Proj-A;project context
+e-93;Asset-8;ordered asset
+e-93;S4;selected supplier
+e-93;PO-1;performed by
+e-94;INV-O-7;received invoice
+e-94;O-7;invoiced order
+e-94;S4;invoice supplier
+e-95;O-7;related order
+e-95;R-8;source requirement
+e-95;Proj-A;project context
+e-95;Asset-8;received asset
+e-95;S4;delivering supplier
+e-95;PO-2;performed by
+e-96;O-8;created order
+e-96;R-10;source requirement
+e-96;Proj-A;project context
+e-96;Asset-10;ordered asset
+e-96;S6;selected supplier
+e-96;PO-1;performed by
+e-97;INV-O-8;received invoice
+e-97;O-8;invoiced order
+e-97;S6;invoice supplier
+e-98;O-8;related order
+e-98;R-10;source requirement
+e-98;Proj-A;project context
+e-98;Asset-10;received asset
+e-98;S6;delivering supplier
+e-98;PO-2;performed by
+e-99;R-11;submitted requirement
+e-99;Proj-A;project context
+e-99;Asset-11;requested asset
+e-100;R-11;reviewed requirement
+e-100;Proj-A;project context
+e-100;Asset-11;requested asset
+e-100;RR-1;performed by
+e-101;R-11;modified requirement
+e-101;Proj-A;project context
+e-101;Asset-11;requested asset
+e-102;R-11;reviewed requirement
+e-102;Proj-A;project context
+e-102;Asset-11;requested asset
+e-102;RR-1;performed by
+e-103;R-11;requirement
+e-103;Proj-A;project context
+e-103;Asset-11;asset under procurement
+e-103;PO-1;performed by
+e-103;S1;queried supplier
+e-103;S2;queried supplier
+e-103;S4;queried supplier
+e-104;O-3;accepted order
+e-104;R-4;source requirement
+e-104;Proj-A;accepting project
+e-104;Asset-4;asset under acceptance
+e-104;S3;supplying supplier
+e-104;AT-1;performed by
+e-105;O-4;accepted order
+e-105;R-5;source requirement
+e-105;Proj-A;accepting project
+e-105;Asset-5;asset under acceptance
+e-105;S5;supplying supplier
+e-105;AT-1;performed by
+e-106;Asset-5;rectified and redelivered asset
+e-107;O-5;accepted order
+e-107;R-6;source requirement
+e-107;Proj-A;accepting project
+e-107;Asset-6;asset under acceptance
+e-107;S1;supplying supplier
+e-107;AT-1;performed by
+e-107;AR-O-5;created acceptance record
+e-108;O-7;accepted order
+e-108;R-8;source requirement
+e-108;Proj-A;accepting project
+e-108;Asset-8;asset under acceptance
+e-108;S4;supplying supplier
+e-108;AT-1;performed by
+e-108;AR-O-7;created acceptance record
+e-109;Asset-6;assigned asset
+e-109;Proj-A;receiving project
+e-110;Asset-6;asset put into use
+e-110;Proj-A;using project
+e-111;O-5;verified order
+e-111;INV-O-5;verified invoice
+e-111;AR-O-5;verified acceptance record
+e-111;Asset-6;verified asset
+e-111;R-6;source requirement
+e-111;Proj-A;project context
+e-111;S1;supplier
+e-111;AA-1;performed by
+e-112;Asset-6;accounting date confirmed asset
+e-112;AA-1;performed by
+e-113;Asset-6;registered intangible asset
+e-113;AA-1;performed by
+e-114;V-O-5;created voucher
+e-114;O-5;related order
+e-114;R-6;source requirement
+e-114;Proj-A;project context
+e-114;Asset-6;capitalized asset
+e-114;S1;supplier
+e-114;INV-O-5;related invoice
+e-114;AR-O-5;related acceptance record
+e-114;AA-1;performed by
+e-115;V-O-5;reviewed voucher
+e-115;O-5;related order
+e-115;Asset-6;related asset
+e-115;INV-O-5;related invoice
+e-115;VR-1;performed by
+e-116;O-5;posted order
+e-116;R-6;source requirement
+e-116;Proj-A;project context
+e-116;Asset-6;capitalized asset
+e-116;S1;supplier
+e-116;V-O-5;posted voucher
+e-116;INV-O-5;posted invoice
+e-116;AR-O-5;archived acceptance record
+e-116;AA-1;performed by
+e-117;O-6;accepted order
+e-117;R-9;source requirement
+e-117;Proj-A;accepting project
+e-117;Asset-9;asset under acceptance
+e-117;S3;supplying supplier
+e-117;AT-1;performed by
+e-117;AR-O-6;created acceptance record
+e-118;Asset-8;assigned asset
+e-118;Proj-A;receiving project
+e-119;Asset-8;asset put into use
+e-119;Proj-A;using project
+e-120;O-7;verified order
+e-120;INV-O-7;verified invoice
+e-120;AR-O-7;verified acceptance record
+e-120;Asset-8;verified asset
+e-120;R-8;source requirement
+e-120;Proj-A;project context
+e-120;S4;supplier
+e-120;AA-1;performed by
+e-121;Asset-8;accounting date confirmed asset
+e-121;AA-1;performed by
+e-122;Asset-8;registered intangible asset
+e-122;AA-1;performed by
+e-123;V-O-7;created voucher
+e-123;O-7;related order
+e-123;R-8;source requirement
+e-123;Proj-A;project context
+e-123;Asset-8;capitalized asset
+e-123;S4;supplier
+e-123;INV-O-7;related invoice
+e-123;AR-O-7;related acceptance record
+e-123;AA-1;performed by
+e-124;V-O-7;reviewed voucher
+e-124;O-7;related order
+e-124;Asset-8;related asset
+e-124;INV-O-7;related invoice
+e-124;VR-1;performed by
+e-125;O-7;posted order
+e-125;R-8;source requirement
+e-125;Proj-A;project context
+e-125;Asset-8;capitalized asset
+e-125;S4;supplier
+e-125;V-O-7;posted voucher
+e-125;INV-O-7;posted invoice
+e-125;AR-O-7;archived acceptance record
+e-125;AA-1;performed by
+e-126;O-8;accepted order
+e-126;R-10;source requirement
+e-126;Proj-A;accepting project
+e-126;Asset-10;asset under acceptance
+e-126;S6;supplying supplier
+e-126;AT-1;performed by
+e-126;AR-O-8;created acceptance record
+e-127;Asset-9;assigned asset
+e-127;Proj-A;receiving project
+e-128;Asset-9;asset put into use
+e-128;Proj-A;using project
+e-129;O-6;verified order
+e-129;INV-O-6;verified invoice
+e-129;AR-O-6;verified acceptance record
+e-129;Asset-9;verified asset
+e-129;R-9;source requirement
+e-129;Proj-A;project context
+e-129;S3;supplier
+e-129;AA-1;performed by
+e-130;Asset-9;accounting date confirmed asset
+e-130;AA-1;performed by
+e-131;Asset-9;registered intangible asset
+e-131;AA-1;performed by
+e-132;V-O-6;created voucher
+e-132;O-6;related order
+e-132;R-9;source requirement
+e-132;Proj-A;project context
+e-132;Asset-9;capitalized asset
+e-132;S3;supplier
+e-132;INV-O-6;related invoice
+e-132;AR-O-6;related acceptance record
+e-132;AA-1;performed by
+e-133;V-O-6;reviewed voucher
+e-133;O-6;related order
+e-133;Asset-9;related asset
+e-133;INV-O-6;related invoice
+e-133;VR-1;performed by
+e-134;O-6;posted order
+e-134;R-9;source requirement
+e-134;Proj-A;project context
+e-134;Asset-9;capitalized asset
+e-134;S3;supplier
+e-134;V-O-6;posted voucher
+e-134;INV-O-6;posted invoice
+e-134;AR-O-6;archived acceptance record
+e-134;AA-1;performed by
+e-135;Asset-10;assigned asset
+e-135;Proj-A;receiving project
+e-136;Asset-10;asset put into use
+e-136;Proj-A;using project
+e-137;O-8;verified order
+e-137;INV-O-8;verified invoice
+e-137;AR-O-8;verified acceptance record
+e-137;Asset-10;verified asset
+e-137;R-10;source requirement
+e-137;Proj-A;project context
+e-137;S6;supplier
+e-137;AA-1;performed by
+e-138;Asset-10;accounting date confirmed asset
+e-138;AA-1;performed by
+e-139;Asset-10;registered intangible asset
+e-139;AA-1;performed by
+e-140;V-O-8;created voucher
+e-140;O-8;related order
+e-140;R-10;source requirement
+e-140;Proj-A;project context
+e-140;Asset-10;capitalized asset
+e-140;S6;supplier
+e-140;INV-O-8;related invoice
+e-140;AR-O-8;related acceptance record
+e-140;AA-1;performed by
+e-141;V-O-8;reviewed voucher
+e-141;O-8;related order
+e-141;Asset-10;related asset
+e-141;INV-O-8;related invoice
+e-141;VR-1;performed by
+e-142;O-8;posted order
+e-142;R-10;source requirement
+e-142;Proj-A;project context
+e-142;Asset-10;capitalized asset
+e-142;S6;supplier
+e-142;V-O-8;posted voucher
+e-142;INV-O-8;posted invoice
+e-142;AR-O-8;archived acceptance record
+e-142;AA-1;performed by
+e-143;R-11;evaluated requirement
+e-143;Proj-A;project context
+e-143;Asset-11;evaluated asset
+e-143;S4;selected supplier
+e-143;PO-2;performed by
+e-144;R-11;requirement
+e-144;Asset-11;asset under procurement
+e-144;S4;selected supplier
+e-145;O-9;created order
+e-145;R-11;source requirement
+e-145;Proj-A;project context
+e-145;Asset-11;ordered asset
+e-145;S4;selected supplier
+e-145;PO-1;performed by
+e-146;INV-O-9;received invoice
+e-146;O-9;invoiced order
+e-146;S4;invoice supplier
+e-147;O-9;related order
+e-147;R-11;source requirement
+e-147;Proj-A;project context
+e-147;Asset-11;received asset
+e-147;S4;delivering supplier
+e-147;PO-1;performed by
+e-148;O-4;accepted order
+e-148;R-5;source requirement
+e-148;Proj-A;accepting project
+e-148;Asset-5;asset under acceptance
+e-148;S5;supplying supplier
+e-148;AT-1;performed by
+e-148;AR-O-4;created acceptance record
+e-149;Asset-5;assigned asset
+e-149;Proj-A;receiving project
+e-150;Asset-5;asset put into use
+e-150;Proj-A;using project
+e-151;O-4;verified order
+e-151;INV-O-4;verified invoice
+e-151;AR-O-4;verified acceptance record
+e-151;Asset-5;verified asset
+e-151;R-5;source requirement
+e-151;Proj-A;project context
+e-151;S5;supplier
+e-151;AA-1;performed by
+e-152;Asset-5;accounting date confirmed asset
+e-152;AA-1;performed by
+e-153;Asset-5;registered intangible asset
+e-153;AA-1;performed by
+e-154;V-O-4;created voucher
+e-154;O-4;related order
+e-154;R-5;source requirement
+e-154;Proj-A;project context
+e-154;Asset-5;capitalized asset
+e-154;S5;supplier
+e-154;INV-O-4;related invoice
+e-154;AR-O-4;related acceptance record
+e-154;AA-1;performed by
+e-155;V-O-4;reviewed voucher
+e-155;O-4;related order
+e-155;Asset-5;related asset
+e-155;INV-O-4;related invoice
+e-155;VR-1;performed by
+e-156;O-4;posted order
+e-156;R-5;source requirement
+e-156;Proj-A;project context
+e-156;Asset-5;capitalized asset
+e-156;S5;supplier
+e-156;V-O-4;posted voucher
+e-156;INV-O-4;posted invoice
+e-156;AR-O-4;archived acceptance record
+e-156;AA-1;performed by
+e-157;O-9;accepted order
+e-157;R-11;source requirement
+e-157;Proj-A;accepting project
+e-157;Asset-11;asset under acceptance
+e-157;S4;supplying supplier
+e-157;AT-1;performed by
+e-157;AR-O-9;created acceptance record
+e-158;Asset-11;assigned asset
+e-158;Proj-A;receiving project
+e-159;Asset-11;asset put into use
+e-159;Proj-A;using project
+e-160;O-9;verified order
+e-160;INV-O-9;verified invoice
+e-160;AR-O-9;verified acceptance record
+e-160;Asset-11;verified asset
+e-160;R-11;source requirement
+e-160;Proj-A;project context
+e-160;S4;supplier
+e-160;AA-1;performed by
+e-161;Asset-11;accounting date confirmed asset
+e-161;AA-1;performed by
+e-162;Asset-11;registered intangible asset
+e-162;AA-1;performed by
+e-163;V-O-9;created voucher
+e-163;O-9;related order
+e-163;R-11;source requirement
+e-163;Proj-A;project context
+e-163;Asset-11;capitalized asset
+e-163;S4;supplier
+e-163;INV-O-9;related invoice
+e-163;AR-O-9;related acceptance record
+e-163;AA-1;performed by
+e-164;V-O-9;reviewed voucher
+e-164;O-9;related order
+e-164;Asset-11;related asset
+e-164;INV-O-9;related invoice
+e-164;VR-1;performed by
+e-165;O-9;posted order
+e-165;R-11;source requirement
+e-165;Proj-A;project context
+e-165;Asset-11;capitalized asset
+e-165;S4;supplier
+e-165;V-O-9;posted voucher
+e-165;INV-O-9;posted invoice
+e-165;AR-O-9;archived acceptance record
+e-165;AA-1;performed by
+e-166;R-12;submitted requirement
+e-166;Proj-A;project context
+e-166;Asset-12;requested asset
+e-167;R-12;reviewed requirement
+e-167;Proj-A;project context
+e-167;Asset-12;requested asset
+e-167;RR-1;performed by
+e-168;R-12;requirement
+e-168;Proj-A;project context
+e-168;Asset-12;asset under procurement
+e-168;PO-2;performed by
+e-168;S1;queried supplier
+e-168;S3;queried supplier
+e-168;S4;queried supplier
+e-169;R-12;evaluated requirement
+e-169;Proj-A;project context
+e-169;Asset-12;evaluated asset
+e-169;S3;selected supplier
+e-169;PO-2;performed by
+e-170;R-12;requirement
+e-170;Asset-12;asset under procurement
+e-170;S3;selected supplier
+e-171;O-10;created order
+e-171;R-12;source requirement
+e-171;Proj-A;project context
+e-171;Asset-12;ordered asset
+e-171;S3;selected supplier
+e-171;PO-1;performed by
+e-172;O-10;related order
+e-172;R-12;source requirement
+e-172;Proj-A;project context
+e-172;Asset-12;received asset
+e-172;S3;delivering supplier
+e-172;PO-2;performed by
+e-173;INV-O-10;received invoice
+e-173;O-10;invoiced order
+e-173;S3;invoice supplier
+e-174;R-13;submitted requirement
+e-174;Proj-A;project context
+e-174;Asset-13;requested asset
+e-175;R-13;reviewed requirement
+e-175;Proj-A;project context
+e-175;Asset-13;requested asset
+e-175;RR-1;performed by
+e-176;R-13;requirement
+e-176;Proj-A;project context
+e-176;Asset-13;asset under procurement
+e-176;PO-2;performed by
+e-176;S2;queried supplier
+e-176;S4;queried supplier
+e-177;O-10;accepted order
+e-177;R-12;source requirement
+e-177;Proj-A;accepting project
+e-177;Asset-12;asset under acceptance
+e-177;S3;supplying supplier
+e-177;AT-1;performed by
+e-177;AR-O-10;created acceptance record
+e-178;Asset-12;assigned asset
+e-178;Proj-A;receiving project
+e-179;Asset-12;asset put into use
+e-179;Proj-A;using project
+e-180;O-10;verified order
+e-180;INV-O-10;verified invoice
+e-180;AR-O-10;verified acceptance record
+e-180;Asset-12;verified asset
+e-180;R-12;source requirement
+e-180;Proj-A;project context
+e-180;S3;supplier
+e-180;AA-1;performed by
+e-181;Asset-12;accounting date confirmed asset
+e-181;AA-1;performed by
+e-182;Asset-12;registered intangible asset
+e-182;AA-1;performed by
+e-183;V-O-10;created voucher
+e-183;O-10;related order
+e-183;R-12;source requirement
+e-183;Proj-A;project context
+e-183;Asset-12;capitalized asset
+e-183;S3;supplier
+e-183;INV-O-10;related invoice
+e-183;AR-O-10;related acceptance record
+e-183;AA-1;performed by
+e-184;V-O-10;reviewed voucher
+e-184;O-10;related order
+e-184;Asset-12;related asset
+e-184;INV-O-10;related invoice
+e-184;VR-1;performed by
+e-185;O-10;posted order
+e-185;R-12;source requirement
+e-185;Proj-A;project context
+e-185;Asset-12;capitalized asset
+e-185;S3;supplier
+e-185;V-O-10;posted voucher
+e-185;INV-O-10;posted invoice
+e-185;AR-O-10;archived acceptance record
+e-185;AA-1;performed by
+e-186;R-14;submitted requirement
+e-186;Proj-A;project context
+e-186;Asset-14;requested asset
+e-187;R-14;reviewed requirement
+e-187;Proj-A;project context
+e-187;Asset-14;requested asset
+e-187;RR-1;performed by
+e-188;R-14;requirement
+e-188;Proj-A;project context
+e-188;Asset-14;asset under procurement
+e-188;PO-2;performed by
+e-188;S3;queried supplier
+e-188;S5;queried supplier
+e-189;R-15;submitted requirement
+e-189;Proj-A;project context
+e-189;Asset-15;requested asset
+e-190;R-16;submitted requirement
+e-190;Proj-A;project context
+e-190;Asset-16;requested asset
+e-191;R-15;reviewed requirement
+e-191;Proj-A;project context
+e-191;Asset-15;requested asset
+e-191;RR-1;performed by
+e-192;R-15;requirement
+e-192;Proj-A;project context
+e-192;Asset-15;asset under procurement
+e-192;PO-2;performed by
+e-192;S5;queried supplier
+e-192;S6;queried supplier
+e-193;R-16;reviewed requirement
+e-193;Proj-A;project context
+e-193;Asset-16;requested asset
+e-193;RR-1;performed by
+e-194;R-16;requirement
+e-194;Proj-A;project context
+e-194;Asset-16;asset under procurement
+e-194;PO-1;performed by
+e-194;S1;queried supplier
+e-194;S2;queried supplier
+e-194;S4;queried supplier
+e-195;R-13;evaluated requirement
+e-195;Proj-A;project context
+e-195;Asset-13;evaluated asset
+e-195;S4;selected supplier
+e-195;PO-2;performed by
+e-196;R-13;requirement
+e-196;Asset-13;asset under procurement
+e-196;S4;selected supplier
+e-197;O-11;created order
+e-197;R-13;source requirement
+e-197;Proj-A;project context
+e-197;Asset-13;ordered asset
+e-197;S4;selected supplier
+e-197;PO-2;performed by
+e-198;INV-O-11;received invoice
+e-198;O-11;invoiced order
+e-198;S4;invoice supplier
+e-199;O-11;related order
+e-199;R-13;source requirement
+e-199;Proj-A;project context
+e-199;Asset-13;received asset
+e-199;S4;delivering supplier
+e-199;PO-2;performed by
+e-200;R-14;evaluated requirement
+e-200;Proj-A;project context
+e-200;Asset-14;evaluated asset
+e-200;S5;selected supplier
+e-200;PO-1;performed by
+e-201;R-14;requirement
+e-201;Asset-14;asset under procurement
+e-201;S5;selected supplier
+e-202;O-12;created order
+e-202;R-14;source requirement
+e-202;Proj-A;project context
+e-202;Asset-14;ordered asset
+e-202;S5;selected supplier
+e-202;PO-2;performed by
+e-203;O-12;related order
+e-203;R-14;source requirement
+e-203;Proj-A;project context
+e-203;Asset-14;received asset
+e-203;S5;delivering supplier
+e-203;PO-2;performed by
+e-204;INV-O-12;received invoice
+e-204;O-12;invoiced order
+e-204;S5;invoice supplier
+e-205;R-15;evaluated requirement
+e-205;Proj-A;project context
+e-205;Asset-15;evaluated asset
+e-205;S5;selected supplier
+e-205;PO-1;performed by
+e-206;R-16;evaluated requirement
+e-206;Proj-A;project context
+e-206;Asset-16;evaluated asset
+e-206;S1;selected supplier
+e-206;PO-2;performed by
+e-207;R-15;requirement
+e-207;Asset-15;asset under procurement
+e-207;S5;selected supplier
+e-208;O-13;created order
+e-208;R-15;source requirement
+e-208;Proj-A;project context
+e-208;Asset-15;ordered asset
+e-208;S5;selected supplier
+e-208;PO-1;performed by
+e-209;INV-O-13;received invoice
+e-209;O-13;invoiced order
+e-209;S5;invoice supplier
+e-210;O-13;related order
+e-210;R-15;source requirement
+e-210;Proj-A;project context
+e-210;Asset-15;received asset
+e-210;S5;delivering supplier
+e-210;PO-1;performed by
+e-211;R-16;requirement
+e-211;Asset-16;asset under procurement
+e-211;S1;selected supplier
+e-212;O-14;created order
+e-212;R-16;source requirement
+e-212;Proj-A;project context
+e-212;Asset-16;ordered asset
+e-212;S1;selected supplier
+e-212;PO-2;performed by
+e-213;INV-O-14;received invoice
+e-213;O-14;invoiced order
+e-213;S1;invoice supplier
+e-214;O-14;related order
+e-214;R-16;source requirement
+e-214;Proj-A;project context
+e-214;Asset-16;received asset
+e-214;S1;delivering supplier
+e-214;PO-1;performed by
+e-215;O-11;accepted order
+e-215;R-13;source requirement
+e-215;Proj-A;accepting project
+e-215;Asset-13;asset under acceptance
+e-215;S4;supplying supplier
+e-215;AT-1;performed by
+e-215;AR-O-11;created acceptance record
+e-216;Asset-13;assigned asset
+e-216;Proj-A;receiving project
+e-217;Asset-13;asset put into use
+e-217;Proj-A;using project
+e-218;O-11;verified order
+e-218;INV-O-11;verified invoice
+e-218;AR-O-11;verified acceptance record
+e-218;Asset-13;verified asset
+e-218;R-13;source requirement
+e-218;Proj-A;project context
+e-218;S4;supplier
+e-218;AA-1;performed by
+e-219;Asset-13;accounting date confirmed asset
+e-219;AA-1;performed by
+e-220;Asset-13;registered intangible asset
+e-220;AA-1;performed by
+e-221;V-O-11;created voucher
+e-221;O-11;related order
+e-221;R-13;source requirement
+e-221;Proj-A;project context
+e-221;Asset-13;capitalized asset
+e-221;S4;supplier
+e-221;INV-O-11;related invoice
+e-221;AR-O-11;related acceptance record
+e-221;AA-1;performed by
+e-222;V-O-11;reviewed voucher
+e-222;O-11;related order
+e-222;Asset-13;related asset
+e-222;INV-O-11;related invoice
+e-222;VR-1;performed by
+e-223;O-11;posted order
+e-223;R-13;source requirement
+e-223;Proj-A;project context
+e-223;Asset-13;capitalized asset
+e-223;S4;supplier
+e-223;V-O-11;posted voucher
+e-223;INV-O-11;posted invoice
+e-223;AR-O-11;archived acceptance record
+e-223;AA-1;performed by
+e-224;O-12;accepted order
+e-224;R-14;source requirement
+e-224;Proj-A;accepting project
+e-224;Asset-14;asset under acceptance
+e-224;S5;supplying supplier
+e-224;AT-1;performed by
+e-224;AR-O-12;created acceptance record
+e-225;Asset-14;assigned asset
+e-225;Proj-A;receiving project
+e-226;Asset-14;asset put into use
+e-226;Proj-A;using project
+e-227;O-12;verified order
+e-227;INV-O-12;verified invoice
+e-227;AR-O-12;verified acceptance record
+e-227;Asset-14;verified asset
+e-227;R-14;source requirement
+e-227;Proj-A;project context
+e-227;S5;supplier
+e-227;AA-1;performed by
+e-228;Asset-14;accounting date confirmed asset
+e-228;AA-1;performed by
+e-229;Asset-14;registered intangible asset
+e-229;AA-1;performed by
+e-230;V-O-12;created voucher
+e-230;O-12;related order
+e-230;R-14;source requirement
+e-230;Proj-A;project context
+e-230;Asset-14;capitalized asset
+e-230;S5;supplier
+e-230;INV-O-12;related invoice
+e-230;AR-O-12;related acceptance record
+e-230;AA-1;performed by
+e-231;V-O-12;reviewed voucher
+e-231;O-12;related order
+e-231;Asset-14;related asset
+e-231;INV-O-12;related invoice
+e-231;VR-1;performed by
+e-232;O-12;posted order
+e-232;R-14;source requirement
+e-232;Proj-A;project context
+e-232;Asset-14;capitalized asset
+e-232;S5;supplier
+e-232;V-O-12;posted voucher
+e-232;INV-O-12;posted invoice
+e-232;AR-O-12;archived acceptance record
+e-232;AA-1;performed by
+e-233;O-13;accepted order
+e-233;R-15;source requirement
+e-233;Proj-A;accepting project
+e-233;Asset-15;asset under acceptance
+e-233;S5;supplying supplier
+e-233;AT-1;performed by
+e-234;O-14;accepted order
+e-234;R-16;source requirement
+e-234;Proj-A;accepting project
+e-234;Asset-16;asset under acceptance
+e-234;S1;supplying supplier
+e-234;AT-1;performed by
+e-234;AR-O-14;created acceptance record
+e-235;Asset-16;assigned asset
+e-235;Proj-A;receiving project
+e-236;Asset-16;asset put into use
+e-236;Proj-A;using project
+e-237;O-14;verified order
+e-237;INV-O-14;verified invoice
+e-237;AR-O-14;verified acceptance record
+e-237;Asset-16;verified asset
+e-237;R-16;source requirement
+e-237;Proj-A;project context
+e-237;S1;supplier
+e-237;AA-1;performed by
+e-238;Asset-16;accounting date confirmed asset
+e-238;AA-1;performed by
+e-239;Asset-16;registered intangible asset
+e-239;AA-1;performed by
+e-240;V-O-14;created voucher
+e-240;O-14;related order
+e-240;R-16;source requirement
+e-240;Proj-A;project context
+e-240;Asset-16;capitalized asset
+e-240;S1;supplier
+e-240;INV-O-14;related invoice
+e-240;AR-O-14;related acceptance record
+e-240;AA-1;performed by
+e-241;V-O-14;reviewed voucher
+e-241;O-14;related order
+e-241;Asset-16;related asset
+e-241;INV-O-14;related invoice
+e-241;VR-1;performed by
+e-242;V-O-14;modified voucher
+e-242;O-14;related order
+e-242;Asset-16;related asset
+e-242;INV-O-14;related invoice
+e-242;AA-1;performed by
+e-243;V-O-14;reviewed voucher
+e-243;O-14;related order
+e-243;Asset-16;related asset
+e-243;INV-O-14;related invoice
+e-243;VR-1;performed by
+e-244;O-14;posted order
+e-244;R-16;source requirement
+e-244;Proj-A;project context
+e-244;Asset-16;capitalized asset
+e-244;S1;supplier
+e-244;V-O-14;posted voucher
+e-244;INV-O-14;posted invoice
+e-244;AR-O-14;archived acceptance record
+e-244;AA-1;performed by
+e-245;R-17;submitted requirement
+e-245;Proj-A;project context
+e-245;Asset-17;requested asset
+e-246;R-17;reviewed requirement
+e-246;Proj-A;project context
+e-246;Asset-17;requested asset
+e-246;RR-1;performed by
+e-247;R-17;requirement
+e-247;Proj-A;project context
+e-247;Asset-17;asset under procurement
+e-247;PO-2;performed by
+e-247;S1;queried supplier
+e-247;S3;queried supplier
+e-247;S4;queried supplier
+e-248;R-18;submitted requirement
+e-248;Proj-A;project context
+e-248;Asset-18;requested asset
+e-249;R-19;submitted requirement
+e-249;Proj-A;project context
+e-249;Asset-19;requested asset
+e-250;R-18;reviewed requirement
+e-250;Proj-A;project context
+e-250;Asset-18;requested asset
+e-250;RR-1;performed by
+e-251;R-19;reviewed requirement
+e-251;Proj-A;project context
+e-251;Asset-19;requested asset
+e-251;RR-1;performed by
+e-252;R-18;requirement
+e-252;Proj-A;project context
+e-252;Asset-18;asset under procurement
+e-252;PO-1;performed by
+e-252;S2;queried supplier
+e-252;S4;queried supplier
+e-253;R-19;requirement
+e-253;Proj-A;project context
+e-253;Asset-19;asset under procurement
+e-253;PO-2;performed by
+e-253;S3;queried supplier
+e-253;S5;queried supplier
+e-254;R-17;evaluated requirement
+e-254;Proj-A;project context
+e-254;Asset-17;evaluated asset
+e-254;S3;selected supplier
+e-254;PO-2;performed by
+e-255;R-17;requirement
+e-255;Asset-17;asset under procurement
+e-255;S3;selected supplier
+e-256;O-15;created order
+e-256;R-17;source requirement
+e-256;Proj-A;project context
+e-256;Asset-17;ordered asset
+e-256;S3;selected supplier
+e-256;PO-1;performed by
+e-257;INV-O-15;received invoice
+e-257;O-15;invoiced order
+e-257;S3;invoice supplier
+e-258;O-15;related order
+e-258;R-17;source requirement
+e-258;Proj-A;project context
+e-258;Asset-17;received asset
+e-258;S3;delivering supplier
+e-258;PO-1;performed by
+e-259;R-18;evaluated requirement
+e-259;Proj-A;project context
+e-259;Asset-18;evaluated asset
+e-259;S2;selected supplier
+e-259;PO-2;performed by
+e-260;R-19;evaluated requirement
+e-260;Proj-A;project context
+e-260;Asset-19;evaluated asset
+e-260;S5;selected supplier
+e-260;PO-1;performed by
+e-261;R-18;requirement
+e-261;Asset-18;asset under procurement
+e-261;S2;selected supplier
+e-262;O-16;created order
+e-262;R-18;source requirement
+e-262;Proj-A;project context
+e-262;Asset-18;ordered asset
+e-262;S2;selected supplier
+e-262;PO-2;performed by
+e-263;O-16;related order
+e-263;R-18;source requirement
+e-263;Proj-A;project context
+e-263;Asset-18;received asset
+e-263;S2;delivering supplier
+e-263;PO-2;performed by
+e-264;INV-O-16;received invoice
+e-264;O-16;invoiced order
+e-264;S2;invoice supplier
+e-265;R-19;requirement
+e-265;Asset-19;asset under procurement
+e-265;S5;selected supplier
+e-266;O-17;created order
+e-266;R-19;source requirement
+e-266;Proj-A;project context
+e-266;Asset-19;ordered asset
+e-266;S5;selected supplier
+e-266;PO-1;performed by
+e-267;INV-O-17;received invoice
+e-267;O-17;invoiced order
+e-267;S5;invoice supplier
+e-268;O-17;related order
+e-268;R-19;source requirement
+e-268;Proj-A;project context
+e-268;Asset-19;received asset
+e-268;S5;delivering supplier
+e-268;PO-2;performed by
+e-269;R-20;submitted requirement
+e-269;Proj-A;project context
+e-269;Asset-20;requested asset
+e-270;R-20;reviewed requirement
+e-270;Proj-A;project context
+e-270;Asset-20;requested asset
+e-270;RR-1;performed by
+e-271;R-20;requirement
+e-271;Proj-A;project context
+e-271;Asset-20;asset under procurement
+e-271;PO-2;performed by
+e-271;S5;queried supplier
+e-271;S6;queried supplier
+e-272;O-15;accepted order
+e-272;R-17;source requirement
+e-272;Proj-A;accepting project
+e-272;Asset-17;asset under acceptance
+e-272;S3;supplying supplier
+e-272;AT-1;performed by
+e-273;O-16;accepted order
+e-273;R-18;source requirement
+e-273;Proj-A;accepting project
+e-273;Asset-18;asset under acceptance
+e-273;S2;supplying supplier
+e-273;AT-1;performed by
+e-274;Asset-18;rectified and redelivered asset
+e-275;O-17;accepted order
+e-275;R-19;source requirement
+e-275;Proj-A;accepting project
+e-275;Asset-19;asset under acceptance
+e-275;S5;supplying supplier
+e-275;AT-1;performed by
+e-275;AR-O-17;created acceptance record
+e-276;Asset-19;assigned asset
+e-276;Proj-A;receiving project
+e-277;Asset-19;asset put into use
+e-277;Proj-A;using project
+e-278;O-17;verified order
+e-278;INV-O-17;verified invoice
+e-278;AR-O-17;verified acceptance record
+e-278;Asset-19;verified asset
+e-278;R-19;source requirement
+e-278;Proj-A;project context
+e-278;S5;supplier
+e-278;AA-1;performed by
+e-279;Asset-19;accounting date confirmed asset
+e-279;AA-1;performed by
+e-280;Asset-19;registered intangible asset
+e-280;AA-1;performed by
+e-281;V-O-17;created voucher
+e-281;O-17;related order
+e-281;R-19;source requirement
+e-281;Proj-A;project context
+e-281;Asset-19;capitalized asset
+e-281;S5;supplier
+e-281;INV-O-17;related invoice
+e-281;AR-O-17;related acceptance record
+e-281;AA-1;performed by
+e-282;V-O-17;reviewed voucher
+e-282;O-17;related order
+e-282;Asset-19;related asset
+e-282;INV-O-17;related invoice
+e-282;VR-1;performed by
+e-283;O-17;posted order
+e-283;R-19;source requirement
+e-283;Proj-A;project context
+e-283;Asset-19;capitalized asset
+e-283;S5;supplier
+e-283;V-O-17;posted voucher
+e-283;INV-O-17;posted invoice
+e-283;AR-O-17;archived acceptance record
+e-283;AA-1;performed by
+e-284;O-16;accepted order
+e-284;R-18;source requirement
+e-284;Proj-A;accepting project
+e-284;Asset-18;asset under acceptance
+e-284;S2;supplying supplier
+e-284;AT-1;performed by
+e-285;R-20;evaluated requirement
+e-285;Proj-A;project context
+e-285;Asset-20;evaluated asset
+e-285;S5;selected supplier
+e-285;PO-1;performed by
+e-286;R-20;requirement
+e-286;Asset-20;asset under procurement
+e-286;S5;selected supplier
+e-287;O-18;created order
+e-287;R-20;source requirement
+e-287;Proj-A;project context
+e-287;Asset-20;ordered asset
+e-287;S5;selected supplier
+e-287;PO-1;performed by
+e-288;INV-O-18;received invoice
+e-288;O-18;invoiced order
+e-288;S5;invoice supplier
+e-289;O-18;related order
+e-289;R-20;source requirement
+e-289;Proj-A;project context
+e-289;Asset-20;received asset
+e-289;S5;delivering supplier
+e-289;PO-1;performed by
+e-290;O-18;accepted order
+e-290;R-20;source requirement
+e-290;Proj-A;accepting project
+e-290;Asset-20;asset under acceptance
+e-290;S5;supplying supplier
+e-290;AT-1;performed by
+e-290;AR-O-18;created acceptance record
+e-291;Asset-20;assigned asset
+e-291;Proj-A;receiving project
+e-292;Asset-20;asset put into use
+e-292;Proj-A;using project
+e-293;O-18;verified order
+e-293;INV-O-18;verified invoice
+e-293;AR-O-18;verified acceptance record
+e-293;Asset-20;verified asset
+e-293;R-20;source requirement
+e-293;Proj-A;project context
+e-293;S5;supplier
+e-293;AA-1;performed by
+e-294;Asset-20;accounting date confirmed asset
+e-294;AA-1;performed by
+e-295;Asset-20;registered intangible asset
+e-295;AA-1;performed by
+e-296;V-O-18;created voucher
+e-296;O-18;related order
+e-296;R-20;source requirement
+e-296;Proj-A;project context
+e-296;Asset-20;capitalized asset
+e-296;S5;supplier
+e-296;INV-O-18;related invoice
+e-296;AR-O-18;related acceptance record
+e-296;AA-1;performed by
+e-297;V-O-18;reviewed voucher
+e-297;O-18;related order
+e-297;Asset-20;related asset
+e-297;INV-O-18;related invoice
+e-297;VR-1;performed by
+e-298;O-18;posted order
+e-298;R-20;source requirement
+e-298;Proj-A;project context
+e-298;Asset-20;capitalized asset
+e-298;S5;supplier
+e-298;V-O-18;posted voucher
+e-298;INV-O-18;posted invoice
+e-298;AR-O-18;archived acceptance record
+e-298;AA-1;performed by
+e-299;R-21;submitted requirement
+e-299;Proj-A;project context
+e-299;Asset-21;requested asset
+e-300;R-21;reviewed requirement
+e-300;Proj-A;project context
+e-300;Asset-21;requested asset
+e-300;RR-1;performed by
+e-301;R-21;terminated requirement
+e-301;Proj-A;project context
+e-301;Asset-21;cancelled asset
+e-302;R-22;submitted requirement
+e-302;Proj-A;project context
+e-302;Asset-22;requested asset
+e-303;R-22;reviewed requirement
+e-303;Proj-A;project context
+e-303;Asset-22;requested asset
+e-303;RR-1;performed by
+e-304;R-22;requirement
+e-304;Proj-A;project context
+e-304;Asset-22;asset under procurement
+e-304;PO-2;performed by
+e-304;S1;queried supplier
+e-304;S3;queried supplier
+e-304;S4;queried supplier
+e-305;R-22;evaluated requirement
+e-305;Proj-A;project context
+e-305;Asset-22;evaluated asset
+e-305;S3;selected supplier
+e-305;PO-1;performed by
+e-306;R-22;requirement
+e-306;Asset-22;asset under procurement
+e-306;S3;selected supplier
+e-307;O-19;created order
+e-307;R-22;source requirement
+e-307;Proj-A;project context
+e-307;Asset-22;ordered asset
+e-307;S3;selected supplier
+e-307;PO-1;performed by
+e-308;INV-O-19;received invoice
+e-308;O-19;invoiced order
+e-308;S3;invoice supplier
+e-309;O-19;related order
+e-309;R-22;source requirement
+e-309;Proj-A;project context
+e-309;Asset-22;received asset
+e-309;S3;delivering supplier
+e-309;PO-2;performed by
+e-310;O-19;accepted order
+e-310;R-22;source requirement
+e-310;Proj-A;accepting project
+e-310;Asset-22;asset under acceptance
+e-310;S3;supplying supplier
+e-310;AT-1;performed by
+e-310;AR-O-19;created acceptance record
+e-311;Asset-22;assigned asset
+e-311;Proj-A;receiving project
+e-312;Asset-22;asset put into use
+e-312;Proj-A;using project
+e-313;O-19;verified order
+e-313;INV-O-19;verified invoice
+e-313;AR-O-19;verified acceptance record
+e-313;Asset-22;verified asset
+e-313;R-22;source requirement
+e-313;Proj-A;project context
+e-313;S3;supplier
+e-313;AA-1;performed by
+e-314;Asset-22;accounting date confirmed asset
+e-314;AA-1;performed by
+e-315;Asset-22;registered intangible asset
+e-315;AA-1;performed by
+e-316;V-O-19;created voucher
+e-316;O-19;related order
+e-316;R-22;source requirement
+e-316;Proj-A;project context
+e-316;Asset-22;capitalized asset
+e-316;S3;supplier
+e-316;INV-O-19;related invoice
+e-316;AR-O-19;related acceptance record
+e-316;AA-1;performed by
+e-317;V-O-19;reviewed voucher
+e-317;O-19;related order
+e-317;Asset-22;related asset
+e-317;INV-O-19;related invoice
+e-317;VR-1;performed by
+e-318;O-19;posted order
+e-318;R-22;source requirement
+e-318;Proj-A;project context
+e-318;Asset-22;capitalized asset
+e-318;S3;supplier
+e-318;V-O-19;posted voucher
+e-318;INV-O-19;posted invoice
+e-318;AR-O-19;archived acceptance record
+e-318;AA-1;performed by
+e-319;R-23;submitted requirement
+e-319;Proj-A;project context
+e-319;Asset-23;requested asset
+e-320;R-23;reviewed requirement
+e-320;Proj-A;project context
+e-320;Asset-23;requested asset
+e-320;RR-1;performed by
+e-321;R-23;requirement
+e-321;Proj-A;project context
+e-321;Asset-23;asset under procurement
+e-321;PO-1;performed by
+e-321;S2;queried supplier
+e-321;S4;queried supplier
+e-322;R-24;submitted requirement
+e-322;Proj-A;project context
+e-322;Asset-24;requested asset
+e-323;R-24;reviewed requirement
+e-323;Proj-A;project context
+e-323;Asset-24;requested asset
+e-323;RR-1;performed by
+e-324;R-24;requirement
+e-324;Proj-A;project context
+e-324;Asset-24;asset under procurement
+e-324;PO-1;performed by
+e-324;S3;queried supplier
+e-324;S5;queried supplier
+e-325;R-23;evaluated requirement
+e-325;Proj-A;project context
+e-325;Asset-23;evaluated asset
+e-325;S2;selected supplier
+e-325;PO-1;performed by
+e-326;R-23;requirement
+e-326;Asset-23;asset under procurement
+e-326;S2;selected supplier
+e-327;O-20;created order
+e-327;R-23;source requirement
+e-327;Proj-A;project context
+e-327;Asset-23;ordered asset
+e-327;S2;selected supplier
+e-327;PO-2;performed by
+e-328;O-20;related order
+e-328;R-23;source requirement
+e-328;Proj-A;project context
+e-328;Asset-23;received asset
+e-328;S2;delivering supplier
+e-328;PO-1;performed by
+e-329;INV-O-20;received invoice
+e-329;O-20;invoiced order
+e-329;S2;invoice supplier
+e-330;R-24;evaluated requirement
+e-330;Proj-A;project context
+e-330;Asset-24;evaluated asset
+e-330;S3;selected supplier
+e-330;PO-2;performed by
+e-331;R-24;requirement
+e-331;Asset-24;asset under procurement
+e-331;S3;selected supplier
+e-332;O-21;created order
+e-332;R-24;source requirement
+e-332;Proj-A;project context
+e-332;Asset-24;ordered asset
+e-332;S3;selected supplier
+e-332;PO-1;performed by
+e-333;INV-O-21;received invoice
+e-333;O-21;invoiced order
+e-333;S3;invoice supplier
+e-334;O-21;related order
+e-334;R-24;source requirement
+e-334;Proj-A;project context
+e-334;Asset-24;received asset
+e-334;S3;delivering supplier
+e-334;PO-2;performed by
+e-335;O-20;accepted order
+e-335;R-23;source requirement
+e-335;Proj-A;accepting project
+e-335;Asset-23;asset under acceptance
+e-335;S2;supplying supplier
+e-335;AT-1;performed by
+e-336;Asset-23;rectified and redelivered asset
+e-337;O-21;accepted order
+e-337;R-24;source requirement
+e-337;Proj-A;accepting project
+e-337;Asset-24;asset under acceptance
+e-337;S3;supplying supplier
+e-337;AT-1;performed by
+e-337;AR-O-21;created acceptance record
+e-338;Asset-24;assigned asset
+e-338;Proj-A;receiving project
+e-339;Asset-24;asset put into use
+e-339;Proj-A;using project
+e-340;O-21;verified order
+e-340;INV-O-21;verified invoice
+e-340;AR-O-21;verified acceptance record
+e-340;Asset-24;verified asset
+e-340;R-24;source requirement
+e-340;Proj-A;project context
+e-340;S3;supplier
+e-340;AA-1;performed by
+e-341;Asset-24;accounting date confirmed asset
+e-341;AA-1;performed by
+e-342;Asset-24;registered intangible asset
+e-342;AA-1;performed by
+e-343;V-O-21;created voucher
+e-343;O-21;related order
+e-343;R-24;source requirement
+e-343;Proj-A;project context
+e-343;Asset-24;capitalized asset
+e-343;S3;supplier
+e-343;INV-O-21;related invoice
+e-343;AR-O-21;related acceptance record
+e-343;AA-1;performed by
+e-344;V-O-21;reviewed voucher
+e-344;O-21;related order
+e-344;Asset-24;related asset
+e-344;INV-O-21;related invoice
+e-344;VR-1;performed by
+e-345;V-O-21;modified voucher
+e-345;O-21;related order
+e-345;Asset-24;related asset
+e-345;INV-O-21;related invoice
+e-345;AA-1;performed by
+e-346;V-O-21;reviewed voucher
+e-346;O-21;related order
+e-346;Asset-24;related asset
+e-346;INV-O-21;related invoice
+e-346;VR-1;performed by
+e-347;O-21;posted order
+e-347;R-24;source requirement
+e-347;Proj-A;project context
+e-347;Asset-24;capitalized asset
+e-347;S3;supplier
+e-347;V-O-21;posted voucher
+e-347;INV-O-21;posted invoice
+e-347;AR-O-21;archived acceptance record
+e-347;AA-1;performed by
+e-348;R-25;submitted requirement
+e-348;Proj-A;project context
+e-348;Asset-25;requested asset
+e-349;R-25;reviewed requirement
+e-349;Proj-A;project context
+e-349;Asset-25;requested asset
+e-349;RR-1;performed by
+e-350;R-25;modified requirement
+e-350;Proj-A;project context
+e-350;Asset-25;requested asset
+e-351;R-25;reviewed requirement
+e-351;Proj-A;project context
+e-351;Asset-25;requested asset
+e-351;RR-1;performed by
+e-352;R-25;requirement
+e-352;Proj-A;project context
+e-352;Asset-25;asset under procurement
+e-352;PO-2;performed by
+e-352;S5;queried supplier
+e-352;S6;queried supplier
+e-353;O-20;accepted order
+e-353;R-23;source requirement
+e-353;Proj-A;accepting project
+e-353;Asset-23;asset under acceptance
+e-353;S2;supplying supplier
+e-353;AT-1;performed by
+e-354;Asset-23;rectified and redelivered asset
+e-355;O-20;accepted order
+e-355;R-23;source requirement
+e-355;Proj-A;accepting project
+e-355;Asset-23;asset under acceptance
+e-355;S2;supplying supplier
+e-355;AT-1;performed by
+e-355;AR-O-20;created acceptance record
+e-356;Asset-23;assigned asset
+e-356;Proj-A;receiving project
+e-357;Asset-23;asset put into use
+e-357;Proj-A;using project
+e-358;O-20;verified order
+e-358;INV-O-20;verified invoice
+e-358;AR-O-20;verified acceptance record
+e-358;Asset-23;verified asset
+e-358;R-23;source requirement
+e-358;Proj-A;project context
+e-358;S2;supplier
+e-358;AA-1;performed by
+e-359;Asset-23;accounting date confirmed asset
+e-359;AA-1;performed by
+e-360;Asset-23;registered intangible asset
+e-360;AA-1;performed by
+e-361;V-O-20;created voucher
+e-361;O-20;related order
+e-361;R-23;source requirement
+e-361;Proj-A;project context
+e-361;Asset-23;capitalized asset
+e-361;S2;supplier
+e-361;INV-O-20;related invoice
+e-361;AR-O-20;related acceptance record
+e-361;AA-1;performed by
+e-362;V-O-20;reviewed voucher
+e-362;O-20;related order
+e-362;Asset-23;related asset
+e-362;INV-O-20;related invoice
+e-362;VR-1;performed by
+e-363;O-20;posted order
+e-363;R-23;source requirement
+e-363;Proj-A;project context
+e-363;Asset-23;capitalized asset
+e-363;S2;supplier
+e-363;V-O-20;posted voucher
+e-363;INV-O-20;posted invoice
+e-363;AR-O-20;archived acceptance record
+e-363;AA-1;performed by
+e-364;R-25;evaluated requirement
+e-364;Proj-A;project context
+e-364;Asset-25;evaluated asset
+e-364;S6;selected supplier
+e-364;PO-2;performed by
+e-365;R-25;requirement
+e-365;Asset-25;asset under procurement
+e-365;S6;selected supplier
+e-366;O-22;created order
+e-366;R-25;source requirement
+e-366;Proj-A;project context
+e-366;Asset-25;ordered asset
+e-366;S6;selected supplier
+e-366;PO-1;performed by
+e-367;O-22;related order
+e-367;R-25;source requirement
+e-367;Proj-A;project context
+e-367;Asset-25;received asset
+e-367;S6;delivering supplier
+e-367;PO-2;performed by
+e-368;INV-O-22;received invoice
+e-368;O-22;invoiced order
+e-368;S6;invoice supplier
+e-369;O-22;accepted order
+e-369;R-25;source requirement
+e-369;Proj-A;accepting project
+e-369;Asset-25;asset under acceptance
+e-369;S6;supplying supplier
+e-369;AT-1;performed by
+e-370;Asset-25;rectified and redelivered asset
+e-371;R-26;submitted requirement
+e-371;Proj-A;project context
+e-371;Asset-26;requested asset
+e-372;R-26;reviewed requirement
+e-372;Proj-A;project context
+e-372;Asset-26;requested asset
+e-372;RR-1;performed by
+e-373;R-26;requirement
+e-373;Proj-A;project context
+e-373;Asset-26;asset under procurement
+e-373;PO-1;performed by
+e-373;S1;queried supplier
+e-373;S2;queried supplier
+e-373;S4;queried supplier
+e-374;O-22;accepted order
+e-374;R-25;source requirement
+e-374;Proj-A;accepting project
+e-374;Asset-25;asset under acceptance
+e-374;S6;supplying supplier
+e-374;AT-1;performed by
+e-375;Asset-25;rectified and redelivered asset
+e-376;R-26;evaluated requirement
+e-376;Proj-A;project context
+e-376;Asset-26;evaluated asset
+e-376;S4;selected supplier
+e-376;PO-2;performed by
+e-377;R-26;requirement
+e-377;Asset-26;asset under procurement
+e-377;S4;selected supplier
+e-378;O-23;created order
+e-378;R-26;source requirement
+e-378;Proj-A;project context
+e-378;Asset-26;ordered asset
+e-378;S4;selected supplier
+e-378;PO-1;performed by
+e-379;O-23;related order
+e-379;R-26;source requirement
+e-379;Proj-A;project context
+e-379;Asset-26;received asset
+e-379;S4;delivering supplier
+e-379;PO-2;performed by
+e-380;INV-O-23;received invoice
+e-380;O-23;invoiced order
+e-380;S4;invoice supplier
+e-381;R-27;submitted requirement
+e-381;Proj-A;project context
+e-381;Asset-27;requested asset
+e-382;R-27;reviewed requirement
+e-382;Proj-A;project context
+e-382;Asset-27;requested asset
+e-382;RR-1;performed by
+e-383;R-27;requirement
+e-383;Proj-A;project context
+e-383;Asset-27;asset under procurement
+e-383;PO-2;performed by
+e-383;S1;queried supplier
+e-383;S3;queried supplier
+e-383;S4;queried supplier
+e-384;O-22;accepted order
+e-384;R-25;source requirement
+e-384;Proj-A;accepting project
+e-384;Asset-25;asset under acceptance
+e-384;S6;supplying supplier
+e-384;AT-1;performed by
+e-385;Asset-25;rectified and redelivered asset
+e-386;O-23;accepted order
+e-386;R-26;source requirement
+e-386;Proj-A;accepting project
+e-386;Asset-26;asset under acceptance
+e-386;S4;supplying supplier
+e-386;AT-1;performed by
+e-386;AR-O-23;created acceptance record
+e-387;Asset-26;assigned asset
+e-387;Proj-A;receiving project
+e-388;Asset-26;asset put into use
+e-388;Proj-A;using project
+e-389;O-23;verified order
+e-389;INV-O-23;verified invoice
+e-389;AR-O-23;verified acceptance record
+e-389;Asset-26;verified asset
+e-389;R-26;source requirement
+e-389;Proj-A;project context
+e-389;S4;supplier
+e-389;AA-1;performed by
+e-390;Asset-26;accounting date confirmed asset
+e-390;AA-1;performed by
+e-391;Asset-26;registered intangible asset
+e-391;AA-1;performed by
+e-392;V-O-23;created voucher
+e-392;O-23;related order
+e-392;R-26;source requirement
+e-392;Proj-A;project context
+e-392;Asset-26;capitalized asset
+e-392;S4;supplier
+e-392;INV-O-23;related invoice
+e-392;AR-O-23;related acceptance record
+e-392;AA-1;performed by
+e-393;V-O-23;reviewed voucher
+e-393;O-23;related order
+e-393;Asset-26;related asset
+e-393;INV-O-23;related invoice
+e-393;VR-1;performed by
+e-394;O-23;posted order
+e-394;R-26;source requirement
+e-394;Proj-A;project context
+e-394;Asset-26;capitalized asset
+e-394;S4;supplier
+e-394;V-O-23;posted voucher
+e-394;INV-O-23;posted invoice
+e-394;AR-O-23;archived acceptance record
+e-394;AA-1;performed by
+e-395;O-22;accepted order
+e-395;R-25;source requirement
+e-395;Proj-A;accepting project
+e-395;Asset-25;asset under acceptance
+e-395;S6;supplying supplier
+e-395;AT-1;performed by
+e-395;AR-O-22;created acceptance record
+e-396;Asset-25;assigned asset
+e-396;Proj-A;receiving project
+e-397;Asset-25;asset put into use
+e-397;Proj-A;using project
+e-398;O-22;verified order
+e-398;INV-O-22;verified invoice
+e-398;AR-O-22;verified acceptance record
+e-398;Asset-25;verified asset
+e-398;R-25;source requirement
+e-398;Proj-A;project context
+e-398;S6;supplier
+e-398;AA-1;performed by
+e-399;Asset-25;accounting date confirmed asset
+e-399;AA-1;performed by
+e-400;Asset-25;registered intangible asset
+e-400;AA-1;performed by
+e-401;V-O-22;created voucher
+e-401;O-22;related order
+e-401;R-25;source requirement
+e-401;Proj-A;project context
+e-401;Asset-25;capitalized asset
+e-401;S6;supplier
+e-401;INV-O-22;related invoice
+e-401;AR-O-22;related acceptance record
+e-401;AA-1;performed by
+e-402;V-O-22;reviewed voucher
+e-402;O-22;related order
+e-402;Asset-25;related asset
+e-402;INV-O-22;related invoice
+e-402;VR-1;performed by
+e-403;V-O-22;modified voucher
+e-403;O-22;related order
+e-403;Asset-25;related asset
+e-403;INV-O-22;related invoice
+e-403;AA-1;performed by
+e-404;V-O-22;reviewed voucher
+e-404;O-22;related order
+e-404;Asset-25;related asset
+e-404;INV-O-22;related invoice
+e-404;VR-1;performed by
+e-405;O-22;posted order
+e-405;R-25;source requirement
+e-405;Proj-A;project context
+e-405;Asset-25;capitalized asset
+e-405;S6;supplier
+e-405;V-O-22;posted voucher
+e-405;INV-O-22;posted invoice
+e-405;AR-O-22;archived acceptance record
+e-405;AA-1;performed by
+e-406;R-27;evaluated requirement
+e-406;Proj-A;project context
+e-406;Asset-27;evaluated asset
+e-406;S3;selected supplier
+e-406;PO-2;performed by
+e-407;R-27;requirement
+e-407;Asset-27;asset under procurement
+e-407;S3;selected supplier
+e-408;O-24;created order
+e-408;R-27;source requirement
+e-408;Proj-A;project context
+e-408;Asset-27;ordered asset
+e-408;S3;selected supplier
+e-408;PO-2;performed by
+e-409;O-24;related order
+e-409;R-27;source requirement
+e-409;Proj-A;project context
+e-409;Asset-27;received asset
+e-409;S3;delivering supplier
+e-409;PO-2;performed by
+e-410;INV-O-24;received invoice
+e-410;O-24;invoiced order
+e-410;S3;invoice supplier
+e-411;R-28;submitted requirement
+e-411;Proj-A;project context
+e-411;Asset-28;requested asset
+e-412;R-28;reviewed requirement
+e-412;Proj-A;project context
+e-412;Asset-28;requested asset
+e-412;RR-1;performed by
+e-413;R-28;requirement
+e-413;Proj-A;project context
+e-413;Asset-28;asset under procurement
+e-413;PO-2;performed by
+e-413;S2;queried supplier
+e-413;S4;queried supplier
+e-414;O-24;accepted order
+e-414;R-27;source requirement
+e-414;Proj-A;accepting project
+e-414;Asset-27;asset under acceptance
+e-414;S3;supplying supplier
+e-414;AT-1;performed by
+e-415;Asset-27;rectified and redelivered asset
+e-416;R-28;evaluated requirement
+e-416;Proj-A;project context
+e-416;Asset-28;evaluated asset
+e-416;S2;selected supplier
+e-416;PO-2;performed by
+e-417;R-28;requirement
+e-417;Asset-28;asset under procurement
+e-417;S2;selected supplier
+e-418;O-25;created order
+e-418;R-28;source requirement
+e-418;Proj-A;project context
+e-418;Asset-28;ordered asset
+e-418;S2;selected supplier
+e-418;PO-2;performed by
+e-419;INV-O-25;received invoice
+e-419;O-25;invoiced order
+e-419;S2;invoice supplier
+e-420;O-25;related order
+e-420;R-28;source requirement
+e-420;Proj-A;project context
+e-420;Asset-28;received asset
+e-420;S2;delivering supplier
+e-420;PO-1;performed by
+e-421;O-24;accepted order
+e-421;R-27;source requirement
+e-421;Proj-A;accepting project
+e-421;Asset-27;asset under acceptance
+e-421;S3;supplying supplier
+e-421;AT-1;performed by
+e-421;AR-O-24;created acceptance record
+e-422;Asset-27;assigned asset
+e-422;Proj-A;receiving project
+e-423;Asset-27;asset put into use
+e-423;Proj-A;using project
+e-424;O-24;verified order
+e-424;INV-O-24;verified invoice
+e-424;AR-O-24;verified acceptance record
+e-424;Asset-27;verified asset
+e-424;R-27;source requirement
+e-424;Proj-A;project context
+e-424;S3;supplier
+e-424;AA-1;performed by
+e-425;Asset-27;accounting date confirmed asset
+e-425;AA-1;performed by
+e-426;Asset-27;registered intangible asset
+e-426;AA-1;performed by
+e-427;V-O-24;created voucher
+e-427;O-24;related order
+e-427;R-27;source requirement
+e-427;Proj-A;project context
+e-427;Asset-27;capitalized asset
+e-427;S3;supplier
+e-427;INV-O-24;related invoice
+e-427;AR-O-24;related acceptance record
+e-427;AA-1;performed by
+e-428;V-O-24;reviewed voucher
+e-428;O-24;related order
+e-428;Asset-27;related asset
+e-428;INV-O-24;related invoice
+e-428;VR-1;performed by
+e-429;O-24;posted order
+e-429;R-27;source requirement
+e-429;Proj-A;project context
+e-429;Asset-27;capitalized asset
+e-429;S3;supplier
+e-429;V-O-24;posted voucher
+e-429;INV-O-24;posted invoice
+e-429;AR-O-24;archived acceptance record
+e-429;AA-1;performed by
+e-430;O-25;accepted order
+e-430;R-28;source requirement
+e-430;Proj-A;accepting project
+e-430;Asset-28;asset under acceptance
+e-430;S2;supplying supplier
+e-430;AT-1;performed by
+e-430;AR-O-25;created acceptance record
+e-431;Asset-28;assigned asset
+e-431;Proj-A;receiving project
+e-432;Asset-28;asset put into use
+e-432;Proj-A;using project
+e-433;O-25;verified order
+e-433;INV-O-25;verified invoice
+e-433;AR-O-25;verified acceptance record
+e-433;Asset-28;verified asset
+e-433;R-28;source requirement
+e-433;Proj-A;project context
+e-433;S2;supplier
+e-433;AA-1;performed by
+e-434;Asset-28;accounting date confirmed asset
+e-434;AA-1;performed by
+e-435;Asset-28;registered intangible asset
+e-435;AA-1;performed by
+e-436;V-O-25;created voucher
+e-436;O-25;related order
+e-436;R-28;source requirement
+e-436;Proj-A;project context
+e-436;Asset-28;capitalized asset
+e-436;S2;supplier
+e-436;INV-O-25;related invoice
+e-436;AR-O-25;related acceptance record
+e-436;AA-1;performed by
+e-437;V-O-25;reviewed voucher
+e-437;O-25;related order
+e-437;Asset-28;related asset
+e-437;INV-O-25;related invoice
+e-437;VR-1;performed by
+e-438;O-25;posted order
+e-438;R-28;source requirement
+e-438;Proj-A;project context
+e-438;Asset-28;capitalized asset
+e-438;S2;supplier
+e-438;V-O-25;posted voucher
+e-438;INV-O-25;posted invoice
+e-438;AR-O-25;archived acceptance record
+e-438;AA-1;performed by
+e-439;R-29;submitted requirement
+e-439;Proj-A;project context
+e-439;Asset-29;requested asset
+e-440;R-29;reviewed requirement
+e-440;Proj-A;project context
+e-440;Asset-29;requested asset
+e-440;RR-1;performed by
+e-441;R-29;requirement
+e-441;Proj-A;project context
+e-441;Asset-29;asset under procurement
+e-441;PO-1;performed by
+e-441;S3;queried supplier
+e-441;S5;queried supplier
+e-442;R-29;evaluated requirement
+e-442;Proj-A;project context
+e-442;Asset-29;evaluated asset
+e-442;S5;selected supplier
+e-442;PO-2;performed by
+e-443;R-29;requirement
+e-443;Asset-29;asset under procurement
+e-443;S5;selected supplier
+e-444;O-26;created order
+e-444;R-29;source requirement
+e-444;Proj-A;project context
+e-444;Asset-29;ordered asset
+e-444;S5;selected supplier
+e-444;PO-1;performed by
+e-445;INV-O-26;received invoice
+e-445;O-26;invoiced order
+e-445;S5;invoice supplier
+e-446;O-26;related order
+e-446;R-29;source requirement
+e-446;Proj-A;project context
+e-446;Asset-29;received asset
+e-446;S5;delivering supplier
+e-446;PO-2;performed by
+e-447;O-26;accepted order
+e-447;R-29;source requirement
+e-447;Proj-A;accepting project
+e-447;Asset-29;asset under acceptance
+e-447;S5;supplying supplier
+e-447;AT-1;performed by
+e-447;AR-O-26;created acceptance record
+e-448;Asset-29;assigned asset
+e-448;Proj-A;receiving project
+e-449;Asset-29;asset put into use
+e-449;Proj-A;using project
+e-450;O-26;verified order
+e-450;INV-O-26;verified invoice
+e-450;AR-O-26;verified acceptance record
+e-450;Asset-29;verified asset
+e-450;R-29;source requirement
+e-450;Proj-A;project context
+e-450;S5;supplier
+e-450;AA-1;performed by
+e-451;Asset-29;accounting date confirmed asset
+e-451;AA-1;performed by
+e-452;Asset-29;registered intangible asset
+e-452;AA-1;performed by
+e-453;V-O-26;created voucher
+e-453;O-26;related order
+e-453;R-29;source requirement
+e-453;Proj-A;project context
+e-453;Asset-29;capitalized asset
+e-453;S5;supplier
+e-453;INV-O-26;related invoice
+e-453;AR-O-26;related acceptance record
+e-453;AA-1;performed by
+e-454;V-O-26;reviewed voucher
+e-454;O-26;related order
+e-454;Asset-29;related asset
+e-454;INV-O-26;related invoice
+e-454;VR-1;performed by
+e-455;O-26;posted order
+e-455;R-29;source requirement
+e-455;Proj-A;project context
+e-455;Asset-29;capitalized asset
+e-455;S5;supplier
+e-455;V-O-26;posted voucher
+e-455;INV-O-26;posted invoice
+e-455;AR-O-26;archived acceptance record
+e-455;AA-1;performed by
+e-456;R-30;submitted requirement
+e-456;Proj-A;project context
+e-456;Asset-30;requested asset
+e-457;R-30;reviewed requirement
+e-457;Proj-A;project context
+e-457;Asset-30;requested asset
+e-457;RR-1;performed by
+e-458;R-30;requirement
+e-458;Proj-A;project context
+e-458;Asset-30;asset under procurement
+e-458;PO-2;performed by
+e-458;S5;queried supplier
+e-458;S6;queried supplier
+e-459;R-30;evaluated requirement
+e-459;Proj-A;project context
+e-459;Asset-30;evaluated asset
+e-459;S6;selected supplier
+e-459;PO-1;performed by
+e-460;R-30;requirement
+e-460;Asset-30;asset under procurement
+e-460;S6;selected supplier
+e-461;O-27;created order
+e-461;R-30;source requirement
+e-461;Proj-A;project context
+e-461;Asset-30;ordered asset
+e-461;S6;selected supplier
+e-461;PO-1;performed by
+e-462;O-27;related order
+e-462;R-30;source requirement
+e-462;Proj-A;project context
+e-462;Asset-30;received asset
+e-462;S6;delivering supplier
+e-462;PO-2;performed by
+e-463;INV-O-27;received invoice
+e-463;O-27;invoiced order
+e-463;S6;invoice supplier
+e-464;R-31;submitted requirement
+e-464;Proj-A;project context
+e-464;Asset-31;requested asset
+e-465;R-31;reviewed requirement
+e-465;Proj-A;project context
+e-465;Asset-31;requested asset
+e-465;RR-1;performed by
+e-466;R-31;requirement
+e-466;Proj-A;project context
+e-466;Asset-31;asset under procurement
+e-466;PO-1;performed by
+e-466;S1;queried supplier
+e-466;S2;queried supplier
+e-466;S4;queried supplier
+e-467;O-27;accepted order
+e-467;R-30;source requirement
+e-467;Proj-A;accepting project
+e-467;Asset-30;asset under acceptance
+e-467;S6;supplying supplier
+e-467;AT-1;performed by
+e-467;AR-O-27;created acceptance record
+e-468;Asset-30;assigned asset
+e-468;Proj-A;receiving project
+e-469;Asset-30;asset put into use
+e-469;Proj-A;using project
+e-470;O-27;verified order
+e-470;INV-O-27;verified invoice
+e-470;AR-O-27;verified acceptance record
+e-470;Asset-30;verified asset
+e-470;R-30;source requirement
+e-470;Proj-A;project context
+e-470;S6;supplier
+e-470;AA-1;performed by
+e-471;Asset-30;accounting date confirmed asset
+e-471;AA-1;performed by
+e-472;Asset-30;registered intangible asset
+e-472;AA-1;performed by
+e-473;V-O-27;created voucher
+e-473;O-27;related order
+e-473;R-30;source requirement
+e-473;Proj-A;project context
+e-473;Asset-30;capitalized asset
+e-473;S6;supplier
+e-473;INV-O-27;related invoice
+e-473;AR-O-27;related acceptance record
+e-473;AA-1;performed by
+e-474;V-O-27;reviewed voucher
+e-474;O-27;related order
+e-474;Asset-30;related asset
+e-474;INV-O-27;related invoice
+e-474;VR-1;performed by
+e-475;O-27;posted order
+e-475;R-30;source requirement
+e-475;Proj-A;project context
+e-475;Asset-30;capitalized asset
+e-475;S6;supplier
+e-475;V-O-27;posted voucher
+e-475;INV-O-27;posted invoice
+e-475;AR-O-27;archived acceptance record
+e-475;AA-1;performed by
+e-476;R-31;evaluated requirement
+e-476;Proj-A;project context
+e-476;Asset-31;evaluated asset
+e-476;S2;selected supplier
+e-476;PO-1;performed by
+e-477;R-31;requirement
+e-477;Asset-31;asset under procurement
+e-477;S2;selected supplier
+e-478;O-28;created order
+e-478;R-31;source requirement
+e-478;Proj-A;project context
+e-478;Asset-31;ordered asset
+e-478;S2;selected supplier
+e-478;PO-2;performed by
+e-479;O-28;related order
+e-479;R-31;source requirement
+e-479;Proj-A;project context
+e-479;Asset-31;received asset
+e-479;S2;delivering supplier
+e-479;PO-2;performed by
+e-480;INV-O-28;received invoice
+e-480;O-28;invoiced order
+e-480;S2;invoice supplier
+e-481;O-28;accepted order
+e-481;R-31;source requirement
+e-481;Proj-A;accepting project
+e-481;Asset-31;asset under acceptance
+e-481;S2;supplying supplier
+e-481;AT-1;performed by
+e-481;AR-O-28;created acceptance record
+e-482;Asset-31;assigned asset
+e-482;Proj-A;receiving project
+e-483;Asset-31;asset put into use
+e-483;Proj-A;using project
+e-484;O-28;verified order
+e-484;INV-O-28;verified invoice
+e-484;AR-O-28;verified acceptance record
+e-484;Asset-31;verified asset
+e-484;R-31;source requirement
+e-484;Proj-A;project context
+e-484;S2;supplier
+e-484;AA-1;performed by
+e-485;Asset-31;accounting date confirmed asset
+e-485;AA-1;performed by
+e-486;Asset-31;registered intangible asset
+e-486;AA-1;performed by
+e-487;V-O-28;created voucher
+e-487;O-28;related order
+e-487;R-31;source requirement
+e-487;Proj-A;project context
+e-487;Asset-31;capitalized asset
+e-487;S2;supplier
+e-487;INV-O-28;related invoice
+e-487;AR-O-28;related acceptance record
+e-487;AA-1;performed by
+e-488;V-O-28;reviewed voucher
+e-488;O-28;related order
+e-488;Asset-31;related asset
+e-488;INV-O-28;related invoice
+e-488;VR-1;performed by
+e-489;O-28;posted order
+e-489;R-31;source requirement
+e-489;Proj-A;project context
+e-489;Asset-31;capitalized asset
+e-489;S2;supplier
+e-489;V-O-28;posted voucher
+e-489;INV-O-28;posted invoice
+e-489;AR-O-28;archived acceptance record
+e-489;AA-1;performed by
+e-490;R-32;submitted requirement
+e-490;Proj-A;project context
+e-490;Asset-32;requested asset
+e-491;R-32;reviewed requirement
+e-491;Proj-A;project context
+e-491;Asset-32;requested asset
+e-491;RR-1;performed by
+e-492;R-32;requirement
+e-492;Proj-A;project context
+e-492;Asset-32;asset under procurement
+e-492;PO-2;performed by
+e-492;S1;queried supplier
+e-492;S3;queried supplier
+e-492;S4;queried supplier
+e-493;R-32;evaluated requirement
+e-493;Proj-A;project context
+e-493;Asset-32;evaluated asset
+e-493;S1;selected supplier
+e-493;PO-1;performed by
+e-494;R-32;requirement
+e-494;Asset-32;asset under procurement
+e-494;S1;selected supplier
+e-495;O-29;created order
+e-495;R-32;source requirement
+e-495;Proj-A;project context
+e-495;Asset-32;ordered asset
+e-495;S1;selected supplier
+e-495;PO-2;performed by
+e-496;O-29;related order
+e-496;R-32;source requirement
+e-496;Proj-A;project context
+e-496;Asset-32;received asset
+e-496;S1;delivering supplier
+e-496;PO-1;performed by
+e-497;INV-O-29;received invoice
+e-497;O-29;invoiced order
+e-497;S1;invoice supplier
+e-498;O-29;accepted order
+e-498;R-32;source requirement
+e-498;Proj-A;accepting project
+e-498;Asset-32;asset under acceptance
+e-498;S1;supplying supplier
+e-498;AT-1;performed by
+e-498;AR-O-29;created acceptance record
+e-499;Asset-32;assigned asset
+e-499;Proj-A;receiving project
+e-500;Asset-32;asset put into use
+e-500;Proj-A;using project
+e-501;O-29;verified order
+e-501;INV-O-29;verified invoice
+e-501;AR-O-29;verified acceptance record
+e-501;Asset-32;verified asset
+e-501;R-32;source requirement
+e-501;Proj-A;project context
+e-501;S1;supplier
+e-501;AA-1;performed by
+e-502;Asset-32;accounting date confirmed asset
+e-502;AA-1;performed by
+e-503;Asset-32;registered intangible asset
+e-503;AA-1;performed by
+e-504;V-O-29;created voucher
+e-504;O-29;related order
+e-504;R-32;source requirement
+e-504;Proj-A;project context
+e-504;Asset-32;capitalized asset
+e-504;S1;supplier
+e-504;INV-O-29;related invoice
+e-504;AR-O-29;related acceptance record
+e-504;AA-1;performed by
+e-505;V-O-29;reviewed voucher
+e-505;O-29;related order
+e-505;Asset-32;related asset
+e-505;INV-O-29;related invoice
+e-505;VR-1;performed by
+e-506;O-29;posted order
+e-506;R-32;source requirement
+e-506;Proj-A;project context
+e-506;Asset-32;capitalized asset
+e-506;S1;supplier
+e-506;V-O-29;posted voucher
+e-506;INV-O-29;posted invoice
+e-506;AR-O-29;archived acceptance record
+e-506;AA-1;performed by

@@ -1,0 +1,507 @@
+ocel_id;ocel_type
+e-1;Submit Requirement
+e-2;Review Requirement
+e-3;Obtain Quotations
+e-4;Evaluate And Select Quotation
+e-5;Check Contract Need
+e-6;Review Contract
+e-7;Create Purchase Order
+e-8;Receive Invoice
+e-9;Receive Contract Deliverable
+e-10;Perform Business And Technical Acceptance
+e-11;Assign Asset To Project
+e-12;Put Asset Into Use
+e-13;Verify Accounting Prerequisites
+e-14;Confirm Accounting Date
+e-15;Create Or Update Intangible Asset Record
+e-16;Create Accounting Voucher
+e-17;Review Accounting Voucher
+e-18;Post Accounting Voucher
+e-19;Submit Requirement
+e-20;Review Requirement
+e-21;Terminate After Requirement Rejection
+e-22;Submit Requirement
+e-23;Review Requirement
+e-24;Obtain Quotations
+e-25;Evaluate And Select Quotation
+e-26;Check Contract Need
+e-27;Review Contract
+e-28;Create Purchase Order
+e-29;Receive Invoice
+e-30;Receive Contract Deliverable
+e-31;Perform Business And Technical Acceptance
+e-32;Assign Asset To Project
+e-33;Put Asset Into Use
+e-34;Verify Accounting Prerequisites
+e-35;Confirm Accounting Date
+e-36;Create Or Update Intangible Asset Record
+e-37;Create Accounting Voucher
+e-38;Review Accounting Voucher
+e-39;Post Accounting Voucher
+e-40;Submit Requirement
+e-41;Review Requirement
+e-42;Obtain Quotations
+e-43;Submit Requirement
+e-44;Submit Requirement
+e-45;Submit Requirement
+e-46;Review Requirement
+e-47;Obtain Quotations
+e-48;Review Requirement
+e-49;Review Requirement
+e-50;Obtain Quotations
+e-51;Obtain Quotations
+e-52;Submit Requirement
+e-53;Submit Requirement
+e-54;Submit Requirement
+e-55;Review Requirement
+e-56;Obtain Quotations
+e-57;Review Requirement
+e-58;Review Requirement
+e-59;Obtain Quotations
+e-60;Obtain Quotations
+e-61;Evaluate And Select Quotation
+e-62;Check Contract Need
+e-63;Review Contract
+e-64;Create Purchase Order
+e-65;Receive Invoice
+e-66;Receive Contract Deliverable
+e-67;Evaluate And Select Quotation
+e-68;Evaluate And Select Quotation
+e-69;Evaluate And Select Quotation
+e-70;Check Contract Need
+e-71;Review Contract
+e-72;Evaluate And Select Quotation
+e-73;Create Purchase Order
+e-74;Check Contract Need
+e-75;Review Contract
+e-76;Receive Invoice
+e-77;Receive Contract Deliverable
+e-78;Evaluate And Select Quotation
+e-79;Evaluate And Select Quotation
+e-80;Terminate After Contract Rejection
+e-81;Check Contract Need
+e-82;Review Contract
+e-83;Create Purchase Order
+e-84;Check Contract Need
+e-85;Check Contract Need
+e-86;Receive Invoice
+e-87;Check Contract Need
+e-88;Receive Contract Deliverable
+e-89;Create Purchase Order
+e-90;Review Contract
+e-91;Receive Contract Deliverable
+e-92;Receive Invoice
+e-93;Create Purchase Order
+e-94;Receive Invoice
+e-95;Receive Contract Deliverable
+e-96;Create Purchase Order
+e-97;Receive Invoice
+e-98;Receive Contract Deliverable
+e-99;Submit Requirement
+e-100;Review Requirement
+e-101;Modify Requirement
+e-102;Review Requirement
+e-103;Obtain Quotations
+e-104;Perform Business And Technical Acceptance
+e-105;Perform Business And Technical Acceptance
+e-106;Rectify And Redeliver
+e-107;Perform Business And Technical Acceptance
+e-108;Perform Business And Technical Acceptance
+e-109;Assign Asset To Project
+e-110;Put Asset Into Use
+e-111;Verify Accounting Prerequisites
+e-112;Confirm Accounting Date
+e-113;Create Or Update Intangible Asset Record
+e-114;Create Accounting Voucher
+e-115;Review Accounting Voucher
+e-116;Post Accounting Voucher
+e-117;Perform Business And Technical Acceptance
+e-118;Assign Asset To Project
+e-119;Put Asset Into Use
+e-120;Verify Accounting Prerequisites
+e-121;Confirm Accounting Date
+e-122;Create Or Update Intangible Asset Record
+e-123;Create Accounting Voucher
+e-124;Review Accounting Voucher
+e-125;Post Accounting Voucher
+e-126;Perform Business And Technical Acceptance
+e-127;Assign Asset To Project
+e-128;Put Asset Into Use
+e-129;Verify Accounting Prerequisites
+e-130;Confirm Accounting Date
+e-131;Create Or Update Intangible Asset Record
+e-132;Create Accounting Voucher
+e-133;Review Accounting Voucher
+e-134;Post Accounting Voucher
+e-135;Assign Asset To Project
+e-136;Put Asset Into Use
+e-137;Verify Accounting Prerequisites
+e-138;Confirm Accounting Date
+e-139;Create Or Update Intangible Asset Record
+e-140;Create Accounting Voucher
+e-141;Review Accounting Voucher
+e-142;Post Accounting Voucher
+e-143;Evaluate And Select Quotation
+e-144;Check Contract Need
+e-145;Create Purchase Order
+e-146;Receive Invoice
+e-147;Receive Contract Deliverable
+e-148;Perform Business And Technical Acceptance
+e-149;Assign Asset To Project
+e-150;Put Asset Into Use
+e-151;Verify Accounting Prerequisites
+e-152;Confirm Accounting Date
+e-153;Create Or Update Intangible Asset Record
+e-154;Create Accounting Voucher
+e-155;Review Accounting Voucher
+e-156;Post Accounting Voucher
+e-157;Perform Business And Technical Acceptance
+e-158;Assign Asset To Project
+e-159;Put Asset Into Use
+e-160;Verify Accounting Prerequisites
+e-161;Confirm Accounting Date
+e-162;Create Or Update Intangible Asset Record
+e-163;Create Accounting Voucher
+e-164;Review Accounting Voucher
+e-165;Post Accounting Voucher
+e-166;Submit Requirement
+e-167;Review Requirement
+e-168;Obtain Quotations
+e-169;Evaluate And Select Quotation
+e-170;Check Contract Need
+e-171;Create Purchase Order
+e-172;Receive Contract Deliverable
+e-173;Receive Invoice
+e-174;Submit Requirement
+e-175;Review Requirement
+e-176;Obtain Quotations
+e-177;Perform Business And Technical Acceptance
+e-178;Assign Asset To Project
+e-179;Put Asset Into Use
+e-180;Verify Accounting Prerequisites
+e-181;Confirm Accounting Date
+e-182;Create Or Update Intangible Asset Record
+e-183;Create Accounting Voucher
+e-184;Review Accounting Voucher
+e-185;Post Accounting Voucher
+e-186;Submit Requirement
+e-187;Review Requirement
+e-188;Obtain Quotations
+e-189;Submit Requirement
+e-190;Submit Requirement
+e-191;Review Requirement
+e-192;Obtain Quotations
+e-193;Review Requirement
+e-194;Obtain Quotations
+e-195;Evaluate And Select Quotation
+e-196;Check Contract Need
+e-197;Create Purchase Order
+e-198;Receive Invoice
+e-199;Receive Contract Deliverable
+e-200;Evaluate And Select Quotation
+e-201;Check Contract Need
+e-202;Create Purchase Order
+e-203;Receive Contract Deliverable
+e-204;Receive Invoice
+e-205;Evaluate And Select Quotation
+e-206;Evaluate And Select Quotation
+e-207;Check Contract Need
+e-208;Create Purchase Order
+e-209;Receive Invoice
+e-210;Receive Contract Deliverable
+e-211;Check Contract Need
+e-212;Create Purchase Order
+e-213;Receive Invoice
+e-214;Receive Contract Deliverable
+e-215;Perform Business And Technical Acceptance
+e-216;Assign Asset To Project
+e-217;Put Asset Into Use
+e-218;Verify Accounting Prerequisites
+e-219;Confirm Accounting Date
+e-220;Create Or Update Intangible Asset Record
+e-221;Create Accounting Voucher
+e-222;Review Accounting Voucher
+e-223;Post Accounting Voucher
+e-224;Perform Business And Technical Acceptance
+e-225;Assign Asset To Project
+e-226;Put Asset Into Use
+e-227;Verify Accounting Prerequisites
+e-228;Confirm Accounting Date
+e-229;Create Or Update Intangible Asset Record
+e-230;Create Accounting Voucher
+e-231;Review Accounting Voucher
+e-232;Post Accounting Voucher
+e-233;Perform Business And Technical Acceptance
+e-234;Perform Business And Technical Acceptance
+e-235;Assign Asset To Project
+e-236;Put Asset Into Use
+e-237;Verify Accounting Prerequisites
+e-238;Confirm Accounting Date
+e-239;Create Or Update Intangible Asset Record
+e-240;Create Accounting Voucher
+e-241;Review Accounting Voucher
+e-242;Modify Accounting Voucher
+e-243;Review Accounting Voucher
+e-244;Post Accounting Voucher
+e-245;Submit Requirement
+e-246;Review Requirement
+e-247;Obtain Quotations
+e-248;Submit Requirement
+e-249;Submit Requirement
+e-250;Review Requirement
+e-251;Review Requirement
+e-252;Obtain Quotations
+e-253;Obtain Quotations
+e-254;Evaluate And Select Quotation
+e-255;Check Contract Need
+e-256;Create Purchase Order
+e-257;Receive Invoice
+e-258;Receive Contract Deliverable
+e-259;Evaluate And Select Quotation
+e-260;Evaluate And Select Quotation
+e-261;Check Contract Need
+e-262;Create Purchase Order
+e-263;Receive Contract Deliverable
+e-264;Receive Invoice
+e-265;Check Contract Need
+e-266;Create Purchase Order
+e-267;Receive Invoice
+e-268;Receive Contract Deliverable
+e-269;Submit Requirement
+e-270;Review Requirement
+e-271;Obtain Quotations
+e-272;Perform Business And Technical Acceptance
+e-273;Perform Business And Technical Acceptance
+e-274;Rectify And Redeliver
+e-275;Perform Business And Technical Acceptance
+e-276;Assign Asset To Project
+e-277;Put Asset Into Use
+e-278;Verify Accounting Prerequisites
+e-279;Confirm Accounting Date
+e-280;Create Or Update Intangible Asset Record
+e-281;Create Accounting Voucher
+e-282;Review Accounting Voucher
+e-283;Post Accounting Voucher
+e-284;Perform Business And Technical Acceptance
+e-285;Evaluate And Select Quotation
+e-286;Check Contract Need
+e-287;Create Purchase Order
+e-288;Receive Invoice
+e-289;Receive Contract Deliverable
+e-290;Perform Business And Technical Acceptance
+e-291;Assign Asset To Project
+e-292;Put Asset Into Use
+e-293;Verify Accounting Prerequisites
+e-294;Confirm Accounting Date
+e-295;Create Or Update Intangible Asset Record
+e-296;Create Accounting Voucher
+e-297;Review Accounting Voucher
+e-298;Post Accounting Voucher
+e-299;Submit Requirement
+e-300;Review Requirement
+e-301;Terminate After Requirement Rejection
+e-302;Submit Requirement
+e-303;Review Requirement
+e-304;Obtain Quotations
+e-305;Evaluate And Select Quotation
+e-306;Check Contract Need
+e-307;Create Purchase Order
+e-308;Receive Invoice
+e-309;Receive Contract Deliverable
+e-310;Perform Business And Technical Acceptance
+e-311;Assign Asset To Project
+e-312;Put Asset Into Use
+e-313;Verify Accounting Prerequisites
+e-314;Confirm Accounting Date
+e-315;Create Or Update Intangible Asset Record
+e-316;Create Accounting Voucher
+e-317;Review Accounting Voucher
+e-318;Post Accounting Voucher
+e-319;Submit Requirement
+e-320;Review Requirement
+e-321;Obtain Quotations
+e-322;Submit Requirement
+e-323;Review Requirement
+e-324;Obtain Quotations
+e-325;Evaluate And Select Quotation
+e-326;Check Contract Need
+e-327;Create Purchase Order
+e-328;Receive Contract Deliverable
+e-329;Receive Invoice
+e-330;Evaluate And Select Quotation
+e-331;Check Contract Need
+e-332;Create Purchase Order
+e-333;Receive Invoice
+e-334;Receive Contract Deliverable
+e-335;Perform Business And Technical Acceptance
+e-336;Rectify And Redeliver
+e-337;Perform Business And Technical Acceptance
+e-338;Assign Asset To Project
+e-339;Put Asset Into Use
+e-340;Verify Accounting Prerequisites
+e-341;Confirm Accounting Date
+e-342;Create Or Update Intangible Asset Record
+e-343;Create Accounting Voucher
+e-344;Review Accounting Voucher
+e-345;Modify Accounting Voucher
+e-346;Review Accounting Voucher
+e-347;Post Accounting Voucher
+e-348;Submit Requirement
+e-349;Review Requirement
+e-350;Modify Requirement
+e-351;Review Requirement
+e-352;Obtain Quotations
+e-353;Perform Business And Technical Acceptance
+e-354;Rectify And Redeliver
+e-355;Perform Business And Technical Acceptance
+e-356;Assign Asset To Project
+e-357;Put Asset Into Use
+e-358;Verify Accounting Prerequisites
+e-359;Confirm Accounting Date
+e-360;Create Or Update Intangible Asset Record
+e-361;Create Accounting Voucher
+e-362;Review Accounting Voucher
+e-363;Post Accounting Voucher
+e-364;Evaluate And Select Quotation
+e-365;Check Contract Need
+e-366;Create Purchase Order
+e-367;Receive Contract Deliverable
+e-368;Receive Invoice
+e-369;Perform Business And Technical Acceptance
+e-370;Rectify And Redeliver
+e-371;Submit Requirement
+e-372;Review Requirement
+e-373;Obtain Quotations
+e-374;Perform Business And Technical Acceptance
+e-375;Rectify And Redeliver
+e-376;Evaluate And Select Quotation
+e-377;Check Contract Need
+e-378;Create Purchase Order
+e-379;Receive Contract Deliverable
+e-380;Receive Invoice
+e-381;Submit Requirement
+e-382;Review Requirement
+e-383;Obtain Quotations
+e-384;Perform Business And Technical Acceptance
+e-385;Rectify And Redeliver
+e-386;Perform Business And Technical Acceptance
+e-387;Assign Asset To Project
+e-388;Put Asset Into Use
+e-389;Verify Accounting Prerequisites
+e-390;Confirm Accounting Date
+e-391;Create Or Update Intangible Asset Record
+e-392;Create Accounting Voucher
+e-393;Review Accounting Voucher
+e-394;Post Accounting Voucher
+e-395;Perform Business And Technical Acceptance
+e-396;Assign Asset To Project
+e-397;Put Asset Into Use
+e-398;Verify Accounting Prerequisites
+e-399;Confirm Accounting Date
+e-400;Create Or Update Intangible Asset Record
+e-401;Create Accounting Voucher
+e-402;Review Accounting Voucher
+e-403;Modify Accounting Voucher
+e-404;Review Accounting Voucher
+e-405;Post Accounting Voucher
+e-406;Evaluate And Select Quotation
+e-407;Check Contract Need
+e-408;Create Purchase Order
+e-409;Receive Contract Deliverable
+e-410;Receive Invoice
+e-411;Submit Requirement
+e-412;Review Requirement
+e-413;Obtain Quotations
+e-414;Perform Business And Technical Acceptance
+e-415;Rectify And Redeliver
+e-416;Evaluate And Select Quotation
+e-417;Check Contract Need
+e-418;Create Purchase Order
+e-419;Receive Invoice
+e-420;Receive Contract Deliverable
+e-421;Perform Business And Technical Acceptance
+e-422;Assign Asset To Project
+e-423;Put Asset Into Use
+e-424;Verify Accounting Prerequisites
+e-425;Confirm Accounting Date
+e-426;Create Or Update Intangible Asset Record
+e-427;Create Accounting Voucher
+e-428;Review Accounting Voucher
+e-429;Post Accounting Voucher
+e-430;Perform Business And Technical Acceptance
+e-431;Assign Asset To Project
+e-432;Put Asset Into Use
+e-433;Verify Accounting Prerequisites
+e-434;Confirm Accounting Date
+e-435;Create Or Update Intangible Asset Record
+e-436;Create Accounting Voucher
+e-437;Review Accounting Voucher
+e-438;Post Accounting Voucher
+e-439;Submit Requirement
+e-440;Review Requirement
+e-441;Obtain Quotations
+e-442;Evaluate And Select Quotation
+e-443;Check Contract Need
+e-444;Create Purchase Order
+e-445;Receive Invoice
+e-446;Receive Contract Deliverable
+e-447;Perform Business And Technical Acceptance
+e-448;Assign Asset To Project
+e-449;Put Asset Into Use
+e-450;Verify Accounting Prerequisites
+e-451;Confirm Accounting Date
+e-452;Create Or Update Intangible Asset Record
+e-453;Create Accounting Voucher
+e-454;Review Accounting Voucher
+e-455;Post Accounting Voucher
+e-456;Submit Requirement
+e-457;Review Requirement
+e-458;Obtain Quotations
+e-459;Evaluate And Select Quotation
+e-460;Check Contract Need
+e-461;Create Purchase Order
+e-462;Receive Contract Deliverable
+e-463;Receive Invoice
+e-464;Submit Requirement
+e-465;Review Requirement
+e-466;Obtain Quotations
+e-467;Perform Business And Technical Acceptance
+e-468;Assign Asset To Project
+e-469;Put Asset Into Use
+e-470;Verify Accounting Prerequisites
+e-471;Confirm Accounting Date
+e-472;Create Or Update Intangible Asset Record
+e-473;Create Accounting Voucher
+e-474;Review Accounting Voucher
+e-475;Post Accounting Voucher
+e-476;Evaluate And Select Quotation
+e-477;Check Contract Need
+e-478;Create Purchase Order
+e-479;Receive Contract Deliverable
+e-480;Receive Invoice
+e-481;Perform Business And Technical Acceptance
+e-482;Assign Asset To Project
+e-483;Put Asset Into Use
+e-484;Verify Accounting Prerequisites
+e-485;Confirm Accounting Date
+e-486;Create Or Update Intangible Asset Record
+e-487;Create Accounting Voucher
+e-488;Review Accounting Voucher
+e-489;Post Accounting Voucher
+e-490;Submit Requirement
+e-491;Review Requirement
+e-492;Obtain Quotations
+e-493;Evaluate And Select Quotation
+e-494;Check Contract Need
+e-495;Create Purchase Order
+e-496;Receive Contract Deliverable
+e-497;Receive Invoice
+e-498;Perform Business And Technical Acceptance
+e-499;Assign Asset To Project
+e-500;Put Asset Into Use
+e-501;Verify Accounting Prerequisites
+e-502;Confirm Accounting Date
+e-503;Create Or Update Intangible Asset Record
+e-504;Create Accounting Voucher
+e-505;Review Accounting Voucher
+e-506;Post Accounting Voucher
