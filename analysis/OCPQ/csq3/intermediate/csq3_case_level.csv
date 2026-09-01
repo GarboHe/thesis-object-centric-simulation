@@ -1,0 +1,26 @@
+invoice_id,asset_id,receive_invoice_event_id,put_asset_into_use_event_id,verify_event_id,post_event_id,sync_delay_days,ready_to_verify_min,ready_to_post_min,prerequisite_ordering,voucher_rework
+INV-O-6,Asset-9,e-92,e-128,e-129,e-134,7.167361111111111,2.0,29.0,Asset later,False
+INV-O-29,Asset-32,e-497,e-500,e-501,e-506,7.002083333333333,2.0,29.0,Asset later,False
+INV-O-23,Asset-26,e-380,e-388,e-389,e-394,7.002083333333333,2.0,29.0,Asset later,False
+INV-O-8,Asset-10,e-97,e-136,e-137,e-142,7.75,2.0,29.0,Asset later,False
+INV-O-25,Asset-28,e-419,e-432,e-433,e-438,7.002083333333333,2.0,29.0,Asset later,False
+INV-O-1,Asset-1,e-8,e-12,e-13,e-18,7.002083333333333,2.0,29.0,Asset later,False
+INV-O-10,Asset-12,e-173,e-179,e-180,e-185,7.002083333333333,2.0,29.0,Asset later,False
+INV-O-12,Asset-14,e-204,e-226,e-227,e-232,7.002083333333333,2.0,29.0,Asset later,False
+INV-O-26,Asset-29,e-445,e-449,e-450,e-455,7.002083333333333,2.0,29.0,Asset later,False
+INV-O-17,Asset-19,e-267,e-277,e-278,e-283,7.73125,2.0,29.0,Asset later,False
+INV-O-19,Asset-22,e-308,e-312,e-313,e-318,7.002083333333333,2.0,29.0,Asset later,False
+INV-O-14,Asset-16,e-213,e-236,e-237,e-244,7.73125,2.0,79.0,Asset later,True
+INV-O-22,Asset-25,e-368,e-397,e-398,e-405,28.252083333333335,2.0,79.0,Asset later,True
+INV-O-27,Asset-30,e-463,e-469,e-470,e-475,7.002083333333333,2.0,29.0,Asset later,False
+INV-O-28,Asset-31,e-480,e-483,e-484,e-489,7.002083333333333,2.0,29.0,Asset later,False
+INV-O-9,Asset-11,e-146,e-159,e-160,e-165,7.002083333333333,2.0,29.0,Asset later,False
+INV-O-20,Asset-23,e-329,e-357,e-358,e-363,21.835416666666667,2.0,29.0,Asset later,False
+INV-O-2,Asset-3,e-29,e-33,e-34,e-39,7.002083333333333,2.0,29.0,Asset later,False
+INV-O-5,Asset-6,e-86,e-110,e-111,e-116,7.002083333333333,2.0,29.0,Asset later,False
+INV-O-11,Asset-13,e-198,e-217,e-218,e-223,7.002083333333333,2.0,29.0,Asset later,False
+INV-O-21,Asset-24,e-333,e-339,e-340,e-347,7.002083333333333,2.0,79.0,Asset later,True
+INV-O-4,Asset-5,e-76,e-150,e-151,e-156,14.085416666666667,2.0,29.0,Asset later,False
+INV-O-18,Asset-20,e-288,e-292,e-293,e-298,7.002083333333333,2.0,29.0,Asset later,False
+INV-O-7,Asset-8,e-94,e-119,e-120,e-125,7.063194444444444,2.0,29.0,Asset later,False
+INV-O-24,Asset-27,e-410,e-423,e-424,e-429,14.752083333333333,2.0,29.0,Asset later,False

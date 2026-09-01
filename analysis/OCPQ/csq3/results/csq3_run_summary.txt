@@ -1,0 +1,19 @@
+CSQ3 reproduction summary
+=========================
+Satisfied Invoice-Asset bindings: 25
+Asset readiness later than invoice receipt: 25/25
+Invoice later: 0; ties: 0
+Synchronisation delay mean: 9.136056 calendar days
+Synchronisation delay median: 7.002083 calendar days
+Synchronisation delay Q1: 7.002083
+Synchronisation delay Q3: 7.731250
+Synchronisation delay range: 7.002083-28.252083 calendar days
+Readiness-to-verify unique values (minutes): [2.0]
+Ready-to-post 29 min: 22/25
+Ready-to-post 79 min: 3/25
+Ready-to-post mean: 35.000000 min
+Ready-to-post median: 29.000000 min
+Voucher-rework rows matched by post event ID: 3/25
+Voucher-rework voucher IDs: V-O-14, V-O-21, V-O-22
+Voucher-rework ready-to-post values (minutes): 79.0, 79.0, 79.0
+Thesis checkpoint status: PASS
