@@ -1,0 +1,10 @@
+ocel_type;ocel_type_map
+Project;Project
+Requirement;Requirement
+Asset;Asset
+Supplier;Supplier
+Order;Order
+Invoice;Invoice
+AcceptanceRecord;AcceptanceRecord
+Voucher;Voucher
+Resource;Resource

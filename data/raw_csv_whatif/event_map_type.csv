@@ -1,0 +1,25 @@
+ocel_type;ocel_type_map
+Submit Requirement;SubmitRequirement
+Review Requirement;ReviewRequirement
+Modify Requirement;ModifyRequirement
+Terminate After Requirement Rejection;TerminateAfterRequirementRejection
+Obtain Quotations;ObtainQuotations
+Evaluate And Select Quotation;EvaluateAndSelectQuotation
+Check Contract Need;CheckContractNeed
+Review Contract;ReviewContract
+Modify Contract;ModifyContract
+Terminate After Contract Rejection;TerminateAfterContractRejection
+Create Purchase Order;CreatePurchaseOrder
+Receive Contract Deliverable;ReceiveContractDeliverable
+Receive Invoice;ReceiveInvoice
+Verify Accounting Prerequisites;VerifyAccountingPrerequisites
+Confirm Accounting Date;ConfirmAccountingDate
+Create Or Update Intangible Asset Record;CreateOrUpdateIntangibleAssetRecord
+Create Accounting Voucher;CreateAccountingVoucher
+Review Accounting Voucher;ReviewAccountingVoucher
+Modify Accounting Voucher;ModifyAccountingVoucher
+Perform Business And Technical Acceptance;PerformBusinessAndTechnicalAcceptance
+Post Accounting Voucher;PostAccountingVoucher
+Assign Asset To Project;AssignAssetToProject
+Rectify And Redeliver;RectifyAndRedeliver
+Put Asset Into Use;PutAssetIntoUse
