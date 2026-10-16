@@ -1,2 +1,0 @@
-N,asset_later_n,invoice_later_n,tie_n,sync_mean_days,sync_median_days,sync_q1_days,sync_q3_days,sync_min_days,sync_max_days,ready_to_verify_mean_min,ready_to_verify_min_min,ready_to_verify_max_min,ready_to_post_mean_min,ready_to_post_median_min,ready_to_post_min_min,ready_to_post_max_min,ready_to_post_29_n,ready_to_post_79_n,voucher_rework_n
-25,25,0,0,9.136055555555556,7.002083333333333,7.002083333333333,7.73125,7.002083333333333,28.252083333333335,2.0,2.0,2.0,35.0,29.0,29.0,79.0,22,3,3
