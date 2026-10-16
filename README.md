@@ -200,7 +200,7 @@ See the [detailed CSQ4 documentation](analysis/OCPA%26pm4py/README.md) for metri
 
 - **Understanding the research design:** [Simulation Matrix](docs/Simulation_Matrix.docx) and [requirement traceability](docs/OCPS_Requirement_Traceability-final.xlsx).
 - **Inspecting generated data:** [baseline OCEL 2.0](data/intangible_asset_ocel2_run1.jsonocel).
-- **Reproducing baseline performance/synchronisation results:** [OCPQ guide](analysis/OCPQ/OCPQ_README.md).
+- **Reproducing baseline performance/synchronisation results:** [CSQ1-3 guide](analysis/OCPQ/OCPQ_README.md).
 - **Reproducing actor and cross-object analyses:** [CSQ4 guide](analysis/OCPA%26pm4py/README.md).
 
 This repository serves as a **research transparency and analysis-level reproduction package** for the thesis, with documented limits on empirical validity and complete computational reproducibility.
