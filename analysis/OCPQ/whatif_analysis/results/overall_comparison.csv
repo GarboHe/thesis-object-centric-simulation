@@ -1,0 +1,7 @@
+metric,measure,baseline,high_volume,source
+submitted_requirements,Submitted Requirements,32,2454,reported scenario summary
+arrival_span_days,Requirement-arrival span (days),389.00,392.18,reported scenario summary
+posted_requirements,Posted Requirements,25,2155,computed from OCPQ milestone export
+mean_days,Mean submission-to-posting elapsed time (days),19.97452777777777777777777778,400.8317101701469450889404486,computed from OCPQ milestone export
+median_days,Median submission-to-posting elapsed time (days),18.29513888888888888888888889,343.3020833333333333333333333,computed from OCPQ milestone export
+drain_down_days,Drain-down after final arrival (days),18.30,786.95,reported scenario summary
