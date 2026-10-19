@@ -1,0 +1,14 @@
+actor_type,actor_id,total_events,activity_count,object_type_count,unique_business_objects,cross_object_events,cross_object_event_share
+Resource,AA-1,128,6,6,150,78,0.609375
+Supplier,S3,71,11,6,48,71,1.0
+Resource,PO-2,67,4,3,84,67,1.0
+Supplier,S5,65,11,6,46,65,1.0
+Supplier,S4,64,11,6,56,64,1.0
+Supplier,S2,58,11,6,42,58,1.0
+Resource,PO-1,51,4,3,77,51,1.0
+Supplier,S1,44,12,6,36,44,1.0
+Supplier,S6,37,11,6,24,37,1.0
+Resource,AT-1,37,1,4,112,37,1.0
+Resource,RR-1,34,1,2,64,34,1.0
+Resource,VR-1,28,1,4,100,28,1.0
+Resource,CR-1,7,1,2,14,7,1.0
