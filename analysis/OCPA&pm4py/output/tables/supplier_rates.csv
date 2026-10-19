@@ -1,0 +1,7 @@
+supplier,participation_count,selection_count,total_quotation_procedures,participation_rate,selection_rate,selection_given_participation,count_consistent
+S1,12,4,30,0.4,0.13333333333333333,0.3333333333333333,True
+S2,12,5,30,0.4,0.16666666666666666,0.4166666666666667,True
+S3,12,7,30,0.4,0.23333333333333334,0.5833333333333334,True
+S4,18,5,30,0.6,0.16666666666666666,0.2777777777777778,True
+S5,12,6,30,0.4,0.2,0.5,True
+S6,6,3,30,0.2,0.1,0.5,True

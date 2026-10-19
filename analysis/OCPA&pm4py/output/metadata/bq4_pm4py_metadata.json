@@ -1,0 +1,57 @@
+{
+  "analysis": "BQ4 PM4Py resource and supplier analysis",
+  "input_file": "C:\\Users\\84533\\.codex\\.chatgpt-projects\\g-p-68bc220a96cc8191be02c5f09520ae41\\.audit-csq4-20261019\\data\\intangible_asset_ocel2_run1.jsonocel",
+  "input_sha256": "460e7edc33940548603892811ccbe20e360bdb8528ff23288ceb237cc0ea8b31",
+  "software": {
+    "pm4py": "2.7.23.11",
+    "pandas": "3.0.6",
+    "numpy": "2.5.4"
+  },
+  "ocel_summary": {
+    "events": 506,
+    "objects": 186,
+    "relations": 2403,
+    "object_types": [
+      "AcceptanceRecord",
+      "Asset",
+      "Invoice",
+      "Order",
+      "Project",
+      "Requirement",
+      "Resource",
+      "Supplier",
+      "Voucher"
+    ]
+  },
+  "definitions": {
+    "resource_workload": "Number of unique events in which a Resource object participates.",
+    "resource_workload_share_denominator": "Sum of unique event participations across all Resource objects.",
+    "resource_coverage": "Unique business objects associated with a Resource through shared events, divided by the total number of objects of that type.",
+    "business_object_types_for_coverage": [
+      "Requirement",
+      "Asset",
+      "Order",
+      "Invoice",
+      "AcceptanceRecord",
+      "Voucher"
+    ],
+    "supplier_participation": "Number of unique 'Obtain Quotations' events in which the Supplier is related with qualifier 'queried supplier'.",
+    "supplier_selection": "Number of unique 'Evaluate And Select Quotation' events in which the Supplier is related with qualifier 'selected supplier'.",
+    "supplier_selection_rate": "Number of quotation procedures in which a supplier was selected, divided by the total number of quotation procedures (Obtain Quotations events).",
+    "supplier_concentration_hhi": "Sum of squared supplier selection shares; used descriptively.",
+    "supplier_effective_count": "1 / HHI.",
+    "supplier_dependency": "Unique Order objects associated with each Supplier divided by the total number of Order objects; supplementary metric."
+  },
+  "output_rows": {
+    "Resource_Workload": 7,
+    "Resource_Activity": 18,
+    "Resource_Coverage": 42,
+    "Resource_Temporal_Monthly": 83,
+    "Resource_Temporal_Weekly": 147,
+    "Supplier_Participation": 6,
+    "Supplier_Selection": 6,
+    "Supplier_Rates": 6,
+    "Supplier_Concentration": 5,
+    "Supplier_Dependency": 6
+  }
+}
