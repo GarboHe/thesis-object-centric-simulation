@@ -1,7 +1,0 @@
-Measure,Baseline result
-Prerequisite ordering,Asset later 25/25; invoice later 0/25; ties 0/25
-Synchronisation delay,Mean 9.14 calendar days; median 7.00; Q1 7.00; Q3 7.73; range 7.00--28.25
-Readiness to Verify Accounting Prerequisites,2 minutes in 25/25 bindings
-Readiness to Post Accounting Voucher,Mean 35 minutes; median 29; range 29--79 minutes
-Normal post-readiness path,22/25 Requirements posted after 29 minutes
-Voucher-rework path,3/25 Requirements posted after 79 minutes

@@ -1,6 +1,0 @@
-stage,description,interval,n,mean_days,median_days,q1_days,q3_days,min_days,max_days,aggregate_share_percent
-S1,Requirement and quotation acquisition,Submit Requirement -> Obtain Quotations,25,10.23,11.02,9.02,11.02,9.02,11.08,51.22
-S2,"Quotation evaluation, contracting, and ordering",Obtain Quotations -> Create Purchase Order,25,0.45,0.17,0.17,0.98,0.17,1.98,2.24
-S3,"Fulfilment, acceptance, and accounting readiness",Create Purchase Order -> Verify Accounting Prerequisites,25,9.27,7.09,7.09,7.82,7.09,29.0,46.43
-S4,Accounting processing and posting,Verify Accounting Prerequisites -> Post Accounting Voucher,25,0.02,0.02,0.02,0.02,0.02,0.05,0.11
-E2E,End-to-end,Submit Requirement -> Post Accounting Voucher,25,19.97,18.3,17.05,19.3,16.3,38.31,100.0
